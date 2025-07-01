@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { CheckCircle, Leaf, Shield, Users } from 'lucide-react';
+import ServiceAreaMap from '../components/ServiceAreaMap';
 
 const HomePage = () => {
   const scrollToTop = () => {
@@ -118,6 +119,9 @@ const HomePage = () => {
           </div>
         </div>
       </section>
+
+      {/* Service Area Map */}
+      <ServiceAreaMap />
 
       {/* Services Overview */}
       <section className="py-16 bg-white">

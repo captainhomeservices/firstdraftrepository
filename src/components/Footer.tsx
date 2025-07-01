@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Phone, Mail, MapPin } from 'lucide-react';
+import { Phone, Mail, MapPin, Wheel } from 'lucide-react';
 
 const Footer = () => {
   const scrollToTop = () => {
@@ -13,13 +13,9 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="col-span-1 md:col-span-2">
-            <div className="flex items-center space-x-4 mb-4">
-              <div className="w-12 h-12 rounded-full overflow-hidden bg-gray-100 flex-shrink-0">
-                <img 
-                  src="/Captain home services logo.PNG" 
-                  alt="Captain Home Services Logo" 
-                  className="w-full h-full object-cover"
-                />
+            <div className="flex items-center space-x-2 mb-4">
+              <div className="w-8 h-8 rounded-full bg-gradient-to-br from-teal-500 to-blue-600 flex items-center justify-center">
+                <Wheel className="h-5 w-5 text-white" />
               </div>
               <span className="font-bold text-xl">Captain Home Services</span>
             </div>
