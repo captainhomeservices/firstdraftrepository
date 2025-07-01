@@ -82,7 +82,7 @@ const BlogPost: React.FC<BlogPostProps> = ({
       />
 
       {/* Hero Section */}
-      <section className="relative py-20 bg-gradient-to-r from-green-600 to-teal-600 text-white">
+      <section className="relative py-16 bg-gradient-to-r from-green-600 to-teal-600 text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <Link
             to="/blog"
@@ -92,29 +92,29 @@ const BlogPost: React.FC<BlogPostProps> = ({
             Back to Blog
           </Link>
           
-          <div className="mb-6">
+          <div className="mb-4">
             <span className="bg-white bg-opacity-20 text-white px-3 py-1 rounded-full text-sm font-medium">
               {category}
             </span>
           </div>
           
-          <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
+          <h1 className="text-3xl md:text-4xl font-bold mb-4 leading-tight">
             {title}
           </h1>
           
           <div className="flex items-center text-white text-opacity-90 space-x-6">
             <div className="flex items-center">
               <Calendar className="h-4 w-4 mr-2" />
-              <span>{date}</span>
+              <span className="text-sm">{date}</span>
             </div>
             <div className="flex items-center">
               <User className="h-4 w-4 mr-2" />
-              <span>{author}</span>
+              <span className="text-sm">{author}</span>
             </div>
             {readTime && (
               <div className="flex items-center">
                 <Clock className="h-4 w-4 mr-2" />
-                <span>{readTime}</span>
+                <span className="text-sm">{readTime}</span>
               </div>
             )}
           </div>
@@ -122,21 +122,21 @@ const BlogPost: React.FC<BlogPostProps> = ({
       </section>
 
       {/* Featured Image */}
-      <section className="py-8">
+      <section className="py-6">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <img
             src={image}
             alt={title}
-            className="w-full h-96 object-cover rounded-lg shadow-xl"
+            className="w-full h-80 object-cover rounded-lg shadow-xl"
           />
         </div>
       </section>
 
       {/* Article Content */}
-      <article className="py-8">
+      <article className="py-6">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div 
-            className="prose prose-lg max-w-none prose-headings:text-gray-900 prose-p:text-gray-700 prose-p:leading-relaxed prose-strong:text-gray-900 prose-a:text-teal-600 prose-a:no-underline hover:prose-a:text-teal-700 prose-ul:text-gray-700 prose-li:text-gray-700"
+            className="prose prose-base max-w-none prose-headings:text-gray-900 prose-p:text-gray-700 prose-p:leading-relaxed prose-p:text-base prose-strong:text-gray-900 prose-a:text-teal-600 prose-a:no-underline hover:prose-a:text-teal-700 prose-ul:text-gray-700 prose-li:text-gray-700 prose-li:text-base"
             dangerouslySetInnerHTML={{ __html: processedContent.replace(/\n/g, '<br />').replace(/## /g, '<h2 class="text-2xl font-bold text-gray-900 mt-8 mb-4">').replace(/### /g, '<h3 class="text-xl font-semibold text-gray-900 mt-6 mb-3">') }}
           />
         </div>
@@ -144,7 +144,7 @@ const BlogPost: React.FC<BlogPostProps> = ({
 
       {/* Keywords */}
       {keywords.length > 0 && (
-        <section className="py-8 bg-gray-50">
+        <section className="py-6 bg-gray-50">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h3 className="text-lg font-semibold text-gray-900 mb-4">Related Topics</h3>
             <div className="flex flex-wrap gap-2">
@@ -162,22 +162,22 @@ const BlogPost: React.FC<BlogPostProps> = ({
       )}
 
       {/* Call to Action */}
-      <section className="py-16 bg-gradient-to-r from-teal-600 to-blue-600 text-white">
+      <section className="py-12 bg-gradient-to-r from-teal-600 to-blue-600 text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-bold mb-4">Ready to Clear Your Waterfront?</h2>
-          <p className="text-xl mb-8">
+          <h2 className="text-2xl font-bold mb-4">Ready to Clear Your Waterfront?</h2>
+          <p className="text-lg mb-6">
             <strong>Captain Home Services</strong> provides expert lake weed removal and aquatic vegetation management throughout the Austin area.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               to="/contact"
-              className="bg-white text-teal-600 hover:bg-gray-100 px-8 py-4 rounded-lg text-lg font-semibold transition-colors duration-200"
+              className="bg-white text-teal-600 hover:bg-gray-100 px-6 py-3 rounded-lg text-lg font-semibold transition-colors duration-200"
             >
               Get Free Consultation
             </Link>
             <Link
               to="/pricing"
-              className="bg-teal-700 hover:bg-teal-800 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors duration-200 border border-teal-500"
+              className="bg-teal-700 hover:bg-teal-800 text-white px-6 py-3 rounded-lg text-lg font-semibold transition-colors duration-200 border border-teal-500"
             >
               View Pricing
             </Link>
@@ -186,15 +186,15 @@ const BlogPost: React.FC<BlogPostProps> = ({
       </section>
 
       {/* Related Articles */}
-      <section className="py-16 bg-white">
+      <section className="py-12 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
+          <h2 className="text-2xl font-bold text-gray-900 mb-6 text-center">
             Continue Reading
           </h2>
           <div className="text-center">
             <Link
               to="/blog"
-              className="bg-gray-200 hover:bg-gray-300 text-gray-900 px-8 py-4 rounded-lg text-lg font-semibold transition-colors duration-200"
+              className="bg-gray-200 hover:bg-gray-300 text-gray-900 px-6 py-3 rounded-lg text-lg font-semibold transition-colors duration-200"
             >
               View All Articles
             </Link>
