@@ -9,13 +9,13 @@ const PricingPage = () => {
       <section className="py-16 bg-gradient-to-r from-green-600 to-teal-600 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">
-            The True Cost of Clear Water
+            The True Value of Clear Water
           </h1>
           <p className="text-xl md:text-2xl mb-8 max-w-4xl mx-auto">
-            Value You Can Clearly See and Experience
+            Take back your Lakefront
           </p>
           <p className="text-lg max-w-3xl mx-auto">
-            We offer the highest value to lakefront homeowners wishing to enjoy their waterfront effortlessly.
+            We offer the highest value to lakefront homeowners wishing to enjoy their waterfront effortlessly
           </p>
         </div>
       </section>
