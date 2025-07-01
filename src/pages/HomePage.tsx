@@ -11,7 +11,7 @@ const HomePage = () => {
     <div className="min-h-screen">
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-blue-900 to-teal-800 text-white">
-        <div className="absolute inset-0 bg-black opacity-40"></div>
+        <div className="absolute inset-0 bg-black opacity-50"></div>
         <div 
           className="relative bg-cover bg-center bg-no-repeat"
           style={{
@@ -22,10 +22,10 @@ const HomePage = () => {
           <div className="relative max-w-7xl mx-auto py-32 px-4 sm:px-6 lg:px-8">
             <div className="text-center">
               <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
-                <span className="text-teal-300">Austin Hydrilla removal</span><br />
-                <span className="text-teal-300">We Clear out Lake Weeds Fast</span><br />
+                <span className="text-green-600 drop-shadow-2xl bg-white bg-opacity-90 px-4 py-2 rounded-lg inline-block mb-4">Austin Hydrilla Removal</span><br />
+                <span className="text-green-600 drop-shadow-2xl bg-white bg-opacity-90 px-4 py-2 rounded-lg inline-block">We Clear Out Lake Weeds Fast</span><br />
               </h1>
-              <p className="text-2xl md:text-3xl mb-8 max-w-4xl mx-auto leading-relaxed text-black font-semibold">
+              <p className="text-2xl md:text-3xl mb-8 max-w-4xl mx-auto leading-relaxed text-green-600 font-bold drop-shadow-2xl bg-white bg-opacity-90 px-6 py-3 rounded-lg inline-block">
                 Serving Lake Austin, Lake LBJ and the rest of the Highland Lakes.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -61,13 +61,13 @@ const HomePage = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-                Aqautic vegetation Removal That Works
+                Aquatic Vegetation Removal That Works
               </h2>
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                Are you tired of battling stubborn aquatic vegetation that chokes out your beautiful lake or pond? Thinking about dousing that precious water with harsh chemicals, hoping for a quick fix? Manual lake weed removal is the only way to ensure invasive aqautic vegetation is pulled by the roots and allows your dock and shoreline a chance to be beautiful again.
+                Are you tired of battling stubborn aquatic vegetation that chokes out your beautiful lake or pond? Thinking about dousing that precious water with harsh chemicals, hoping for a quick fix? Manual lake weed removal is the only way to ensure invasive aquatic vegetation is pulled by the roots and allows your dock and shoreline a chance to be beautiful again.
               </p>
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                At <strong>Captain Home Services</strong>, we use specailized tools and equipment to remove tubers and roots, leaving minimal debris that causes rapid re-growth of lake weeds. Our method of manual <strong>Austin aquatic vegetation removal</strong> isn't just about clearing weeds; it\'s about restoring the natural beauty and balance of your dock area and shoreline. Let our <strong>Lake Management</strong> experts take care of your dock and shoreline for you.
+                At <strong>Captain Home Services</strong>, we use specialized tools and equipment to remove tubers and roots, leaving minimal debris that causes rapid re-growth of lake weeds. Our method of manual <strong>Austin aquatic vegetation removal</strong> isn't just about clearing weeds; it's about restoring the natural beauty and balance of your dock area and shoreline. Let our <strong>Lake Management</strong> experts take care of your dock and shoreline for you.
               </p>
               <div className="space-y-4">
                 <div className="flex items-start space-x-3">
@@ -118,7 +118,7 @@ const HomePage = () => {
             <div>
               <h3 className="text-2xl font-bold text-gray-900 mb-4">The Lake Austin Hydrilla Problem</h3>
               <p className="text-gray-700 mb-4 leading-relaxed">
-                When aggressive aquatic weeds like <strong>Lake Austin hydrilla</strong> and <strong> Eurasian watermilfoil</strong> invade, they throw that delicate balance into chaotic mess. These fast-growing intruders can turn your serene beach into an itchy, algae festering, impenetrable jungle.
+                When aggressive aquatic weeds like <strong>Lake Austin hydrilla</strong> and <strong>Eurasian watermilfoil</strong> invade, they throw that delicate balance into chaotic mess. These fast-growing intruders can turn your serene beach into an itchy, algae festering, impenetrable jungle.
               </p>
               <p className="text-gray-700 mb-6 leading-relaxed">
                 Our seasoned team at <strong>Captain Home Services</strong> is ready to tackle any lake weed removal challenge, big or small. We're experts in getting your water back to its healthy, vibrant condition, ensuring your slice of Texas paradise remains just that – paradise.
@@ -156,8 +156,7 @@ const HomePage = () => {
             <div className="text-center p-6 bg-gray-50 rounded-lg">
               <Shield className="h-12 w-12 text-blue-600 mx-auto mb-4" />
               <h3 className="text-lg font-semibold text-gray-900 mb-2">Exotic Invasive Species Removal Permits</h3>
-              <p className="text-gray-600">We handle permitting and compliance with State and Local regulations including approved TPWD and LCRA
-              Treatment Proposals for every job</p>
+              <p className="text-gray-600">We handle permitting and compliance with State and Local regulations including approved TPWD and LCRA Treatment Proposals for every job</p>
             </div>
             <div className="text-center p-6 bg-gray-50 rounded-lg">
               <Users className="h-12 w-12 text-teal-600 mx-auto mb-4" />

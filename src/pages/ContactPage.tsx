@@ -79,7 +79,7 @@ const ContactPage = () => {
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-2">Service Area</h3>
               <p className="text-gray-600 mb-4">Proudly serving the Austin area</p>
-              <p className="text-green-600 font-semibold">Lake Austin, Lake Travis, Lake LBJ, Inks Lake, Lake Marble Falls, Lake Buchanon, Lady Bird Lake & Surrounding Areas</p>
+              <p className="text-green-600 font-semibold">Lake Austin, Lake Travis, Lake LBJ, Inks Lake, Lake Marble Falls, Lake Buchanan, Lady Bird Lake & Surrounding Areas</p>
             </div>
           </div>
         </div>

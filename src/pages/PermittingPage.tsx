@@ -36,7 +36,7 @@ const PermittingPage = () => {
               </p>
               <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4">
                 <p className="text-yellow-800 font-semibold">
-                  That's why <strong>Captain Home Services</strong> helps navigate this comples process.
+                  That's why <strong>Captain Home Services</strong> helps navigate this complex process.
                 </p>
               </div>
             </div>
@@ -181,7 +181,7 @@ const PermittingPage = () => {
             <div className="flex items-start space-x-3">
               <AlertTriangle className="h-8 w-8 text-red-600 mt-1 flex-shrink-0" />
               <div>
-                <h3 className="text-lg font-semibold text-red-800 mb-2">Important  Notice</h3>
+                <h3 className="text-lg font-semibold text-red-800 mb-2">Important Notice</h3>
                 <p className="text-red-700">
                   Invasive aquatic vegetation removal from public waters by unpermitted businesses can result in significant fines and legal consequences. Always ensure proper permits are obtained before beginning any exotic invasive species vegetation removal project. <strong>Captain Home Services</strong> handles all permitting requirements to keep your project compliant and legal.
                 </p>

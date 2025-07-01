@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Anchor, Phone, Mail, MapPin } from 'lucide-react';
+import { Phone, Mail, MapPin } from 'lucide-react';
 
 const Footer = () => {
   const scrollToTop = () => {
@@ -13,8 +13,14 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="col-span-1 md:col-span-2">
-            <div className="flex items-center space-x-2 mb-4">
-              <Anchor className="h-8 w-8 text-teal-400" />
+            <div className="flex items-center space-x-3 mb-4">
+              <div className="w-8 h-8 rounded-full overflow-hidden bg-gray-100 flex-shrink-0">
+                <img 
+                  src="https://cdn11.bigcommerce.com/s-94ve5l/images/stencil/500x659/products/2411/4162/WeedRay-1__62680.1736887802.jpg?c=2" 
+                  alt="Captain Home Services Logo" 
+                  className="w-full h-full object-cover"
+                />
+              </div>
               <span className="font-bold text-xl">Captain Home Services</span>
             </div>
             <p className="text-gray-300 mb-4 max-w-md">
@@ -101,10 +107,10 @@ const Footer = () => {
               <li>Eurasian Watermilfoil Removal</li>
               <li>Aquatic Vegetation Management</li>
               <li>Lake Management</li>
-              <li>Lake cleaning</li>
+              <li>Lake Cleaning</li>
               <li>Lake Weed Removal</li>
-              <li>Aqautic Vegetation Removal</li>
-              <li>Nuissance Vegetation Removal</li>
+              <li>Aquatic Vegetation Removal</li>
+              <li>Nuisance Vegetation Removal</li>
               <li>Exotic Invasive Vegetation Removal</li>
               <li>Invasive Lake Vegetation Removal</li>
               <li>TPWD Permit Assistance</li>

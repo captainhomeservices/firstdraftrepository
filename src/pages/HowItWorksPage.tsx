@@ -20,7 +20,7 @@ const HowItWorksPage = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
             <div>
               <h2 className="text-3xl font-bold text-gray-900 mb-6">
-                Why we Remove by Hand
+                Why We Remove by Hand
               </h2>
               <p className="text-lg text-gray-700 mb-4 leading-relaxed">
                 Imagine trying to clear a brush fire by just trimming the tops of the trees. Foolish, right? It's the same with aquatic weeds. Mechanical Harvesters and floating machinery are great tools for large, multi-acreage projects, but simply are inefficient blunt objects for most homeowners' beach and dock clean up jobs. They leave roots and tubers behind; can damage docks, boats, and shorelines; and may damage landscaping upon entering and exiting the shoreline.
@@ -30,7 +30,7 @@ const HowItWorksPage = () => {
               </p>
               <div className="bg-red-50 border-l-4 border-red-400 p-4 mb-6">
                 <p className="text-red-800 font-semibold">
-                  <strong>Captain Home Services</strong>  precisely identifies and manually targets <strong>invasive aqautic vegetation</strong> for a high value, long-term solution.
+                  <strong>Captain Home Services</strong> precisely identifies and manually targets <strong>invasive aquatic vegetation</strong> for a high value, long-term solution.
                 </p>
               </div>
             </div>
@@ -52,7 +52,7 @@ const HowItWorksPage = () => {
               <div className="bg-white p-6 rounded-lg shadow-md">
                 <h3 className="text-xl font-bold text-red-600 mb-4">Hydrilla (Hydrilla verticillata)</h3>
                 <ul className="space-y-2 text-gray-700">
-                <li>• Clogs coolant passages and wraps around props on boats</li>
+                  <li>• Clogs coolant passages and wraps around props on boats</li>
                   <li>• Can tangle around children and cause drowning</li>
                   <li>• Can tangle fish hooks and lures in it, causing swimming hazard</li>
                   <li>• Considered the most problematic aquatic plant in the United States</li>               
@@ -65,7 +65,7 @@ const HowItWorksPage = () => {
               <div className="bg-white p-6 rounded-lg shadow-md">
                 <h3 className="text-xl font-bold text-red-600 mb-4">Eurasian Watermilfoil</h3>
                 <ul className="space-y-2 text-gray-700">
-                <li>• Clogs coolant passages and wraps around props on boats</li>
+                  <li>• Clogs coolant passages and wraps around props on boats</li>
                   <li>• Can tangle around children and cause drowning</li>
                   <li>• Can tangle fish hooks and lures in it, causing swimming hazard</li>
                   <li>• Forms thick underwater stands</li>
@@ -109,6 +109,13 @@ const HowItWorksPage = () => {
                 </div>
                 <h3 className="text-lg font-semibold text-gray-900 mb-2">3. No-Mess Transport and Responsible Disposal</h3>
                 <p className="text-gray-600">Transport and dispose of vegetation responsibly to prevent spread. We don't leave a mess or damage your landscaping with any heavy equipment used for harvesting or disposal</p>
+              </div>
+              <div className="text-center">
+                <div className="bg-teal-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                  <CheckCircle className="h-8 w-8 text-teal-600" />
+                </div>
+                <h3 className="text-lg font-semibold text-gray-900 mb-2">4. Results</h3>
+                <p className="text-gray-600">Immediate visible results with long-term benefits for your waterfront</p>
               </div>
             </div>
           </div>

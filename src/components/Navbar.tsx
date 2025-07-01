@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, Anchor } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -26,8 +26,14 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <Link to="/" onClick={scrollToTop} className="flex items-center space-x-2">
-            <Anchor className="h-8 w-8 text-teal-600" />
+          <Link to="/" onClick={scrollToTop} className="flex items-center space-x-3">
+            <div className="w-10 h-10 rounded-full overflow-hidden bg-gray-100 flex-shrink-0">
+              <img 
+                src="https://cdn11.bigcommerce.com/s-94ve5l/images/stencil/500x659/products/2411/4162/WeedRay-1__62680.1736887802.jpg?c=2" 
+                alt="Captain Home Services Logo" 
+                className="w-full h-full object-cover"
+              />
+            </div>
             <span className="font-bold text-xl text-gray-900">Captain Home Services</span>
           </Link>
 

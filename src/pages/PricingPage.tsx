@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { DollarSign, CheckCircle, Target, Truck, Award } from 'lucide-react';
+import { DollarSign, CheckCircle, Target, Truck, Award, Scissors } from 'lucide-react';
 
 const PricingPage = () => {
   return (
@@ -12,11 +12,65 @@ const PricingPage = () => {
             The True Cost of Clear Water
           </h1>
           <p className="text-xl md:text-2xl mb-8 max-w-4xl mx-auto">
-            Value You Can clearly See and Experience
+            Value You Can Clearly See and Experience
           </p>
           <p className="text-lg max-w-3xl mx-auto">
             We don't just give you a price; we give you peace of mind. Our meticulous, precise manual lake weed removal technique ensures every dollar you spend brings you closer to the pristine waterfront you deserve, without the hidden costs of chemical treatments or the limitations of big machines.
           </p>
+        </div>
+      </section>
+
+      {/* Our Advantage - Moved to top */}
+      <section className="py-16 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-bold text-gray-900 mb-12 text-center">
+            Our Process: Where Your Investment Goes
+          </h2>
+          <p className="text-lg text-gray-600 mb-12 text-center max-w-4xl mx-auto">
+            Our pricing is a direct reflection of our comprehensive, hands-on approach, ensuring you get the most bang for your buck. Here's how your investment translates into a crystal-clear waterfront with <strong>Captain Home Services</strong>:
+          </p>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
+            <div className="bg-white p-6 rounded-lg shadow-md text-center">
+              <div className="bg-blue-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                <Target className="h-8 w-8 text-blue-600" />
+              </div>
+              <h3 className="text-lg font-semibold text-gray-900 mb-2">1. Manual Identification</h3>
+              <p className="text-gray-600">Expert identification of specific aquatic vegetation species and precise diagnosis</p>
+            </div>
+            
+            <div className="bg-white p-6 rounded-lg shadow-md text-center">
+              <div className="bg-green-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                <CheckCircle className="h-8 w-8 text-green-600" />
+              </div>
+              <h3 className="text-lg font-semibold text-gray-900 mb-2">2. TPWD Permitting</h3>
+              <p className="text-gray-600">Complete permitting process and approved treatment plans through TPWD</p>
+            </div>
+            
+            <div className="bg-white p-6 rounded-lg shadow-md text-center">
+              <div className="bg-teal-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                <Scissors className="h-8 w-8 text-teal-600" />
+              </div>
+              <h3 className="text-lg font-semibold text-gray-900 mb-2">3. Root Removal</h3>
+              <p className="text-gray-600">Meticulous manual removal of each plant, root and all, using specialized tools</p>
+            </div>
+            
+            <div className="bg-white p-6 rounded-lg shadow-md text-center">
+              <div className="bg-yellow-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                <Truck className="h-8 w-8 text-yellow-600" />
+              </div>
+              <h3 className="text-lg font-semibold text-gray-900 mb-2">4. No-Mess Transport</h3>
+              <p className="text-gray-600">Clean removal and transport off your property without damaging landscaping or using heavy equipment</p>
+            </div>
+            
+            <div className="bg-white p-6 rounded-lg shadow-md text-center">
+              <div className="bg-purple-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                <Award className="h-8 w-8 text-purple-600" />
+              </div>
+              <h3 className="text-lg font-semibold text-gray-900 mb-2">5. Responsible Disposal</h3>
+              <p className="text-gray-600">Professional composting facility disposal to prevent environmental spread</p>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -35,8 +89,8 @@ const PricingPage = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
             <div>
               <img
-                src="https://wakesurfsaloon.com/wp-content/uploads/2025/03/Morgan-Extra-Bio-Photo-scaled.jpg"
-                alt="Clear lake with family enjoying"
+                src="https://cdn11.bigcommerce.com/s-94ve5l/images/stencil/500x659/products/2411/4162/WeedRay-1__62680.1736887802.jpg?c=2"
+                alt="Aquatic lake weed removal"
                 className="rounded-lg shadow-xl"
               />
             </div>
@@ -45,7 +99,7 @@ const PricingPage = () => {
                 We Don't Just Clear Weeds
               </h3>
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-              We manage your shoreline, dock areas, and swimming areas to ensure your property is the place family and friends dream of spending long weekends. <strong>Captain Home Services</strong> maintains your lake recreational areas at a value that's worth the results.
+                We manage your shoreline, dock areas, and swimming areas to ensure your property is the place family and friends dream of spending long weekends. <strong>Captain Home Services</strong> maintains your lake recreational areas at a value that's worth the results.
               </p>
               <div className="space-y-4">
                 <div className="flex items-start space-x-3">
@@ -66,61 +120,15 @@ const PricingPage = () => {
         </div>
       </section>
 
-      {/* Process Investment */}
-      <section className="py-16 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-gray-900 mb-12 text-center">
-            Our Process: Where Your Investment Goes
-          </h2>
-          <p className="text-lg text-gray-600 mb-12 text-center max-w-4xl mx-auto">
-            Our pricing is a direct reflection of our comprehensive, hands-on approach, ensuring you get the most bang for your buck. Here's how your investment translates into a crystal-clear waterfront with <strong>Captain Home Services</strong>:
-          </p>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <div className="bg-white p-6 rounded-lg shadow-md text-center">
-              <div className="bg-blue-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                <Target className="h-8 w-8 text-blue-600" />
-              </div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">1. Manual Identification</h3>
-              <p className="text-gray-600">Expert identification of specific aquatic vegetation species and precise diagnosis</p>
-            </div>
-            
-            <div className="bg-white p-6 rounded-lg shadow-md text-center">
-              <div className="bg-green-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                <CheckCircle className="h-8 w-8 text-green-600" />
-              </div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">2. TPWD Permitting</h3>
-              <p className="text-gray-600">Complete permitting process and approved treatment plans through TPWD</p>
-            </div>
-            
-            <div className="bg-white p-6 rounded-lg shadow-md text-center">
-              <div className="bg-teal-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                <Award className="h-8 w-8 text-teal-600" />
-              </div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">3. Root Removal</h3>
-              <p className="text-gray-600">Meticulous manual removal of each plant, root and all, using specialized tools</p>
-            </div>
-            
-            <div className="bg-white p-6 rounded-lg shadow-md text-center">
-              <div className="bg-yellow-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                <Truck className="h-8 w-8 text-yellow-600" />
-              </div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">4. Safe Disposal</h3>
-              <p className="text-gray-600">Responsible transportation and disposal to prevent environmental spread</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Pricing Range */}
-      <section className="py-16">
+      <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
               Up-front Pricing 
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            The cost of lake weed removal is between $650-$1,850 for most residential projects. This includes permitting/compliance with local and state authorities, manual removal of invasive aquatic vegetation, no-mess transport off your property and responsible disposable of exotic invasive species. 
+              The cost of lake weed removal is between $650-$1,850 for most residential projects. This includes permitting/compliance with local and state authorities, manual removal of invasive aquatic vegetation, no-mess transport off your property and responsible disposal of exotic invasive species. 
             </p>
           </div>
 
@@ -153,7 +161,7 @@ const PricingPage = () => {
             
             <div className="mt-8 text-center">
               <p className="text-gray-700">
-                <strong>Captain Home Services</strong> provides a transparent, upfront quote after our initial assessment, so you know exactly what to expect. Weeds do grow back, as their Infestatiopn has taken over the Highland Lakes and no permenent solution from authorities is in sight. When they do grow back, our past customers receive a returning customer discount to reflect our commitment to keeping our customers' recreational areas clean and clear at a high value. Long-term lake management plans are available, and usually do not require more than 2-3 treatments per year. For larger lots with extensive infestations, costs may vary.
+                <strong>Captain Home Services</strong> provides a transparent, upfront quote after our initial assessment, so you know exactly what to expect. Weeds do grow back, as their infestation has taken over the Highland Lakes and no permanent solution from authorities is in sight. When they do grow back, our past customers receive a returning customer discount to reflect our commitment to keeping our customers' recreational areas clean and clear at a high value. Long-term lake management plans are available, and usually do not require more than 2-3 treatments per year. For larger lots with extensive infestations, costs may vary.
               </p>
             </div>
           </div>
@@ -161,7 +169,7 @@ const PricingPage = () => {
       </section>
 
       {/* Value Comparison */}
-      <section className="py-16 bg-gray-50">
+      <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-gray-900 mb-12 text-center">
             Why Manual Removal is the Highest Value Option
