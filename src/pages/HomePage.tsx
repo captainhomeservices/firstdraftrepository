@@ -3,6 +3,10 @@ import { Link } from 'react-router-dom';
 import { CheckCircle, Leaf, Shield, Users } from 'lucide-react';
 
 const HomePage = () => {
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
@@ -18,7 +22,7 @@ const HomePage = () => {
           <div className="relative max-w-7xl mx-auto py-32 px-4 sm:px-6 lg:px-8">
             <div className="text-center">
               <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
-                Hydrilla removal<br />
+                <span className="text-teal-300">Hydrilla removal</span><br />
                 <span className="text-teal-300">Done fast and right</span>
               </h1>
               <p className="text-xl md:text-2xl mb-8 max-w-4xl mx-auto leading-relaxed">
@@ -27,22 +31,24 @@ const HomePage = () => {
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link
                   to="/contact"
+                  onClick={scrollToTop}
                   className="bg-teal-600 hover:bg-teal-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors duration-200 transform hover:scale-105"
                 >
                   Get A Quote
                 </Link>
                 <Link
                   to="/how-it-works"
+                  onClick={scrollToTop}
                   className="bg-white bg-opacity-20 hover:bg-opacity-30 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200 border border-white border-opacity-30"
                 >
                   How It Works
                 </Link>
-                <Link
-                  to="/contact"
+                <a
+                  href="tel:(737)-300-9033"
                   className="bg-teal-600 hover:bg-teal-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors duration-200 transform hover:scale-105"
                 >
-                  Call or Text (737)-300-9033
-                </Link>
+                  Call or Text (737) 300-9033
+                </a>
               </div>
             </div>
           </div>
@@ -119,6 +125,7 @@ const HomePage = () => {
               </p>
               <Link
                 to="/how-it-works"
+                onClick={scrollToTop}
                 className="inline-flex items-center bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-lg font-semibold transition-colors duration-200"
               >
                 Learn Our Process
@@ -178,12 +185,14 @@ const HomePage = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               to="/contact"
+              onClick={scrollToTop}
               className="bg-white text-teal-600 hover:bg-gray-100 px-8 py-4 rounded-lg text-lg font-semibold transition-colors duration-200 transform hover:scale-105"
             >
               Contact Us Today
             </Link>
             <Link
               to="/pricing"
+              onClick={scrollToTop}
               className="bg-teal-700 hover:bg-teal-800 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors duration-200 border border-teal-500"
             >
               View Pricing

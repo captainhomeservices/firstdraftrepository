@@ -57,8 +57,8 @@ const ContactPage = () => {
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-2">Call Us</h3>
               <p className="text-gray-600 mb-4">Ready to chat? Give us a holler!</p>
-              <a href="tel:512-555-LAKE" className="text-teal-600 hover:text-teal-700 font-semibold text-lg">
-                (737) 300-0933
+              <a href="tel:(737)-300-9033" className="text-teal-600 hover:text-teal-700 font-semibold text-lg">
+                (737) 300-9033
               </a>
             </div>
             
@@ -68,7 +68,7 @@ const ContactPage = () => {
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-2">Email Us</h3>
               <p className="text-gray-600 mb-4">Send us your questions anytime</p>
-              <a href="mailto:captain@captainhomeservices.com" className="text-blue-600 hover:text-blue-700 font-semibold">
+              <a href="mailto:captainhomeservices@gmail.com" className="text-blue-600 hover:text-blue-700 font-semibold">
                 captainhomeservices@gmail.com
               </a>
             </div>
@@ -145,7 +145,7 @@ const ContactPage = () => {
                     value={formData.phone}
                     onChange={handleChange}
                     className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-teal-500 transition-colors"
-                    placeholder="(512) 555-0123"
+                    placeholder="(737) 300-9033"
                   />
                 </div>
                 

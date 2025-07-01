@@ -17,12 +17,16 @@ const Navbar = () => {
 
   const isActive = (path: string) => location.pathname === path;
 
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
   return (
     <nav className="bg-white shadow-lg sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-2">
+          <Link to="/" onClick={scrollToTop} className="flex items-center space-x-2">
             <Anchor className="h-8 w-8 text-teal-600" />
             <span className="font-bold text-xl text-gray-900">Captain Home Services</span>
           </Link>
@@ -34,6 +38,7 @@ const Navbar = () => {
                 <Link
                   key={item.name}
                   to={item.href}
+                  onClick={scrollToTop}
                   className={`px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 ${
                     isActive(item.href)
                       ? 'bg-teal-50 text-teal-700'
@@ -71,7 +76,10 @@ const Navbar = () => {
                     ? 'bg-teal-50 text-teal-700'
                     : 'text-gray-700 hover:text-teal-600 hover:bg-teal-50'
                 }`}
-                onClick={() => setIsOpen(false)}
+                onClick={() => {
+                  setIsOpen(false);
+                  scrollToTop();
+                }}
               >
                 {item.name}
               </Link>
