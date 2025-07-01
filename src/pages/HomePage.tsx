@@ -67,7 +67,7 @@ const HomePage = () => {
                 Are you tired of battling stubborn aquatic vegetation that chokes out your beautiful lakefront? Manual lake weed removal is the only way to ensure invasive aquatic vegetation is pulled by the roots and brings nack that beauty to your lakefront you've been missing.
               </p>
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                At <strong>Captain Home Services</strong>, we use specialized tools and equipment to remove invasive aqautic vegetation's tubers and roots, leaving minimal debris that causes rapid re-growth of lake weeds. Our method of manual <strong> aquatic vegetation removal</strong> isn't just about clearing weeds; it's about restoring the natural beauty and balance of your dock area and shoreline. Let our <strong>Lake Management</strong> experts take care of your dock and shoreline for you.
+                At <strong>Captain Home Services</strong>, we use specialized tools and equipment to remove invasive aqautic vegetation's tubers and roots, leaving minimal debris that causes rapid re-growth of lake weeds. Our method of manual <strong> aquatic vegetation removal</strong> isn't just about clearing weeds; it\'s about restoring the natural beauty and balance of your dock area and shoreline. Let our <strong>Lake Management</strong> experts take care of your dock and shoreline for you.
               </p>
               <div className="space-y-4">
                 <div className="flex items-start space-x-3">
