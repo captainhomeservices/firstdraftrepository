@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, ShipWheel as Wheel } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -22,14 +22,17 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-white/80 backdrop-blur-md shadow-lg sticky top-0 z-50 border-b border-gray-100/50">
+    <nav className="bg-white shadow-lg sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          {/* Logo - Just the wheel */}
-          <Link to="/" onClick={scrollToTop} className="flex items-center group">
-            <div className="w-12 h-12 rounded-full bg-gradient-to-br from-teal-500 to-blue-600 flex items-center justify-center group-hover:scale-105 transition-transform duration-300 shadow-lg">
-              <Wheel className="h-7 w-7 text-white" />
-            </div>
+          {/* Logo */}
+          <Link to="/" onClick={scrollToTop} className="flex items-center space-x-2">
+            <img 
+              src="/Captain home services logo.PNG" 
+              alt="Captain Home Services Logo" 
+              className="h-10 w-10 object-contain"
+            />
+            <span className="font-bold text-xl text-gray-900">Captain Home Services</span>
           </Link>
 
           {/* Desktop Navigation */}
@@ -67,7 +70,7 @@ const Navbar = () => {
       {/* Mobile Navigation */}
       {isOpen && (
         <div className="md:hidden">
-          <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white/90 backdrop-blur-md border-t border-gray-100/50">
+          <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white border-t">
             {navigation.map((item) => (
               <Link
                 key={item.name}
