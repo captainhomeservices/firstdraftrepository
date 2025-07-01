@@ -15,7 +15,7 @@ const PricingPage = () => {
             Value You Can Clearly See and Experience
           </p>
           <p className="text-lg max-w-3xl mx-auto">
-            We don't just give you a price; we give you peace of mind. Our meticulous, precise manual lake weed removal technique ensures every dollar you spend brings you closer to the pristine waterfront you deserve, without the hidden costs of chemical treatments or the limitations of big machines.
+            We offer the highest value to lakefront homeowners wishing to enjoy their waterfront effortlessly.
           </p>
         </div>
       </section>
