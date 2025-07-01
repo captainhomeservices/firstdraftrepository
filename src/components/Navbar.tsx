@@ -28,7 +28,7 @@ const Navbar = () => {
           {/* Logo */}
           <Link to="/" onClick={scrollToTop} className="flex items-center space-x-2">
             <img 
-              src="/Captain home services logo.PNG" 
+              src="/captain home logo wheel circle.webp" 
               alt="Captain Home Services Logo" 
               className="h-10 w-10 object-contain"
             />

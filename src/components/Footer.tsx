@@ -15,9 +15,9 @@ const Footer = () => {
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
               <img 
-                src="/Captain home services logo.PNG" 
+                src="/captain home logo wheel circle.webp" 
                 alt="Captain Home Services Logo" 
-                className="h-8 w-8 object-contain"
+                className="h-8 w-8 object-contain brightness-0 invert"
               />
               <span className="font-bold text-xl">Captain Home Services</span>
             </div>
