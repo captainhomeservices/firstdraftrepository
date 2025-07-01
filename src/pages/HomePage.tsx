@@ -1,14 +1,85 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { CheckCircle, Leaf, Shield, Users } from 'lucide-react';
+import SEOHead from '../components/SEOHead';
 
 const HomePage = () => {
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
+  const homePageSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Austin Lake Weed Removal | Hydrilla Control | Captain Home Services",
+    "description": "Professional Austin lake weed removal and hydrilla control services. Manual aquatic vegetation removal for Lake Austin, Lake Travis, and Highland Lakes.",
+    "url": "https://austinlakemanagement.com/",
+    "mainEntity": {
+      "@type": "LocalBusiness",
+      "name": "Captain Home Services",
+      "description": "Professional aquatic vegetation removal services specializing in manual lake weed removal, hydrilla control, and TPWD-permitted lake management solutions in Austin, Texas.",
+      "telephone": "(737) 300-9033",
+      "email": "captainhomeservices@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Austin",
+        "addressRegion": "TX",
+        "addressCountry": "US"
+      },
+      "serviceArea": [
+        "Lake Austin",
+        "Lake Travis", 
+        "Lake LBJ",
+        "Inks Lake",
+        "Lake Marble Falls",
+        "Lake Buchanan",
+        "Lady Bird Lake"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Austin Lake Management Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Austin Hydrilla Removal",
+              "description": "Complete manual hydrilla removal including root extraction for lasting results"
+            },
+            "priceRange": "$650-$1850"
+          },
+          {
+            "@type": "Offer", 
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Eurasian Watermilfoil Removal",
+              "description": "Professional removal of invasive Eurasian watermilfoil from Austin area lakes"
+            },
+            "priceRange": "$650-$1850"
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service", 
+              "name": "TPWD Permitting Services",
+              "description": "Complete permitting and compliance assistance for legal aquatic vegetation removal"
+            }
+          }
+        ]
+      }
+    }
+  };
+
   return (
     <div className="min-h-screen">
+      <SEOHead
+        title="Austin Lake Weed Removal | Hydrilla Control | Captain Home Services"
+        description="Professional Austin lake weed removal and hydrilla control services. Manual aquatic vegetation removal for Lake Austin, Lake Travis, and Highland Lakes. TPWD permitted, chemical-free, eco-friendly solutions."
+        keywords="Austin lake weed removal, Lake Austin hydrilla removal, aquatic vegetation removal Austin, TPWD permits, LCRA compliance, manual lake weed removal, chemical-free lake cleaning, Austin lake management, Highland Lakes weed control, Eurasian watermilfoil removal Austin"
+        canonicalUrl="https://austinlakemanagement.com/"
+        structuredData={homePageSchema}
+      />
+
       {/* Hero Section */}
       <section className="bg-green-600 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -79,7 +150,7 @@ const HomePage = () => {
           <div className="text-center">
             <img
               src="https://parks.traviscountytx.gov/files/images/loop-360/hero.jpg"
-              alt="Beautiful Lake Austin bridge view"
+              alt="Beautiful Lake Austin bridge view showing clear water after professional aquatic vegetation removal"
               className="rounded-lg shadow-2xl mx-auto max-w-4xl w-full"
             />
           </div>
@@ -102,7 +173,7 @@ const HomePage = () => {
             <div>
               <img
                 src="https://static01.nyt.com/images/2023/12/10/nyregion/10Conn-River-01-wvbc/Conn-River--01-wvbc-superJumbo.jpg?quality=75&auto=webp"
-                alt="Dense aquatic vegetation problem"
+                alt="Dense aquatic vegetation problem showing invasive hydrilla and watermilfoil infestation"
                 className="rounded-lg shadow-xl"
               />
             </div>
@@ -158,9 +229,46 @@ const HomePage = () => {
             <div className="relative">
               <img
                 src="https://cdn11.bigcommerce.com/s-94ve5l/images/stencil/500x659/products/2411/4162/WeedRay-1__62680.1736887802.jpg?c=2"
-                alt="Aquatic vegetation removal tools"
+                alt="Professional aquatic vegetation removal tools used for manual lake weed extraction"
                 className="rounded-lg shadow-2xl"
               />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* SEO Content Section */}
+      <section className="py-16 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">
+              Austin's Premier Lake Management Experts
+            </h2>
+            <p className="text-xl text-gray-600 max-w-4xl mx-auto">
+              Serving the Highland Lakes with professional <strong>Austin aquatic vegetation removal</strong>, <strong>Lake Austin hydrilla control</strong>, and comprehensive <strong>Austin lake management</strong> solutions.
+            </p>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="bg-white p-6 rounded-lg shadow-md">
+              <h3 className="text-xl font-semibold text-gray-900 mb-3">Lake Austin Hydrilla Removal</h3>
+              <p className="text-gray-700">
+                Specialized <strong>Lake Austin hydrilla removal</strong> services using manual extraction techniques. Our TPWD-permitted approach ensures complete root removal for lasting results.
+              </p>
+            </div>
+            
+            <div className="bg-white p-6 rounded-lg shadow-md">
+              <h3 className="text-xl font-semibold text-gray-900 mb-3">Austin Eurasian Watermilfoil Control</h3>
+              <p className="text-gray-700">
+                Professional <strong>Austin Eurasian watermilfoil removal</strong> targeting this aggressive invasive species. Chemical-free methods protect your lake ecosystem.
+              </p>
+            </div>
+            
+            <div className="bg-white p-6 rounded-lg shadow-md">
+              <h3 className="text-xl font-semibold text-gray-900 mb-3">Highland Lakes Service Area</h3>
+              <p className="text-gray-700">
+                Comprehensive <strong>Austin lake weed removal</strong> serving Lake Travis, Lake LBJ, Inks Lake, Lake Marble Falls, Lake Buchanan, and Lady Bird Lake.
+              </p>
             </div>
           </div>
         </div>

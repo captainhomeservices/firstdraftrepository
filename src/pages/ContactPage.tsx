@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Phone, Mail, MapPin, Clock, CheckCircle } from 'lucide-react';
+import SEOHead from '../components/SEOHead';
 
 const ContactPage = () => {
   const [formData, setFormData] = useState({
@@ -58,8 +59,49 @@ This message was sent from the Captain Home Services website contact form.
     }
   };
 
+  const contactPageSchema = {
+    "@context": "https://schema.org",
+    "@type": "ContactPage",
+    "name": "Contact Captain Home Services - Austin Lake Weed Removal",
+    "description": "Contact Captain Home Services for professional Austin lake weed removal, hydrilla control, and aquatic vegetation management. Free consultations available.",
+    "url": "https://austinlakemanagement.com/contact",
+    "mainEntity": {
+      "@type": "LocalBusiness",
+      "name": "Captain Home Services",
+      "telephone": "(737) 300-9033",
+      "email": "captainhomeservices@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Austin",
+        "addressRegion": "TX",
+        "addressCountry": "US"
+      },
+      "openingHours": [
+        "Mo-Fr 08:00-18:00",
+        "Sa 09:00-16:00"
+      ],
+      "serviceArea": [
+        "Lake Austin",
+        "Lake Travis",
+        "Lake LBJ", 
+        "Inks Lake",
+        "Lake Marble Falls",
+        "Lake Buchanan",
+        "Lady Bird Lake"
+      ]
+    }
+  };
+
   return (
     <div className="min-h-screen bg-white">
+      <SEOHead
+        title="Contact Captain Home Services - Austin Lake Weed Removal Experts"
+        description="Contact Captain Home Services for professional Austin lake weed removal, hydrilla control, and aquatic vegetation management. Free consultations available. Call (737) 300-9033."
+        keywords="contact Austin lake weed removal, Captain Home Services contact, Austin hydrilla removal quote, lake management consultation Austin, TPWD permit assistance"
+        canonicalUrl="https://austinlakemanagement.com/contact"
+        structuredData={contactPageSchema}
+      />
+
       {/* Hero Section */}
       <section className="bg-green-600 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
