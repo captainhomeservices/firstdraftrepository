@@ -70,8 +70,8 @@ const HomePage = () => {
             </div>
             <div className="relative">
               <img
-                src="https://static01.nyt.com/images/2023/12/10/nyregion/10Conn-River-01-wvbc/Conn-River--01-wvbc-superJumbo.jpg?quality=75&auto=webp"
-                alt="Family enjoying clear lake water"
+                src="https://parks.traviscountytx.gov/files/images/loop-360/hero.jpg"
+                alt="Beautiful Lake Austin bridge view"
                 className="rounded-lg shadow-2xl"
               />
             </div>
@@ -94,7 +94,7 @@ const HomePage = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
               <img
-                src="https://parks.traviscountytx.gov/files/images/loop-360/hero.jpg"
+                src="https://static01.nyt.com/images/2023/12/10/nyregion/10Conn-River-01-wvbc/Conn-River--01-wvbc-superJumbo.jpg?quality=75&auto=webp"
                 alt="Dense aquatic vegetation problem"
                 className="rounded-lg shadow-xl"
               />
