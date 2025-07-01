@@ -39,47 +39,54 @@ const HomePage = () => {
         </div>
       </section>
 
-      {/* Main Content */}
+      {/* Services Overview - Moved to second position */}
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-                Aquatic Vegetation Removal That Works
-              </h2>
-              <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                Are you tired of battling stubborn aquatic vegetation that chokes out your beautiful lakefront? Manual lake weed removal is the only way to ensure invasive aquatic vegetation is pulled by the roots and brings back that beauty to your lakefront you've been missing.
-              </p>
-              <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                At <strong>Captain Home Services</strong>, we use specialized tools and equipment to remove invasive aquatic vegetation's tubers and roots, leaving minimal debris that causes rapid re-growth of lake weeds. Our method of manual <strong>aquatic vegetation removal</strong> isn't just about clearing weeds; it\'s about restoring the natural beauty and balance of your dock area and shoreline. Let our <strong>Lake Management</strong> experts take care of your dock and shoreline for you.
-              </p>
-              <div className="space-y-4">
-                <div className="flex items-start space-x-3">
-                  <CheckCircle className="h-6 w-6 text-green-600 mt-1 flex-shrink-0" />
-                  <p className="text-gray-700">Immediate, visible results with minimal environmental impact</p>
-                </div>
-                <div className="flex items-start space-x-3">
-                  <CheckCircle className="h-6 w-6 text-green-600 mt-1 flex-shrink-0" />
-                  <p className="text-gray-700">Complete root removal prevents rapid regrowth</p>
-                </div>
-                <div className="flex items-start space-x-3">
-                  <CheckCircle className="h-6 w-6 text-green-600 mt-1 flex-shrink-0" />
-                  <p className="text-gray-700">Chemical-free approach protects your family and ecosystem</p>
-                </div>
-              </div>
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+              What We Can Do For You
+            </h2>
+            <p className="text-xl text-gray-600">
+              Comprehensive aquatic vegetation control with the precision and care your waterfront deserves.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
+            <div className="text-center p-6 bg-gray-50 rounded-lg">
+              <Leaf className="h-12 w-12 text-green-600 mx-auto mb-4" />
+              <h3 className="text-lg font-semibold text-gray-900 mb-2">Precision Manual Removal</h3>
+              <p className="text-gray-600">Root-deep extraction using specialized tools for long-term results</p>
             </div>
-            <div className="relative">
-              <img
-                src="https://parks.traviscountytx.gov/files/images/loop-360/hero.jpg"
-                alt="Beautiful Lake Austin bridge view"
-                className="rounded-lg shadow-2xl"
-              />
+            <div className="text-center p-6 bg-gray-50 rounded-lg">
+              <Shield className="h-12 w-12 text-blue-600 mx-auto mb-4" />
+              <h3 className="text-lg font-semibold text-gray-900 mb-2">Exotic Invasive Species Removal Permits</h3>
+              <p className="text-gray-600">We handle permitting and compliance with State and Local regulations including approved TPWD and LCRA
+              Treatment Proposals for every job</p>
             </div>
+            <div className="text-center p-6 bg-gray-50 rounded-lg">
+              <Users className="h-12 w-12 text-teal-600 mx-auto mb-4" />
+              <h3 className="text-lg font-semibold text-gray-900 mb-2">Clean and Efficient Haul-Away and Responsible Disposal</h3>
+              <p className="text-gray-600">No-mess removal and disposal keeps your property from being damaged by large machinery and making a mess</p>
+            </div>
+            <div className="text-center p-6 bg-gray-50 rounded-lg">
+              <CheckCircle className="h-12 w-12 text-green-600 mx-auto mb-4" />
+              <h3 className="text-lg font-semibold text-gray-900 mb-2">Guaranteed Results</h3>
+              <p className="text-gray-600">Chemical-free solutions that protect your family and environment</p>
+            </div>
+          </div>
+
+          {/* Bridge Image under the boxes */}
+          <div className="text-center">
+            <img
+              src="https://parks.traviscountytx.gov/files/images/loop-360/hero.jpg"
+              alt="Beautiful Lake Austin bridge view"
+              className="rounded-lg shadow-2xl mx-auto max-w-4xl w-full"
+            />
           </div>
         </div>
       </section>
 
-      {/* Problem & Solution */}
+      {/* Problem & Solution - Third position */}
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
@@ -119,39 +126,41 @@ const HomePage = () => {
         </div>
       </section>
 
-      {/* Services Overview */}
+      {/* Main Content - Moved to fourth position */}
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              What We Can Do For You
-            </h2>
-            <p className="text-xl text-gray-600">
-              Comprehensive aquatic vegetation control with the precision and care your waterfront deserves.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <div className="text-center p-6 bg-gray-50 rounded-lg">
-              <Leaf className="h-12 w-12 text-green-600 mx-auto mb-4" />
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">Precision Manual Removal</h3>
-              <p className="text-gray-600">Root-deep extraction using specialized tools for long-term results</p>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div>
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+                Aquatic Vegetation Removal That Works
+              </h2>
+              <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+                Are you tired of battling stubborn aquatic vegetation that chokes out your beautiful lakefront? Manual lake weed removal is the only way to ensure invasive aquatic vegetation is pulled by the roots and brings back that beauty to your lakefront you've been missing.
+              </p>
+              <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+                At <strong>Captain Home Services</strong>, we use specialized tools and equipment to remove invasive aquatic vegetation's tubers and roots, leaving minimal debris that causes rapid re-growth of lake weeds. Our method of manual <strong>aquatic vegetation removal</strong> isn't just about clearing weeds; it\'s about restoring the natural beauty and balance of your dock area and shoreline. Let our <strong>Lake Management</strong> experts take care of your dock and shoreline for you.
+              </p>
+              <div className="space-y-4">
+                <div className="flex items-start space-x-3">
+                  <CheckCircle className="h-6 w-6 text-green-600 mt-1 flex-shrink-0" />
+                  <p className="text-gray-700">Immediate, visible results with minimal environmental impact</p>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <CheckCircle className="h-6 w-6 text-green-600 mt-1 flex-shrink-0" />
+                  <p className="text-gray-700">Complete root removal prevents rapid regrowth</p>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <CheckCircle className="h-6 w-6 text-green-600 mt-1 flex-shrink-0" />
+                  <p className="text-gray-700">Chemical-free approach protects your family and ecosystem</p>
+                </div>
+              </div>
             </div>
-            <div className="text-center p-6 bg-gray-50 rounded-lg">
-              <Shield className="h-12 w-12 text-blue-600 mx-auto mb-4" />
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">Exotic Invasive Species Removal Permits</h3>
-              <p className="text-gray-600">We handle permitting and compliance with State and Local regulations including approved TPWD and LCRA
-              Treatment Proposals for every job</p>
-            </div>
-            <div className="text-center p-6 bg-gray-50 rounded-lg">
-              <Users className="h-12 w-12 text-teal-600 mx-auto mb-4" />
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">Clean and Efficient Haul-Away and Responsible Disposal</h3>
-              <p className="text-gray-600">No-mess removal and disposal keeps your property from being damaged by large machinery and making a mess</p>
-            </div>
-            <div className="text-center p-6 bg-gray-50 rounded-lg">
-              <CheckCircle className="h-12 w-12 text-green-600 mx-auto mb-4" />
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">Guaranteed Results</h3>
-              <p className="text-gray-600">Chemical-free solutions that protect your family and environment</p>
+            <div className="relative">
+              <img
+                src="https://cdn11.bigcommerce.com/s-94ve5l/images/stencil/500x659/products/2411/4162/WeedRay-1__62680.1736887802.jpg?c=2"
+                alt="Aquatic vegetation removal tools"
+                className="rounded-lg shadow-2xl"
+              />
             </div>
           </div>
         </div>
