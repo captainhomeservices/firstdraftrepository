@@ -22,8 +22,8 @@ const HomePage = () => {
           <div className="relative max-w-7xl mx-auto py-32 px-4 sm:px-6 lg:px-8">
             <div className="text-center">
               <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
-                <span className="text-teal-300">Hydrilla removal</span><br />
-                <span className="text-teal-300">Done fast and right</span>
+                <span className="text-teal-300">Austin Hydrilla removal</span><br />
+                <span className="text-teal-300">Serving Lake Austin, Lake LBJ and the rest of the Highland Lakes</span>
               </h1>
               <p className="text-xl md:text-2xl mb-8 max-w-4xl mx-auto leading-relaxed">
                 We're the aquatic vegetation removal service you've been looking for. No chemicals, just precise removal and disposal of Hydrilla, Eurasian Watermilfoil, and other invasive Austin lake weeds.
