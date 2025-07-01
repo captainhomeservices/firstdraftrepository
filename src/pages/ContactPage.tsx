@@ -9,6 +9,7 @@ const ContactPage = () => {
     project: ''
   });
   const [isSubmitted, setIsSubmitted] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setFormData({
@@ -17,23 +18,50 @@ const ContactPage = () => {
     });
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    // Here you would typically send the form data to your backend
-    console.log('Form submitted:', formData);
-    setIsSubmitted(true);
+    setIsSubmitting(true);
     
-    // Reset form after 3 seconds
-    setTimeout(() => {
-      setIsSubmitted(false);
-      setFormData({ name: '', email: '', phone: '', project: '' });
-    }, 3000);
+    try {
+      // Create mailto link with form data
+      const subject = encodeURIComponent('New Contact Form Submission - Captain Home Services');
+      const body = encodeURIComponent(`
+Name: ${formData.name}
+Email: ${formData.email}
+Phone: ${formData.phone}
+
+Project Details:
+${formData.project}
+
+---
+This message was sent from the Captain Home Services website contact form.
+      `);
+      
+      const mailtoLink = `mailto:captainhomeservices@gmail.com?subject=${subject}&body=${body}`;
+      
+      // Open email client
+      window.location.href = mailtoLink;
+      
+      // Show success message
+      setIsSubmitted(true);
+      
+      // Reset form after 5 seconds
+      setTimeout(() => {
+        setIsSubmitted(false);
+        setFormData({ name: '', email: '', phone: '', project: '' });
+      }, 5000);
+      
+    } catch (error) {
+      console.error('Error sending email:', error);
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="py-16 bg-gradient-to-r from-green-600 to-teal-600 text-white py-20">
+      <section className="bg-green-600 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">
             Howdy Neighbor!
@@ -168,9 +196,10 @@ const ContactPage = () => {
                 <div className="text-center">
                   <button
                     type="submit"
-                    className="bg-teal-600 hover:bg-teal-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors duration-200 transform hover:scale-105"
+                    disabled={isSubmitting}
+                    className="bg-teal-600 hover:bg-teal-700 disabled:bg-teal-400 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors duration-200 transform hover:scale-105 disabled:transform-none"
                   >
-                    Send Message
+                    {isSubmitting ? 'Sending...' : 'Send Message'}
                   </button>
                 </div>
               </form>
@@ -179,7 +208,7 @@ const ContactPage = () => {
                 <CheckCircle className="h-16 w-16 text-green-600 mx-auto mb-4" />
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">Message Sent Successfully!</h3>
                 <p className="text-lg text-gray-700">
-                  Thanks for reaching out! We'll review your message faster than a jackrabbit on a hot griddle and get back to you directly.
+                  Thanks for reaching out. We'll get back to you soon to discuss your lake weed removal needs.
                 </p>
               </div>
             )}
