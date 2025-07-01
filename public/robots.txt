@@ -1,4 +1,26 @@
 User-agent: *
 Allow: /
+
+# Allow all search engines to crawl the entire site
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.pdf$
+
+# Specific crawlers
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# Crawl delay (optional - helps prevent server overload)
+Crawl-delay: 1
+
+# Sitemap location
 Sitemap: https://austinlakemanagement.com/sitemap.xml
 
+# Additional sitemaps for better indexing
+Sitemap: https://austinlakemanagement.com/blog-sitemap.xml
