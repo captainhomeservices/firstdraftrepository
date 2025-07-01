@@ -223,7 +223,7 @@ const ContactPage = () => {
             Once you hit that 'Send' button, consider it done. We'll reach out real quick.
           </p>
           <p className="text-lg font-semibold text-gray-900">
-            Choose <span className="text-teal-600">Captain Home Services</span> for your <strong>Austin lake cleaning</strong>.
+            Choose <span className="text-teal-600">Captain Home Services</span> for your <strong>Austin lake weed removal</strong>.
           </p>
         </div>
       </section>
