@@ -131,7 +131,7 @@ const HowItWorksPage = () => {
                   <CheckCircle className="h-6 w-6 text-green-600 mt-1 flex-shrink-0" />
                   <div>
                     <h3 className="font-semibold text-gray-900">Immediate Results</h3>
-                    <p className="text-gray-700">You see the difference the moment we're done with <strong>lake weed removal</strong>.</p>
+                    <p className="text-gray-700">See and experience your clean lakefront again after  <strong>lake weed removal</strong>.</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-3">
