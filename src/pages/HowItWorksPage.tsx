@@ -115,7 +115,7 @@ const HowItWorksPage = () => {
                   <CheckCircle className="h-8 w-8 text-teal-600" />
                 </div>
                 <h3 className="text-lg font-semibold text-gray-900 mb-2">4. Results</h3>
-                <p className="text-gray-600">Immediate visible results with long-term benefits for your waterfront</p>
+                <p className="text-gray-600">Immediately clean lakefront and clear water to enjoy with your family</p>
               </div>
             </div>
           </div>
