@@ -71,7 +71,7 @@ const HomePage = () => {
             <div className="text-center p-6 bg-gray-50 rounded-lg">
               <CheckCircle className="h-12 w-12 text-green-600 mx-auto mb-4" />
               <h3 className="text-lg font-semibold text-gray-900 mb-2">Guaranteed Results</h3>
-              <p className="text-gray-600">Chemical-free solutions that protect your family and environment</p>
+              <p className="text-gray-600">The beautiful, usable, clean and clear waterfront you desire</p>
             </div>
           </div>
 
