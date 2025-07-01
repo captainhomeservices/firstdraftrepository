@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Phone, Mail, MapPin, Wheel } from 'lucide-react';
+import { Phone, Mail, MapPin, ShipWheel as Wheel } from 'lucide-react';
 
 const Footer = () => {
   const scrollToTop = () => {
