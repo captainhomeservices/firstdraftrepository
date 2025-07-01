@@ -15,7 +15,7 @@ const PricingPage = () => {
             Take back your Lakefront
           </p>
           <p className="text-lg max-w-3xl mx-auto">
-            We offer the highest value to lakefront homeowners wishing to enjoy their waterfront effortlessly
+            We offer the highest value to homeowners wishing to enjoy their waterfront effortlessly
           </p>
         </div>
       </section>
