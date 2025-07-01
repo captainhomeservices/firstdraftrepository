@@ -184,10 +184,20 @@ const BlogPage = () => {
                     </div>
                   )}
                   
-                  <div className="flex items-center text-teal-600 font-medium hover:text-teal-700 transition-colors cursor-pointer">
-                    <span>Read More</span>
-                    <ArrowRight className="h-4 w-4 ml-1" />
-                  </div>
+                  {post.slug ? (
+                    <Link
+                      to={`/blog/${post.slug}`}
+                      className="flex items-center text-teal-600 font-medium hover:text-teal-700 transition-colors"
+                    >
+                      <span>Read More</span>
+                      <ArrowRight className="h-4 w-4 ml-1" />
+                    </Link>
+                  ) : (
+                    <div className="flex items-center text-gray-400 font-medium">
+                      <span>Coming Soon</span>
+                      <ArrowRight className="h-4 w-4 ml-1" />
+                    </div>
+                  )}
                 </div>
               </article>
             ))}
@@ -225,8 +235,8 @@ const BlogPage = () => {
                     {post.excerpt}
                   </p>
                   
-                  <div className="flex items-center text-teal-600 font-medium hover:text-teal-700 transition-colors cursor-pointer text-sm">
-                    <span>Read More</span>
+                  <div className="flex items-center text-gray-400 font-medium text-sm">
+                    <span>Coming Soon</span>
                     <ArrowRight className="h-3 w-3 ml-1" />
                   </div>
                 </div>
