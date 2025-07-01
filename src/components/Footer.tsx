@@ -13,8 +13,8 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="col-span-1 md:col-span-2">
-            <div className="flex items-center space-x-3 mb-4">
-              <div className="w-8 h-8 rounded-full overflow-hidden bg-gray-100 flex-shrink-0">
+            <div className="flex items-center space-x-4 mb-4">
+              <div className="w-12 h-12 rounded-full overflow-hidden bg-gray-100 flex-shrink-0">
                 <img 
                   src="/Captain home services logo.PNG" 
                   alt="Captain Home Services Logo" 

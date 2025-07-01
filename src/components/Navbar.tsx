@@ -24,17 +24,17 @@ const Navbar = () => {
   return (
     <nav className="bg-white shadow-lg sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16">
+        <div className="flex justify-between items-center h-20">
           {/* Logo */}
-          <Link to="/" onClick={scrollToTop} className="flex items-center space-x-3">
-            <div className="w-10 h-10 rounded-full overflow-hidden bg-gray-100 flex-shrink-0">
+          <Link to="/" onClick={scrollToTop} className="flex items-center space-x-4">
+            <div className="w-14 h-14 rounded-full overflow-hidden bg-gray-100 flex-shrink-0">
               <img 
                 src="/Captain home services logo.PNG" 
                 alt="Captain Home Services Logo" 
                 className="w-full h-full object-cover"
               />
             </div>
-            <span className="font-bold text-xl text-gray-900">Captain Home Services</span>
+            <span className="font-bold text-2xl text-blue-700">Captain Home Services</span>
           </Link>
 
           {/* Desktop Navigation */}
@@ -47,8 +47,8 @@ const Navbar = () => {
                   onClick={scrollToTop}
                   className={`px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 ${
                     isActive(item.href)
-                      ? 'bg-teal-50 text-teal-700'
-                      : 'text-gray-700 hover:text-teal-600 hover:bg-teal-50'
+                      ? 'bg-blue-50 text-blue-700'
+                      : 'text-blue-600 hover:text-blue-700 hover:bg-blue-50'
                   }`}
                 >
                   {item.name}
@@ -61,7 +61,7 @@ const Navbar = () => {
           <div className="md:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="text-gray-700 hover:text-teal-600 focus:outline-none focus:text-teal-600"
+              className="text-blue-600 hover:text-blue-700 focus:outline-none focus:text-blue-700"
             >
               {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
             </button>
@@ -79,8 +79,8 @@ const Navbar = () => {
                 to={item.href}
                 className={`block px-3 py-2 rounded-md text-base font-medium transition-colors duration-200 ${
                   isActive(item.href)
-                    ? 'bg-teal-50 text-teal-700'
-                    : 'text-gray-700 hover:text-teal-600 hover:bg-teal-50'
+                    ? 'bg-blue-50 text-blue-700'
+                    : 'text-blue-600 hover:text-blue-700 hover:bg-blue-50'
                 }`}
                 onClick={() => {
                   setIsOpen(false);
