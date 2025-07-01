@@ -118,4 +118,14 @@ const HomePage = () => {
             <div>
               <h3 className="text-2xl font-bold text-gray-900 mb-4">The Lake Austin Hydrilla Problem</h3>
               <p className="text-gray-700 mb-4 leading-relaxed">
-                When aggressive aquatic weeds like <strong>Lake Austin hydrilla</strong> and <strong>Eurasian watermilfoil</strong> invade, they throw that delicate balance into chaotic mess. These fas
+                When aggressive aquatic weeds like <strong>Lake Austin hydrilla</strong> and <strong>Eurasian watermilfoil</strong> invade, they throw that delicate balance into chaotic mess. These fast-growing invasive species can quickly overwhelm native vegetation and create dense mats that make swimming, boating, and fishing nearly impossible.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  );
+};
+
+export default HomePage;
