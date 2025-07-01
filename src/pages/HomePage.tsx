@@ -24,20 +24,13 @@ const HomePage = () => {
               <Link
                 to="/contact"
                 onClick={scrollToTop}
-                className="bg-white text-green-600 hover:bg-gray-100 px-8 py-4 rounded-lg text-lg font-semibold transition-colors duration-200 transform hover:scale-105"
+                className="bg-white bg-opacity-20 hover:bg-opacity-30 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200 border border-white border-opacity-30 transform hover:scale-105"
               >
                 Get A Quote
               </Link>
-              <Link
-                to="/how-it-works"
-                onClick={scrollToTop}
-                className="bg-white bg-opacity-20 hover:bg-opacity-30 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200 border border-white border-opacity-30"
-              >
-                How It Works
-              </Link>
               <a
                 href="tel:(737)-300-9033"
-                className="bg-white text-green-600 hover:bg-gray-100 px-8 py-4 rounded-lg text-lg font-semibold transition-colors duration-200 transform hover:scale-105"
+                className="bg-white bg-opacity-20 hover:bg-opacity-30 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200 border border-white border-opacity-30 transform hover:scale-105"
               >
                 Call or Text (737) 300-9033
               </a>
