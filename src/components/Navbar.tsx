@@ -44,7 +44,7 @@ const Navbar = () => {
               />
             </div>
             <div className="hidden sm:block">
-              <span className="font-bold text-2xl bg-gradient-to-r from-red-500 to-orange-500 bg-clip-text text-transparent">
+              <span className="font-bold text-2xl bg-gradient-to-r from-red-600 to-red-500 bg-clip-text text-transparent">
                 Captain Home Services
               </span>
               <p className="text-sm text-gray-600 font-medium">Austin Lake Management</p>
