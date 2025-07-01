@@ -59,7 +59,7 @@ const BlogPage = () => {
     {
       id: 5,
       title: "The Battle for Our Lakes: Understanding and Removing Invasive Aquatic Plants in Texas",
-      excerpt: "Texas lakes are a treasure, but they face a constant threat from invasive aquatic plants. Learn about the science behind hydrilla and Eurasian watermilfoil, and discover the most effective removal methods.",
+      excerpt: "Texas lakes face constant threats from invasive aquatic plants. Learn about hydrilla and Eurasian watermilfoil science, plus the most effective removal methods for Austin area lakes.",
       date: "January 15, 2025",
       author: "Captain Home Services",
       category: "Invasive Species",
@@ -68,8 +68,8 @@ const BlogPage = () => {
     },
     {
       id: 6,
-      title: "Beyond the Weeds: Your Ultimate Guide to Boating and Dining on Lake Austin",
-      excerpt: "Once your waterfront is clear, it's time to enjoy! Discover the best boating experiences, lakeside restaurants, and water activities that make Lake Austin special.",
+      title: "Beyond the Weeds: Your Guide to Boating and Dining on Lake Austin",
+      excerpt: "Once your waterfront is clear, discover the best boating experiences, lakeside restaurants, and water activities that make Lake Austin special.",
       date: "January 10, 2025",
       author: "Captain Home Services",
       category: "Lake Austin Life",
@@ -78,8 +78,8 @@ const BlogPage = () => {
     },
     {
       id: 7,
-      title: "Reel Big Fun: A Guide to Bass Fishing on Lake Austin",
-      excerpt: "Lake Austin is renowned for its bass fishing. Learn the best techniques, top spots, and why clear water makes all the difference for trophy fishing.",
+      title: "Bass Fishing on Lake Austin: Techniques and Top Spots",
+      excerpt: "Lake Austin offers excellent bass fishing. Learn the best techniques, prime locations, and why clear water makes all the difference for successful fishing.",
       date: "January 5, 2025",
       author: "Captain Home Services",
       category: "Fishing",
@@ -88,8 +88,8 @@ const BlogPage = () => {
     },
     {
       id: 8,
-      title: "Your Lake Austin Lifeline: Essential Links for Boaters, Anglers, and Waterfront Owners",
-      excerpt: "Your comprehensive resource hub for Lake Austin living. Find boat rentals, repair services, marinas, and everything you need to enjoy your waterfront lifestyle.",
+      title: "Lake Austin Resources: Essential Links for Waterfront Owners",
+      excerpt: "Your resource hub for Lake Austin living. Find boat rentals, repair services, marinas, and everything needed for your waterfront lifestyle.",
       date: "December 28, 2024",
       author: "Captain Home Services",
       category: "Resources",
@@ -100,8 +100,6 @@ const BlogPage = () => {
 
   return (
     <div className="min-h-screen bg-white">
-      {/* SEO Meta Tags would be handled by a head component in a real app */}
-      
       {/* Hero Section */}
       <section className="py-16 bg-gradient-to-r from-green-600 to-teal-600 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -109,10 +107,10 @@ const BlogPage = () => {
             The Captain's Log
           </h1>
           <p className="text-xl md:text-2xl mb-8 max-w-4xl mx-auto">
-            Your Guide to a Clearer Lake and a Finer Austin Life
+            Austin Lake Management Insights & Local Knowledge
           </p>
           <p className="text-lg max-w-3xl mx-auto">
-            Welcome to the official blog of Captain Home Services! Here, we're not just talking about pulling weeds; we're diving deep into everything that makes your Austin waterfront experience truly exceptional.
+            Expert guidance on <strong>hydrilla removal</strong>, <strong>lake weed removal</strong>, and everything you need to know about maintaining clear, healthy Austin area lakes.
           </p>
         </div>
       </section>
@@ -121,10 +119,7 @@ const BlogPage = () => {
       <section className="py-16">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <p className="text-lg text-gray-700 leading-relaxed">
-            From conquering stubborn aquatic invaders like <strong>Lake Austin hydrilla</strong> and <strong>Austin Eurasian watermilfoil</strong> to discovering the best bass fishing spots and lakeside eateries, consider this your go-to guide for all things Lake Austin. We'll share our expertise on <strong>Austin aquatic vegetation removal</strong>, <strong>Austin lake management</strong>, and <strong>Austin hydrilla control</strong>, ensuring you have the knowledge to keep your slice of Texas paradise pristine.
-          </p>
-          <p className="text-lg text-gray-700 mt-4">
-            So, grab a sweet tea, kick back, and let's explore the clear waters and vibrant life around Lake Austin!
+            From tackling stubborn <strong>Lake Austin weed removal</strong> challenges to sharing the best local spots for boating and fishing, we cover what matters to Austin lakefront property owners. Our focus is practical <strong>lake management</strong> advice, proven <strong>hydrilla removal</strong> techniques, and insights that help you get the most from your waterfront investment.
           </p>
         </div>
       </section>
@@ -133,7 +128,7 @@ const BlogPage = () => {
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-gray-900 mb-12 text-center">
-            Latest Expert Insights
+            Latest Articles
           </h2>
           
           {/* Featured Blog Posts Grid */}
@@ -241,43 +236,42 @@ const BlogPage = () => {
         </div>
       </section>
 
-      {/* SEO Content Section */}
+      {/* Topic Categories */}
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="bg-gradient-to-r from-blue-50 to-teal-50 rounded-lg p-8">
-            <h2 className="text-3xl font-bold text-gray-900 mb-6 text-center">
-              Expert Austin Lake Management Resources
-            </h2>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              <div className="text-center">
-                <div className="bg-blue-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                  <Leaf className="h-8 w-8 text-blue-600" />
-                </div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-3">Lake Weed Identification</h3>
-                <p className="text-gray-700">
-                  Learn to identify common invasive species like <strong>Lake Austin hydrilla</strong>, <strong>Eurasian watermilfoil</strong>, and other problematic aquatic vegetation affecting Texas lakes.
-                </p>
+          <h2 className="text-3xl font-bold text-gray-900 mb-12 text-center">
+            What We Cover
+          </h2>
+          
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="text-center p-6 bg-blue-50 rounded-lg">
+              <div className="bg-blue-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                <Leaf className="h-8 w-8 text-blue-600" />
               </div>
-              
-              <div className="text-center">
-                <div className="bg-green-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                  <FileText className="h-8 w-8 text-green-600" />
-                </div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-3">Permitting Made Simple</h3>
-                <p className="text-gray-700">
-                  Navigate <strong>TPWD permits</strong> and <strong>LCRA compliance</strong> requirements for legal <strong>Austin aquatic vegetation removal</strong> with our expert guidance.
-                </p>
+              <h3 className="text-xl font-semibold text-gray-900 mb-3">Lake Weed Control</h3>
+              <p className="text-gray-700">
+                Practical advice on <strong>hydrilla removal</strong>, <strong>lake weed removal</strong> techniques, and identifying invasive species in Austin area lakes.
+              </p>
+            </div>
+            
+            <div className="text-center p-6 bg-green-50 rounded-lg">
+              <div className="bg-green-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                <Fish className="h-8 w-8 text-green-600" />
               </div>
-              
-              <div className="text-center">
-                <div className="bg-teal-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                  <Fish className="h-8 w-8 text-teal-600" />
-                </div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-3">Sustainable Solutions</h3>
-                <p className="text-gray-700">
-                  Discover <strong>chemical-free lake management</strong> techniques and <strong>manual aquatic weed removal</strong> methods that protect your waterfront ecosystem.
-                </p>
+              <h3 className="text-xl font-semibold text-gray-900 mb-3">Lake Austin Living</h3>
+              <p className="text-gray-700">
+                Local insights on fishing, boating, dining, and making the most of your Austin lakefront property.
+              </p>
+            </div>
+            
+            <div className="text-center p-6 bg-teal-50 rounded-lg">
+              <div className="bg-teal-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                <FileText className="h-8 w-8 text-teal-600" />
               </div>
+              <h3 className="text-xl font-semibold text-gray-900 mb-3">Lake Management</h3>
+              <p className="text-gray-700">
+                Professional <strong>lake management</strong> strategies, permitting guidance, and sustainable waterfront maintenance practices.
+              </p>
             </div>
           </div>
         </div>
@@ -286,9 +280,9 @@ const BlogPage = () => {
       {/* Newsletter Signup */}
       <section className="py-16 bg-gradient-to-r from-teal-600 to-blue-600 text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-bold mb-4">Stay Updated with the Captain's Log</h2>
+          <h2 className="text-3xl font-bold mb-4">Stay Informed</h2>
           <p className="text-xl mb-8">
-            Get the latest insights on <strong>Austin lake management</strong>, seasonal tips, and Lake Austin lifestyle updates delivered straight to your inbox.
+            Get updates on <strong>Austin lake management</strong>, seasonal maintenance tips, and local waterfront news.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center max-w-md mx-auto">
             <input
@@ -307,10 +301,10 @@ const BlogPage = () => {
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold text-gray-900 mb-4">
-            Ready to Clear Your Waterfront?
+            Need Professional Lake Weed Removal?
           </h2>
           <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-            Don't let aquatic vegetation take over your slice of paradise. <strong>Captain Home Services</strong> is here to help with professional <strong>Austin aquatic vegetation removal</strong> and <strong>Austin lake cleaning</strong> services.
+            <strong>Captain Home Services</strong> provides expert <strong>Lake Austin weed removal</strong> and comprehensive <strong>lake management</strong> services throughout the Highland Lakes.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
