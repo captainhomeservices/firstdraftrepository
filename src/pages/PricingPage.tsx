@@ -43,15 +43,15 @@ const PricingPage = () => {
               <div className="bg-green-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
                 <CheckCircle className="h-8 w-8 text-green-600" />
               </div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">2. TPWD Permitting</h3>
-              <p className="text-gray-600">Complete permitting process and approved treatment plans through TPWD</p>
+              <h3 className="text-lg font-semibold text-gray-900 mb-2">2. TPWD Permitting and Treatment Plan Approval</h3>
+              <p className="text-gray-600">Complete permitting process and approved treatment plans submitted and approved with TPWD</p>
             </div>
             
             <div className="bg-white p-6 rounded-lg shadow-md text-center">
               <div className="bg-teal-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
                 <Scissors className="h-8 w-8 text-teal-600" />
               </div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">3. Root Removal</h3>
+              <h3 className="text-lg font-semibold text-gray-900 mb-2">3. Lake Weed Removal</h3>
               <p className="text-gray-600">Meticulous manual removal of each plant, root and all, using specialized tools</p>
             </div>
             
@@ -60,7 +60,7 @@ const PricingPage = () => {
                 <Truck className="h-8 w-8 text-yellow-600" />
               </div>
               <h3 className="text-lg font-semibold text-gray-900 mb-2">4. No-Mess Transport</h3>
-              <p className="text-gray-600">Clean removal and transport off your property without damaging landscaping or using heavy equipment</p>
+              <p className="text-gray-600">Clean removal and transport off your property without damaging landscaping, using heavy equipment or leaving any trace of the work behind</p>
             </div>
             
             <div className="bg-white p-6 rounded-lg shadow-md text-center">
