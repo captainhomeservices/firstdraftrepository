@@ -25,7 +25,7 @@ const HomePage = () => {
                 <span className="text-teal-300">Austin Hydrilla removal</span><br />
                 <span className="text-teal-300">We Clear out Lake Weeds Fast</span><br />
               </h1>
-              <p className="text-xl md:text-2xl mb-8 max-w-4xl mx-auto leading-relaxed">
+              <p className="text-xl md:text-2xl mb-8 max-w-4xl mx-auto leading-relaxed text-teal-300">
                 Serving Lake Austin, Lake LBJ and the rest of the Highland Lakes.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -67,7 +67,7 @@ const HomePage = () => {
                 Are you tired of battling stubborn aquatic vegetation that chokes out your beautiful lake or pond? Thinking about dousing that precious water with harsh chemicals, hoping for a quick fix? Manual lake weed removal is the only way to ensure invasive aqautic vegetation is pulled by the roots and allows your dock and shoreline a chance to be beautiful again.
               </p>
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                At <strong>Captain Home Services</strong>, we use specailized tools and equipment to remove tubers and roots, leaving minimal debris that causes rapid re-growth of lake weeds. Our method of manual <strong>Austin aquatic vegetation removal</strong> isn't just about clearing weeds; it\'s about restoring the natural beauty and balance of your dock area and shoreline. Let our <strong>Lake Management</strong> experts take care of your dock and shoreline for you.
+                At <strong>Captain Home Services</strong>, we use specailized tools and equipment to remove tubers and roots, leaving minimal debris that causes rapid re-growth of lake weeds. Our method of manual <strong>Austin aquatic vegetation removal</strong> isn't just about clearing weeds; it's about restoring the natural beauty and balance of your dock area and shoreline. Let our <strong>Lake Management</strong> experts take care of your dock and shoreline for you.
               </p>
               <div className="space-y-4">
                 <div className="flex items-start space-x-3">
