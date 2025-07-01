@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { DollarSign, CheckCircle, Target, Truck, Award, Scissors } from 'lucide-react';
+import { DollarSign, CheckCircle, Target, Truck, Award, Scissors, Sun } from 'lucide-react';
 
 const PricingPage = () => {
   return (
@@ -30,13 +30,13 @@ const PricingPage = () => {
             Our pricing is a direct reflection of our comprehensive, hands-on approach, ensuring you get the most bang for your buck. Here's how your investment translates into a crystal-clear waterfront with <strong>Captain Home Services</strong>:
           </p>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-8">
             <div className="bg-white p-6 rounded-lg shadow-md text-center">
               <div className="bg-blue-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
                 <Target className="h-8 w-8 text-blue-600" />
               </div>
               <h3 className="text-lg font-semibold text-gray-900 mb-2">1. Precise Identification and up front Pricing</h3>
-              <p className="text-gray-600">We identify the issues and build a plan to remove the nuissance vegetation at a price that can't be beat</p>
+              <p className="text-gray-600">We identify the issues and build a plan to remove the nuisance vegetation at a price that can't be beat</p>
             </div>
             
             <div className="bg-white p-6 rounded-lg shadow-md text-center">
@@ -69,6 +69,14 @@ const PricingPage = () => {
               </div>
               <h3 className="text-lg font-semibold text-gray-900 mb-2">5. Responsible Disposal</h3>
               <p className="text-gray-600">Professional composting facility disposal to prevent environmental spread</p>
+            </div>
+            
+            <div className="bg-white p-6 rounded-lg shadow-md text-center">
+              <div className="bg-orange-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                <Sun className="h-8 w-8 text-orange-600" />
+              </div>
+              <h3 className="text-lg font-semibold text-gray-900 mb-2">6. Immediate Enjoyment</h3>
+              <p className="text-gray-600">Your lakefront is clean, clear and ready for fun in the sun</p>
             </div>
           </div>
         </div>
