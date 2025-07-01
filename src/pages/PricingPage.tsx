@@ -82,54 +82,8 @@ const PricingPage = () => {
         </div>
       </section>
 
-      {/* Value Proposition */}
+      {/* Pricing Range - Moved up */}
       <section className="py-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              True Value, Not Just Low Price
-            </h2>
-            <p className="text-xl text-gray-600 max-w-4xl mx-auto">
-              When it comes to restoring beauty and usability to your waterfront, we are your highest value option. Our pricing reflects a commitment to quality, precision, and a long-term solution that saves you money and headaches down the line.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
-            <div>
-              <img
-                src="https://cdn11.bigcommerce.com/s-94ve5l/images/stencil/500x659/products/2411/4162/WeedRay-1__62680.1736887802.jpg?c=2"
-                alt="Aquatic lake weed removal"
-                className="rounded-lg shadow-xl"
-              />
-            </div>
-            <div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-6">
-                We Don't Just Clear Weeds
-              </h3>
-              <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                We manage your shoreline, dock areas, and swimming areas to ensure your property is the place family and friends dream of spending long weekends. <strong>Captain Home Services</strong> maintains your lake recreational areas at a value that's worth the results.
-              </p>
-              <div className="space-y-4">
-                <div className="flex items-start space-x-3">
-                  <CheckCircle className="h-6 w-6 text-green-600 mt-1 flex-shrink-0" />
-                  <p className="text-gray-700">Root-deep removal prevents rapid re-growth</p>
-                </div>
-                <div className="flex items-start space-x-3">
-                  <CheckCircle className="h-6 w-6 text-green-600 mt-1 flex-shrink-0" />
-                  <p className="text-gray-700">Chemical-free approach protects your shoreline and swim areas</p>
-                </div>
-                <div className="flex items-start space-x-3">
-                  <CheckCircle className="h-6 w-6 text-green-600 mt-1 flex-shrink-0" />
-                  <p className="text-gray-700">Complete permitting and compliance included</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Pricing Range */}
-      <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
@@ -171,6 +125,52 @@ const PricingPage = () => {
               <p className="text-gray-700">
                 <strong>Captain Home Services</strong> provides a transparent, upfront quote after our initial assessment, so you know exactly what to expect. Weeds do grow back, as their infestation has taken over the Highland Lakes and no permanent solution from authorities is in sight. When they do grow back, our past customers receive a returning customer discount to reflect our commitment to keeping our customers' recreational areas clean and clear at a high value. Long-term lake management plans are available, and usually do not require more than 2-3 treatments per year. For larger lots with extensive infestations, costs may vary.
               </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Value Proposition - Moved down */}
+      <section className="py-16 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">
+              True Value, Not Just Low Price
+            </h2>
+            <p className="text-xl text-gray-600 max-w-4xl mx-auto">
+              When it comes to restoring beauty and usability to your waterfront, we are your highest value option. Our pricing reflects a commitment to quality, precision, and a long-term solution that saves you money and headaches down the line.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
+            <div>
+              <img
+                src="https://cdn11.bigcommerce.com/s-94ve5l/images/stencil/500x659/products/2411/4162/WeedRay-1__62680.1736887802.jpg?c=2"
+                alt="Aquatic lake weed removal"
+                className="rounded-lg shadow-xl"
+              />
+            </div>
+            <div>
+              <h3 className="text-2xl font-bold text-gray-900 mb-6">
+                We Don't Just Clear Weeds
+              </h3>
+              <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+                We manage your shoreline, dock areas, and swimming areas to ensure your property is the place family and friends dream of spending long weekends. <strong>Captain Home Services</strong> maintains your lake recreational areas at a value that's worth the results.
+              </p>
+              <div className="space-y-4">
+                <div className="flex items-start space-x-3">
+                  <CheckCircle className="h-6 w-6 text-green-600 mt-1 flex-shrink-0" />
+                  <p className="text-gray-700">Root-deep removal prevents rapid re-growth</p>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <CheckCircle className="h-6 w-6 text-green-600 mt-1 flex-shrink-0" />
+                  <p className="text-gray-700">Chemical-free approach protects your shoreline and swim areas</p>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <CheckCircle className="h-6 w-6 text-green-600 mt-1 flex-shrink-0" />
+                  <p className="text-gray-700">Complete permitting and compliance included</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
