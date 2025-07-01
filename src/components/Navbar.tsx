@@ -29,7 +29,7 @@ const Navbar = () => {
           <Link to="/" onClick={scrollToTop} className="flex items-center space-x-3">
             <div className="w-10 h-10 rounded-full overflow-hidden bg-gray-100 flex-shrink-0">
               <img 
-                src="https://cdn11.bigcommerce.com/s-94ve5l/images/stencil/500x659/products/2411/4162/WeedRay-1__62680.1736887802.jpg?c=2" 
+                src="/Captain home services logo.PNG" 
                 alt="Captain Home Services Logo" 
                 className="w-full h-full object-cover"
               />

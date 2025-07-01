@@ -36,8 +36,8 @@ const HowItWorksPage = () => {
             </div>
             <div>
               <img
-                src="https://www.petzooie.com/assets/uploaded_images/pet_care_images/original/pp90.jpg"
-                alt="Dense aquatic vegetation problem"
+                src="https://mdc.mo.gov/sites/default/files/styles/gallery_main_image/public/mo_nature/media/images/2010/07/eurasian_water_milfoilcmyk.jpg?itok=efZIYgsg"
+                alt="Eurasian watermilfoil invasive aquatic vegetation"
                 className="rounded-lg shadow-xl"
               />
             </div>
