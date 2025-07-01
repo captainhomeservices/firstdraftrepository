@@ -173,7 +173,7 @@ const HomePage = () => {
             Ready to Reclaim Your Waterfront?
           </h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
-            Contact <strong>Captain Home Services</strong> today for a free consultation and let's talk about bringing that Texas sparkle back to your lake or pond. No chemicals, no heavy machinery on your property, just efficient and professional permitted and insured invasive lake weed removal.
+            Contact <strong>Captain Home Services</strong> today for a free consultation and let's talk about bringing that Texas sparkle back to your lakefront. No chemicals, no heavy machinery on your property, just efficient and professional permitted and insured invasive lake weed removal.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
