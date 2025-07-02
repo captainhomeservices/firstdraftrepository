@@ -1,8 +1,54 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Calendar, User, ArrowRight, Fish, Wrench, FileText, MapPin, Leaf } from 'lucide-react';
+import { Calendar, User, ArrowRight, Fish, Wrench, FileText, MapPin, Leaf, Clock, BookOpen } from 'lucide-react';
+import SEOHead from '../components/SEOHead';
 
 const BlogPage = () => {
+  const blogPageSchema = {
+    "@context": "https://schema.org",
+    "@type": "Blog",
+    "name": "Captain's Log - Austin Lake Management Blog",
+    "description": "Expert insights on Austin lake weed removal, hydrilla control, and aquatic vegetation management from Captain Home Services.",
+    "url": "https://austinlakemanagement.com/blog",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Captain Home Services",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://austinlakemanagement.com/captain-home-logo-wheel-circle.webp"
+      }
+    },
+    "mainEntity": {
+      "@type": "ItemList",
+      "itemListElement": [
+        {
+          "@type": "BlogPosting",
+          "position": 1,
+          "headline": "Understanding Lake Weeds: Why They Grow and How to Manage Them",
+          "url": "https://austinlakemanagement.com/blog/understanding-lake-weeds-why-they-grow-and-how-to-manage-them"
+        },
+        {
+          "@type": "BlogPosting", 
+          "position": 2,
+          "headline": "Navigating Permitting for Aquatic Vegetation Removal in Texas",
+          "url": "https://austinlakemanagement.com/blog/navigating-permitting-aquatic-vegetation-removal-texas"
+        },
+        {
+          "@type": "BlogPosting",
+          "position": 3, 
+          "headline": "The Benefits of Manual Aquatic Weed Removal: A Sustainable Approach",
+          "url": "https://austinlakemanagement.com/blog/benefits-manual-aquatic-weed-removal-sustainable-approach"
+        },
+        {
+          "@type": "BlogPosting",
+          "position": 4,
+          "headline": "The Importance of Aquatic Vegetation Removal for a Healthy Lakefront",
+          "url": "https://austinlakemanagement.com/blog/importance-aquatic-vegetation-removal-healthy-lakefront"
+        }
+      ]
+    }
+  };
+
   const blogPosts = [
     {
       id: 1,
@@ -15,7 +61,8 @@ const BlogPage = () => {
       image: "https://mdc.mo.gov/sites/default/files/styles/gallery_main_image/public/mo_nature/media/images/2010/07/eurasian_water_milfoilcmyk.jpg?itok=efZIYgsg",
       icon: <Leaf className="h-5 w-5" />,
       keywords: ["lake weeds", "aquatic vegetation management", "Austin lake management", "invasive aquatic species", "lake weed control"],
-      readTime: "8 min read"
+      readTime: "8 min read",
+      featured: true
     },
     {
       id: 2,
@@ -28,7 +75,8 @@ const BlogPage = () => {
       image: "https://i.imgur.com/dmrnTO6.jpg",
       icon: <FileText className="h-5 w-5" />,
       keywords: ["TPWD permits", "LCRA compliance", "Texas aquatic vegetation removal", "lake weed removal permits", "Austin permitting"],
-      readTime: "6 min read"
+      readTime: "6 min read",
+      featured: true
     },
     {
       id: 3,
@@ -41,7 +89,8 @@ const BlogPage = () => {
       image: "https://cdn11.bigcommerce.com/s-94ve5l/images/stencil/500x659/products/2411/4162/WeedRay-1__62680.1736887802.jpg?c=2",
       icon: <Leaf className="h-5 w-5" />,
       keywords: ["manual aquatic weed removal", "sustainable lake management", "chemical-free weed removal", "Austin lake cleaning", "eco-friendly lake services"],
-      readTime: "7 min read"
+      readTime: "7 min read",
+      featured: true
     },
     {
       id: 4,
@@ -54,7 +103,8 @@ const BlogPage = () => {
       image: "https://static01.nyt.com/images/2023/12/10/nyregion/10Conn-River-01-wvbc/Conn-River--01-wvbc-superJumbo.jpg?quality=75&auto=webp",
       icon: <Fish className="h-5 w-5" />,
       keywords: ["aquatic vegetation removal", "lakefront health", "Austin lake weeds", "hydrilla removal", "lake property value"],
-      readTime: "9 min read"
+      readTime: "9 min read",
+      featured: true
     },
     {
       id: 5,
@@ -64,7 +114,8 @@ const BlogPage = () => {
       author: "Captain Cam",
       category: "Invasive Species",
       image: "https://parks.traviscountytx.gov/files/images/loop-360/hero.jpg",
-      icon: <FileText className="h-5 w-5" />
+      icon: <FileText className="h-5 w-5" />,
+      readTime: "10 min read"
     },
     {
       id: 6,
@@ -74,7 +125,8 @@ const BlogPage = () => {
       author: "Captain Cam",
       category: "Lake Austin Life",
       image: "https://activerain-store.s3.amazonaws.com/image_store/uploads/agents/afranzetti/files/Screen%20Shot%202014-03-14%20at%206.30.41%20AM.jpg",
-      icon: <MapPin className="h-5 w-5" />
+      icon: <MapPin className="h-5 w-5" />,
+      readTime: "6 min read"
     },
     {
       id: 7,
@@ -84,7 +136,8 @@ const BlogPage = () => {
       author: "Captain Cam",
       category: "Fishing",
       image: "https://www.austinmonitor.com/wp-content/uploads/2024/07/red_bud_isle_ii_by_mkocaoglu_d9blj0t-fullview-620x365.jpg",
-      icon: <Fish className="h-5 w-5" />
+      icon: <Fish className="h-5 w-5" />,
+      readTime: "8 min read"
     },
     {
       id: 8,
@@ -94,89 +147,115 @@ const BlogPage = () => {
       author: "Captain Cam",
       category: "Resources",
       image: "https://rentalboataustin.com/wp-content/uploads/ryan.jpeg",
-      icon: <Wrench className="h-5 w-5" />
+      icon: <Wrench className="h-5 w-5" />,
+      readTime: "5 min read"
     }
   ];
 
+  const featuredPosts = blogPosts.filter(post => post.featured);
+  const additionalPosts = blogPosts.filter(post => !post.featured);
+
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-gray-50">
+      <SEOHead
+        title="Captain's Log - Austin Lake Management Blog | Captain Home Services"
+        description="Expert insights on Austin lake weed removal, hydrilla control, and aquatic vegetation management. Learn about TPWD permits, manual removal techniques, and Highland Lakes management from Captain Home Services."
+        keywords="Austin lake management blog, lake weed removal tips, hydrilla control Austin, TPWD permits, aquatic vegetation removal, Lake Austin management, Highland Lakes weed control, Captain Home Services blog"
+        canonicalUrl="https://austinlakemanagement.com/blog"
+        structuredData={blogPageSchema}
+      />
+
       {/* Hero Section */}
-      <section className="py-16 bg-gradient-to-r from-green-600 to-teal-600 text-white py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">
-            The Captain's Log
-          </h1>
-          <p className="text-xl md:text-2xl mb-8 max-w-4xl mx-auto">
-            Austin Lake Management Insights & Local Knowledge
-          </p>
-          <p className="text-lg max-w-3xl mx-auto">
-            Expert guidance on <strong>hydrilla removal</strong>, <strong>lake weed removal</strong>, and everything you need to know about maintaining clear, healthy Austin area lakes.
-          </p>
+      <section className="bg-gradient-to-r from-green-600 to-teal-600 text-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24">
+          <div className="text-center">
+            <div className="flex justify-center mb-6">
+              <BookOpen className="h-16 w-16 text-white opacity-90" />
+            </div>
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 tracking-tight">
+              The Captain's Log
+            </h1>
+            <p className="text-xl md:text-2xl lg:text-3xl mb-8 max-w-4xl mx-auto font-light">
+              Austin Lake Management Insights & Local Knowledge
+            </p>
+            <p className="text-lg md:text-xl max-w-3xl mx-auto opacity-90 leading-relaxed">
+              Expert guidance on <strong>hydrilla removal</strong>, <strong>lake weed removal</strong>, and everything you need to know about maintaining clear, healthy Austin area lakes.
+            </p>
+          </div>
         </div>
       </section>
 
       {/* Introduction */}
-      <section className="py-16">
+      <section className="bg-white py-12 md:py-16">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <p className="text-lg text-gray-700 leading-relaxed">
+          <p className="text-lg md:text-xl text-gray-700 leading-relaxed">
             From tackling stubborn <strong>Lake Austin weed removal</strong> challenges to sharing the best local spots for boating and fishing, we cover what matters to Austin lakefront property owners. Our focus is practical <strong>lake management</strong> advice, proven <strong>hydrilla removal</strong> techniques, and insights that help you get the most from your waterfront investment.
           </p>
         </div>
       </section>
 
       {/* Featured Posts */}
-      <section className="py-16 bg-gray-50">
+      <section className="py-12 md:py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-gray-900 mb-12 text-center">
-            Latest Articles
-          </h2>
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+              Latest Articles
+            </h2>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+              In-depth guides and expert insights on Austin lake management
+            </p>
+          </div>
           
           {/* Featured Blog Posts Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 mb-16">
-            {blogPosts.slice(0, 4).map((post) => (
-              <article key={post.id} className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-16">
+            {featuredPosts.map((post) => (
+              <article key={post.id} className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
                 <div className="relative">
                   <img
                     src={post.image}
                     alt={post.title}
-                    className="w-full h-64 object-cover"
+                    className="w-full h-64 md:h-72 object-cover"
                   />
                   <div className="absolute top-4 left-4">
-                    <div className="bg-teal-600 text-white px-3 py-1 rounded-full text-sm font-medium flex items-center space-x-1">
+                    <div className="bg-white bg-opacity-95 text-gray-800 px-3 py-1.5 rounded-full text-sm font-medium flex items-center space-x-1 shadow-lg">
                       {post.icon}
                       <span>{post.category}</span>
                     </div>
                   </div>
                   {post.readTime && (
                     <div className="absolute top-4 right-4">
-                      <div className="bg-black bg-opacity-70 text-white px-2 py-1 rounded text-sm">
+                      <div className="bg-black bg-opacity-70 text-white px-3 py-1.5 rounded-full text-sm flex items-center">
+                        <Clock className="h-3 w-3 mr-1" />
                         {post.readTime}
                       </div>
                     </div>
                   )}
                 </div>
                 
-                <div className="p-6">
-                  <div className="flex items-center text-sm text-gray-500 mb-3">
-                    <Calendar className="h-4 w-4 mr-1" />
-                    <span className="mr-4">{post.date}</span>
+                <div className="p-6 md:p-8">
+                  <div className="flex items-center text-sm text-gray-500 mb-4">
+                    <Calendar className="h-4 w-4 mr-2" />
+                    <time dateTime={post.date}>{post.date}</time>
+                    <span className="mx-2">•</span>
                     <User className="h-4 w-4 mr-1" />
                     <span>{post.author}</span>
                   </div>
                   
-                  <h2 className="text-xl font-bold text-gray-900 mb-3 line-clamp-2">
-                    {post.title}
+                  <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-4 leading-tight hover:text-teal-600 transition-colors">
+                    <Link to={`/blog/${post.slug}`}>
+                      {post.title}
+                    </Link>
                   </h2>
                   
-                  <p className="text-gray-700 mb-4 line-clamp-3">
+                  <p className="text-gray-700 mb-6 leading-relaxed">
                     {post.excerpt}
                   </p>
                   
                   {post.keywords && (
-                    <div className="mb-4">
-                      <div className="flex flex-wrap gap-1">
+                    <div className="mb-6">
+                      <div className="flex flex-wrap gap-2">
                         {post.keywords.slice(0, 3).map((keyword, index) => (
-                          <span key={index} className="bg-gray-100 text-gray-600 px-2 py-1 rounded text-xs">
+                          <span key={index} className="bg-gray-100 text-gray-600 px-2.5 py-1 rounded-full text-xs font-medium">
                             {keyword}
                           </span>
                         ))}
@@ -184,20 +263,13 @@ const BlogPage = () => {
                     </div>
                   )}
                   
-                  {post.slug ? (
-                    <Link
-                      to={`/blog/${post.slug}`}
-                      className="flex items-center text-teal-600 font-medium hover:text-teal-700 transition-colors"
-                    >
-                      <span>Read More</span>
-                      <ArrowRight className="h-4 w-4 ml-1" />
-                    </Link>
-                  ) : (
-                    <div className="flex items-center text-gray-400 font-medium">
-                      <span>Coming Soon</span>
-                      <ArrowRight className="h-4 w-4 ml-1" />
-                    </div>
-                  )}
+                  <Link
+                    to={`/blog/${post.slug}`}
+                    className="inline-flex items-center text-teal-600 font-semibold hover:text-teal-700 transition-colors group"
+                  >
+                    <span>Read Full Article</span>
+                    <ArrowRight className="h-4 w-4 ml-2 group-hover:translate-x-1 transition-transform duration-200" />
+                  </Link>
                 </div>
               </article>
             ))}
@@ -205,33 +277,41 @@ const BlogPage = () => {
 
           {/* Additional Posts */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {blogPosts.slice(4).map((post) => (
-              <article key={post.id} className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
+            {additionalPosts.map((post) => (
+              <article key={post.id} className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1">
                 <div className="relative">
                   <img
                     src={post.image}
                     alt={post.title}
                     className="w-full h-48 object-cover"
                   />
-                  <div className="absolute top-2 left-2">
-                    <div className="bg-teal-600 text-white px-2 py-1 rounded text-xs font-medium flex items-center space-x-1">
+                  <div className="absolute top-3 left-3">
+                    <div className="bg-white bg-opacity-95 text-gray-800 px-2 py-1 rounded text-xs font-medium flex items-center space-x-1">
                       {post.icon}
                       <span>{post.category}</span>
                     </div>
                   </div>
+                  {post.readTime && (
+                    <div className="absolute top-3 right-3">
+                      <div className="bg-black bg-opacity-70 text-white px-2 py-1 rounded text-xs flex items-center">
+                        <Clock className="h-3 w-3 mr-1" />
+                        {post.readTime}
+                      </div>
+                    </div>
+                  )}
                 </div>
                 
                 <div className="p-4">
                   <div className="flex items-center text-xs text-gray-500 mb-2">
                     <Calendar className="h-3 w-3 mr-1" />
-                    <span>{post.date}</span>
+                    <time dateTime={post.date}>{post.date}</time>
                   </div>
                   
-                  <h3 className="text-sm font-bold text-gray-900 mb-2 line-clamp-2">
+                  <h3 className="text-sm font-bold text-gray-900 mb-2 line-clamp-2 leading-tight">
                     {post.title}
                   </h3>
                   
-                  <p className="text-gray-600 text-sm mb-3 line-clamp-2">
+                  <p className="text-gray-600 text-sm mb-3 line-clamp-2 leading-relaxed">
                     {post.excerpt}
                   </p>
                   
@@ -247,39 +327,39 @@ const BlogPage = () => {
       </section>
 
       {/* Topic Categories */}
-      <section className="py-16">
+      <section className="py-12 md:py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-gray-900 mb-12 text-center">
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-12 text-center">
             What We Cover
           </h2>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="text-center p-6 bg-blue-50 rounded-lg">
-              <div className="bg-blue-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+            <div className="text-center p-8 bg-blue-50 rounded-xl border border-blue-100">
+              <div className="bg-blue-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6">
                 <Leaf className="h-8 w-8 text-blue-600" />
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">Lake Weed Control</h3>
-              <p className="text-gray-700">
+              <h3 className="text-xl font-semibold text-gray-900 mb-4">Lake Weed Control</h3>
+              <p className="text-gray-700 leading-relaxed">
                 Practical advice on <strong>hydrilla removal</strong>, <strong>lake weed removal</strong> techniques, and identifying invasive species in Austin area lakes.
               </p>
             </div>
             
-            <div className="text-center p-6 bg-green-50 rounded-lg">
-              <div className="bg-green-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+            <div className="text-center p-8 bg-green-50 rounded-xl border border-green-100">
+              <div className="bg-green-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6">
                 <Fish className="h-8 w-8 text-green-600" />
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">Lake Austin Living</h3>
-              <p className="text-gray-700">
+              <h3 className="text-xl font-semibold text-gray-900 mb-4">Lake Austin Living</h3>
+              <p className="text-gray-700 leading-relaxed">
                 Local insights on fishing, boating, dining, and making the most of your Austin lakefront property.
               </p>
             </div>
             
-            <div className="text-center p-6 bg-teal-50 rounded-lg">
-              <div className="bg-teal-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+            <div className="text-center p-8 bg-teal-50 rounded-xl border border-teal-100">
+              <div className="bg-teal-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6">
                 <FileText className="h-8 w-8 text-teal-600" />
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">Lake Management</h3>
-              <p className="text-gray-700">
+              <h3 className="text-xl font-semibold text-gray-900 mb-4">Lake Management</h3>
+              <p className="text-gray-700 leading-relaxed">
                 Professional <strong>lake management</strong> strategies, permitting guidance, and sustainable waterfront maintenance practices.
               </p>
             </div>
@@ -288,19 +368,19 @@ const BlogPage = () => {
       </section>
 
       {/* Newsletter Signup */}
-      <section className="py-16 bg-gradient-to-r from-teal-600 to-blue-600 text-white">
+      <section className="py-12 md:py-16 bg-gradient-to-r from-teal-600 to-blue-600 text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-bold mb-4">Stay Informed</h2>
-          <p className="text-xl mb-8">
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">Stay Informed</h2>
+          <p className="text-xl mb-8 opacity-90">
             Get updates on <strong>Austin lake management</strong>, seasonal maintenance tips, and local waterfront news.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center max-w-md mx-auto">
             <input
               type="email"
               placeholder="Your email address"
-              className="flex-1 px-4 py-3 rounded-lg text-gray-900 focus:outline-none focus:ring-2 focus:ring-white focus:ring-opacity-50"
+              className="flex-1 px-4 py-3 rounded-lg text-gray-900 focus:outline-none focus:ring-2 focus:ring-white focus:ring-opacity-50 text-base"
             />
-            <button className="bg-white text-teal-600 hover:bg-gray-100 px-6 py-3 rounded-lg font-semibold transition-colors duration-200">
+            <button className="bg-white text-teal-600 hover:bg-gray-100 px-6 py-3 rounded-lg font-semibold transition-colors duration-200 whitespace-nowrap">
               Subscribe
             </button>
           </div>
@@ -308,9 +388,9 @@ const BlogPage = () => {
       </section>
 
       {/* Call to Action */}
-      <section className="py-16 bg-white">
+      <section className="py-12 md:py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-bold text-gray-900 mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
             Need Professional Lake Weed Removal?
           </h2>
           <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
@@ -319,9 +399,9 @@ const BlogPage = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               to="/contact"
-              className="bg-teal-600 hover:bg-teal-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors duration-200"
+              className="bg-teal-600 hover:bg-teal-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200 transform hover:scale-105 shadow-lg"
             >
-              Get Free Consultation
+              Get Free Estimate
             </Link>
             <Link
               to="/how-it-works"
