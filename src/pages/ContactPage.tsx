@@ -153,7 +153,7 @@ This estimate request was sent from the Captain Home Services website contact fo
       },
       "openingHours": [
         "Mo-Fr 08:00-18:00",
-        "Sa 09:00-16:00"
+        "Sa 10:00-14:00"
       ],
       "serviceArea": [
         "Lake Austin",
@@ -184,7 +184,7 @@ This estimate request was sent from the Captain Home Services website contact fo
             Howdy Neighbor!
           </h1>
           <p className="text-lg md:text-xl lg:text-2xl mb-6 md:mb-8 max-w-4xl mx-auto">
-            Fill out the contact form to receive a call and schedule an estimate
+            Schedule a lake weed removal estimate
           </p>
         </div>
       </section>
@@ -235,7 +235,7 @@ This estimate request was sent from the Captain Home Services website contact fo
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-8 md:mb-12">
             <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
-              Request Your Free Estimate
+              Send us your details and we'll call you ASAP to schedule an estimate
             </h2>
             <p className="text-base md:text-lg text-gray-700 max-w-3xl mx-auto">
               Got a question about a stubborn patch of <strong>Lake Austin hydrilla</strong>? Curious about our chemical-free approach to <strong>Austin lake weed removal</strong>? Or maybe you just want to shoot the breeze about the best fishing spots on the Lake? Whatever your <strong>Austin aquatic vegetation removal</strong> needs, <strong>Captain Home Services</strong> is here to chat and help.
@@ -345,8 +345,8 @@ This estimate request was sent from the Captain Home Services website contact fo
               <div>
                 <h4 className="font-semibold mb-2">Consultation & Estimates</h4>
                 <p>Monday - Friday: 8:00 AM - 6:00 PM</p>
-                <p>Saturday: 9:00 AM - 4:00 PM</p>
-                <p>Sunday: By appointment</p>
+                <p>Saturday: 10:00 AM - 2:00 PM</p>
+                <p>Sunday: Closed</p>
               </div>
               <div>
                 <h4 className="font-semibold mb-2">Field Work</h4>
