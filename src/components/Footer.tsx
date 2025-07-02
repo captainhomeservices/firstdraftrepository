@@ -42,7 +42,7 @@ const Footer = () => {
                 <div className="text-gray-300 text-sm md:text-base">
                   <p>Austin Metro Area, Texas</p>
                   <p className="text-xs md:text-sm text-gray-400 mt-1">
-                    Serving Austin, Cedar Park, Round Rock, Georgetown, Lakeway, Bee Cave, Dripping Springs & surrounding areas
+                    Serving Austin, Spicewood, Marble Falls, Horseshoe Bay, Kingsland, Granite Shoals, Lakeway, Bee Cave, Dripping Springs & surrounding areas
                   </p>
                 </div>
               </div>

@@ -119,15 +119,23 @@ This estimate request was sent from the Captain Home Services website contact fo
         },
         {
           "@type": "City", 
-          "name": "Cedar Park"
+          "name": "Spicewood"
         },
         {
           "@type": "City",
-          "name": "Round Rock"
+          "name": "Marble Falls"
         },
         {
           "@type": "City",
-          "name": "Georgetown"
+          "name": "Horseshoe Bay"
+        },
+        {
+          "@type": "City",
+          "name": "Kingsland"
+        },
+        {
+          "@type": "City",
+          "name": "Granite Shoals"
         },
         {
           "@type": "City",
@@ -189,53 +197,12 @@ This estimate request was sent from the Captain Home Services website contact fo
         </div>
       </section>
 
-      {/* Contact Information */}
-      <section className="py-12 md:py-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 md:gap-8 mb-12 md:mb-16">
-            <div className="text-center p-6 md:p-8 bg-gray-50 rounded-lg">
-              <div className="bg-teal-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                <Phone className="h-8 w-8 text-teal-600" />
-              </div>
-              <h3 className="text-lg md:text-xl font-semibold text-gray-900 mb-2">Call Us</h3>
-              <p className="text-gray-600 mb-4">Ready to chat? Give us a holler!</p>
-              <a href="tel:(737)-300-9033" className="text-teal-600 hover:text-teal-700 font-semibold text-lg">
-                (737) 300-9033
-              </a>
-            </div>
-            
-            <div className="text-center p-6 md:p-8 bg-gray-50 rounded-lg">
-              <div className="bg-blue-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                <Mail className="h-8 w-8 text-blue-600" />
-              </div>
-              <h3 className="text-lg md:text-xl font-semibold text-gray-900 mb-2">Email Us</h3>
-              <p className="text-gray-600 mb-4">Send us your questions anytime</p>
-              <a href="mailto:captainhomeservices@gmail.com" className="text-blue-600 hover:text-blue-700 font-semibold break-all">
-                captainhomeservices@gmail.com
-              </a>
-            </div>
-            
-            <div className="text-center p-6 md:p-8 bg-gray-50 rounded-lg">
-              <div className="bg-green-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                <MapPin className="h-8 w-8 text-green-600" />
-              </div>
-              <h3 className="text-lg md:text-xl font-semibold text-gray-900 mb-2">Service Area</h3>
-              <p className="text-gray-600 mb-4">Proudly serving the Austin metro area</p>
-              <div className="text-green-600 font-semibold text-sm md:text-base">
-                <p className="mb-2">Austin, Cedar Park, Round Rock, Georgetown, Lakeway, Bee Cave, Dripping Springs</p>
-                <p>Lake Austin • Lake Travis • Lake LBJ • Inks Lake • Lake Marble Falls • Lake Buchanan • Lady Bird Lake</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Contact Form */}
+      {/* Contact Form - Moved above contact info */}
       <section className="py-12 md:py-16 bg-gray-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-8 md:mb-12">
             <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
-              Send us your details and we'll call you ASAP to schedule an estimate
+              Get Fast Results - We'll Call You Today
             </h2>
             <p className="text-base md:text-lg text-gray-700 max-w-3xl mx-auto">
               Got a question about a stubborn patch of <strong>Lake Austin hydrilla</strong>? Curious about our chemical-free approach to <strong>Austin lake weed removal</strong>? Or maybe you just want to shoot the breeze about the best fishing spots on the Lake? Whatever your <strong>Austin aquatic vegetation removal</strong> needs, <strong>Captain Home Services</strong> is here to chat and help.
@@ -333,8 +300,49 @@ This estimate request was sent from the Captain Home Services website contact fo
         </div>
       </section>
 
-      {/* Business Hours */}
+      {/* Contact Information - Moved below form */}
       <section className="py-12 md:py-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 md:gap-8 mb-12 md:mb-16">
+            <div className="text-center p-6 md:p-8 bg-gray-50 rounded-lg">
+              <div className="bg-teal-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                <Phone className="h-8 w-8 text-teal-600" />
+              </div>
+              <h3 className="text-lg md:text-xl font-semibold text-gray-900 mb-2">Call Us</h3>
+              <p className="text-gray-600 mb-4">Ready to chat? Give us a holler!</p>
+              <a href="tel:(737)-300-9033" className="text-teal-600 hover:text-teal-700 font-semibold text-lg">
+                (737) 300-9033
+              </a>
+            </div>
+            
+            <div className="text-center p-6 md:p-8 bg-gray-50 rounded-lg">
+              <div className="bg-blue-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                <Mail className="h-8 w-8 text-blue-600" />
+              </div>
+              <h3 className="text-lg md:text-xl font-semibold text-gray-900 mb-2">Email Us</h3>
+              <p className="text-gray-600 mb-4">Send us your questions anytime</p>
+              <a href="mailto:captainhomeservices@gmail.com" className="text-blue-600 hover:text-blue-700 font-semibold break-all">
+                captainhomeservices@gmail.com
+              </a>
+            </div>
+            
+            <div className="text-center p-6 md:p-8 bg-gray-50 rounded-lg">
+              <div className="bg-green-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                <MapPin className="h-8 w-8 text-green-600" />
+              </div>
+              <h3 className="text-lg md:text-xl font-semibold text-gray-900 mb-2">Service Area</h3>
+              <p className="text-gray-600 mb-4">Proudly serving the Austin metro area</p>
+              <div className="text-green-600 font-semibold text-sm md:text-base">
+                <p className="mb-2">Austin, Spicewood, Marble Falls, Horseshoe Bay, Kingsland, Granite Shoals, Lakeway, Bee Cave, Dripping Springs</p>
+                <p>Lake Austin • Lake Travis • Lake LBJ • Inks Lake • Lake Marble Falls • Lake Buchanan • Lady Bird Lake</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Business Hours */}
+      <section className="py-12 md:py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-gradient-to-r from-teal-600 to-blue-600 rounded-lg p-6 md:p-8 text-white text-center">
             <div className="flex justify-center mb-4">

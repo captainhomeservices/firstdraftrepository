@@ -133,7 +133,7 @@ const ThankYouPage = () => {
           </h2>
           <div className="bg-green-50 rounded-lg p-8 max-w-4xl mx-auto">
             <p className="text-lg text-gray-700 mb-4">
-              <strong>Cities:</strong> Austin, Cedar Park, Round Rock, Georgetown, Lakeway, Bee Cave, Dripping Springs & surrounding areas
+              <strong>Cities:</strong> Austin, Spicewood, Marble Falls, Horseshoe Bay, Kingsland, Granite Shoals, Lakeway, Bee Cave, Dripping Springs & surrounding areas
             </p>
             <p className="text-lg text-gray-700">
               <strong>Lakes:</strong> Lake Austin • Lake Travis • Lake LBJ • Inks Lake • Lake Marble Falls • Lake Buchanan • Lady Bird Lake
