@@ -17,7 +17,10 @@ const Footer = () => {
               <img 
                 src="/captain home logo wheel circle.webp" 
                 alt="Captain Home Services Logo" 
-                className="h-8 w-8 object-contain brightness-0 invert"
+                className="h-8 w-8 object-contain filter brightness-0 invert"
+                onError={(e) => {
+                  e.currentTarget.style.display = 'none';
+                }}
               />
               <span className="font-bold text-lg md:text-xl">Captain Home Services</span>
             </div>

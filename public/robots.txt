@@ -24,3 +24,11 @@ Sitemap: https://austinlakemanagement.com/sitemap.xml
 
 # Additional sitemaps for better indexing
 Sitemap: https://austinlakemanagement.com/blog-sitemap.xml
+
+# Local business optimization
+User-agent: *
+Allow: /contact
+Allow: /pricing
+Allow: /how-it-works
+Allow: /permitting
+Allow: /blog
