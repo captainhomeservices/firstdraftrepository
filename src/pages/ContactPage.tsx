@@ -202,10 +202,10 @@ This estimate request was sent from the Captain Home Services website contact fo
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-8 md:mb-12">
             <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
-              Get Fast Results - We'll Call You Today
+              Request an Estimate- We'll Contact You Today
             </h2>
             <p className="text-base md:text-lg text-gray-700 max-w-3xl mx-auto">
-              Got a question about a stubborn patch of <strong>Lake Austin hydrilla</strong>? Curious about our chemical-free approach to <strong>Austin lake weed removal</strong>? Or maybe you just want to shoot the breeze about the best fishing spots on the Lake? Whatever your <strong>Austin aquatic vegetation removal</strong> needs, <strong>Captain Home Services</strong> is here to chat and help.
+              Got a question about why your lake weeds grew in so fast? Or about how we can help keep your swimming area weed free? Whatever your <strong> aquatic vegetation removal</strong> needs, <strong>Captain Home Services</strong> is here to chat and help.
             </p>
           </div>
 
@@ -377,7 +377,7 @@ This estimate request was sent from the Captain Home Services website contact fo
             Once you hit that 'Request an Estimate' button, consider it done. We'll reach out real quick.
           </p>
           <p className="text-base md:text-lg font-semibold text-gray-900">
-            Choose <span className="text-teal-600">Captain Home Services</span> for your <strong>Austin lake weed removal</strong>.
+            Choose <span className="text-teal-600">Captain Home Services</span> for your <strong>lake weed removal</strong>.
           </p>
         </div>
       </section>
