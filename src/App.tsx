@@ -6,6 +6,7 @@ import HomePage from './pages/HomePage';
 import HowItWorksPage from './pages/HowItWorksPage';
 import PermittingPage from './pages/PermittingPage';
 import ContactPage from './pages/ContactPage';
+import ThankYouPage from './pages/ThankYouPage';
 import PricingPage from './pages/PricingPage';
 import BlogPage from './pages/BlogPage';
 
@@ -25,6 +26,7 @@ function App() {
           <Route path="/how-it-works" element={<HowItWorksPage />} />
           <Route path="/permitting" element={<PermittingPage />} />
           <Route path="/contact" element={<ContactPage />} />
+          <Route path="/thank-you" element={<ThankYouPage />} />
           <Route path="/pricing" element={<PricingPage />} />
           <Route path="/blog" element={<BlogPage />} />
           

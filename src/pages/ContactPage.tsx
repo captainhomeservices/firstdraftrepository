@@ -1,15 +1,16 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { Phone, Mail, MapPin, Clock, CheckCircle } from 'lucide-react';
 import SEOHead from '../components/SEOHead';
 
 const ContactPage = () => {
+  const navigate = useNavigate();
   const [formData, setFormData] = useState({
     name: '',
     email: '',
     phone: '',
     project: ''
   });
-  const [isSubmitted, setIsSubmitted] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -40,15 +41,11 @@ const ContactPage = () => {
       });
 
       if (response.ok) {
-        setIsSubmitted(true);
-        // Reset form after 5 seconds
-        setTimeout(() => {
-          setIsSubmitted(false);
-          setFormData({ name: '', email: '', phone: '', project: '' });
-        }, 5000);
+        // Redirect to thank you page
+        navigate('/thank-you');
       } else {
         // Fallback to mailto if Netlify form fails
-        const subject = encodeURIComponent('New Contact Form Submission - Captain Home Services');
+        const subject = encodeURIComponent('New Estimate Request - Captain Home Services');
         const body = encodeURIComponent(`
 Name: ${formData.name}
 Email: ${formData.email}
@@ -58,18 +55,18 @@ Project Details:
 ${formData.project}
 
 ---
-This message was sent from the Captain Home Services website contact form.
+This estimate request was sent from the Captain Home Services website contact form.
         `);
         
         const mailtoLink = `mailto:captainhomeservices@gmail.com?subject=${subject}&body=${body}`;
         window.location.href = mailtoLink;
-        setIsSubmitted(true);
+        navigate('/thank-you');
       }
       
     } catch (error) {
       console.error('Error sending form:', error);
       // Fallback to mailto
-      const subject = encodeURIComponent('New Contact Form Submission - Captain Home Services');
+      const subject = encodeURIComponent('New Estimate Request - Captain Home Services');
       const body = encodeURIComponent(`
 Name: ${formData.name}
 Email: ${formData.email}
@@ -79,12 +76,12 @@ Project Details:
 ${formData.project}
 
 ---
-This message was sent from the Captain Home Services website contact form.
+This estimate request was sent from the Captain Home Services website contact form.
       `);
       
       const mailtoLink = `mailto:captainhomeservices@gmail.com?subject=${subject}&body=${body}`;
       window.location.href = mailtoLink;
-      setIsSubmitted(true);
+      navigate('/thank-you');
     } finally {
       setIsSubmitting(false);
     }
@@ -94,7 +91,7 @@ This message was sent from the Captain Home Services website contact form.
     "@context": "https://schema.org",
     "@type": "ContactPage",
     "name": "Contact Captain Home Services - Austin Lake Weed Removal",
-    "description": "Contact Captain Home Services for professional Austin lake weed removal, hydrilla control, and aquatic vegetation management. Free consultations available.",
+    "description": "Contact Captain Home Services for professional Austin lake weed removal, hydrilla control, and aquatic vegetation management. Free estimates available.",
     "url": "https://austinlakemanagement.com/contact",
     "mainEntity": {
       "@type": "LocalBusiness",
@@ -174,7 +171,7 @@ This message was sent from the Captain Home Services website contact form.
     <div className="min-h-screen bg-white">
       <SEOHead
         title="Contact Captain Home Services - Austin Lake Weed Removal Experts"
-        description="Contact Captain Home Services for professional Austin lake weed removal, hydrilla control, and aquatic vegetation management. Free consultations available. Call (737) 300-9033."
+        description="Contact Captain Home Services for professional Austin lake weed removal, hydrilla control, and aquatic vegetation management. Free estimates available. Call (737) 300-9033."
         keywords="contact Austin lake weed removal, Captain Home Services contact, Austin hydrilla removal quote, lake management consultation Austin, TPWD permit assistance"
         canonicalUrl="https://austinlakemanagement.com/contact"
         structuredData={contactPageSchema}
@@ -187,10 +184,7 @@ This message was sent from the Captain Home Services website contact form.
             Howdy Neighbor!
           </h1>
           <p className="text-lg md:text-xl lg:text-2xl mb-6 md:mb-8 max-w-4xl mx-auto">
-            Let's Talk Lake Cleaning
-          </p>
-          <p className="text-base md:text-lg max-w-3xl mx-auto">
-            Ready to reclaim your slice of Texas paradise? Drop us a line, and let's get to work. We're always happy to chat about clear water and happy lakefront homeownership.
+            Fill out the contact form to receive a call and schedule an estimate
           </p>
         </div>
       </section>
@@ -241,7 +235,7 @@ This message was sent from the Captain Home Services website contact form.
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-8 md:mb-12">
             <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
-              Tell Us About Your Project
+              Request Your Free Estimate
             </h2>
             <p className="text-base md:text-lg text-gray-700 max-w-3xl mx-auto">
               Got a question about a stubborn patch of <strong>Lake Austin hydrilla</strong>? Curious about our chemical-free approach to <strong>Austin lake weed removal</strong>? Or maybe you just want to shoot the breeze about the best fishing spots on the Lake? Whatever your <strong>Austin aquatic vegetation removal</strong> needs, <strong>Captain Home Services</strong> is here to chat and help.
@@ -249,102 +243,92 @@ This message was sent from the Captain Home Services website contact form.
           </div>
 
           <div className="bg-white rounded-lg shadow-xl p-6 md:p-8">
-            {!isSubmitted ? (
-              <form 
-                onSubmit={handleSubmit} 
-                className="space-y-6"
-                name="contact"
-                method="POST"
-                data-netlify="true"
-                netlify-honeypot="bot-field"
-              >
-                <input type="hidden" name="form-name" value="contact" />
-                <input type="hidden" name="bot-field" />
-                
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                  <div>
-                    <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
-                      Your Name *
-                    </label>
-                    <input
-                      type="text"
-                      id="name"
-                      name="name"
-                      required
-                      value={formData.name}
-                      onChange={handleChange}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-teal-500 transition-colors text-base"
-                      placeholder="Enter your full name"
-                    />
-                  </div>
-                  
-                  <div>
-                    <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
-                      Your Email *
-                    </label>
-                    <input
-                      type="email"
-                      id="email"
-                      name="email"
-                      required
-                      value={formData.email}
-                      onChange={handleChange}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-teal-500 transition-colors text-base"
-                      placeholder="Enter your email address"
-                    />
-                  </div>
-                </div>
-                
+            <form 
+              onSubmit={handleSubmit} 
+              className="space-y-6"
+              name="contact"
+              method="POST"
+              data-netlify="true"
+              netlify-honeypot="bot-field"
+            >
+              <input type="hidden" name="form-name" value="contact" />
+              <input type="hidden" name="bot-field" />
+              
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
-                  <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-2">
-                    Phone Number
+                  <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
+                    Your Name *
                   </label>
                   <input
-                    type="tel"
-                    id="phone"
-                    name="phone"
-                    value={formData.phone}
+                    type="text"
+                    id="name"
+                    name="name"
+                    required
+                    value={formData.name}
                     onChange={handleChange}
                     className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-teal-500 transition-colors text-base"
-                    placeholder="(737) 300-9033"
+                    placeholder="Enter your full name"
                   />
                 </div>
                 
                 <div>
-                  <label htmlFor="project" className="block text-sm font-medium text-gray-700 mb-2">
-                    Tell Us About Your Project *
+                  <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
+                    Your Email *
                   </label>
-                  <textarea
-                    id="project"
-                    name="project"
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
                     required
-                    rows={6}
-                    value={formData.project}
+                    value={formData.email}
                     onChange={handleChange}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-teal-500 transition-colors resize-none text-base"
-                    placeholder="The more details you can provide, the better we can understand your needs and get back to you with the right solutions. Don't be shy; no project is too big or too small for our dedicated team at Captain Home Services."
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-teal-500 transition-colors text-base"
+                    placeholder="Enter your email address"
                   />
                 </div>
-                
-                <div className="text-center">
-                  <button
-                    type="submit"
-                    disabled={isSubmitting}
-                    className="bg-teal-600 hover:bg-teal-700 disabled:bg-teal-400 text-white px-6 md:px-8 py-3 md:py-4 rounded-lg text-base md:text-lg font-semibold transition-colors duration-200 transform hover:scale-105 disabled:transform-none w-full md:w-auto"
-                  >
-                    {isSubmitting ? 'Sending...' : 'Send Message'}
-                  </button>
-                </div>
-              </form>
-            ) : (
-              <div className="text-center py-8 md:py-12">
-                <CheckCircle className="h-12 md:h-16 w-12 md:w-16 text-green-600 mx-auto mb-4" />
-                <h3 className="text-xl md:text-2xl font-bold text-gray-900 mb-4">Message Sent Successfully!</h3>
-                <p className="text-base md:text-lg text-gray-700">
-                  Thanks for reaching out. We'll get back to you soon to discuss your lake weed removal needs.
-                </p>
               </div>
-            )}
+              
+              <div>
+                <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-2">
+                  Phone Number
+                </label>
+                <input
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  value={formData.phone}
+                  onChange={handleChange}
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-teal-500 transition-colors text-base"
+                  placeholder="(737) 300-9033"
+                />
+              </div>
+              
+              <div>
+                <label htmlFor="project" className="block text-sm font-medium text-gray-700 mb-2">
+                  Tell Us About Your Project *
+                </label>
+                <textarea
+                  id="project"
+                  name="project"
+                  required
+                  rows={6}
+                  value={formData.project}
+                  onChange={handleChange}
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-teal-500 transition-colors resize-none text-base"
+                  placeholder="The more details you can provide, the better we can understand your needs and get back to you with the right solutions. Don't be shy; no project is too big or too small for our dedicated team at Captain Home Services."
+                />
+              </div>
+              
+              <div className="text-center">
+                <button
+                  type="submit"
+                  disabled={isSubmitting}
+                  className="bg-teal-600 hover:bg-teal-700 disabled:bg-teal-400 text-white px-6 md:px-8 py-3 md:py-4 rounded-lg text-base md:text-lg font-semibold transition-colors duration-200 transform hover:scale-105 disabled:transform-none w-full md:w-auto"
+                >
+                  {isSubmitting ? 'Sending...' : 'Request an Estimate'}
+                </button>
+              </div>
+            </form>
           </div>
         </div>
       </section>
@@ -382,7 +366,7 @@ This message was sent from the Captain Home Services website contact form.
             Ready to Make Your Waterfront Perfect?
           </h2>
           <p className="text-lg md:text-xl text-gray-600 mb-6 md:mb-8 max-w-3xl mx-auto">
-            Once you hit that 'Send' button, consider it done. We'll reach out real quick.
+            Once you hit that 'Request an Estimate' button, consider it done. We'll reach out real quick.
           </p>
           <p className="text-base md:text-lg font-semibold text-gray-900">
             Choose <span className="text-teal-600">Captain Home Services</span> for your <strong>Austin lake weed removal</strong>.
