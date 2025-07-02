@@ -24,7 +24,51 @@ const ContactPage = () => {
     setIsSubmitting(true);
     
     try {
-      // Create mailto link with form data
+      // Create FormData for Netlify form submission
+      const formDataToSubmit = new FormData();
+      formDataToSubmit.append('form-name', 'contact');
+      formDataToSubmit.append('name', formData.name);
+      formDataToSubmit.append('email', formData.email);
+      formDataToSubmit.append('phone', formData.phone);
+      formDataToSubmit.append('project', formData.project);
+
+      // Submit to Netlify
+      const response = await fetch('/', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: new URLSearchParams(formDataToSubmit as any).toString()
+      });
+
+      if (response.ok) {
+        setIsSubmitted(true);
+        // Reset form after 5 seconds
+        setTimeout(() => {
+          setIsSubmitted(false);
+          setFormData({ name: '', email: '', phone: '', project: '' });
+        }, 5000);
+      } else {
+        // Fallback to mailto if Netlify form fails
+        const subject = encodeURIComponent('New Contact Form Submission - Captain Home Services');
+        const body = encodeURIComponent(`
+Name: ${formData.name}
+Email: ${formData.email}
+Phone: ${formData.phone}
+
+Project Details:
+${formData.project}
+
+---
+This message was sent from the Captain Home Services website contact form.
+        `);
+        
+        const mailtoLink = `mailto:captainhomeservices@gmail.com?subject=${subject}&body=${body}`;
+        window.location.href = mailtoLink;
+        setIsSubmitted(true);
+      }
+      
+    } catch (error) {
+      console.error('Error sending form:', error);
+      // Fallback to mailto
       const subject = encodeURIComponent('New Contact Form Submission - Captain Home Services');
       const body = encodeURIComponent(`
 Name: ${formData.name}
@@ -39,21 +83,8 @@ This message was sent from the Captain Home Services website contact form.
       `);
       
       const mailtoLink = `mailto:captainhomeservices@gmail.com?subject=${subject}&body=${body}`;
-      
-      // Open email client
       window.location.href = mailtoLink;
-      
-      // Show success message
       setIsSubmitted(true);
-      
-      // Reset form after 5 seconds
-      setTimeout(() => {
-        setIsSubmitted(false);
-        setFormData({ name: '', email: '', phone: '', project: '' });
-      }, 5000);
-      
-    } catch (error) {
-      console.error('Error sending email:', error);
     } finally {
       setIsSubmitting(false);
     }
@@ -72,9 +103,56 @@ This message was sent from the Captain Home Services website contact form.
       "email": "captainhomeservices@gmail.com",
       "address": {
         "@type": "PostalAddress",
+        "streetAddress": "Austin Metro Area",
         "addressLocality": "Austin",
         "addressRegion": "TX",
+        "postalCode": "78701",
         "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 30.2672,
+        "longitude": -97.7431
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Austin",
+          "sameAs": "https://en.wikipedia.org/wiki/Austin,_Texas"
+        },
+        {
+          "@type": "City", 
+          "name": "Cedar Park"
+        },
+        {
+          "@type": "City",
+          "name": "Round Rock"
+        },
+        {
+          "@type": "City",
+          "name": "Georgetown"
+        },
+        {
+          "@type": "City",
+          "name": "Lakeway"
+        },
+        {
+          "@type": "City",
+          "name": "Bee Cave"
+        },
+        {
+          "@type": "City",
+          "name": "Dripping Springs"
+        }
+      ],
+      "serviceArea": {
+        "@type": "GeoCircle",
+        "geoMidpoint": {
+          "@type": "GeoCoordinates",
+          "latitude": 30.2672,
+          "longitude": -97.7431
+        },
+        "geoRadius": "80467"
       },
       "openingHours": [
         "Mo-Fr 08:00-18:00",
@@ -103,73 +181,86 @@ This message was sent from the Captain Home Services website contact form.
       />
 
       {/* Hero Section */}
-      <section className="bg-green-600 text-white py-20">
+      <section className="bg-green-600 text-white py-12 md:py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">
+          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6">
             Howdy Neighbor!
           </h1>
-          <p className="text-xl md:text-2xl mb-8 max-w-4xl mx-auto">
+          <p className="text-lg md:text-xl lg:text-2xl mb-6 md:mb-8 max-w-4xl mx-auto">
             Let's Talk Lake Cleaning
           </p>
-          <p className="text-lg max-w-3xl mx-auto">
+          <p className="text-base md:text-lg max-w-3xl mx-auto">
             Ready to reclaim your slice of Texas paradise? Drop us a line, and let's get to work. We're always happy to chat about clear water and happy lakefront homeownership.
           </p>
         </div>
       </section>
 
       {/* Contact Information */}
-      <section className="py-16">
+      <section className="py-12 md:py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-16">
-            <div className="text-center p-8 bg-gray-50 rounded-lg">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 md:gap-8 mb-12 md:mb-16">
+            <div className="text-center p-6 md:p-8 bg-gray-50 rounded-lg">
               <div className="bg-teal-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
                 <Phone className="h-8 w-8 text-teal-600" />
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">Call Us</h3>
+              <h3 className="text-lg md:text-xl font-semibold text-gray-900 mb-2">Call Us</h3>
               <p className="text-gray-600 mb-4">Ready to chat? Give us a holler!</p>
               <a href="tel:(737)-300-9033" className="text-teal-600 hover:text-teal-700 font-semibold text-lg">
                 (737) 300-9033
               </a>
             </div>
             
-            <div className="text-center p-8 bg-gray-50 rounded-lg">
+            <div className="text-center p-6 md:p-8 bg-gray-50 rounded-lg">
               <div className="bg-blue-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
                 <Mail className="h-8 w-8 text-blue-600" />
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">Email Us</h3>
+              <h3 className="text-lg md:text-xl font-semibold text-gray-900 mb-2">Email Us</h3>
               <p className="text-gray-600 mb-4">Send us your questions anytime</p>
-              <a href="mailto:captainhomeservices@gmail.com" className="text-blue-600 hover:text-blue-700 font-semibold">
+              <a href="mailto:captainhomeservices@gmail.com" className="text-blue-600 hover:text-blue-700 font-semibold break-all">
                 captainhomeservices@gmail.com
               </a>
             </div>
             
-            <div className="text-center p-8 bg-gray-50 rounded-lg">
+            <div className="text-center p-6 md:p-8 bg-gray-50 rounded-lg">
               <div className="bg-green-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
                 <MapPin className="h-8 w-8 text-green-600" />
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">Service Area</h3>
-              <p className="text-gray-600 mb-4">Proudly serving the Austin area</p>
-              <p className="text-green-600 font-semibold">Lake Austin, Lake Travis, Lake LBJ, Inks Lake, Lake Marble Falls, Lake Buchanan, Lady Bird Lake & Surrounding Areas</p>
+              <h3 className="text-lg md:text-xl font-semibold text-gray-900 mb-2">Service Area</h3>
+              <p className="text-gray-600 mb-4">Proudly serving the Austin metro area</p>
+              <div className="text-green-600 font-semibold text-sm md:text-base">
+                <p className="mb-2">Austin, Cedar Park, Round Rock, Georgetown, Lakeway, Bee Cave, Dripping Springs</p>
+                <p>Lake Austin • Lake Travis • Lake LBJ • Inks Lake • Lake Marble Falls • Lake Buchanan • Lady Bird Lake</p>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
       {/* Contact Form */}
-      <section className="py-16 bg-gray-50">
+      <section className="py-12 md:py-16 bg-gray-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">
+          <div className="text-center mb-8 md:mb-12">
+            <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
               Tell Us About Your Project
             </h2>
-            <p className="text-lg text-gray-700 max-w-3xl mx-auto">
+            <p className="text-base md:text-lg text-gray-700 max-w-3xl mx-auto">
               Got a question about a stubborn patch of <strong>Lake Austin hydrilla</strong>? Curious about our chemical-free approach to <strong>Austin lake weed removal</strong>? Or maybe you just want to shoot the breeze about the best fishing spots on the Lake? Whatever your <strong>Austin aquatic vegetation removal</strong> needs, <strong>Captain Home Services</strong> is here to chat and help.
             </p>
           </div>
 
-          <div className="bg-white rounded-lg shadow-xl p-8">
+          <div className="bg-white rounded-lg shadow-xl p-6 md:p-8">
             {!isSubmitted ? (
-              <form onSubmit={handleSubmit} className="space-y-6">
+              <form 
+                onSubmit={handleSubmit} 
+                className="space-y-6"
+                name="contact"
+                method="POST"
+                data-netlify="true"
+                netlify-honeypot="bot-field"
+              >
+                <input type="hidden" name="form-name" value="contact" />
+                <input type="hidden" name="bot-field" />
+                
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
                     <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
@@ -182,7 +273,7 @@ This message was sent from the Captain Home Services website contact form.
                       required
                       value={formData.name}
                       onChange={handleChange}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-teal-500 transition-colors"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-teal-500 transition-colors text-base"
                       placeholder="Enter your full name"
                     />
                   </div>
@@ -198,7 +289,7 @@ This message was sent from the Captain Home Services website contact form.
                       required
                       value={formData.email}
                       onChange={handleChange}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-teal-500 transition-colors"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-teal-500 transition-colors text-base"
                       placeholder="Enter your email address"
                     />
                   </div>
@@ -214,7 +305,7 @@ This message was sent from the Captain Home Services website contact form.
                     name="phone"
                     value={formData.phone}
                     onChange={handleChange}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-teal-500 transition-colors"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-teal-500 transition-colors text-base"
                     placeholder="(737) 300-9033"
                   />
                 </div>
@@ -230,7 +321,7 @@ This message was sent from the Captain Home Services website contact form.
                     rows={6}
                     value={formData.project}
                     onChange={handleChange}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-teal-500 transition-colors resize-none"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-teal-500 transition-colors resize-none text-base"
                     placeholder="The more details you can provide, the better we can understand your needs and get back to you with the right solutions. Don't be shy; no project is too big or too small for our dedicated team at Captain Home Services."
                   />
                 </div>
@@ -239,17 +330,17 @@ This message was sent from the Captain Home Services website contact form.
                   <button
                     type="submit"
                     disabled={isSubmitting}
-                    className="bg-teal-600 hover:bg-teal-700 disabled:bg-teal-400 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors duration-200 transform hover:scale-105 disabled:transform-none"
+                    className="bg-teal-600 hover:bg-teal-700 disabled:bg-teal-400 text-white px-6 md:px-8 py-3 md:py-4 rounded-lg text-base md:text-lg font-semibold transition-colors duration-200 transform hover:scale-105 disabled:transform-none w-full md:w-auto"
                   >
                     {isSubmitting ? 'Sending...' : 'Send Message'}
                   </button>
                 </div>
               </form>
             ) : (
-              <div className="text-center py-12">
-                <CheckCircle className="h-16 w-16 text-green-600 mx-auto mb-4" />
-                <h3 className="text-2xl font-bold text-gray-900 mb-4">Message Sent Successfully!</h3>
-                <p className="text-lg text-gray-700">
+              <div className="text-center py-8 md:py-12">
+                <CheckCircle className="h-12 md:h-16 w-12 md:w-16 text-green-600 mx-auto mb-4" />
+                <h3 className="text-xl md:text-2xl font-bold text-gray-900 mb-4">Message Sent Successfully!</h3>
+                <p className="text-base md:text-lg text-gray-700">
                   Thanks for reaching out. We'll get back to you soon to discuss your lake weed removal needs.
                 </p>
               </div>
@@ -259,14 +350,14 @@ This message was sent from the Captain Home Services website contact form.
       </section>
 
       {/* Business Hours */}
-      <section className="py-16">
+      <section className="py-12 md:py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="bg-gradient-to-r from-teal-600 to-blue-600 rounded-lg p-8 text-white text-center">
+          <div className="bg-gradient-to-r from-teal-600 to-blue-600 rounded-lg p-6 md:p-8 text-white text-center">
             <div className="flex justify-center mb-4">
-              <Clock className="h-12 w-12" />
+              <Clock className="h-8 md:h-12 w-8 md:w-12" />
             </div>
-            <h3 className="text-2xl font-bold mb-4">Business Hours</h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-2xl mx-auto">
+            <h3 className="text-xl md:text-2xl font-bold mb-4">Business Hours</h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 max-w-2xl mx-auto text-sm md:text-base">
               <div>
                 <h4 className="font-semibold mb-2">Consultation & Estimates</h4>
                 <p>Monday - Friday: 8:00 AM - 6:00 PM</p>
@@ -285,15 +376,15 @@ This message was sent from the Captain Home Services website contact form.
       </section>
 
       {/* Call to Action */}
-      <section className="py-16 bg-green-50">
+      <section className="py-12 md:py-16 bg-green-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-bold text-gray-900 mb-4">
+          <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
             Ready to Make Your Waterfront Perfect?
           </h2>
-          <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
+          <p className="text-lg md:text-xl text-gray-600 mb-6 md:mb-8 max-w-3xl mx-auto">
             Once you hit that 'Send' button, consider it done. We'll reach out real quick.
           </p>
-          <p className="text-lg font-semibold text-gray-900">
+          <p className="text-base md:text-lg font-semibold text-gray-900">
             Choose <span className="text-teal-600">Captain Home Services</span> for your <strong>Austin lake weed removal</strong>.
           </p>
         </div>

@@ -45,8 +45,10 @@
       "email": "captainhomeservices@gmail.com",
       "address": {
         "@type": "PostalAddress",
+        "streetAddress": "Austin Metro Area",
         "addressLocality": "Austin",
         "addressRegion": "TX",
+        "postalCode": "78701",
         "addressCountry": "US"
       },
       "geo": {
@@ -59,6 +61,30 @@
           "@type": "City",
           "name": "Austin",
           "sameAs": "https://en.wikipedia.org/wiki/Austin,_Texas"
+        },
+        {
+          "@type": "City", 
+          "name": "Cedar Park"
+        },
+        {
+          "@type": "City",
+          "name": "Round Rock"
+        },
+        {
+          "@type": "City",
+          "name": "Georgetown"
+        },
+        {
+          "@type": "City",
+          "name": "Lakeway"
+        },
+        {
+          "@type": "City",
+          "name": "Bee Cave"
+        },
+        {
+          "@type": "City",
+          "name": "Dripping Springs"
         }
       ],
       "serviceArea": {
@@ -68,7 +94,7 @@
           "latitude": 30.2672,
           "longitude": -97.7431
         },
-        "geoRadius": "50000"
+        "geoRadius": "80467"
       },
       "priceRange": "$650-$1850",
       "openingHours": [
@@ -219,6 +245,14 @@
     <!-- Theme color -->
     <meta name="theme-color" content="#0d9488">
     <meta name="msapplication-TileColor" content="#0d9488">
+
+    <!-- Netlify Forms -->
+    <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+      <input type="text" name="name" />
+      <input type="email" name="email" />
+      <input type="tel" name="phone" />
+      <textarea name="project"></textarea>
+    </form>
   </head>
   <body>
     <div id="root"></div>
