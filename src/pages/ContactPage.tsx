@@ -44,44 +44,14 @@ const ContactPage = () => {
         // Redirect to thank you page
         navigate('/thank-you');
       } else {
-        // Fallback to mailto if Netlify form fails
-        const subject = encodeURIComponent('New Estimate Request - Captain Home Services');
-        const body = encodeURIComponent(`
-Name: ${formData.name}
-Email: ${formData.email}
-Phone: ${formData.phone}
-
-Project Details:
-${formData.project}
-
----
-This estimate request was sent from the Captain Home Services website contact form.
-        `);
-        
-        const mailtoLink = `mailto:captainhomeservices@gmail.com?subject=${subject}&body=${body}`;
-        window.location.href = mailtoLink;
-        navigate('/thank-you');
+        // Show error message instead of mailto fallback
+        alert('There was an error submitting your form. Please try again or call us directly at (737) 300-9033.');
       }
       
     } catch (error) {
       console.error('Error sending form:', error);
-      // Fallback to mailto
-      const subject = encodeURIComponent('New Estimate Request - Captain Home Services');
-      const body = encodeURIComponent(`
-Name: ${formData.name}
-Email: ${formData.email}
-Phone: ${formData.phone}
-
-Project Details:
-${formData.project}
-
----
-This estimate request was sent from the Captain Home Services website contact form.
-      `);
-      
-      const mailtoLink = `mailto:captainhomeservices@gmail.com?subject=${subject}&body=${body}`;
-      window.location.href = mailtoLink;
-      navigate('/thank-you');
+      // Show error message instead of mailto fallback
+      alert('There was an error submitting your form. Please try again or call us directly at (737) 300-9033.');
     } finally {
       setIsSubmitting(false);
     }
