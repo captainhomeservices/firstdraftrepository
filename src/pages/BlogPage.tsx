@@ -234,7 +234,7 @@ const BlogPage = () => {
                 <div className="relative">
                   <img
                     src={post.image}
-                    alt={post.title}
+                    alt={post.id === 1 ? "Lake Austin hydrilla plant identification showing detailed leaf structure and growth pattern from Mississippi State University Extension" : post.title}
                     className="w-full h-64 md:h-72 object-cover"
                   />
                   <div className="absolute top-4 left-4">
