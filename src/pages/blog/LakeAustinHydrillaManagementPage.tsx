@@ -3,7 +3,6 @@ import BlogPost from '../../components/BlogPost';
 
 const LakeAustinHydrillaManagementPage = () => {
   const content = `
-In the summer of 2023, as I stood on the shores of Lake Austin watching families struggle to enjoy what should have been pristine swimming waters, I was reminded of a fundamental truth about leadership and problem-solving: the challenges we face today are often the result of decisions made decades ago, and the solutions we choose now will determine the experiences of generations to come.
 
 The story of hydrilla in Central Texas is, in many ways, a microcosm of how we as a society respond to environmental challenges. It's a story of unintended consequences, delayed action, and the ongoing struggle between human recreation and ecological balance. But it's also a story of hope, innovation, and the power of informed, persistent action to create meaningful change.
 
@@ -114,9 +113,9 @@ When evaluating different approaches to **Lake Austin hydrilla management**, pro
 
 Chemical treatments, while often less expensive initially, typically require repeated applications to maintain effectiveness. The cumulative cost of multiple chemical treatments, combined with their environmental limitations, often makes them less cost-effective than initially apparent.
 
-Mechanical harvesting, when available, can be expensive and may require multiple treatments per season. Additionally, the potential for mechanical harvesting to spread hydrilla fragments can sometimes create larger problems that require additional intervention.
+Mechanical harvesting can be expensive and may require multiple treatments per season. Additionally, the potential for mechanical harvesting to spread hydrilla fragments can sometimes create larger problems that require additional intervention.
 
-Manual removal, while requiring a higher initial investment, often provides longer-lasting results due to its precision and thoroughness. When the entire plant system is removed, including tubers and root structures, the likelihood of rapid regrowth is significantly reduced.
+Manual removal often provides longer-lasting results due to its precision and thoroughness. When the entire plant system is removed, including tubers and root structures, the likelihood of rapid regrowth is significantly reduced.
 
 ## Environmental Stewardship: Balancing Human Needs and Ecological Health
 
