@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Calendar, User, ArrowRight, Fish, Wrench, FileText, MapPin, Leaf, Clock, BookOpen } from 'lucide-react';
+import { Calendar, User, ArrowRight, Fish, Wrench, FileText, MapPin, Leaf, Clock, BookOpen, Waves } from 'lucide-react';
 import SEOHead from '../components/SEOHead';
 
 const BlogPage = () => {
@@ -24,24 +24,30 @@ const BlogPage = () => {
         {
           "@type": "BlogPosting",
           "position": 1,
+          "headline": "Lake Austin Hydrilla Management Methods: A Historical Perspective and Modern Solutions",
+          "url": "https://austinlakemanagement.com/blog/lake-austin-hydrilla-management-methods"
+        },
+        {
+          "@type": "BlogPosting",
+          "position": 2,
           "headline": "Understanding Lake Weeds: Why They Grow and How to Manage Them",
           "url": "https://austinlakemanagement.com/blog/understanding-lake-weeds-why-they-grow-and-how-to-manage-them"
         },
         {
           "@type": "BlogPosting", 
-          "position": 2,
+          "position": 3,
           "headline": "Navigating Permitting for Aquatic Vegetation Removal in Texas",
           "url": "https://austinlakemanagement.com/blog/navigating-permitting-aquatic-vegetation-removal-texas"
         },
         {
           "@type": "BlogPosting",
-          "position": 3, 
+          "position": 4, 
           "headline": "The Benefits of Manual Aquatic Weed Removal: A Sustainable Approach",
           "url": "https://austinlakemanagement.com/blog/benefits-manual-aquatic-weed-removal-sustainable-approach"
         },
         {
           "@type": "BlogPosting",
-          "position": 4,
+          "position": 5,
           "headline": "The Importance of Aquatic Vegetation Removal for a Healthy Lakefront",
           "url": "https://austinlakemanagement.com/blog/importance-aquatic-vegetation-removal-healthy-lakefront"
         }
@@ -52,6 +58,21 @@ const BlogPage = () => {
   const blogPosts = [
     {
       id: 1,
+      title: "Lake Austin Hydrilla Management Methods: A Historical Perspective and Modern Solutions",
+      slug: "lake-austin-hydrilla-management-methods",
+      excerpt: "A comprehensive examination of hydrilla invasion in Central Texas lakes, exploring the historical context, management approaches, and why precision manual removal offers the most effective solution for Lake Austin property owners.",
+      date: "January 22, 2025",
+      author: "Captain Cam",
+      category: "Hydrilla Management",
+      image: "https://aquaplant.tamu.edu/wp-content/uploads/2019/05/Hydrilla-Verticillata-1024x768.jpg",
+      icon: <Waves className="h-5 w-5" />,
+      keywords: ["Lake Austin hydrilla management", "Lake Austin hydrilla control", "hydrilla removal methods", "invasive species management", "TPWD permits"],
+      readTime: "15 min read",
+      featured: true,
+      isNew: true
+    },
+    {
+      id: 2,
       title: "Understanding Lake Weeds: Why They Grow and How to Manage Them",
       slug: "understanding-lake-weeds-why-they-grow-and-how-to-manage-them",
       excerpt: "Discover the key factors behind aquatic weed growth in Texas lakes and learn sustainable management strategies. From nutrient levels to invasive species, understand why lakes get weeds and how professional removal can restore your waterfront.",
@@ -65,7 +86,7 @@ const BlogPage = () => {
       featured: true
     },
     {
-      id: 2,
+      id: 3,
       title: "Navigating Permitting for Aquatic Vegetation Removal in Texas",
       slug: "navigating-permitting-aquatic-vegetation-removal-texas",
       excerpt: "Learn about TPWD and LCRA permitting requirements for aquatic vegetation removal in Texas. Understand why compliance matters and how Captain Home Services handles all the red tape for legal, hassle-free lake weed removal.",
@@ -79,7 +100,7 @@ const BlogPage = () => {
       featured: true
     },
     {
-      id: 3,
+      id: 4,
       title: "The Benefits of Manual Aquatic Weed Removal: A Sustainable Approach",
       slug: "benefits-manual-aquatic-weed-removal-sustainable-approach",
       excerpt: "Discover why manual aquatic weed removal is the most sustainable and effective method for lakefront restoration. Learn about precision targeting, chemical-free approaches, and long-term benefits for your Texas waterfront.",
@@ -93,7 +114,7 @@ const BlogPage = () => {
       featured: true
     },
     {
-      id: 4,
+      id: 5,
       title: "The Importance of Aquatic Vegetation Removal for a Healthy Lakefront",
       slug: "importance-aquatic-vegetation-removal-healthy-lakefront",
       excerpt: "Understand how aggressive aquatic weeds impact your lakefront's ecology, recreation value, and property worth. Learn why professional aquatic vegetation removal is essential for maintaining a healthy Texas waterfront.",
@@ -104,10 +125,10 @@ const BlogPage = () => {
       icon: <Fish className="h-5 w-5" />,
       keywords: ["aquatic vegetation removal", "lakefront health", "Austin lake weeds", "hydrilla removal", "lake property value"],
       readTime: "9 min read",
-      featured: true
+      featured: false
     },
     {
-      id: 5,
+      id: 6,
       title: "The Battle for Our Lakes: Understanding and Removing Invasive Aquatic Plants in Texas",
       excerpt: "Texas lakes face constant threats from invasive aquatic plants. Learn about hydrilla and Eurasian watermilfoil science, plus the most effective removal methods for Austin area lakes.",
       date: "January 15, 2025",
@@ -118,7 +139,7 @@ const BlogPage = () => {
       readTime: "10 min read"
     },
     {
-      id: 6,
+      id: 7,
       title: "Beyond the Weeds: Your Guide to Boating and Dining on Lake Austin",
       excerpt: "Once your waterfront is clear, discover the best boating experiences, lakeside restaurants, and water activities that make Lake Austin special.",
       date: "January 10, 2025",
@@ -129,7 +150,7 @@ const BlogPage = () => {
       readTime: "6 min read"
     },
     {
-      id: 7,
+      id: 8,
       title: "Bass Fishing on Lake Austin: Techniques and Top Spots",
       excerpt: "Lake Austin offers excellent bass fishing. Learn the best techniques, prime locations, and why clear water makes all the difference for successful fishing.",
       date: "January 5, 2025",
@@ -140,7 +161,7 @@ const BlogPage = () => {
       readTime: "8 min read"
     },
     {
-      id: 8,
+      id: 9,
       title: "Lake Austin Resources: Essential Links for Waterfront Owners",
       excerpt: "Your resource hub for Lake Austin living. Find boat rentals, repair services, marinas, and everything needed for your waterfront lifestyle.",
       date: "December 28, 2024",
@@ -222,7 +243,14 @@ const BlogPage = () => {
                       <span>{post.category}</span>
                     </div>
                   </div>
-                  {post.readTime && (
+                  {post.isNew && (
+                    <div className="absolute top-4 right-4">
+                      <div className="bg-red-500 text-white px-3 py-1.5 rounded-full text-sm font-bold shadow-lg">
+                        NEW
+                      </div>
+                    </div>
+                  )}
+                  {post.readTime && !post.isNew && (
                     <div className="absolute top-4 right-4">
                       <div className="bg-black bg-opacity-70 text-white px-3 py-1.5 rounded-full text-sm flex items-center">
                         <Clock className="h-3 w-3 mr-1" />
@@ -242,9 +270,13 @@ const BlogPage = () => {
                   </div>
                   
                   <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-4 leading-tight hover:text-teal-600 transition-colors">
-                    <Link to={`/blog/${post.slug}`}>
-                      {post.title}
-                    </Link>
+                    {post.slug ? (
+                      <Link to={`/blog/${post.slug}`}>
+                        {post.title}
+                      </Link>
+                    ) : (
+                      post.title
+                    )}
                   </h2>
                   
                   <p className="text-gray-700 mb-6 leading-relaxed">
@@ -263,13 +295,20 @@ const BlogPage = () => {
                     </div>
                   )}
                   
-                  <Link
-                    to={`/blog/${post.slug}`}
-                    className="inline-flex items-center text-teal-600 font-semibold hover:text-teal-700 transition-colors group"
-                  >
-                    <span>Read Full Article</span>
-                    <ArrowRight className="h-4 w-4 ml-2 group-hover:translate-x-1 transition-transform duration-200" />
-                  </Link>
+                  {post.slug ? (
+                    <Link
+                      to={`/blog/${post.slug}`}
+                      className="inline-flex items-center text-teal-600 font-semibold hover:text-teal-700 transition-colors group"
+                    >
+                      <span>Read Full Article</span>
+                      <ArrowRight className="h-4 w-4 ml-2 group-hover:translate-x-1 transition-transform duration-200" />
+                    </Link>
+                  ) : (
+                    <div className="inline-flex items-center text-gray-400 font-semibold">
+                      <span>Coming Soon</span>
+                      <ArrowRight className="h-4 w-4 ml-2" />
+                    </div>
+                  )}
                 </div>
               </article>
             ))}
@@ -315,10 +354,20 @@ const BlogPage = () => {
                     {post.excerpt}
                   </p>
                   
-                  <div className="flex items-center text-gray-400 font-medium text-sm">
-                    <span>Coming Soon</span>
-                    <ArrowRight className="h-3 w-3 ml-1" />
-                  </div>
+                  {post.slug ? (
+                    <Link
+                      to={`/blog/${post.slug}`}
+                      className="flex items-center text-teal-600 font-medium text-sm hover:text-teal-700 transition-colors"
+                    >
+                      <span>Read More</span>
+                      <ArrowRight className="h-3 w-3 ml-1" />
+                    </Link>
+                  ) : (
+                    <div className="flex items-center text-gray-400 font-medium text-sm">
+                      <span>Coming Soon</span>
+                      <ArrowRight className="h-3 w-3 ml-1" />
+                    </div>
+                  )}
                 </div>
               </article>
             ))}

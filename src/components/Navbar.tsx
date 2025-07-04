@@ -50,18 +50,20 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <Link to="/" onClick={handleLinkClick} className="flex items-center space-x-2 flex-shrink-0">
+          <Link to="/" onClick={handleLinkClick} className="flex items-center space-x-2 flex-shrink-0 min-w-0">
             <img 
               src="/captain home logo wheel circle.webp" 
               alt="Captain Home Services Logo" 
-              className="h-8 w-8 md:h-10 md:w-10 object-contain"
+              className="h-8 w-8 md:h-10 md:w-10 object-contain flex-shrink-0"
             />
-            <span className="font-bold text-lg md:text-xl text-gray-900 hidden sm:block">
-              Captain Home Services
-            </span>
-            <span className="font-bold text-base text-gray-900 sm:hidden">
-              Captain Home
-            </span>
+            <div className="min-w-0">
+              <span className="font-bold text-lg md:text-xl text-gray-900 hidden sm:block truncate">
+                Captain Home Services
+              </span>
+              <span className="font-bold text-sm text-gray-900 sm:hidden block truncate">
+                Captain Home Services
+              </span>
+            </div>
           </Link>
 
           {/* Desktop Navigation */}
@@ -107,7 +109,7 @@ const Navbar = () => {
                 alt="Captain Home Services Logo" 
                 className="h-8 w-8 object-contain"
               />
-              <span className="font-bold text-lg text-gray-900">Captain Home</span>
+              <span className="font-bold text-lg text-gray-900">Captain Home Services</span>
             </Link>
             <button
               onClick={() => setIsOpen(false)}

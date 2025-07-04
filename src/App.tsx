@@ -15,6 +15,7 @@ import UnderstandingLakeWeedsPage from './pages/blog/UnderstandingLakeWeedsPage'
 import NavigatingPermittingPage from './pages/blog/NavigatingPermittingPage';
 import ManualRemovalBenefitsPage from './pages/blog/ManualRemovalBenefitsPage';
 import HealthyLakefrontPage from './pages/blog/HealthyLakefrontPage';
+import LakeAustinHydrillaManagementPage from './pages/blog/LakeAustinHydrillaManagementPage';
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
           <Route path="/blog/navigating-permitting-aquatic-vegetation-removal-texas" element={<NavigatingPermittingPage />} />
           <Route path="/blog/benefits-manual-aquatic-weed-removal-sustainable-approach" element={<ManualRemovalBenefitsPage />} />
           <Route path="/blog/importance-aquatic-vegetation-removal-healthy-lakefront" element={<HealthyLakefrontPage />} />
+          <Route path="/blog/lake-austin-hydrilla-management-methods" element={<LakeAustinHydrillaManagementPage />} />
         </Routes>
         <Footer />
       </div>
