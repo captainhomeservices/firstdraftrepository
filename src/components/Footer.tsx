@@ -17,7 +17,7 @@ const Footer = () => {
               <img 
                 src="/captain logo green  copy copy.png" 
                 alt="Captain Home Services Logo" 
-                className="h-8 w-8 object-contain"
+                className="h-8 w-8 object-contain rounded-full"
                 onError={(e) => {
                   e.currentTarget.style.display = 'none';
                 }}

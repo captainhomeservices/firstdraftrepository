@@ -54,7 +54,7 @@ const Navbar = () => {
             <img 
               src="/captain logo green  copy copy.png" 
               alt="Captain Home Services Logo" 
-              className="h-8 w-8 md:h-10 md:w-10 object-contain flex-shrink-0"
+              className="h-8 w-8 md:h-10 md:w-10 object-contain flex-shrink-0 rounded-full"
             />
             <div className="min-w-0">
               <span className="font-bold text-lg md:text-xl text-gray-900 hidden sm:block truncate">
@@ -107,7 +107,7 @@ const Navbar = () => {
               <img 
                 src="/captain logo green  copy copy.png" 
                 alt="Captain Home Services Logo" 
-                className="h-8 w-8 object-contain"
+                className="h-8 w-8 object-contain rounded-full"
               />
               <span className="font-bold text-lg text-gray-900">Captain Home Services</span>
             </Link>
