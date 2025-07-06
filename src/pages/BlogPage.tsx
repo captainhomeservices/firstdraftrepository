@@ -49,7 +49,7 @@ const BlogPage = () => {
           "@type": "BlogPosting",
           "position": 5,
           "headline": "The Importance of Aquatic Vegetation Removal for a Healthy Lakefront",
-          "url": "https://austinlakemanagement.com/blog/importance-aquatic-vegetation-removal-healthy-lakefront"
+          "url": "https://austinlakemanagement.com/captain logo green  copy copy.png"
         }
       ]
     }

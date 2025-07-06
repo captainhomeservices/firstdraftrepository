@@ -15,7 +15,7 @@ const SEOHead: React.FC<SEOHeadProps> = ({
   description = "Professional Austin lake weed removal and hydrilla control services. Manual aquatic vegetation removal for Lake Austin, Lake Travis, and Highland Lakes. TPWD permitted, chemical-free solutions.",
   keywords = "Austin lake weed removal, Lake Austin hydrilla removal, aquatic vegetation removal Austin, TPWD permits, LCRA compliance, manual lake weed removal, chemical-free lake cleaning",
   canonicalUrl = "https://austinlakemanagement.com/",
-  ogImage = "https://austinlakemanagement.com/captain-home-logo-wheel-circle.webp",
+  ogImage = "https://austinlakemanagement.com/captain logo green  copy copy.png",
   ogType = "website",
   structuredData
 }) => {

@@ -45,7 +45,7 @@ const BlogPost: React.FC<BlogPostProps> = ({
       "name": "Captain Home Services",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://austinlakemanagement.com/captain-home-logo-wheel-circle.webp"
+        "url": "https://austinlakemanagement.com/captain logo green  copy copy.png"
       }
     },
     "datePublished": date,
