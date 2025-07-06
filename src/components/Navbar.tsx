@@ -52,7 +52,7 @@ const Navbar = () => {
           {/* Logo */}
           <Link to="/" onClick={handleLinkClick} className="flex items-center space-x-2 flex-shrink-0 min-w-0">
             <img 
-              src="/captain home logo wheel circle.webp" 
+              src="/captain logo green  copy copy.png" 
               alt="Captain Home Services Logo" 
               className="h-8 w-8 md:h-10 md:w-10 object-contain flex-shrink-0"
             />
@@ -105,7 +105,7 @@ const Navbar = () => {
           <div className="flex justify-between items-center h-16 px-4 border-b">
             <Link to="/" onClick={handleLinkClick} className="flex items-center space-x-2">
               <img 
-                src="/captain home logo wheel circle.webp" 
+                src="/captain logo green  copy copy.png" 
                 alt="Captain Home Services Logo" 
                 className="h-8 w-8 object-contain"
               />

@@ -15,9 +15,9 @@ const Footer = () => {
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
               <img 
-                src="/captain home logo wheel circle.webp" 
+                src="/captain logo green  copy copy.png" 
                 alt="Captain Home Services Logo" 
-                className="h-8 w-8 object-contain filter brightness-0 invert"
+                className="h-8 w-8 object-contain"
                 onError={(e) => {
                   e.currentTarget.style.display = 'none';
                 }}
