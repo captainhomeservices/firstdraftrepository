@@ -298,6 +298,7 @@ const BlogPage = () => {
                   {post.slug ? (
                     <Link
                       to={`/blog/${post.slug}`}
+                     onClick={scrollToTop}
                       className="inline-flex items-center text-teal-600 font-semibold hover:text-teal-700 transition-colors group"
                     >
                       <span>Read Full Article</span>
@@ -357,6 +358,7 @@ const BlogPage = () => {
                   {post.slug ? (
                     <Link
                       to={`/blog/${post.slug}`}
+                     onClick={scrollToTop}
                       className="flex items-center text-teal-600 font-medium text-sm hover:text-teal-700 transition-colors"
                     >
                       <span>Read More</span>
