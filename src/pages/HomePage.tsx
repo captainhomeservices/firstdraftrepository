@@ -149,7 +149,7 @@ const HomePage = () => {
           {/* Bridge Image under the boxes */}
           <div className="text-center">
             <img
-              src="/lake weed removal pose.jpeg"
+              src="/lake weed removal pose copy.jpeg"
               alt="Austin lake weed removal experts from Captain Home Services performing manual hydrilla removal and aquatic vegetation extraction on Lake Austin using specialized tools"
               className="rounded-lg shadow-2xl mx-auto w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-2xl xl:max-w-4xl h-auto object-cover"
               loading="lazy"
