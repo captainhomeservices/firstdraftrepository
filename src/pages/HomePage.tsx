@@ -149,8 +149,8 @@ const HomePage = () => {
           {/* Bridge Image under the boxes */}
           <div className="text-center">
             <img
-              src="https://parks.traviscountytx.gov/files/images/loop-360/hero.jpg"
-              alt="Beautiful Lake Austin bridge view showing clear water after professional aquatic vegetation removal"
+              src="/lake weed removal pose.jpeg"
+              alt="Professional lake weed removal in action showing Captain Home Services team working on aquatic vegetation removal"
               className="rounded-lg shadow-2xl mx-auto max-w-4xl w-full"
             />
           </div>
