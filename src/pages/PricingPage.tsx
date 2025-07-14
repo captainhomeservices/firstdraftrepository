@@ -101,10 +101,7 @@ const PricingPage = () => {
               </div>
               <h3 className="text-4xl font-bold text-gray-900 mb-2">$950 - $1,850</h3>
               <p className="text-lg text-gray-600">Typical Range for Most Residential Properties</p>
-            </div>
-         
-            </div>
-            
+            </div>            
             <div className="mt-8 text-center">
               <p className="text-gray-700">
                 <strong>Captain Home Services</strong> provides a transparent, upfront quote after our initial assessment, so you know exactly what to expect. Weeds do grow back, as their infestation has taken over the Highland Lakes and no permanent solution from authorities is in sight. When they do grow back, our past customers receive a returning customer discount to reflect our commitment to keeping our customers' recreational areas clean and clear at a high value. Long-term lake management plans are available, and usually do not require more than 2-3 treatments per year. For larger lots with extensive infestations, costs may vary.
