@@ -100,7 +100,7 @@ const PricingPage = () => {
                 <DollarSign className="h-10 w-10 text-teal-600" />
               </div>
               <h3 className="text-4xl font-bold text-gray-900 mb-2">$950 - $1,850</h3>
-              <p className="text-lg text-gray-600">Typical Range for Most Residential Properties</p>
+              <p className="text-lg text-gray-600">Typical price of Hydrilla removal for most residents</p>
             </div>            
             <div className="mt-8 text-center">
               <p className="text-gray-700">
