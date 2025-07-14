@@ -126,9 +126,10 @@ const PricingPage = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
             <div>
               <img
-                src="https://cdn11.bigcommerce.com/s-94ve5l/images/stencil/500x659/products/2411/4162/WeedRay-1__62680.1736887802.jpg?c=2"
-                alt="Aquatic lake weed removal"
-                className="rounded-lg shadow-xl"
+                src="/lake weed removal tools.jpg"
+                alt="Professional lake weed removal tools and equipment used by Captain Home Services for Austin aquatic vegetation removal, hydrilla control, and manual extraction on Lake Austin and Highland Lakes"
+                className="rounded-lg shadow-xl w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl h-auto object-cover mx-auto"
+                loading="lazy"
               />
             </div>
             <div>
