@@ -90,7 +90,7 @@ const PricingPage = () => {
               Up-front Pricing 
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              The cost of lake weed removal is between $650-$1,850 for most residential projects. This includes permitting/compliance with local and state authorities, manual removal of invasive aquatic vegetation, no-mess transport off your property and responsible disposal of exotic invasive species. 
+              The cost of lake weed removal is between $950-$1,850 for most residential projects. This includes permitting/compliance with local and state authorities, manual removal of invasive aquatic vegetation, no-mess transport off your property and responsible disposal of exotic invasive species. 
             </p>
           </div>
 
@@ -99,26 +99,10 @@ const PricingPage = () => {
               <div className="bg-teal-100 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4">
                 <DollarSign className="h-10 w-10 text-teal-600" />
               </div>
-              <h3 className="text-4xl font-bold text-gray-900 mb-2">$650 - $1,850</h3>
+              <h3 className="text-4xl font-bold text-gray-900 mb-2">$950 - $1,850</h3>
               <p className="text-lg text-gray-600">Typical Range for Most Residential Properties</p>
             </div>
-            
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-              <div className="text-center">
-                <h4 className="font-semibold text-gray-900 mb-2">Average Projects</h4>
-                <p className="text-gray-600">Average sized Waterfront, Most Infestations </p>
-                <p className="text-2xl font-bold text-teal-600">$650 - $1,250</p>
-              </div>
-              <div className="text-center">
-                <h4 className="font-semibold text-gray-900 mb-2">Larger Projects</h4>
-                <p className="text-gray-600">Moderately-sized Waterfront, Most infestations</p>
-                <p className="text-2xl font-bold text-teal-600">$1,250 - $1,850</p>
-              </div>
-              <div className="text-center">
-                <h4 className="font-semibold text-gray-900 mb-2">Complex Projects</h4>
-                <p className="text-gray-600">Large Waterfront, Extensive Infestation, Complex Removal</p>
-                <p className="text-2xl font-bold text-teal-600">$1,850+</p>
-              </div>
+         
             </div>
             
             <div className="mt-8 text-center">
