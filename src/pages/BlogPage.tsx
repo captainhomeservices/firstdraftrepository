@@ -4,6 +4,10 @@ import { Calendar, User, ArrowRight, Fish, Wrench, FileText, MapPin, Leaf, Clock
 import SEOHead from '../components/SEOHead';
 
 const BlogPage = () => {
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
   const blogPageSchema = {
     "@context": "https://schema.org",
     "@type": "Blog",
