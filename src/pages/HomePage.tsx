@@ -137,7 +137,7 @@ const HomePage = () => {
             <div className="text-center p-6 bg-gray-50 rounded-lg">
               <Users className="h-12 w-12 text-teal-600 mx-auto mb-4" />
               <h3 className="text-lg font-semibold text-gray-900 mb-2">Clean and Efficient Haul-Away and Responsible Disposal</h3>
-              <p className="text-gray-600">No-mess removal and disposal keeps your property from being damaged by large machinery and making a mess</p>
+              <p className="text-gray-600">Clean removal and disposal keeps your property from being damaged by large machinery and making a mess</p>
             </div>
             <div className="text-center p-6 bg-gray-50 rounded-lg">
               <CheckCircle className="h-12 w-12 text-green-600 mx-auto mb-4" />
