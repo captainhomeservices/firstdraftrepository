@@ -99,7 +99,7 @@ const PricingPage = () => {
               <div className="bg-teal-100 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4">
                 <DollarSign className="h-10 w-10 text-teal-600" />
               </div>
-              <h3 className="text-4xl font-bold text-gray-900 mb-2">$950 - $1,850</h3>
+              <h3 className="text-4xl font-bold text-gray-900 mb-2">$1,950 - $5,400</h3>
               <p className="text-lg text-gray-600">Typical price of Hydrilla removal for most residents</p>
             </div>            
             <div className="mt-8 text-center">
