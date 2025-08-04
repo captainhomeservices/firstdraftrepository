@@ -90,7 +90,7 @@ const PricingPage = () => {
               Up-front Pricing 
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              The cost of lake weed removal is between $950-$1,850 for most residential projects. This includes permitting/compliance with local and state authorities, manual removal of invasive aquatic vegetation, no-mess transport off your property and responsible disposal of exotic invasive species. 
+              The cost of lake weed removal is between $1,950-$5,400 for most residential projects. This includes permitting/compliance with local and state authorities, manual removal of invasive aquatic vegetation, no-mess transport off your property and responsible disposal of exotic invasive species. 
             </p>
           </div>
 
