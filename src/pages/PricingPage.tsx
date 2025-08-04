@@ -104,7 +104,7 @@ const PricingPage = () => {
             </div>            
             <div className="mt-8 text-center">
               <p className="text-gray-700">
-                <strong>Captain Home Services</strong> provides a transparent, upfront quote after our initial assessment, so you know exactly what to expect. Weeds do grow back, as their infestation has taken over the Highland Lakes and no permanent solution from authorities is in sight. When they do grow back, our past customers receive a returning customer discount to reflect our commitment to keeping our customers' recreational areas clean and clear at a high value. Long-term lake management plans are available, and usually do not require more than 2-3 treatments per year. For larger lots with extensive infestations, costs may vary.
+                <strong>Captain Home Services</strong> provides a transparent, upfront quote after our initial assessment, so you know exactly what to expect. The varying infestation levels, shoreline lengths, average depths, and expectations each homeowner has makes our pricing hard to assign a one-size-fits-all number. We customize every estimate to each homeowner to keep expectations clear and outcomes successful. Weeds do grow back, as their infestation has taken over the Highland Lakes and no permanent solution from authorities is in sight. When they do grow back, our past customers receive a returning customer discount to reflect our commitment to keeping our customers' recreational areas clean and clear at a high value. Long-term lake management plans are available, and usually do not require more than 2-3 treatments per year. For larger lots with extensive infestations, costs may vary.
               </p>
             </div>
           </div>
