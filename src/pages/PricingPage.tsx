@@ -200,7 +200,7 @@ const PricingPage = () => {
               <ul className="space-y-3 text-gray-700">
                 <li className="flex items-start space-x-2">
                   <CheckCircle className="h-5 w-5 text-blue-600 mt-0.5 flex-shrink-0" />
-                  <span>Mechanical Harvesters are more suitable for larger commercial projects at $3,000+</span>
+                  <span>Mechanical Harvesters are more suitable for larger commercial projects at $10,000+</span>
                 </li>
                 <li className="flex items-start space-x-2">
                   <CheckCircle className="h-5 w-5 text-blue-600 mt-0.5 flex-shrink-0" />
