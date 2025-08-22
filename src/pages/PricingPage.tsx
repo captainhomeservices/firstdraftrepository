@@ -94,7 +94,7 @@ const PricingPage = () => {
               Up-front Pricing 
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              The cost of lake weed removal is between $1,950-$5,400 for most residential projects. This includes permitting/compliance with local and state authorities, manual removal of invasive aquatic vegetation, no-mess transport off your property and responsible disposal of exotic invasive species. 
+              The cost of lake weed removal is between $1,950-$5,400 for most residential projects. This includes permitting/compliance with local and state authorities, manual removal of invasive aquatic vegetation, no-mess transport off your property, and responsible disposal of exotic invasive species.
             </p>
           </div>
 
@@ -108,7 +108,7 @@ const PricingPage = () => {
             </div>            
             <div className="mt-8 text-center">
               <p className="text-gray-700">
-                <strong>Captain Home Services</strong> provides a transparent, upfront quote after our initial assessment, so you know exactly what to expect. The varying infestation levels, shoreline lengths, average depths, and expectations each homeowner has makes our pricing hard to assign a one-size-fits-all number. We customize every estimate to each homeowner to keep expectations clear and outcomes successful. Weeds do grow back, as their infestation has taken over the Highland Lakes and no permanent solution from authorities is in sight. When they do grow back, our past customers receive a returning customer discount to reflect our commitment to keeping our customers' recreational areas clean and clear at a high value. Long-term lake management plans are available, and usually do not require more than 2-3 treatments per year. For larger lots with extensive infestations, costs may vary.
+                <strong>Captain Home Services</strong> provides a transparent, upfront quote after our initial assessment, so you know exactly what to expect. The varying infestation levels, shoreline lengths, average depths, and expectations each homeowner has make our pricing difficult to assign a one-size-fits-all number. We customize every estimate for each homeowner to keep expectations clear and outcomes successful. Weeds do grow back, as their infestation has taken over the Highland Lakes and no permanent solution from authorities is in sight. When they do grow back, our past customers receive a returning customer discount to reflect our commitment to keeping our customers' recreational areas clean and clear at high value. Long-term lake management plans are available and usually do not require more than 2-3 treatments per year. For larger lots with extensive infestations, costs may vary.
               </p>
             </div>
           </div>
@@ -141,7 +141,7 @@ const PricingPage = () => {
                 We Don't Just Clear Weeds
               </h3>
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                We manage your shoreline, dock areas, and swimming areas to ensure your property is the place family and friends dream of spending long weekends. <strong>Captain Home Services</strong> maintains your lake recreational areas at a value that's worth the results.
+                We manage your shoreline, dock areas, and swimming areas to ensure your property is the place where family and friends dream of spending long weekends. <strong>Captain Home Services</strong> maintains your lake recreational areas at a value that's worth the results.
               </p>
               <div className="space-y-4">
                 <div className="flex items-start space-x-3">
@@ -204,11 +204,11 @@ const PricingPage = () => {
               <ul className="space-y-3 text-gray-700">
                 <li className="flex items-start space-x-2">
                   <CheckCircle className="h-5 w-5 text-blue-600 mt-0.5 flex-shrink-0" />
-                  <span>Mechanical Harvesters are more suitable for larger commercial projects at $10,000+</span>
+                  <span>Mechanical harvesters are more suitable for larger commercial projects at $10,000+</span>
                 </li>
                 <li className="flex items-start space-x-2">
                   <CheckCircle className="h-5 w-5 text-blue-600 mt-0.5 flex-shrink-0" />
-                  <span>Machinery can damage your yard, shoreline, and docks during removal and access to your shoreline from your driveway</span>
+                  <span>Machinery can damage your yard, shoreline, and docks during removal and when accessing your shoreline from your driveway</span>
                 </li>
                 <li className="flex items-start space-x-2">
                   <CheckCircle className="h-5 w-5 text-blue-600 mt-0.5 flex-shrink-0" />
@@ -255,7 +255,7 @@ const PricingPage = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold mb-6">Your Highest Value Solution</h2>
           <p className="text-xl mb-8 max-w-4xl mx-auto leading-relaxed">
-            We take immense pride in our work, and we believe in delivering a high value solution to every one of our customers. We're not just selling our lake weed removal service; we're selling the promise of a pristine Texas waterfront, restored with care, precision, and a deep understanding of our unique aquatic ecosystems.
+            We take immense pride in our work, and we believe in delivering a high-value solution to every one of our customers. We're not just selling our lake weed removal service; we're selling the promise of a pristine Texas waterfront, restored with care, precision, and a deep understanding of our unique aquatic ecosystems.
           </p>
           <p className="text-2xl font-bold mb-8">
             Choose <span className="text-teal-300">Captain Home Services</span>, and choose the highest value for your home.

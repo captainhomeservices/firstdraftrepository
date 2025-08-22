@@ -32,7 +32,7 @@ Our trained professionals utilize a range of specialized tools, such as aquatic 
 
 ### Meticulous Debris Management
 
-After extraction, proper disposal of the removed vegetation is crucial to prevent re-establishment. We meticulously collect all plant fragments and debris, ensuring they are removed from the water and disposed of responsibly. This prevents detached plant pieces from floating away and re-rooting elsewhere in the lake, maintaining a clean and clear waterfront.
+After extraction, proper disposal of the removed vegetation is crucial to prevent re-establishment. We meticulously collect all plant fragments and debris, ensuring they are removed from the water and disposed of responsibly. This prevents detached plant pieces from floating away and rerooting elsewhere in the lake, maintaining a clean and clear waterfront.
 
 ## Long-Term Benefits of a Manual Approach
 

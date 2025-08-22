@@ -32,7 +32,7 @@ The permitting process, while seemingly complex, generally follows a structured 
 
 ### Application Submission
 
-This involves preparing and submitting detailed documentation to the relevant agencies. This typically includes a description of the proposed work, maps of the area, identification of the target vegetation, and sometimes, an assessment of potential environmental impacts. Accurate and complete applications are essential to avoid delays.
+This involves preparing and submitting detailed documentation to the relevant agencies. This typically includes a description of the proposed work, maps of the area, identification of the target vegetation, and sometimes an assessment of potential environmental impacts. Accurate and complete applications are essential to avoid delays.
 
 ### Review and Approval
 

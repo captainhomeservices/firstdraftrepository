@@ -27,10 +27,10 @@ const HowItWorksPage = () => {
                 Why We Remove by Hand
               </h2>
               <p className="text-lg text-gray-700 mb-4 leading-relaxed">
-                Imagine trying to clear a brush fire by just trimming the tops of the trees. Foolish, right? It's the same with aquatic weeds. Mechanical Harvesters and floating machinery are great tools for large, multi-acreage projects, but simply are inefficient blunt objects for most homeowners' beach and dock clean up jobs. They leave roots and tubers behind; can damage docks, boats, and shorelines; and may damage landscaping upon entering and exiting the shoreline.
+                Imagine trying to clear a brush fire by just trimming the tops of the trees. Foolish, right? It's the same with aquatic weeds. Mechanical harvesters and floating machinery are great tools for large, multi-acreage projects, but they are simply inefficient blunt objects for most homeowners' beach and dock cleanup jobs. They leave roots and tubers behind; can damage docks, boats, and shorelines; and may damage landscaping upon entering and exiting the shoreline.
               </p>
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                And what happens when you leave the tubers (plant stems and fragments) and roots from Hydrilla and other invasive species behind? They come back, branching into new growths stronger and meaner than before, often within weeks. This leads to a never-ending cycle of harvesting and removal, expense, and frustration. You're not solving the problem; you're just putting a band-aid on your problem. This leads many to turn to environmentally-damaging chemicals. Imagine spraying Round-up on your shoreline that you swim, fish, and play in.
+                And what happens when you leave the tubers (plant stems and fragments) and roots from hydrilla and other invasive species behind? They come back, branching into new growth stronger and more aggressive than before, often within weeks. This leads to a never-ending cycle of harvesting and removal, expense, and frustration. You're not solving the problem; you're just putting a band-aid on it. This leads many to turn to environmentally damaging chemicals. Imagine spraying Roundup on your shoreline where you swim, fish, and play.
               </p>
               <div className="bg-red-50 border-l-4 border-red-400 p-4 mb-6">
                 <p className="text-red-800 font-semibold">
@@ -56,9 +56,9 @@ const HowItWorksPage = () => {
               <div className="bg-white p-6 rounded-lg shadow-md">
                 <h3 className="text-xl font-bold text-red-600 mb-4">Hydrilla (Hydrilla verticillata)</h3>
                 <ul className="space-y-2 text-gray-700">
-                  <li>• Clogs coolant passages and wraps around props on boats</li>
-                  <li>• Can tangle around children and cause drowning</li>
-                  <li>• Can tangle fish hooks and lures in it, causing swimming hazard</li>
+                  <li>• Clogs coolant passages and wraps around propellers on boats</li>
+                  <li>• Can entangle children and cause drowning</li>
+                  <li>• Can snag fish hooks and lures, creating swimming hazards</li>
                   <li>• Considered the most problematic aquatic plant in the United States</li>               
                   <li>• Forms dense, suffocating mats from bottom to surface</li>
                   <li>• Chokes out native vegetation and destroys fish habitat</li>
@@ -69,20 +69,20 @@ const HowItWorksPage = () => {
               <div className="bg-white p-6 rounded-lg shadow-md">
                 <h3 className="text-xl font-bold text-red-600 mb-4">Eurasian Watermilfoil</h3>
                 <ul className="space-y-2 text-gray-700">
-                  <li>• Clogs coolant passages and wraps around props on boats</li>
-                  <li>• Can tangle around children and cause drowning</li>
-                  <li>• Can tangle fish hooks and lures in it, causing swimming hazard</li>
+                  <li>• Clogs coolant passages and wraps around propellers on boats</li>
+                  <li>• Can entangle children and cause drowning</li>
+                  <li>• Can snag fish hooks and lures, creating swimming hazards</li>
                   <li>• Forms thick underwater stands</li>
                   <li>• Outcompetes native plants</li>
                   <li>• Alters water chemistry</li>
-                  <li>• Masters of re-growth from tiny fragments</li>
+                  <li>• Masters of regrowth from tiny fragments</li>
                   <li>• Spreads rapidly through root systems</li>
                 </ul>
               </div>
             </div>
             <div className="mt-8 text-center">
               <p className="text-lg text-gray-700 max-w-3xl mx-auto">
-                Both of these rascals are masters of re-growth from even tiny fragments. If you don't get the roots and the subterranean structures, you're just inviting them back for another round. For effective <strong>Austin hydrilla control</strong>, trust <strong>Captain Home Services</strong>.
+                Both of these invasive species are masters of regrowth from even tiny fragments. If you don't get the roots and the underground structures, you're just inviting them back for another round. For effective <strong>Austin hydrilla control</strong>, trust <strong>Captain Home Services</strong>.
               </p>
             </div>
           </div>
@@ -98,28 +98,28 @@ const HowItWorksPage = () => {
                   <Target className="h-8 w-8 text-blue-600" />
                 </div>
                 <h3 className="text-lg font-semibold text-gray-900 mb-2">1. Identification</h3>
-                <p className="text-gray-600">Identify each invasive plant species and assess the extent of infestation, obtain treatment proposal approval</p>
+                <p className="text-gray-600">Identify each invasive plant species and assess the extent of infestation; obtain treatment proposal approval</p>
               </div>
               <div className="text-center">
                 <div className="bg-green-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
                   <Scissors className="h-8 w-8 text-green-600" />
                 </div>
                 <h3 className="text-lg font-semibold text-gray-900 mb-2">2. Targeted Complete Removal</h3>
-                <p className="text-gray-600">Use specialized rakes and tools to remove entire plant including root system</p>
+                <p className="text-gray-600">Use specialized rakes and tools to remove the entire plant including the root system</p>
               </div>
               <div className="text-center">
                 <div className="bg-yellow-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
                   <Truck className="h-8 w-8 text-yellow-600" />
                 </div>
                 <h3 className="text-lg font-semibold text-gray-900 mb-2">3. No-Mess Transport and Responsible Disposal</h3>
-                <p className="text-gray-600">Transport and dispose of vegetation responsibly to prevent spread. We don't leave a mess or damage your landscaping with any heavy equipment used for harvesting or disposal</p>
+                <p className="text-gray-600">Transport and dispose of vegetation responsibly to prevent spread. We don't leave a mess or damage your landscaping with heavy equipment used for harvesting or disposal</p>
               </div>
               <div className="text-center">
                 <div className="bg-teal-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
                   <CheckCircle className="h-8 w-8 text-teal-600" />
                 </div>
                 <h3 className="text-lg font-semibold text-gray-900 mb-2">4. Results</h3>
-                <p className="text-gray-600">Immediately clean lakefront and clear water to enjoy with your family</p>
+                <p className="text-gray-600">Immediately clean lakefront and clear water for you to enjoy with your family</p>
               </div>
             </div>
           </div>
@@ -135,14 +135,14 @@ const HowItWorksPage = () => {
                   <CheckCircle className="h-6 w-6 text-green-600 mt-1 flex-shrink-0" />
                   <div>
                     <h3 className="font-semibold text-gray-900">Immediate Results</h3>
-                    <p className="text-gray-700">See and experience your clean lakefront again after  <strong>lake weed removal</strong>.</p>
+                    <p className="text-gray-700">See and experience your clean lakefront again after <strong>lake weed removal</strong>.</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-3">
                   <CheckCircle className="h-6 w-6 text-green-600 mt-1 flex-shrink-0" />
                   <div>
                     <h3 className="font-semibold text-gray-900">Minimal Impact</h3>
-                    <p className="text-gray-700">No chemicals, no machinery on your grass, no damage to your property or landscaping.</p>
+                    <p className="text-gray-700">No chemicals, no machinery on your lawn, no damage to your property or landscaping.</p>
                   </div>
                 </div>
               </div>

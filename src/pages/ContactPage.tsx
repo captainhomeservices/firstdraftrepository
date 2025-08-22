@@ -184,7 +184,7 @@ const ContactPage = () => {
               Request an Estimate - We'll Contact You Today
             </h2>
             <p className="text-base md:text-lg text-gray-700 max-w-3xl mx-auto">
-              Got a question about why your lake weeds grew in so fast? Or about how we can help keep your swimming area weed free? Whatever your <strong>Austin aquatic vegetation removal</strong> needs, <strong>Captain Home Services</strong> is here to chat and help.
+              Got a question about why your lake weeds grew in so fast? Or about how we can help keep your swimming area weed-free? Whatever your <strong>Austin aquatic vegetation removal</strong> needs, <strong>Captain Home Services</strong> is here to chat and help.
             </p>
           </div>
 
@@ -353,7 +353,7 @@ const ContactPage = () => {
             Ready to Make Your Waterfront Perfect?
           </h2>
           <p className="text-lg md:text-xl text-gray-600 mb-6 md:mb-8 max-w-3xl mx-auto">
-            Once you hit that 'Request an Estimate' button, consider it done. We'll reach out real quick.
+            Once you hit that 'Request an Estimate' button, consider it done. We'll reach out quickly.
           </p>
           <p className="text-base md:text-lg font-semibold text-gray-900">
             Choose <span className="text-teal-600">Captain Home Services</span> for your <strong>Austin lake weed removal</strong>.

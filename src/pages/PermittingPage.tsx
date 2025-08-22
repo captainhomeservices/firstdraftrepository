@@ -33,10 +33,10 @@ const PermittingPage = () => {
                 Why Compliance Matters
               </h2>
               <p className="text-lg text-gray-700 mb-4 leading-relaxed">
-                The Texas Parks and Wildlife Department (TPWD) has a strict permitting and treatment proposal process for <strong>exotic invasive vegetation removal</strong> on public waters.
+                The Texas Parks and Wildlife Department (TPWD) has strict permitting and treatment proposal processes for <strong>exotic invasive vegetation removal</strong> on public waters.
               </p>
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                These regulations are in place to protect our precious natural resources, prevent the spread of invasive species, and ensure that any work done on our lakes is environmentally sound. Ignoring these rules or hiring a service that ignores these regulations can lead to hefty fines, project delays, and a whole heap of trouble you don't need.
+                These regulations are in place to protect our precious natural resources, prevent the spread of invasive species, and ensure that any work done on our lakes is environmentally sound. Ignoring these rules or hiring a service that ignores these regulations can lead to hefty fines, project delays, and a whole lot of trouble you don't need.
               </p>
               <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4">
                 <p className="text-yellow-800 font-semibold">
@@ -59,7 +59,7 @@ const PermittingPage = () => {
               The TPWD Permitting Process: We Handle the Heavy Lifting
             </h2>
             <p className="text-lg text-gray-700 mb-8 text-center max-w-4xl mx-auto">
-              If you're not familiar with the ins and outs of environmental regulations the permitting and treatment proposal process can be a huge pain and take months of your precious boating and swimming season. Our team at <strong>Captain Home Services</strong> is here to clean your shoreline up and take care of the red tape for you.
+              If you're not familiar with the ins and outs of environmental regulations, the permitting and treatment proposal process can be a huge pain and take months of your precious boating and swimming season. Our team at <strong>Captain Home Services</strong> is here to clean up your shoreline and take care of the red tape for you.
             </p>
             
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -76,7 +76,7 @@ const PermittingPage = () => {
                   <Shield className="h-8 w-8 text-green-600" />
                 </div>
                 <h3 className="text-lg font-semibold text-gray-900 mb-2">Treatment Plan Design</h3>
-                <p className="text-gray-600">Detailed, compliant <strong>proposed treatment plan</strong> tailored to your situation</p>
+                <p className="text-gray-600">Detailed, compliant <strong>treatment plan proposal</strong> tailored to your situation</p>
               </div>
               
               <div className="bg-white p-6 rounded-lg shadow-md text-center">

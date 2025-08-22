@@ -54,7 +54,7 @@ const ThankYouPage = () => {
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-3">1. We'll Call You</h3>
               <p className="text-gray-700">
-                Within 24 hours, we'll give you a call to discuss your specific lake weed problem and answer any questions you have.
+                Within 24 hours, we'll call you to discuss your specific lake weed problem and answer any questions you have.
               </p>
             </div>
             
