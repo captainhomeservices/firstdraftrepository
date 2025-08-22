@@ -134,7 +134,7 @@ Sources: UC Davis Weed Control Guide, Irrigation Leader Magazine, FAO Management
       date="January 24, 2025"
       author="Captain Cam"
       category="Global Innovations"
-      image="/lake weed removal tools.jpg"
+      image="/IMG_5761 copy.jpeg"
       excerpt="Explore cutting-edge hydrilla removal techniques from around the world and discover how harvested biomass can be transformed into valuable resources. From dragline systems to bio-oil production, learn how global innovations could revolutionize Austin lake management."
       keywords={["global hydrilla management", "biomass recycling", "aquatic vegetation removal", "sustainable lake management", "hydrilla composting", "bio-oil production", "Austin lake innovation", "dragline weed removal", "vermicomposting hydrilla", "Lake Austin management"]}
       readTime="12 min read"

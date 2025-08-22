@@ -68,7 +68,7 @@ const BlogPage = () => {
       date: "January 24, 2025",
       author: "Captain Cam",
       category: "Global Innovations",
-      image: "/lake weed removal tools.jpg",
+      image: "/IMG_5761 copy.jpeg",
       icon: <Waves className="h-5 w-5" />,
       keywords: ["global hydrilla management", "biomass recycling", "aquatic vegetation removal", "sustainable lake management", "hydrilla composting"],
       readTime: "12 min read",
