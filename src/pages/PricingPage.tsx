@@ -3,6 +3,10 @@ import { Link } from 'react-router-dom';
 import { DollarSign, CheckCircle, Target, Truck, Award, Scissors, Sun } from 'lucide-react';
 
 const PricingPage = () => {
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
@@ -269,12 +273,14 @@ const PricingPage = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               to="/contact"
+              onClick={scrollToTop}
               className="bg-teal-600 hover:bg-teal-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors duration-200 transform hover:scale-105"
             >
               Get Free Quote
             </Link>
             <Link
               to="/how-it-works"
+              onClick={scrollToTop}
               className="bg-gray-200 hover:bg-gray-300 text-gray-900 px-8 py-4 rounded-lg text-lg font-semibold transition-colors duration-200"
             >
               Learn Our Process

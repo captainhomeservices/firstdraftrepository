@@ -3,6 +3,10 @@ import { Link } from 'react-router-dom';
 import { Calendar, User, ArrowLeft, Clock, Share2, BookOpen } from 'lucide-react';
 import SEOHead from './SEOHead';
 
+const scrollToTop = () => {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+};
+
 interface BlogPostProps {
   title: string;
   content: string;
@@ -281,12 +285,14 @@ const BlogPost: React.FC<BlogPostProps> = ({
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               to="/contact"
+              onClick={scrollToTop}
               className="bg-white text-teal-600 hover:bg-gray-100 px-6 md:px-8 py-3 md:py-4 rounded-lg text-lg font-semibold transition-all duration-200 transform hover:scale-105 shadow-lg"
             >
               Get Free Estimate
             </Link>
             <Link
               to="/pricing"
+              onClick={scrollToTop}
               className="bg-teal-700 hover:bg-teal-800 text-white px-6 md:px-8 py-3 md:py-4 rounded-lg text-lg font-semibold transition-colors duration-200 border border-teal-500 shadow-lg"
             >
               View Pricing
@@ -308,6 +314,7 @@ const BlogPost: React.FC<BlogPostProps> = ({
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
                 to="/blog"
+                onClick={scrollToTop}
                 className="bg-gray-900 hover:bg-gray-800 text-white px-6 md:px-8 py-3 md:py-4 rounded-lg text-lg font-semibold transition-colors duration-200 shadow-lg"
               >
                 <BookOpen className="h-5 w-5 inline mr-2" />
@@ -315,6 +322,7 @@ const BlogPost: React.FC<BlogPostProps> = ({
               </Link>
               <Link
                 to="/how-it-works"
+                onClick={scrollToTop}
                 className="bg-gray-200 hover:bg-gray-300 text-gray-900 px-6 md:px-8 py-3 md:py-4 rounded-lg text-lg font-semibold transition-colors duration-200"
               >
                 Learn Our Process

@@ -3,6 +3,10 @@ import { Link } from 'react-router-dom';
 import { FileText, Shield, CheckCircle, AlertTriangle } from 'lucide-react';
 
 const PermittingPage = () => {
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
@@ -201,12 +205,14 @@ const PermittingPage = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               to="/contact"
+              onClick={scrollToTop}
               className="bg-white text-blue-600 hover:bg-gray-100 px-8 py-4 rounded-lg text-lg font-semibold transition-colors duration-200"
             >
               Get Permit Consultation
             </Link>
             <Link
               to="/how-it-works"
+              onClick={scrollToTop}
               className="bg-blue-700 hover:bg-blue-800 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors duration-200 border border-blue-500"
             >
               Learn Our Process

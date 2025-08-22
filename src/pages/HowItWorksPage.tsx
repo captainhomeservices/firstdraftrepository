@@ -3,6 +3,10 @@ import { Link } from 'react-router-dom';
 import { Target, Scissors, Truck, CheckCircle } from 'lucide-react';
 
 const HowItWorksPage = () => {
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
@@ -173,12 +177,14 @@ const HowItWorksPage = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               to="/contact"
+              onClick={scrollToTop}
               className="bg-white text-green-600 hover:bg-gray-100 px-8 py-4 rounded-lg text-lg font-semibold transition-colors duration-200"
             >
               Get Started Today
             </Link>
             <Link
               to="/pricing"
+              onClick={scrollToTop}
               className="bg-green-700 hover:bg-green-800 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors duration-200 border border-green-500"
             >
               View Pricing
