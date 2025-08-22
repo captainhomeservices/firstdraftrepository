@@ -68,7 +68,7 @@ const BlogPage = () => {
       date: "January 22, 2025",
       author: "Captain Cam",
       category: "Hydrilla Management",
-      image: "https://extension.msstate.edu/sites/default/files/publication-images/P3735-9/Fig1__Hy_Top.jpg",
+      image: "/lake weed removal tools.jpg",
       icon: <Waves className="h-5 w-5" />,
       keywords: ["Lake Austin hydrilla management", "Lake Austin hydrilla control", "hydrilla removal methods", "invasive species management", "TPWD permits"],
       readTime: "15 min read",

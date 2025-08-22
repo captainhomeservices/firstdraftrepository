@@ -175,7 +175,7 @@ The time for action is now. The tools and knowledge exist. What's needed is the 
       date="January 22, 2025"
       author="Captain Cam"
       category="Hydrilla Management"
-      image="https://extension.msstate.edu/sites/default/files/publication-images/P3735-9/Fig1__Hy_Top.jpg"
+      image="/lake weed removal tools.jpg"
       excerpt="A comprehensive examination of hydrilla invasion in Central Texas lakes, exploring the historical context, management approaches, and why precision manual removal offers the most effective solution for Lake Austin property owners."
       keywords={["Lake Austin hydrilla management", "Lake Austin hydrilla control", "Lake Austin hydrilla removal", "Austin aquatic vegetation management", "hydrilla control methods", "invasive species management", "TPWD permits", "manual hydrilla removal", "Highland Lakes hydrilla", "Texas aquatic invasive species"]}
       readTime="15 min read"
