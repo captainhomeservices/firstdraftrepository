@@ -62,6 +62,21 @@ const BlogPage = () => {
   const blogPosts = [
     {
       id: 1,
+      title: "Global Innovations in Hydrilla Management: Beyond Traditional Removal Methods",
+      slug: "global-innovations-hydrilla-management-beyond-traditional-methods",
+      excerpt: "Explore cutting-edge hydrilla removal techniques from around the world and discover how harvested biomass can be transformed into valuable resources. From dragline systems to bio-oil production, learn how global innovations could revolutionize Austin lake management.",
+      date: "January 24, 2025",
+      author: "Captain Cam",
+      category: "Global Innovations",
+      image: "/lake weed removal tools.jpg",
+      icon: <Waves className="h-5 w-5" />,
+      keywords: ["global hydrilla management", "biomass recycling", "aquatic vegetation removal", "sustainable lake management", "hydrilla composting"],
+      readTime: "12 min read",
+      featured: true,
+      isNew: true
+    },
+    {
+      id: 2,
       title: "Lake Austin Hydrilla Management Methods: A Historical Perspective and Modern Solutions",
       slug: "lake-austin-hydrilla-management-methods",
       excerpt: "A comprehensive examination of hydrilla invasion in Central Texas lakes, exploring the historical context, management approaches, and why precision manual removal offers the most effective solution for Lake Austin property owners.",
@@ -73,10 +88,10 @@ const BlogPage = () => {
       keywords: ["Lake Austin hydrilla management", "Lake Austin hydrilla control", "hydrilla removal methods", "invasive species management", "TPWD permits"],
       readTime: "15 min read",
       featured: true,
-      isNew: true
+      isNew: false
     },
     {
-      id: 2,
+      id: 3,
       title: "Understanding Lake Weeds: Why They Grow and How to Manage Them",
       slug: "understanding-lake-weeds-why-they-grow-and-how-to-manage-them",
       excerpt: "Discover the key factors behind aquatic weed growth in Texas lakes and learn sustainable management strategies. From nutrient levels to invasive species, understand why lakes get weeds and how professional removal can restore your waterfront.",
@@ -90,7 +105,7 @@ const BlogPage = () => {
       featured: true
     },
     {
-      id: 3,
+      id: 4,
       title: "Navigating Permitting for Aquatic Vegetation Removal in Texas",
       slug: "navigating-permitting-aquatic-vegetation-removal-texas",
       excerpt: "Learn about TPWD and LCRA permitting requirements for aquatic vegetation removal in Texas. Understand why compliance matters and how Captain Home Services handles all the red tape for legal, hassle-free lake weed removal.",
@@ -104,7 +119,7 @@ const BlogPage = () => {
       featured: true
     },
     {
-      id: 4,
+      id: 5,
       title: "The Benefits of Manual Aquatic Weed Removal: A Sustainable Approach",
       slug: "benefits-manual-aquatic-weed-removal-sustainable-approach",
       excerpt: "Discover why manual aquatic weed removal is the most sustainable and effective method for lakefront restoration. Learn about precision targeting, chemical-free approaches, and long-term benefits for your Texas waterfront.",
@@ -118,7 +133,7 @@ const BlogPage = () => {
       featured: true
     },
     {
-      id: 5,
+      id: 6,
       title: "The Importance of Aquatic Vegetation Removal for a Healthy Lakefront",
       slug: "importance-aquatic-vegetation-removal-healthy-lakefront",
       excerpt: "Understand how aggressive aquatic weeds impact your lakefront's ecology, recreation value, and property worth. Learn why professional aquatic vegetation removal is essential for maintaining a healthy Texas waterfront.",
@@ -132,7 +147,7 @@ const BlogPage = () => {
       featured: false
     },
     {
-      id: 6,
+      id: 7,
       title: "The Battle for Our Lakes: Understanding and Removing Invasive Aquatic Plants in Texas",
       excerpt: "Texas lakes face constant threats from invasive aquatic plants. Learn about hydrilla and Eurasian watermilfoil science, plus the most effective removal methods for Austin area lakes.",
       date: "January 15, 2025",
@@ -143,7 +158,7 @@ const BlogPage = () => {
       readTime: "10 min read"
     },
     {
-      id: 7,
+      id: 8,
       title: "Beyond the Weeds: Your Guide to Boating and Dining on Lake Austin",
       excerpt: "Once your waterfront is clear, discover the best boating experiences, lakeside restaurants, and water activities that make Lake Austin special.",
       date: "January 10, 2025",
@@ -154,7 +169,7 @@ const BlogPage = () => {
       readTime: "6 min read"
     },
     {
-      id: 8,
+      id: 9,
       title: "Bass Fishing on Lake Austin: Techniques and Top Spots",
       excerpt: "Lake Austin offers excellent bass fishing. Learn the best techniques, prime locations, and why clear water makes all the difference for successful fishing.",
       date: "January 5, 2025",
@@ -165,7 +180,7 @@ const BlogPage = () => {
       readTime: "8 min read"
     },
     {
-      id: 9,
+      id: 10,
       title: "Lake Austin Resources: Essential Links for Waterfront Owners",
       excerpt: "Your resource hub for Lake Austin living. Find boat rentals, repair services, marinas, and everything needed for your waterfront lifestyle.",
       date: "December 28, 2024",
