@@ -282,8 +282,8 @@ const HomePage = () => {
             </div>
             <div className="relative px-4">
               <img
-                src="https://cdn11.bigcommerce.com/s-94ve5l/images/stencil/500x659/products/2411/4162/WeedRay-1__62680.1736887802.jpg?c=2"
-                alt="Professional aquatic vegetation removal tools used for manual lake weed extraction"
+                src="/echelon cleaned up.jpg"
+                alt="Lake Austin waterfront property showcasing clear water and pristine conditions after professional aquatic vegetation removal"
                 className="rounded-lg shadow-2xl w-full max-w-md mx-auto lg:max-w-full"
               />
             </div>

@@ -67,8 +67,8 @@ const HydrillaCrisis2025Page = () => {
         <h2 id="why-matters" className="text-3xl font-bold text-gray-900 mt-12 mb-6">Why This Matters for Austin Lakefront Property Owners</h2>
 
         <img
-          src="/boothweedsbefore.jpg"
-          alt="Lake Austin property with heavy hydrilla infestation affecting waterfront access"
+          src="/echelon cleaned up.jpg"
+          alt="Lake Austin waterfront property after professional vegetation removal showing clear water"
           className="rounded-lg shadow-lg my-8 w-full"
         />
 
