@@ -68,7 +68,7 @@ const BlogPage = () => {
       date: "January 26, 2025",
       author: "Captain Cam",
       category: "Invasive Species",
-      image: "https://www.lsuagcenter.com/NR/rdonlyres/B15AC6DE-44B9-42B5-8A4A-2ED3CFE6EF1A/101283/hydrilla03_lg.jpg",
+      image: "/IMG_5761 copy.jpeg",
       icon: <Waves className="h-5 w-5" />,
       keywords: ["austin sea weed", "lake weed removal", "hydrilla removal", "austin grass carp", "austin hydrilla control", "Lake Austin hydrilla"],
       readTime: "14 min read",

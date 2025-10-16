@@ -63,8 +63,8 @@ const UnderstandingHydrillaPage = () => {
         <h2 id="how-it-spreads" className="text-3xl font-bold text-gray-900 mt-12 mb-6">How Hydrilla Grows and Spreads</h2>
 
         <img
-          src="https://www.lsuagcenter.com/NR/rdonlyres/B15AC6DE-44B9-42B5-8A4A-2ED3CFE6EF1A/101284/hydrilla04_lg.jpg"
-          alt="Dense hydrilla mat formation showing surface coverage"
+          src="/IMG_5761 copy.jpeg"
+          alt="Dense aquatic vegetation in Austin lake requiring professional removal"
           className="rounded-lg shadow-lg my-8 w-full"
         />
 
@@ -136,8 +136,8 @@ const UnderstandingHydrillaPage = () => {
         <h3 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">Biological Control: Grass Carp</h3>
 
         <img
-          src="https://www.lsuagcenter.com/NR/rdonlyres/B15AC6DE-44B9-42B5-8A4A-2ED3CFE6EF1A/101286/grasscarp_lg.jpg"
-          alt="Grass carp used for biological control of aquatic vegetation"
+          src="/IMG_5761.jpeg"
+          alt="Professional lake weed removal service on Austin-area lake"
           className="rounded-lg shadow-lg my-8 w-full"
         />
 
