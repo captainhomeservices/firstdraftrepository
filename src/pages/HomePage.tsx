@@ -226,8 +226,8 @@ const HomePage = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
             <div>
               <img
-                src="https://zyslabgmutwpcyabzcag.supabase.co/storage/v1/object/public/photos/cleaned%20up%20weeds.png"
-                alt="Before and after lake weed removal showing cleared waterfront by Captain Home Services"
+                src="https://zyslabgmutwpcyabzcag.supabase.co/storage/v1/object/public/photos/david%20booth%20weeds.png"
+                alt="Lake Austin hydrilla problem showing dense invasive aquatic vegetation before removal"
                 className="rounded-lg shadow-xl w-full"
               />
             </div>
