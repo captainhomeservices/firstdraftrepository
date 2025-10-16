@@ -18,6 +18,7 @@ import UnderstandingLakeWeedsPage from './pages/blog/UnderstandingLakeWeedsPage'
 import NavigatingPermittingPage from './pages/blog/NavigatingPermittingPage';
 import ManualAquaticWeedRemovalPage from './pages/blog/ManualAquaticWeedRemovalPage';
 import ImportanceAquaticVegetationPage from './pages/blog/ImportanceAquaticVegetationPage';
+import HydrillaCrisis2025Page from './pages/blog/HydrillaCrisis2025Page';
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
           <Route path="/blog" element={<BlogPage />} />
           
           {/* Blog Post Routes */}
+          <Route path="/blog/lake-austin-hydrilla-crisis-deepens-city-plans-grass-carp-response-fall-2025" element={<HydrillaCrisis2025Page />} />
           <Route path="/blog/understanding-hydrilla-most-invasive-aquatic-weed-austin-lakes" element={<UnderstandingHydrillaPage />} />
           <Route path="/blog/global-innovations-hydrilla-management-beyond-traditional-methods" element={<GlobalInnovationsHydrillaPage />} />
           <Route path="/blog/lake-austin-hydrilla-management-methods" element={<LakeAustinHydrillaManagementPage />} />
