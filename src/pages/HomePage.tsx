@@ -202,7 +202,7 @@ const HomePage = () => {
           {/* Bridge Image under the boxes */}
           <div className="text-center">
             <img
-              src="/lake weed removal pose copy.jpeg"
+              src="https://zyslabgmutwpcyabzcag.supabase.co/storage/v1/object/public/photos/cleaned%20up%20weeds.png"
               alt="Austin lake weed removal experts from Captain Home Services performing manual hydrilla removal and aquatic vegetation extraction on Lake Austin using specialized tools"
               className="rounded-lg shadow-2xl mx-auto w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-2xl xl:max-w-4xl h-auto object-cover"
               loading="lazy"
@@ -226,8 +226,8 @@ const HomePage = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
             <div>
               <img
-                src="https://zyslabgmutwpcyabzcag.supabase.co/storage/v1/object/public/photos/cleaned%20up%20weeds.png"
-                alt="Before and after lake weed removal showing cleared waterfront by Captain Home Services"
+                src="https://zyslabgmutwpcyabzcag.supabase.co/storage/v1/object/public/photos/david%20booth%20weeds.png"
+                alt="Lake Austin hydrilla problem showing dense invasive aquatic vegetation before removal"
                 className="rounded-lg shadow-xl w-full"
               />
             </div>
