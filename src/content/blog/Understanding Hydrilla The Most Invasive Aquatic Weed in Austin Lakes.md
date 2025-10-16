@@ -46,7 +46,7 @@ Control of hydrilla typically requires an integrated approach. No single method 
 
 Mechanical removal (cutting or harvesting) can help in small infestations but has risks: cut fragments left behind can contribute to new growth. [<sup>1</sup>](#ref1) Large-scale mechanical harvesting equipment is often too cumbersome for residential waterfront areas and can actually spread the problem by creating fragments.
 
-**Manual precision removal**, however, offers a more targeted approach. By carefully extracting entire plants including root systems and tubers, manual removal minimizes fragmentation while providing immediate, visible results in dock and swimming areas.
+**Manual precision removal**, however, offers a more targeted approach. By carefully extracting entire plants, manual removal minimizes fragmentation while providing immediate, visible results in dock and swimming areas.
 
 ### Water Level Management
 
