@@ -69,11 +69,11 @@ const BlogPost: React.FC<BlogPostProps> = ({
   // Enhanced content processing with better internal linking
   const processContent = (content: string) => {
     let processedContent = content;
-    
+
     // Convert markdown-style links to HTML with proper styling
     const linkRegex = /\[([^\]]+)\]\(([^)]+)\)/g;
     processedContent = processedContent.replace(linkRegex, '<a href="$2" class="text-teal-600 hover:text-teal-700 font-medium underline decoration-2 underline-offset-2 transition-colors duration-200">$1</a>');
-    
+
     // Add internal links for key terms
     const internalLinks = {
       'Captain Home Services': '/contact',
@@ -89,7 +89,7 @@ const BlogPost: React.FC<BlogPostProps> = ({
       'hydrilla control': '/how-it-works',
       'aquatic vegetation management': '/pricing'
     };
-    
+
     // Apply internal links only to first occurrence and avoid double-linking
     Object.entries(internalLinks).forEach(([term, url]) => {
       const regex = new RegExp(`\\b(${term})\\b(?![^<]*>)`, 'i');
@@ -97,11 +97,9 @@ const BlogPost: React.FC<BlogPostProps> = ({
         processedContent = processedContent.replace(regex, `<a href="${url}" class="text-teal-600 hover:text-teal-700 font-semibold underline decoration-2 underline-offset-2 transition-colors duration-200">$1</a>`);
       }
     });
-    
+
     return processedContent;
   };
-
-  const processedContent = processContent(content);
 
   return (
     <div className="min-h-screen bg-gray-50">
