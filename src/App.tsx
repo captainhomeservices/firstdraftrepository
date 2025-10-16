@@ -17,6 +17,7 @@ import ManualRemovalBenefitsPage from './pages/blog/ManualRemovalBenefitsPage';
 import HealthyLakefrontPage from './pages/blog/HealthyLakefrontPage';
 import LakeAustinHydrillaManagementPage from './pages/blog/LakeAustinHydrillaManagementPage';
 import GlobalHydrillaManagementPage from './pages/blog/GlobalHydrillaManagementPage';
+import UnderstandingHydrillaPage from './pages/blog/UnderstandingHydrillaPage';
 
 function App() {
   return (
@@ -39,6 +40,7 @@ function App() {
           <Route path="/blog/importance-aquatic-vegetation-removal-healthy-lakefront" element={<HealthyLakefrontPage />} />
           <Route path="/blog/lake-austin-hydrilla-management-methods" element={<LakeAustinHydrillaManagementPage />} />
           <Route path="/blog/global-innovations-hydrilla-management-beyond-traditional-methods" element={<GlobalHydrillaManagementPage />} />
+          <Route path="/blog/understanding-hydrilla-most-invasive-aquatic-weed-austin-lakes" element={<UnderstandingHydrillaPage />} />
         </Routes>
         <Footer />
       </div>
