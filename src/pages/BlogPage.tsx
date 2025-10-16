@@ -280,34 +280,67 @@ const BlogPage = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-16">
             {featuredPosts.map((post) => (
               <article key={post.id} className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
-                <div className="relative">
-                  <img
-                    src={post.image}
-                    alt={post.id === 1 ? "Lake Austin hydrilla plant identification showing detailed leaf structure and growth pattern from Mississippi State University Extension" : post.title}
-                    className="w-full h-64 md:h-72 object-cover"
-                  />
-                  <div className="absolute top-4 left-4">
-                    <div className="bg-white bg-opacity-95 text-gray-800 px-3 py-1.5 rounded-full text-sm font-medium flex items-center space-x-1 shadow-lg">
-                      {post.icon}
-                      <span>{post.category}</span>
+                {post.slug ? (
+                  <Link to={`/blog/${post.slug}`} onClick={scrollToTop}>
+                    <div className="relative">
+                      <img
+                        src={post.image}
+                        alt={post.id === 1 ? "Lake Austin hydrilla plant identification showing detailed leaf structure and growth pattern from Mississippi State University Extension" : post.title}
+                        className="w-full h-64 md:h-72 object-cover"
+                      />
+                      <div className="absolute top-4 left-4">
+                        <div className="bg-white bg-opacity-95 text-gray-800 px-3 py-1.5 rounded-full text-sm font-medium flex items-center space-x-1 shadow-lg">
+                          {post.icon}
+                          <span>{post.category}</span>
+                        </div>
+                      </div>
+                      {post.isNew && (
+                        <div className="absolute top-4 right-4">
+                          <div className="bg-red-500 text-white px-3 py-1.5 rounded-full text-sm font-bold shadow-lg">
+                            NEW
+                          </div>
+                        </div>
+                      )}
+                      {post.readTime && !post.isNew && (
+                        <div className="absolute top-4 right-4">
+                          <div className="bg-black bg-opacity-70 text-white px-3 py-1.5 rounded-full text-sm flex items-center">
+                            <Clock className="h-3 w-3 mr-1" />
+                            {post.readTime}
+                          </div>
+                        </div>
+                      )}
                     </div>
+                  </Link>
+                ) : (
+                  <div className="relative">
+                    <img
+                      src={post.image}
+                      alt={post.id === 1 ? "Lake Austin hydrilla plant identification showing detailed leaf structure and growth pattern from Mississippi State University Extension" : post.title}
+                      className="w-full h-64 md:h-72 object-cover"
+                    />
+                    <div className="absolute top-4 left-4">
+                      <div className="bg-white bg-opacity-95 text-gray-800 px-3 py-1.5 rounded-full text-sm font-medium flex items-center space-x-1 shadow-lg">
+                        {post.icon}
+                        <span>{post.category}</span>
+                      </div>
+                    </div>
+                    {post.isNew && (
+                      <div className="absolute top-4 right-4">
+                        <div className="bg-red-500 text-white px-3 py-1.5 rounded-full text-sm font-bold shadow-lg">
+                          NEW
+                        </div>
+                      </div>
+                    )}
+                    {post.readTime && !post.isNew && (
+                      <div className="absolute top-4 right-4">
+                        <div className="bg-black bg-opacity-70 text-white px-3 py-1.5 rounded-full text-sm flex items-center">
+                          <Clock className="h-3 w-3 mr-1" />
+                          {post.readTime}
+                        </div>
+                      </div>
+                    )}
                   </div>
-                  {post.isNew && (
-                    <div className="absolute top-4 right-4">
-                      <div className="bg-red-500 text-white px-3 py-1.5 rounded-full text-sm font-bold shadow-lg">
-                        NEW
-                      </div>
-                    </div>
-                  )}
-                  {post.readTime && !post.isNew && (
-                    <div className="absolute top-4 right-4">
-                      <div className="bg-black bg-opacity-70 text-white px-3 py-1.5 rounded-full text-sm flex items-center">
-                        <Clock className="h-3 w-3 mr-1" />
-                        {post.readTime}
-                      </div>
-                    </div>
-                  )}
-                </div>
+                )}
                 
                 <div className="p-6 md:p-8">
                   <div className="flex items-center text-sm text-gray-500 mb-4">
@@ -368,27 +401,53 @@ const BlogPage = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {additionalPosts.map((post) => (
               <article key={post.id} className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1">
-                <div className="relative">
-                  <img
-                    src={post.image}
-                    alt={post.title}
-                    className="w-full h-48 object-cover"
-                  />
-                  <div className="absolute top-3 left-3">
-                    <div className="bg-white bg-opacity-95 text-gray-800 px-2 py-1 rounded text-xs font-medium flex items-center space-x-1">
-                      {post.icon}
-                      <span>{post.category}</span>
+                {post.slug ? (
+                  <Link to={`/blog/${post.slug}`} onClick={scrollToTop}>
+                    <div className="relative">
+                      <img
+                        src={post.image}
+                        alt={post.title}
+                        className="w-full h-48 object-cover"
+                      />
+                      <div className="absolute top-3 left-3">
+                        <div className="bg-white bg-opacity-95 text-gray-800 px-2 py-1 rounded text-xs font-medium flex items-center space-x-1">
+                          {post.icon}
+                          <span>{post.category}</span>
+                        </div>
+                      </div>
+                      {post.readTime && (
+                        <div className="absolute top-3 right-3">
+                          <div className="bg-black bg-opacity-70 text-white px-2 py-1 rounded text-xs flex items-center">
+                            <Clock className="h-3 w-3 mr-1" />
+                            {post.readTime}
+                          </div>
+                        </div>
+                      )}
                     </div>
-                  </div>
-                  {post.readTime && (
-                    <div className="absolute top-3 right-3">
-                      <div className="bg-black bg-opacity-70 text-white px-2 py-1 rounded text-xs flex items-center">
-                        <Clock className="h-3 w-3 mr-1" />
-                        {post.readTime}
+                  </Link>
+                ) : (
+                  <div className="relative">
+                    <img
+                      src={post.image}
+                      alt={post.title}
+                      className="w-full h-48 object-cover"
+                    />
+                    <div className="absolute top-3 left-3">
+                      <div className="bg-white bg-opacity-95 text-gray-800 px-2 py-1 rounded text-xs font-medium flex items-center space-x-1">
+                        {post.icon}
+                        <span>{post.category}</span>
                       </div>
                     </div>
-                  )}
-                </div>
+                    {post.readTime && (
+                      <div className="absolute top-3 right-3">
+                        <div className="bg-black bg-opacity-70 text-white px-2 py-1 rounded text-xs flex items-center">
+                          <Clock className="h-3 w-3 mr-1" />
+                          {post.readTime}
+                        </div>
+                      </div>
+                    )}
+                  </div>
+                )}
                 
                 <div className="p-4">
                   <div className="flex items-center text-xs text-gray-500 mb-2">
