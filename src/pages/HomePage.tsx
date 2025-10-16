@@ -226,7 +226,7 @@ const HomePage = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
             <div>
               <img
-                src="/boothweedsbefore.jpg"
+                src="/Copy of Untitled.jpg"
                 alt="Lake Austin hydrilla problem showing dense invasive aquatic vegetation before removal"
                 className="rounded-lg shadow-xl w-full"
               />
