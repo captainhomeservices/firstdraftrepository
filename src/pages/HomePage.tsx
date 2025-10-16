@@ -100,24 +100,24 @@ const HomePage = () => {
         </div>
 
         {/* Hero Content */}
-        <div className="relative h-full flex items-start justify-center pt-24 sm:pt-32 md:pt-40">
+        <div className="relative h-full flex items-start justify-center pt-16 sm:pt-20">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <div className="space-y-4 sm:space-y-6 opacity-0 animate-fadeInUp px-4">
-              <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold text-white leading-tight tracking-tight drop-shadow-2xl">
+            <div className="space-y-3 sm:space-y-4 opacity-0 animate-fadeInUp px-4">
+              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight tracking-tight drop-shadow-2xl">
                 Clear Lake Weeds.
-                <span className="block mt-2 text-[#00B47B] drop-shadow-2xl">
+                <span className="block mt-1 text-[#00B47B] drop-shadow-2xl">
                   Restore Your Waterfront.
                 </span>
               </h1>
-              <p className="text-lg sm:text-xl md:text-2xl text-white drop-shadow-lg px-2">
+              <p className="text-base sm:text-lg md:text-xl text-white drop-shadow-lg px-2">
                 Hydrilla Removal and Lake Management for Lake Austin
               </p>
 
-              <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4 sm:pt-6 opacity-0 animate-fadeInUp animation-delay-200 px-4">
+              <div className="flex flex-col sm:flex-row gap-3 justify-center pt-2 sm:pt-3 opacity-0 animate-fadeInUp animation-delay-200 px-4">
                 <Link
                   to="/contact"
                   onClick={scrollToTop}
-                  className="group inline-flex items-center justify-center px-6 sm:px-8 py-4 sm:py-5 bg-[#00B47B]/80 hover:bg-[#009966]/90 text-white text-base sm:text-lg font-semibold rounded-xl transition-all duration-300 shadow-2xl hover:shadow-emerald-500/50 hover:scale-105 backdrop-blur-sm"
+                  className="group inline-flex items-center justify-center px-5 sm:px-7 py-3 sm:py-4 bg-[#00B47B]/80 hover:bg-[#009966]/90 text-white text-sm sm:text-base font-semibold rounded-xl transition-all duration-300 shadow-2xl hover:shadow-emerald-500/50 hover:scale-105 backdrop-blur-sm"
                 >
                   Get a Free Quote
                   <svg className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -126,7 +126,7 @@ const HomePage = () => {
                 </Link>
                 <a
                   href="tel:(737)-300-9033"
-                  className="inline-flex items-center justify-center px-6 sm:px-8 py-4 sm:py-5 bg-white/80 hover:bg-white/90 text-gray-900 text-base sm:text-lg font-semibold rounded-xl transition-all duration-300 hover:scale-105 shadow-2xl backdrop-blur-sm whitespace-nowrap"
+                  className="inline-flex items-center justify-center px-5 sm:px-7 py-3 sm:py-4 bg-white/80 hover:bg-white/90 text-gray-900 text-sm sm:text-base font-semibold rounded-xl transition-all duration-300 hover:scale-105 shadow-2xl backdrop-blur-sm whitespace-nowrap"
                 >
                   <svg className="mr-2 w-5 h-5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
@@ -136,8 +136,8 @@ const HomePage = () => {
               </div>
 
               {/* Trust Indicators */}
-              <div className="pt-4 sm:pt-6 opacity-0 animate-fadeInUp animation-delay-400 px-4">
-                <div className="inline-flex flex-wrap items-center justify-center gap-3 sm:gap-6 px-4 sm:px-8 py-3 sm:py-4 bg-white/10 backdrop-blur-md rounded-2xl border border-white/20">
+              <div className="pt-2 sm:pt-3 opacity-0 animate-fadeInUp animation-delay-400 px-4">
+                <div className="inline-flex flex-wrap items-center justify-center gap-2 sm:gap-4 px-3 sm:px-6 py-2 sm:py-3 bg-white/10 backdrop-blur-md rounded-xl border border-white/20">
                   <div className="flex items-center space-x-2">
                     <CheckCircle className="h-4 w-4 sm:h-5 sm:w-5 text-[#00B47B] flex-shrink-0" />
                     <span className="font-semibold text-white text-sm sm:text-base whitespace-nowrap">TPWD Permitted</span>
