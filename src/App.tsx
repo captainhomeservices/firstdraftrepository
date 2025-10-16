@@ -12,6 +12,7 @@ import BlogPage from './pages/BlogPage';
 
 // Blog Post Pages
 import UnderstandingHydrillaPage from './pages/blog/UnderstandingHydrillaPage';
+import GlobalInnovationsHydrillaPage from './pages/blog/GlobalInnovationsHydrillaPage';
 import LakeAustinHydrillaManagementPage from './pages/blog/LakeAustinHydrillaManagementPage';
 import UnderstandingLakeWeedsPage from './pages/blog/UnderstandingLakeWeedsPage';
 import NavigatingPermittingPage from './pages/blog/NavigatingPermittingPage';
@@ -34,6 +35,7 @@ function App() {
           
           {/* Blog Post Routes */}
           <Route path="/blog/understanding-hydrilla-most-invasive-aquatic-weed-austin-lakes" element={<UnderstandingHydrillaPage />} />
+          <Route path="/blog/global-innovations-hydrilla-management-beyond-traditional-methods" element={<GlobalInnovationsHydrillaPage />} />
           <Route path="/blog/lake-austin-hydrilla-management-methods" element={<LakeAustinHydrillaManagementPage />} />
           <Route path="/blog/understanding-lake-weeds-why-they-grow-and-how-to-manage-them" element={<UnderstandingLakeWeedsPage />} />
           <Route path="/blog/navigating-permitting-aquatic-vegetation-removal-texas" element={<NavigatingPermittingPage />} />
