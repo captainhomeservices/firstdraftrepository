@@ -47,51 +47,56 @@ const Navbar = () => {
   }, [isOpen]);
 
   return (
-    <nav className="bg-white shadow-lg sticky top-0 z-50">
+    <nav className="bg-white/95 backdrop-blur-md shadow-sm sticky top-0 z-50 transition-all duration-300">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16">
+        <div className="flex justify-between items-center h-20">
           {/* Logo */}
-          <Link to="/" onClick={handleLinkClick} className="flex items-center space-x-2 flex-shrink-0 min-w-0">
-            <img 
-              src="/captain logo green  copy copy.png" 
-              alt="Captain Home Services Logo" 
-              className="h-8 w-8 md:h-10 md:w-10 object-contain flex-shrink-0 rounded-full"
+          <Link to="/" onClick={handleLinkClick} className="flex items-center space-x-3 flex-shrink-0 min-w-0">
+            <img
+              src="/captain logo green  copy copy.png"
+              alt="Captain Home Services Logo"
+              className="h-10 w-10 md:h-12 md:w-12 object-contain flex-shrink-0 rounded-full transition-transform duration-200 hover:scale-105"
             />
             <div className="min-w-0">
-              <span className="font-bold text-lg md:text-xl text-gray-900 hidden sm:block truncate">
+              <span className="font-bold text-xl md:text-2xl text-gray-900 hidden sm:block truncate tracking-tight">
                 Captain Home Services
               </span>
-              <span className="font-bold text-sm text-gray-900 sm:hidden block truncate">
+              <span className="font-bold text-base text-gray-900 sm:hidden block truncate">
                 Captain Home Services
               </span>
             </div>
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:block">
-            <div className="ml-10 flex items-baseline space-x-4">
-              {navigation.map((item) => (
-                <Link
-                  key={item.name}
-                  to={item.href}
-                  onClick={scrollToTop}
-                  className={`px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 ${
-                    isActive(item.href)
-                      ? 'bg-teal-50 text-teal-700'
-                      : 'text-gray-700 hover:text-teal-600 hover:bg-teal-50'
-                  }`}
-                >
-                  {item.name}
-                </Link>
-              ))}
-            </div>
+          <div className="hidden lg:flex items-center space-x-1">
+            {navigation.slice(0, -1).map((item) => (
+              <Link
+                key={item.name}
+                to={item.href}
+                onClick={scrollToTop}
+                className={`px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 ${
+                  isActive(item.href)
+                    ? 'text-[#00B47B]'
+                    : 'text-gray-600 hover:text-gray-900'
+                }`}
+              >
+                {item.name}
+              </Link>
+            ))}
+            <Link
+              to="/contact"
+              onClick={scrollToTop}
+              className="ml-4 px-6 py-2.5 bg-[#00B47B] hover:bg-[#009966] text-white rounded-lg text-sm font-semibold transition-all duration-200 transform hover:scale-105 shadow-sm hover:shadow-md"
+            >
+              Get Started
+            </Link>
           </div>
 
           {/* Mobile menu button */}
-          <div className="md:hidden">
+          <div className="lg:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="text-gray-700 hover:text-teal-600 focus:outline-none focus:text-teal-600 p-2"
+              className="text-gray-700 hover:text-[#00B47B] focus:outline-none focus:text-[#00B47B] p-2 transition-colors duration-200"
               aria-label="Toggle menu"
             >
               {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
@@ -102,46 +107,46 @@ const Navbar = () => {
 
       {/* Mobile Navigation Overlay */}
       {isOpen && (
-        <div className="md:hidden fixed inset-0 z-50 bg-white">
-          <div className="flex justify-between items-center h-16 px-4 border-b">
+        <div className="lg:hidden fixed inset-0 z-50 bg-white">
+          <div className="flex justify-between items-center h-20 px-4 border-b">
             <Link to="/" onClick={handleLinkClick} className="flex items-center space-x-2">
-              <img 
-                src="/captain logo green  copy copy.png" 
-                alt="Captain Home Services Logo" 
-                className="h-8 w-8 object-contain rounded-full"
+              <img
+                src="/captain logo green  copy copy.png"
+                alt="Captain Home Services Logo"
+                className="h-10 w-10 object-contain rounded-full"
               />
               <span className="font-bold text-lg text-gray-900">Captain Home Services</span>
             </Link>
             <button
               onClick={() => setIsOpen(false)}
-              className="text-gray-700 hover:text-teal-600 focus:outline-none p-2"
+              className="text-gray-700 hover:text-[#00B47B] focus:outline-none p-2 transition-colors duration-200"
               aria-label="Close menu"
             >
               <X className="h-6 w-6" />
             </button>
           </div>
-          
-          <div className="px-4 py-6 space-y-4 overflow-y-auto">
+
+          <div className="px-4 py-6 space-y-2 overflow-y-auto">
             {navigation.map((item) => (
               <Link
                 key={item.name}
                 to={item.href}
-                className={`block px-4 py-3 rounded-md text-lg font-medium transition-colors duration-200 ${
+                className={`block px-4 py-3 rounded-lg text-lg font-medium transition-colors duration-200 ${
                   isActive(item.href)
-                    ? 'bg-teal-50 text-teal-700'
-                    : 'text-gray-700 hover:text-teal-600 hover:bg-teal-50'
+                    ? 'text-[#00B47B]'
+                    : 'text-gray-700 hover:text-gray-900'
                 }`}
                 onClick={handleLinkClick}
               >
                 {item.name}
               </Link>
             ))}
-            
+
             {/* Mobile CTA */}
-            <div className="pt-6 border-t border-gray-200">
+            <div className="pt-6 border-t border-gray-200 mt-4">
               <a
                 href="tel:(737)-300-9033"
-                className="block w-full bg-teal-600 hover:bg-teal-700 text-white text-center px-4 py-3 rounded-md text-lg font-semibold transition-colors duration-200"
+                className="block w-full bg-[#00B47B] hover:bg-[#009966] text-white text-center px-4 py-3 rounded-lg text-lg font-semibold transition-colors duration-200"
                 onClick={() => setIsOpen(false)}
               >
                 Call (737) 300-9033
