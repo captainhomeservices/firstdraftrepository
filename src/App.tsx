@@ -12,6 +12,11 @@ import BlogPage from './pages/BlogPage';
 
 // Blog Post Pages
 import UnderstandingHydrillaPage from './pages/blog/UnderstandingHydrillaPage';
+import LakeAustinHydrillaManagementPage from './pages/blog/LakeAustinHydrillaManagementPage';
+import UnderstandingLakeWeedsPage from './pages/blog/UnderstandingLakeWeedsPage';
+import NavigatingPermittingPage from './pages/blog/NavigatingPermittingPage';
+import ManualAquaticWeedRemovalPage from './pages/blog/ManualAquaticWeedRemovalPage';
+import ImportanceAquaticVegetationPage from './pages/blog/ImportanceAquaticVegetationPage';
 
 function App() {
   return (
@@ -29,6 +34,11 @@ function App() {
           
           {/* Blog Post Routes */}
           <Route path="/blog/understanding-hydrilla-most-invasive-aquatic-weed-austin-lakes" element={<UnderstandingHydrillaPage />} />
+          <Route path="/blog/lake-austin-hydrilla-management-methods" element={<LakeAustinHydrillaManagementPage />} />
+          <Route path="/blog/understanding-lake-weeds-why-they-grow-and-how-to-manage-them" element={<UnderstandingLakeWeedsPage />} />
+          <Route path="/blog/navigating-permitting-aquatic-vegetation-removal-texas" element={<NavigatingPermittingPage />} />
+          <Route path="/blog/benefits-manual-aquatic-weed-removal-sustainable-approach" element={<ManualAquaticWeedRemovalPage />} />
+          <Route path="/blog/importance-aquatic-vegetation-removal-healthy-lakefront" element={<ImportanceAquaticVegetationPage />} />
         </Routes>
         <Footer />
       </div>
