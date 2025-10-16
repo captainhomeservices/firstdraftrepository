@@ -47,7 +47,7 @@ const Navbar = () => {
   }, [isOpen]);
 
   return (
-    <nav className="bg-white/95 backdrop-blur-md shadow-sm sticky top-0 z-50 transition-all duration-300">
+    <nav className="bg-white shadow-md sticky top-0 z-50 border-b border-gray-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
@@ -126,15 +126,15 @@ const Navbar = () => {
             </button>
           </div>
 
-          <div className="px-4 py-6 space-y-2 overflow-y-auto">
+          <div className="px-4 py-6 space-y-1 overflow-y-auto max-h-[calc(100vh-5rem)]">
             {navigation.map((item) => (
               <Link
                 key={item.name}
                 to={item.href}
-                className={`block px-4 py-3 rounded-lg text-lg font-medium transition-colors duration-200 ${
+                className={`block px-4 py-4 rounded-lg text-base font-semibold transition-all duration-200 ${
                   isActive(item.href)
-                    ? 'text-[#00B47B]'
-                    : 'text-gray-700 hover:text-gray-900'
+                    ? 'bg-[#00B47B] text-white shadow-sm'
+                    : 'text-gray-900 hover:bg-gray-100 active:bg-gray-200'
                 }`}
                 onClick={handleLinkClick}
               >
@@ -146,7 +146,7 @@ const Navbar = () => {
             <div className="pt-6 border-t border-gray-200 mt-4">
               <a
                 href="tel:(737)-300-9033"
-                className="block w-full bg-[#00B47B] hover:bg-[#009966] text-white text-center px-4 py-3 rounded-lg text-lg font-semibold transition-colors duration-200"
+                className="block w-full bg-gray-900 hover:bg-gray-800 active:bg-gray-700 text-white text-center px-4 py-4 rounded-lg text-base font-bold transition-all duration-200 shadow-md hover:shadow-lg"
                 onClick={() => setIsOpen(false)}
               >
                 Call (737) 300-9033
