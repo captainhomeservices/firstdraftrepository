@@ -235,6 +235,12 @@ const HydrillaCrisis2025Page = () => {
             or contact the Austin Watershed Protection Department.
           </p>
         </div>
+
+        <div className="bg-gray-50 border border-gray-200 rounded-lg p-6 mt-8">
+          <p className="text-sm text-gray-700 mb-0">
+            <strong>About the Photos:</strong> All photos in this article are of actual Lake Austin waterfront properties serviced by Captain Home Services in 2025. These are real before-and-after images showing the impact of hydrilla and the results of our professional manual aquatic vegetation removal services.
+          </p>
+        </div>
       </div>
     </BlogPost>
   );
