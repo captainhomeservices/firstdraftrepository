@@ -63,7 +63,7 @@ const UnderstandingHydrillaPage = () => {
         <h2 id="how-it-spreads" className="text-3xl font-bold text-gray-900 mt-12 mb-6">How Hydrilla Grows and Spreads</h2>
 
         <img
-          src="/IMG_5761 copy.jpeg"
+          src="/lake weeds removed.png"
           alt="Dense aquatic vegetation in Austin lake requiring professional removal"
           className="rounded-lg shadow-lg my-8 w-full"
         />

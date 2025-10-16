@@ -68,7 +68,7 @@ const BlogPage = () => {
       date: "January 26, 2025",
       author: "Captain Cam",
       category: "Invasive Species",
-      image: "/IMG_5761 copy.jpeg",
+      image: "/lake weeds removed.png",
       icon: <Waves className="h-5 w-5" />,
       keywords: ["austin sea weed", "lake weed removal", "hydrilla removal", "austin grass carp", "austin hydrilla control", "Lake Austin hydrilla"],
       readTime: "14 min read",
