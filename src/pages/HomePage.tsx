@@ -91,7 +91,7 @@ const HomePage = () => {
             playsInline
             className="absolute inset-0 w-full h-full object-cover"
           >
-            <source src="https://zyslabgmutwpcyabzcag.supabase.co/storage/v1/object/public/videos/short%20weed%20removsl%20clip.mp4" type="video/mp4" />
+            <source src="https://zyslabgmutwpcyabzcag.supabase.co/storage/v1/object/public/videos/1o%20second%20weed%20removal.mp4" type="video/mp4" />
           </video>
 
           {/* Gradient Overlay for better text readability */}
