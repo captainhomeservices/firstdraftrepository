@@ -9,15 +9,16 @@ const scrollToTop = () => {
 
 interface BlogPostProps {
   title: string;
-  content: string;
+  content?: string;
   date: string;
   author: string;
   category: string;
-  image: string;
+  image?: string;
   excerpt: string;
   keywords?: string[];
   readTime?: string;
-  slug: string;
+  slug?: string;
+  children?: React.ReactNode;
 }
 
 const BlogPost: React.FC<BlogPostProps> = ({
@@ -30,16 +31,17 @@ const BlogPost: React.FC<BlogPostProps> = ({
   excerpt,
   keywords = [],
   readTime,
-  slug
+  slug,
+  children
 }) => {
-  const canonicalUrl = `https://austinlakemanagement.com/blog/${slug}`;
-  
+  const canonicalUrl = slug ? `https://austinlakemanagement.com/blog/${slug}` : 'https://austinlakemanagement.com/blog';
+
   const blogPostSchema = {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
     "headline": title,
     "description": excerpt,
-    "image": image,
+    "image": image || "https://austinlakemanagement.com/lake weed removal pose copy.jpeg",
     "author": {
       "@type": "Person",
       "name": author
@@ -60,7 +62,7 @@ const BlogPost: React.FC<BlogPostProps> = ({
     },
     "keywords": keywords.join(", "),
     "articleSection": category,
-    "wordCount": content.split(' ').length,
+    "wordCount": content ? content.split(' ').length : 1000,
     "timeRequired": readTime || "5-10 minutes"
   };
 
@@ -155,104 +157,110 @@ const BlogPost: React.FC<BlogPostProps> = ({
       </section>
 
       {/* Featured Image */}
-      <section className="bg-white">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-          <div className="relative overflow-hidden rounded-xl shadow-2xl">
-            <img
-              src={image}
-              alt={title}
-              className="w-full h-64 md:h-80 lg:h-96 object-cover"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
+      {image && (
+        <section className="bg-white">
+          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+            <div className="relative overflow-hidden rounded-xl shadow-2xl">
+              <img
+                src={image}
+                alt={title}
+                className="w-full h-64 md:h-80 lg:h-96 object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
+      )}
 
       {/* Article Content */}
       <article className="bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-12">
-          <div className="prose prose-lg max-w-none">
-            <style jsx>{`
-              .prose {
-                font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-                line-height: 1.7;
-                color: #374151;
-              }
-              .prose h2 {
-                font-size: 1.875rem;
-                font-weight: 700;
-                color: #111827;
-                margin-top: 2.5rem;
-                margin-bottom: 1.25rem;
-                line-height: 1.3;
-                letter-spacing: -0.025em;
-              }
-              .prose h3 {
-                font-size: 1.5rem;
-                font-weight: 600;
-                color: #111827;
-                margin-top: 2rem;
-                margin-bottom: 1rem;
-                line-height: 1.4;
-              }
-              .prose p {
-                font-size: 1.125rem;
-                line-height: 1.7;
-                margin-bottom: 1.5rem;
-                color: #374151;
-              }
-              .prose strong {
-                font-weight: 600;
-                color: #111827;
-              }
-              .prose ul {
-                margin: 1.5rem 0;
-                padding-left: 0;
-              }
-              .prose li {
-                font-size: 1.125rem;
-                line-height: 1.7;
-                margin-bottom: 0.75rem;
-                padding-left: 1.5rem;
-                position: relative;
-                color: #374151;
-              }
-              .prose li::before {
-                content: '•';
-                color: #0d9488;
-                font-weight: bold;
-                position: absolute;
-                left: 0;
-                font-size: 1.25rem;
-              }
-              .prose a {
-                color: #0d9488;
-                text-decoration: underline;
-                text-decoration-thickness: 2px;
-                text-underline-offset: 3px;
-                font-weight: 500;
-                transition: all 0.2s ease;
-              }
-              .prose a:hover {
-                color: #0f766e;
-                text-decoration-thickness: 3px;
-              }
-            `}</style>
-            
-            <div 
-              dangerouslySetInnerHTML={{ 
-                __html: processedContent
-                  .replace(/\n\n/g, '</p><p>')
-                  .replace(/^/, '<p>')
-                  .replace(/$/, '</p>')
-                  .replace(/## ([^<]+)/g, '<h2>$1</h2>')
-                  .replace(/### ([^<]+)/g, '<h3>$1</h3>')
-                  .replace(/<p><h/g, '<h')
-                  .replace(/<\/h([1-6])><\/p>/g, '</h$1>')
-                  .replace(/<p><\/p>/g, '')
-              }}
-            />
-          </div>
+          {children ? (
+            children
+          ) : content ? (
+            <div className="prose prose-lg max-w-none">
+              <style jsx>{`
+                .prose {
+                  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+                  line-height: 1.7;
+                  color: #374151;
+                }
+                .prose h2 {
+                  font-size: 1.875rem;
+                  font-weight: 700;
+                  color: #111827;
+                  margin-top: 2.5rem;
+                  margin-bottom: 1.25rem;
+                  line-height: 1.3;
+                  letter-spacing: -0.025em;
+                }
+                .prose h3 {
+                  font-size: 1.5rem;
+                  font-weight: 600;
+                  color: #111827;
+                  margin-top: 2rem;
+                  margin-bottom: 1rem;
+                  line-height: 1.4;
+                }
+                .prose p {
+                  font-size: 1.125rem;
+                  line-height: 1.7;
+                  margin-bottom: 1.5rem;
+                  color: #374151;
+                }
+                .prose strong {
+                  font-weight: 600;
+                  color: #111827;
+                }
+                .prose ul {
+                  margin: 1.5rem 0;
+                  padding-left: 0;
+                }
+                .prose li {
+                  font-size: 1.125rem;
+                  line-height: 1.7;
+                  margin-bottom: 0.75rem;
+                  padding-left: 1.5rem;
+                  position: relative;
+                  color: #374151;
+                }
+                .prose li::before {
+                  content: '•';
+                  color: #0d9488;
+                  font-weight: bold;
+                  position: absolute;
+                  left: 0;
+                  font-size: 1.25rem;
+                }
+                .prose a {
+                  color: #0d9488;
+                  text-decoration: underline;
+                  text-decoration-thickness: 2px;
+                  text-underline-offset: 3px;
+                  font-weight: 500;
+                  transition: all 0.2s ease;
+                }
+                .prose a:hover {
+                  color: #0f766e;
+                  text-decoration-thickness: 3px;
+                }
+              `}</style>
+
+              <div
+                dangerouslySetInnerHTML={{
+                  __html: processContent(content)
+                    .replace(/\n\n/g, '</p><p>')
+                    .replace(/^/, '<p>')
+                    .replace(/$/, '</p>')
+                    .replace(/## ([^<]+)/g, '<h2>$1</h2>')
+                    .replace(/### ([^<]+)/g, '<h3>$1</h3>')
+                    .replace(/<p><h/g, '<h')
+                    .replace(/<\/h([1-6])><\/p>/g, '</h$1>')
+                    .replace(/<p><\/p>/g, '')
+                }}
+              />
+            </div>
+          ) : null}
         </div>
       </article>
 
