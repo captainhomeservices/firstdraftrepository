@@ -109,12 +109,15 @@ const HomePage = () => {
                   Restore Your Waterfront.
                 </span>
               </h1>
+              <p className="text-xl sm:text-2xl text-white drop-shadow-lg">
+                Hydrilla Removal and Lake Management for Lake Austin
+              </p>
 
               <div className="flex flex-col sm:flex-row gap-4 justify-center pt-8 opacity-0 animate-fadeInUp animation-delay-200">
                 <Link
                   to="/contact"
                   onClick={scrollToTop}
-                  className="group inline-flex items-center justify-center px-8 py-5 bg-[#00B47B] hover:bg-[#009966] text-white text-lg font-semibold rounded-xl transition-all duration-300 shadow-2xl hover:shadow-emerald-500/50 hover:scale-105"
+                  className="group inline-flex items-center justify-center px-8 py-5 bg-[#00B47B] hover:bg-[#009966] text-white text-lg font-semibold rounded-xl transition-all duration-300 shadow-2xl hover:shadow-emerald-500/50 hover:scale-105 opacity-100"
                 >
                   Get a Free Quote
                   <svg className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -123,7 +126,7 @@ const HomePage = () => {
                 </Link>
                 <a
                   href="tel:(737)-300-9033"
-                  className="inline-flex items-center justify-center px-8 py-5 bg-white hover:bg-gray-100 text-gray-900 text-lg font-semibold rounded-xl transition-all duration-300 hover:scale-105 shadow-2xl"
+                  className="inline-flex items-center justify-center px-8 py-5 bg-white hover:bg-gray-100 text-gray-900 text-lg font-semibold rounded-xl transition-all duration-300 hover:scale-105 shadow-2xl opacity-100"
                 >
                   <svg className="mr-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
