@@ -100,9 +100,9 @@ const HomePage = () => {
         </div>
 
         {/* Hero Content */}
-        <div className="relative h-full flex items-center justify-center">
+        <div className="relative h-full flex items-start justify-center pt-24 sm:pt-32 md:pt-40">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <div className="space-y-6 sm:space-y-8 opacity-0 animate-fadeInUp px-4">
+            <div className="space-y-4 sm:space-y-6 opacity-0 animate-fadeInUp px-4">
               <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold text-white leading-tight tracking-tight drop-shadow-2xl">
                 Clear Lake Weeds.
                 <span className="block mt-2 text-[#00B47B] drop-shadow-2xl">
@@ -113,7 +113,7 @@ const HomePage = () => {
                 Hydrilla Removal and Lake Management for Lake Austin
               </p>
 
-              <div className="flex flex-col sm:flex-row gap-4 justify-center pt-6 sm:pt-8 opacity-0 animate-fadeInUp animation-delay-200 px-4">
+              <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4 sm:pt-6 opacity-0 animate-fadeInUp animation-delay-200 px-4">
                 <Link
                   to="/contact"
                   onClick={scrollToTop}
@@ -136,7 +136,7 @@ const HomePage = () => {
               </div>
 
               {/* Trust Indicators */}
-              <div className="pt-6 sm:pt-8 opacity-0 animate-fadeInUp animation-delay-400 px-4">
+              <div className="pt-4 sm:pt-6 opacity-0 animate-fadeInUp animation-delay-400 px-4">
                 <div className="inline-flex flex-wrap items-center justify-center gap-3 sm:gap-6 px-4 sm:px-8 py-3 sm:py-4 bg-white/10 backdrop-blur-md rounded-2xl border border-white/20">
                   <div className="flex items-center space-x-2">
                     <CheckCircle className="h-4 w-4 sm:h-5 sm:w-5 text-[#00B47B] flex-shrink-0" />
