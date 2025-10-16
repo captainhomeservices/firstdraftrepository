@@ -178,8 +178,8 @@ const HydrillaCrisis2025Page = () => {
         </p>
 
         <img
-          src="/dock copy copy.jpg"
-          alt="Lake Austin waterfront property with modern boathouse showing underwater vegetation challenges"
+          src="/lake weeds removed copy.png"
+          alt="Lake Austin waterfront after professional aquatic weed removal showing clear water and restored access"
           className="rounded-lg shadow-lg my-8 w-full"
         />
 
