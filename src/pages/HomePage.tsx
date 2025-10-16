@@ -102,22 +102,22 @@ const HomePage = () => {
         {/* Hero Content */}
         <div className="relative h-full flex items-center justify-center">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <div className="space-y-8 opacity-0 animate-fadeInUp">
-              <h1 className="text-5xl sm:text-6xl lg:text-7xl xl:text-8xl font-bold text-white leading-tight tracking-tight drop-shadow-2xl">
+            <div className="space-y-6 sm:space-y-8 opacity-0 animate-fadeInUp px-4">
+              <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold text-white leading-tight tracking-tight drop-shadow-2xl">
                 Clear Lake Weeds.
                 <span className="block mt-2 text-[#00B47B] drop-shadow-2xl">
                   Restore Your Waterfront.
                 </span>
               </h1>
-              <p className="text-xl sm:text-2xl text-white drop-shadow-lg">
+              <p className="text-lg sm:text-xl md:text-2xl text-white drop-shadow-lg px-2">
                 Hydrilla Removal and Lake Management for Lake Austin
               </p>
 
-              <div className="flex flex-col sm:flex-row gap-4 justify-center pt-8 opacity-0 animate-fadeInUp animation-delay-200">
+              <div className="flex flex-col sm:flex-row gap-4 justify-center pt-6 sm:pt-8 opacity-0 animate-fadeInUp animation-delay-200 px-4">
                 <Link
                   to="/contact"
                   onClick={scrollToTop}
-                  className="group inline-flex items-center justify-center px-8 py-5 bg-[#00B47B]/80 hover:bg-[#009966]/90 text-white text-lg font-semibold rounded-xl transition-all duration-300 shadow-2xl hover:shadow-emerald-500/50 hover:scale-105 backdrop-blur-sm"
+                  className="group inline-flex items-center justify-center px-6 sm:px-8 py-4 sm:py-5 bg-[#00B47B]/80 hover:bg-[#009966]/90 text-white text-base sm:text-lg font-semibold rounded-xl transition-all duration-300 shadow-2xl hover:shadow-emerald-500/50 hover:scale-105 backdrop-blur-sm"
                 >
                   Get a Free Quote
                   <svg className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -126,9 +126,9 @@ const HomePage = () => {
                 </Link>
                 <a
                   href="tel:(737)-300-9033"
-                  className="inline-flex items-center justify-center px-8 py-5 bg-white/80 hover:bg-white/90 text-gray-900 text-lg font-semibold rounded-xl transition-all duration-300 hover:scale-105 shadow-2xl backdrop-blur-sm"
+                  className="inline-flex items-center justify-center px-6 sm:px-8 py-4 sm:py-5 bg-white/80 hover:bg-white/90 text-gray-900 text-base sm:text-lg font-semibold rounded-xl transition-all duration-300 hover:scale-105 shadow-2xl backdrop-blur-sm whitespace-nowrap"
                 >
-                  <svg className="mr-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="mr-2 w-5 h-5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                   </svg>
                   (737) 300-9033
@@ -136,19 +136,19 @@ const HomePage = () => {
               </div>
 
               {/* Trust Indicators */}
-              <div className="pt-8 opacity-0 animate-fadeInUp animation-delay-400">
-                <div className="inline-flex flex-wrap items-center justify-center gap-6 px-8 py-4 bg-white/10 backdrop-blur-md rounded-2xl border border-white/20">
+              <div className="pt-6 sm:pt-8 opacity-0 animate-fadeInUp animation-delay-400 px-4">
+                <div className="inline-flex flex-wrap items-center justify-center gap-3 sm:gap-6 px-4 sm:px-8 py-3 sm:py-4 bg-white/10 backdrop-blur-md rounded-2xl border border-white/20">
                   <div className="flex items-center space-x-2">
-                    <CheckCircle className="h-5 w-5 text-[#00B47B]" />
-                    <span className="font-semibold text-white">TPWD Permitted</span>
+                    <CheckCircle className="h-4 w-4 sm:h-5 sm:w-5 text-[#00B47B] flex-shrink-0" />
+                    <span className="font-semibold text-white text-sm sm:text-base whitespace-nowrap">TPWD Permitted</span>
                   </div>
                   <div className="flex items-center space-x-2">
-                    <CheckCircle className="h-5 w-5 text-[#00B47B]" />
-                    <span className="font-semibold text-white">Chemical-Free</span>
+                    <CheckCircle className="h-4 w-4 sm:h-5 sm:w-5 text-[#00B47B] flex-shrink-0" />
+                    <span className="font-semibold text-white text-sm sm:text-base whitespace-nowrap">Chemical-Free</span>
                   </div>
                   <div className="flex items-center space-x-2">
-                    <CheckCircle className="h-5 w-5 text-[#00B47B]" />
-                    <span className="font-semibold text-white">Same-Day Service</span>
+                    <CheckCircle className="h-4 w-4 sm:h-5 sm:w-5 text-[#00B47B] flex-shrink-0" />
+                    <span className="font-semibold text-white text-sm sm:text-base whitespace-nowrap">Same-Day Service</span>
                   </div>
                 </div>
               </div>
@@ -176,27 +176,26 @@ const HomePage = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8 mb-12 sm:mb-16">
             <div className="text-center p-6 bg-gray-50 rounded-lg">
-              <Leaf className="h-12 w-12 text-green-600 mx-auto mb-4" />
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">Precision Manual Removal</h3>
-              <p className="text-gray-600">Root-deep extraction using specialized tools for long-term results</p>
+              <Leaf className="h-10 w-10 sm:h-12 sm:w-12 text-green-600 mx-auto mb-4" />
+              <h3 className="text-base sm:text-lg font-semibold text-gray-900 mb-2">Precision Manual Removal</h3>
+              <p className="text-sm sm:text-base text-gray-600">Root-deep extraction using specialized tools for long-term results</p>
             </div>
             <div className="text-center p-6 bg-gray-50 rounded-lg">
-              <Shield className="h-12 w-12 text-blue-600 mx-auto mb-4" />
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">Exotic Invasive Species Removal Permits</h3>
-              <p className="text-gray-600">We handle permitting and compliance with State and Local regulations including approved TPWD and LCRA
-              Treatment Proposals for every job</p>
+              <Shield className="h-10 w-10 sm:h-12 sm:w-12 text-blue-600 mx-auto mb-4" />
+              <h3 className="text-base sm:text-lg font-semibold text-gray-900 mb-2">Exotic Invasive Species Removal Permits</h3>
+              <p className="text-sm sm:text-base text-gray-600">We handle permitting and compliance with State and Local regulations including approved TPWD and LCRA Treatment Proposals for every job</p>
             </div>
             <div className="text-center p-6 bg-gray-50 rounded-lg">
-              <Users className="h-12 w-12 text-teal-600 mx-auto mb-4" />
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">Clean and Efficient Haul-Away and Responsible Disposal</h3>
-              <p className="text-gray-600">Clean removal and disposal keeps your property from being damaged by large machinery and making a mess</p>
+              <Users className="h-10 w-10 sm:h-12 sm:w-12 text-teal-600 mx-auto mb-4" />
+              <h3 className="text-base sm:text-lg font-semibold text-gray-900 mb-2">Clean and Efficient Haul-Away and Responsible Disposal</h3>
+              <p className="text-sm sm:text-base text-gray-600">Clean removal and disposal keeps your property from being damaged by large machinery and making a mess</p>
             </div>
             <div className="text-center p-6 bg-gray-50 rounded-lg">
-              <CheckCircle className="h-12 w-12 text-green-600 mx-auto mb-4" />
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">Guaranteed Results</h3>
-              <p className="text-gray-600">The beautiful, usable, clean and clear waterfront you desire</p>
+              <CheckCircle className="h-10 w-10 sm:h-12 sm:w-12 text-green-600 mx-auto mb-4" />
+              <h3 className="text-base sm:text-lg font-semibold text-gray-900 mb-2">Guaranteed Results</h3>
+              <p className="text-sm sm:text-base text-gray-600">The beautiful, usable, clean and clear waterfront you desire</p>
             </div>
           </div>
 
@@ -216,28 +215,28 @@ const HomePage = () => {
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4 px-4">
               When Invasive Species Take Over
             </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="text-base sm:text-lg md:text-xl text-gray-600 max-w-3xl mx-auto px-4">
               Your waterfront isn't just a patch of water; it's a living, breathing part of your property, a sanctuary for native plants, a recreational oasis for you and your family, and part of a thriving large mouth bass population we aim to protect and enjoy.
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
             <div>
               <img
                 src="https://static01.nyt.com/images/2023/12/10/nyregion/10Conn-River-01-wvbc/Conn-River--01-wvbc-superJumbo.jpg?quality=75&auto=webp"
                 alt="Dense aquatic vegetation problem showing invasive hydrilla and watermilfoil infestation"
-                className="rounded-lg shadow-xl"
+                className="rounded-lg shadow-xl w-full"
               />
             </div>
-            <div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">The Lake Austin Hydrilla Problem</h3>
-              <p className="text-gray-700 mb-4 leading-relaxed">
+            <div className="px-4">
+              <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4">The Lake Austin Hydrilla Problem</h3>
+              <p className="text-sm sm:text-base text-gray-700 mb-4 leading-relaxed">
                 When aggressive aquatic weeds like <strong>Lake Austin hydrilla</strong> and <strong>Eurasian watermilfoil</strong> invade, they throw that delicate balance into chaotic mess. These fast-growing invasive species can quickly overwhelm native vegetation and create dense mats that make swimming, boating, and fishing nearly impossible.
               </p>
-              <p className="text-gray-700 mb-6 leading-relaxed">
+              <p className="text-sm sm:text-base text-gray-700 mb-6 leading-relaxed">
                 Our seasoned team at <strong>Captain Home Services</strong> is ready to tackle any lake weed removal challenge, big or small. We're experts in getting your water back to its healthy, vibrant condition, ensuring your slice of Texas paradise remains just that – paradise.
               </p>
               <Link
@@ -255,15 +254,15 @@ const HomePage = () => {
       {/* Main Content - Moved to fourth position */}
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
+            <div className="px-4">
+              <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-6">
                 Aquatic Vegetation Removal That Works
               </h2>
-              <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              <p className="text-base sm:text-lg text-gray-700 mb-6 leading-relaxed">
                 Are you tired of battling stubborn aquatic vegetation that chokes out your beautiful lakefront? Manual lake weed removal is the only way to ensure invasive aquatic vegetation is pulled by the roots and brings back that beauty to your lakefront you've been missing.
               </p>
-              <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              <p className="text-base sm:text-lg text-gray-700 mb-6 leading-relaxed">
                 At <strong>Captain Home Services</strong>, we use specialized tools and equipment to remove invasive aquatic vegetation's tubers and roots, leaving minimal debris that causes rapid re-growth of lake weeds. Our method of manual <strong>aquatic vegetation removal</strong> isn't just about clearing weeds; it\'s about restoring the natural beauty and balance of your dock area and shoreline. Let our <strong>Lake Management</strong> experts take care of your dock and shoreline for you.
               </p>
               <div className="space-y-4">
@@ -281,11 +280,11 @@ const HomePage = () => {
                 </div>
               </div>
             </div>
-            <div className="relative">
+            <div className="relative px-4">
               <img
                 src="https://cdn11.bigcommerce.com/s-94ve5l/images/stencil/500x659/products/2411/4162/WeedRay-1__62680.1736887802.jpg?c=2"
                 alt="Professional aquatic vegetation removal tools used for manual lake weed extraction"
-                className="rounded-lg shadow-2xl"
+                className="rounded-lg shadow-2xl w-full max-w-md mx-auto lg:max-w-full"
               />
             </div>
           </div>
@@ -295,33 +294,33 @@ const HomePage = () => {
       {/* SEO Content Section */}
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">
+          <div className="text-center mb-12 px-4">
+            <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4">
               Austin's Premier Lake Management Experts
             </h2>
-            <p className="text-xl text-gray-600 max-w-4xl mx-auto">
+            <p className="text-base sm:text-lg md:text-xl text-gray-600 max-w-4xl mx-auto">
               Serving the Highland Lakes with professional <strong>Austin aquatic vegetation removal</strong>, <strong>Lake Austin hydrilla control</strong>, and comprehensive <strong>Austin lake management</strong> solutions.
             </p>
           </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
             <div className="bg-white p-6 rounded-lg shadow-md">
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">Lake Austin Hydrilla Removal</h3>
-              <p className="text-gray-700">
+              <h3 className="text-lg sm:text-xl font-semibold text-gray-900 mb-3">Lake Austin Hydrilla Removal</h3>
+              <p className="text-sm sm:text-base text-gray-700">
                 Specialized <strong>Lake Austin hydrilla removal</strong> services using manual extraction techniques. Our TPWD-permitted approach ensures complete root removal for lasting results.
               </p>
             </div>
-            
+
             <div className="bg-white p-6 rounded-lg shadow-md">
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">Austin Eurasian Watermilfoil Control</h3>
-              <p className="text-gray-700">
+              <h3 className="text-lg sm:text-xl font-semibold text-gray-900 mb-3">Austin Eurasian Watermilfoil Control</h3>
+              <p className="text-sm sm:text-base text-gray-700">
                 Professional <strong>Austin Eurasian watermilfoil removal</strong> targeting this aggressive invasive species. Chemical-free methods protect your lake ecosystem.
               </p>
             </div>
-            
+
             <div className="bg-white p-6 rounded-lg shadow-md">
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">Highland Lakes Service Area</h3>
-              <p className="text-gray-700">
+              <h3 className="text-lg sm:text-xl font-semibold text-gray-900 mb-3">Highland Lakes Service Area</h3>
+              <p className="text-sm sm:text-base text-gray-700">
                 Comprehensive <strong>Austin lake weed removal</strong> serving Lake Travis, Lake LBJ, Inks Lake, Lake Marble Falls, Lake Buchanan, and Lady Bird Lake.
               </p>
             </div>
@@ -332,13 +331,13 @@ const HomePage = () => {
       {/* Call to Action */}
       <section className="py-16 bg-gradient-to-r from-teal-600 to-blue-600 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4">
             Ready to Reclaim Your Waterfront?
           </h2>
-          <p className="text-xl mb-8 max-w-3xl mx-auto">
+          <p className="text-base sm:text-lg md:text-xl mb-8 max-w-3xl mx-auto px-4">
             Contact <strong>Captain Home Services</strong> today for a free consultation and let's talk about bringing that Texas sparkle back to your lakefront. No chemicals, no heavy machinery on your property, just efficient and professional permitted and insured invasive lake weed removal.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center px-4">
             <Link
               to="/contact"
               onClick={scrollToTop}
