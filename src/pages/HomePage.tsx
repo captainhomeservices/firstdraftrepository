@@ -226,8 +226,8 @@ const HomePage = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
             <div>
               <img
-                src="https://static01.nyt.com/images/2023/12/10/nyregion/10Conn-River-01-wvbc/Conn-River--01-wvbc-superJumbo.jpg?quality=75&auto=webp"
-                alt="Dense aquatic vegetation problem showing invasive hydrilla and watermilfoil infestation"
+                src="https://zyslabgmutwpcyabzcag.supabase.co/storage/v1/object/public/photos/cleaned%20up%20weeds.png"
+                alt="Before and after lake weed removal showing cleared waterfront by Captain Home Services"
                 className="rounded-lg shadow-xl w-full"
               />
             </div>
