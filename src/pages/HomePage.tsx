@@ -100,7 +100,7 @@ const HomePage = () => {
         </div>
 
         {/* Hero Content */}
-        <div className="relative h-full flex items-start justify-center pt-12 sm:pt-16">
+        <div className="relative h-full flex items-start justify-center pt-8 sm:pt-12">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <div className="space-y-3 sm:space-y-4 opacity-0 animate-fadeInUp px-4">
               <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight tracking-tight drop-shadow-2xl">
