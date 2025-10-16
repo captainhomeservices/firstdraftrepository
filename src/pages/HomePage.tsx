@@ -80,35 +80,44 @@ const HomePage = () => {
         structuredData={homePageSchema}
       />
 
-      {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-gray-50 via-white to-emerald-50 overflow-hidden">
-        {/* Background Decorative Elements */}
-        <div className="absolute inset-0 overflow-hidden">
-          <div className="absolute top-20 right-0 w-96 h-96 bg-gradient-to-br from-emerald-100/30 to-teal-100/30 rounded-full blur-3xl"></div>
-          <div className="absolute bottom-0 left-0 w-80 h-80 bg-gradient-to-tr from-green-100/20 to-emerald-100/20 rounded-full blur-3xl"></div>
+      {/* Hero Section with Video Background */}
+      <section className="relative h-screen min-h-[600px] max-h-[900px] overflow-hidden">
+        {/* Video Background */}
+        <div className="absolute inset-0 w-full h-full">
+          <video
+            autoPlay
+            loop
+            muted
+            playsInline
+            className="absolute inset-0 w-full h-full object-cover"
+          >
+            <source src="https://zyslabgmutwpcyabzcag.supabase.co/storage/v1/object/public/videos/short%20weed%20removsl%20clip.mp4" type="video/mp4" />
+          </video>
+
+          {/* Gradient Overlay for better text readability */}
+          <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/60"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-black/30 via-transparent to-black/30"></div>
         </div>
 
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-24 lg:pt-32 lg:pb-32">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
-            {/* Left Column - Text Content */}
-            <div className="text-center lg:text-left space-y-8">
-              <div className="space-y-6 opacity-0 animate-fadeInUp">
-                <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-gray-900 leading-tight tracking-tight">
-                  Clear Lake Weeds.
-                  <span className="block mt-2 bg-gradient-to-r from-[#00B47B] to-[#004C3F] bg-clip-text text-transparent">
-                    Restore Your Waterfront.
-                  </span>
-                </h1>
-                <p className="text-xl sm:text-2xl text-gray-600 leading-relaxed max-w-2xl mx-auto lg:mx-0">
-                  Professional aquatic vegetation removal serving Lake Austin, Lake Travis, and the Highland Lakes. Chemical-free, TPWD-permitted solutions.
-                </p>
-              </div>
+        {/* Hero Content */}
+        <div className="relative h-full flex items-center justify-center">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <div className="space-y-8 opacity-0 animate-fadeInUp">
+              <h1 className="text-5xl sm:text-6xl lg:text-7xl xl:text-8xl font-bold text-white leading-tight tracking-tight drop-shadow-2xl">
+                Clear Lake Weeds.
+                <span className="block mt-2 text-[#00B47B] drop-shadow-2xl">
+                  Restore Your Waterfront.
+                </span>
+              </h1>
+              <p className="text-xl sm:text-2xl lg:text-3xl text-white leading-relaxed max-w-4xl mx-auto drop-shadow-lg">
+                Professional aquatic vegetation removal serving Lake Austin, Lake Travis, and the Highland Lakes. Chemical-free, TPWD-permitted solutions.
+              </p>
 
-              <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start opacity-0 animate-fadeInUp animation-delay-200">
+              <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4 opacity-0 animate-fadeInUp animation-delay-200">
                 <Link
                   to="/contact"
                   onClick={scrollToTop}
-                  className="group inline-flex items-center justify-center px-8 py-4 bg-[#00B47B] hover:bg-[#009966] text-white text-lg font-semibold rounded-xl transition-all duration-200 shadow-lg shadow-emerald-500/25 hover:shadow-xl hover:shadow-emerald-500/30 hover:scale-105"
+                  className="group inline-flex items-center justify-center px-8 py-5 bg-[#00B47B] hover:bg-[#009966] text-white text-lg font-semibold rounded-xl transition-all duration-300 shadow-2xl hover:shadow-emerald-500/50 hover:scale-105"
                 >
                   Get a Free Quote
                   <svg className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -117,7 +126,7 @@ const HomePage = () => {
                 </Link>
                 <a
                   href="tel:(737)-300-9033"
-                  className="inline-flex items-center justify-center px-8 py-4 bg-white hover:bg-gray-50 text-gray-900 text-lg font-semibold rounded-xl transition-all duration-200 border-2 border-gray-200 hover:border-gray-300 hover:scale-105 shadow-sm"
+                  className="inline-flex items-center justify-center px-8 py-5 bg-white/95 hover:bg-white text-gray-900 text-lg font-semibold rounded-xl transition-all duration-300 backdrop-blur-sm border-2 border-white/50 hover:border-white hover:scale-105 shadow-2xl"
                 >
                   <svg className="mr-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
@@ -128,42 +137,18 @@ const HomePage = () => {
 
               {/* Trust Indicators */}
               <div className="pt-8 opacity-0 animate-fadeInUp animation-delay-400">
-                <div className="flex flex-wrap items-center justify-center lg:justify-start gap-6 text-sm text-gray-600">
+                <div className="inline-flex flex-wrap items-center justify-center gap-6 px-8 py-4 bg-white/10 backdrop-blur-md rounded-2xl border border-white/20">
                   <div className="flex items-center space-x-2">
                     <CheckCircle className="h-5 w-5 text-[#00B47B]" />
-                    <span className="font-medium">TPWD Permitted</span>
+                    <span className="font-semibold text-white">TPWD Permitted</span>
                   </div>
                   <div className="flex items-center space-x-2">
                     <CheckCircle className="h-5 w-5 text-[#00B47B]" />
-                    <span className="font-medium">Chemical-Free</span>
+                    <span className="font-semibold text-white">Chemical-Free</span>
                   </div>
                   <div className="flex items-center space-x-2">
                     <CheckCircle className="h-5 w-5 text-[#00B47B]" />
-                    <span className="font-medium">Same-Day Service</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            {/* Right Column - Image */}
-            <div className="relative opacity-0 animate-fadeIn animation-delay-600">
-              <div className="relative rounded-2xl overflow-hidden shadow-2xl">
-                <img
-                  src="/lake weed removal pose copy.jpeg"
-                  alt="Professional lake weed removal service on Lake Austin"
-                  className="w-full h-auto object-cover"
-                  loading="eager"
-                />
-                {/* Overlay Badge */}
-                <div className="absolute bottom-6 left-6 right-6 bg-white/95 backdrop-blur-sm rounded-xl p-4 shadow-xl">
-                  <div className="flex items-center justify-between">
-                    <div>
-                      <p className="text-sm text-gray-600 font-medium">Trusted by Lakefront Homeowners</p>
-                      <p className="text-2xl font-bold text-gray-900 mt-1">5+ Years Experience</p>
-                    </div>
-                    <div className="bg-gradient-to-br from-[#00B47B] to-[#004C3F] text-white rounded-lg px-4 py-2">
-                      <p className="text-xs font-medium">Licensed &amp; Insured</p>
-                    </div>
+                    <span className="font-semibold text-white">Same-Day Service</span>
                   </div>
                 </div>
               </div>
@@ -171,8 +156,12 @@ const HomePage = () => {
           </div>
         </div>
 
-        {/* Bottom Wave Separator */}
-        <div className="absolute bottom-0 left-0 right-0 h-16 bg-gradient-to-t from-white to-transparent"></div>
+        {/* Scroll Indicator */}
+        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+          <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+          </svg>
+        </div>
       </section>
 
       {/* Services Overview - Moved to second position */}
