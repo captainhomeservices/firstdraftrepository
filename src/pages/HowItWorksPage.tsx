@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Target, Scissors, Truck, CheckCircle } from 'lucide-react';
+import SEOHead from '../components/SEOHead';
 
 const HowItWorksPage = () => {
   const scrollToTop = () => {
@@ -8,7 +9,14 @@ const HowItWorksPage = () => {
   };
 
   return (
-    <div className="min-h-screen bg-white">
+    <>
+      <SEOHead
+        title="How Manual Lake Weed Removal Works | Captain Home Services Austin"
+        description="Learn how Captain Home Services manually removes lake weeds by the roots for lasting results. Our precision removal method targets hydrilla, watermilfoil and invasive species in Lake Austin."
+        keywords="manual lake weed removal, how lake weed removal works, Austin hydrilla removal process, root removal method, Lake Austin weed control, precision aquatic vegetation removal"
+        canonicalUrl="https://austinlakemanagement.com/how-it-works"
+      />
+      <div className="min-h-screen bg-white">
       {/* Hero Section */}
       <section className="py-16 bg-gradient-to-r from-green-600 to-teal-600 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -193,6 +201,7 @@ const HowItWorksPage = () => {
         </div>
       </section>
     </div>
+    </>
   );
 };
 

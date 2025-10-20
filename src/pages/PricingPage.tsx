@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { DollarSign, CheckCircle, Target, Truck, Award, Scissors, Sun } from 'lucide-react';
+import SEOHead from '../components/SEOHead';
 
 const PricingPage = () => {
   const scrollToTop = () => {
@@ -8,7 +9,14 @@ const PricingPage = () => {
   };
 
   return (
-    <div className="min-h-screen bg-white">
+    <>
+      <SEOHead
+        title="Lake Weed Removal Pricing Austin | $1,950-$5,400 | Captain Home Services"
+        description="Transparent lake weed removal pricing for Austin area. Most projects $1,950-$5,400. Includes TPWD permits, manual hydrilla removal, transport and disposal. Free quotes."
+        keywords="lake weed removal cost Austin, hydrilla removal pricing, Lake Austin weed control cost, aquatic vegetation removal pricing, TPWD permit cost, affordable lake weed removal"
+        canonicalUrl="https://austinlakemanagement.com/pricing"
+      />
+      <div className="min-h-screen bg-white">
       {/* Hero Section */}
       <section className="py-16 bg-gradient-to-r from-green-600 to-teal-600 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -289,6 +297,7 @@ const PricingPage = () => {
         </div>
       </section>
     </div>
+    </>
   );
 };
 

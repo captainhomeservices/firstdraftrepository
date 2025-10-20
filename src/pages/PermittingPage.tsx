@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { FileText, Shield, CheckCircle, AlertTriangle } from 'lucide-react';
+import SEOHead from '../components/SEOHead';
 
 const PermittingPage = () => {
   const scrollToTop = () => {
@@ -8,7 +9,14 @@ const PermittingPage = () => {
   };
 
   return (
-    <div className="min-h-screen bg-white">
+    <>
+      <SEOHead
+        title="TPWD Permits & Lake Weed Removal Compliance | Austin TX | Captain Home Services"
+        description="We handle all TPWD and LCRA permits for Austin lake weed removal. Expert permitting assistance for legal, compliant aquatic vegetation removal. No fines, no delays."
+        keywords="TPWD permits Austin, LCRA lake permits, Texas aquatic vegetation permit, Lake Austin weed removal permit, invasive species permit Texas, legal lake weed removal"
+        canonicalUrl="https://austinlakemanagement.com/permitting"
+      />
+      <div className="min-h-screen bg-white">
       {/* Hero Section */}
       <section className="py-16 bg-gradient-to-r from-green-600 to-teal-600 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -221,6 +229,7 @@ const PermittingPage = () => {
         </div>
       </section>
     </div>
+    </>
   );
 };
 

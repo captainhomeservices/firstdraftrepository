@@ -88,7 +88,7 @@ const ContactPage = () => {
           "sameAs": "https://en.wikipedia.org/wiki/Austin,_Texas"
         },
         {
-          "@type": "City", 
+          "@type": "City",
           "name": "Spicewood"
         },
         {
@@ -120,15 +120,6 @@ const ContactPage = () => {
           "name": "Dripping Springs"
         }
       ],
-      "serviceArea": {
-        "@type": "GeoCircle",
-        "geoMidpoint": {
-          "@type": "GeoCoordinates",
-          "latitude": 30.2672,
-          "longitude": -97.7431
-        },
-        "geoRadius": "80467"
-      },
       "openingHours": [
         "Mo-Fr 08:00-18:00",
         "Sa 10:00-14:00"
@@ -136,7 +127,7 @@ const ContactPage = () => {
       "serviceArea": [
         "Lake Austin",
         "Lake Travis",
-        "Lake LBJ", 
+        "Lake LBJ",
         "Inks Lake",
         "Lake Marble Falls",
         "Lake Buchanan",
