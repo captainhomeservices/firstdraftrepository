@@ -9,6 +9,7 @@ const Navbar = () => {
   const navigation = [
     { name: 'Home', href: '/' },
     { name: 'How It Works', href: '/how-it-works' },
+    { name: 'Benthic Barriers', href: '/benthic-barriers' },
     { name: 'Permitting', href: '/permitting' },
     { name: 'Pricing', href: '/pricing' },
     { name: 'Blog', href: '/blog' },

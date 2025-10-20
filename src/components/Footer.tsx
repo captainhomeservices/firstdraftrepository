@@ -57,8 +57,8 @@ const Footer = () => {
             <h3 className="text-base md:text-lg font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2 text-gray-300 text-sm md:text-base">
               <li>
-                <Link 
-                  to="/how-it-works" 
+                <Link
+                  to="/how-it-works"
                   onClick={scrollToTop}
                   className="hover:text-teal-400 transition-colors"
                 >
@@ -66,8 +66,17 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link 
-                  to="/permitting" 
+                <Link
+                  to="/benthic-barriers"
+                  onClick={scrollToTop}
+                  className="hover:text-teal-400 transition-colors"
+                >
+                  Benthic Barriers
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/permitting"
                   onClick={scrollToTop}
                   className="hover:text-teal-400 transition-colors"
                 >
@@ -75,8 +84,8 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link 
-                  to="/pricing" 
+                <Link
+                  to="/pricing"
                   onClick={scrollToTop}
                   className="hover:text-teal-400 transition-colors"
                 >
@@ -84,8 +93,8 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link 
-                  to="/blog" 
+                <Link
+                  to="/blog"
                   onClick={scrollToTop}
                   className="hover:text-teal-400 transition-colors"
                 >
@@ -93,8 +102,8 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link 
-                  to="/contact" 
+                <Link
+                  to="/contact"
                   onClick={scrollToTop}
                   className="hover:text-teal-400 transition-colors"
                 >
@@ -110,6 +119,7 @@ const Footer = () => {
             <ul className="space-y-1 md:space-y-2 text-gray-300 text-xs md:text-sm">
               <li>Lake Austin Hydrilla Removal</li>
               <li>Austin Lake Weed Removal</li>
+              <li>Benthic Barrier Installation</li>
               <li>Eurasian Watermilfoil Removal</li>
               <li>Aquatic Vegetation Management</li>
               <li>Lake Management</li>
