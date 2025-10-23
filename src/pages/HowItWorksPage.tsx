@@ -154,10 +154,6 @@ const HowItWorksPage = () => {
                   <p className="text-gray-700">A clean and clear lakefront for your family and friends to enjoy</p>
                 </div>
               </div>
-              <div className="flex items-start space-x-3">
-                <CheckCircle className="h-6 w-6 text-green-600 mt-1 flex-shrink-0" />
-                </div>
-              </div>
             </div>
           </div>
         </div>
