@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Target, Scissors, Truck, CheckCircle, Shield } from 'lucide-react';
+import { Target, Scissors, CheckCircle, Shield } from 'lucide-react';
 import SEOHead from '../components/SEOHead';
 
 const HowItWorksPage = () => {
@@ -95,7 +95,7 @@ const HowItWorksPage = () => {
             <h2 className="text-3xl font-bold text-gray-900 mb-12 text-center">
               Our Complete Removal Solution
             </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
               <div className="text-center">
                 <div className="bg-blue-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
                   <Target className="h-8 w-8 text-blue-600" />
@@ -118,17 +118,10 @@ const HowItWorksPage = () => {
                 <p className="text-gray-600"><Link to="/benthic-barriers" onClick={scrollToTop} className="text-emerald-600 hover:text-emerald-700 font-semibold underline">Benthic barriers</Link> for long-term prevention</p>
               </div>
               <div className="text-center">
-                <div className="bg-yellow-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                  <Truck className="h-8 w-8 text-yellow-600" />
-                </div>
-                <h3 className="text-lg font-semibold text-gray-900 mb-2">4. Dispose Safely</h3>
-                <p className="text-gray-600">Responsible disposal prevents spread</p>
-              </div>
-              <div className="text-center">
                 <div className="bg-teal-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
                   <CheckCircle className="h-8 w-8 text-teal-600" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900 mb-2">5. Maintain</h3>
+                <h3 className="text-lg font-semibold text-gray-900 mb-2">4. Maintain</h3>
                 <p className="text-gray-600">Monitor and maintain barriers seasonally</p>
               </div>
             </div>
