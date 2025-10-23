@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Phone, Mail, MapPin, Clock, CheckCircle } from 'lucide-react';
 import SEOHead from '../components/SEOHead';
+import ConsultationCalendar from '../components/ConsultationCalendar';
 
 const ContactPage = () => {
   const navigate = useNavigate();
@@ -9,7 +10,9 @@ const ContactPage = () => {
     name: '',
     email: '',
     phone: '',
-    project: ''
+    project: '',
+    consultationDate: '',
+    consultationTime: ''
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
 
@@ -17,6 +20,14 @@ const ContactPage = () => {
     setFormData({
       ...formData,
       [e.target.name]: e.target.value
+    });
+  };
+
+  const handleCalendarSelection = (date: string, time: string) => {
+    setFormData({
+      ...formData,
+      consultationDate: date,
+      consultationTime: time
     });
   };
 
@@ -32,6 +43,8 @@ const ContactPage = () => {
       formDataToSubmit.append('email', formData.email);
       formDataToSubmit.append('phone', formData.phone);
       formDataToSubmit.append('project', formData.project);
+      formDataToSubmit.append('consultationDate', formData.consultationDate);
+      formDataToSubmit.append('consultationTime', formData.consultationTime);
 
       // Submit to Netlify
       const response = await fetch('/', {
@@ -171,7 +184,7 @@ const ContactPage = () => {
       <section className="py-12 md:py-16 bg-gray-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-8 md:mb-12">
-            <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
+            <h2 id="consultation-form" className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
               Book Your Consultation - We'll Contact You Today
             </h2>
             <p className="text-base md:text-lg text-gray-700 max-w-3xl mx-auto">
@@ -190,6 +203,8 @@ const ContactPage = () => {
             >
               <input type="hidden" name="form-name" value="contact" />
               <input type="hidden" name="bot-field" />
+              <input type="hidden" name="consultationDate" value={formData.consultationDate} />
+              <input type="hidden" name="consultationTime" value={formData.consultationTime} />
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
@@ -240,6 +255,40 @@ const ContactPage = () => {
                 />
               </div>
               
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div>
+                  <label htmlFor="consultationDate" className="block text-sm font-medium text-gray-700 mb-2">
+                    Desired Consultation Date
+                  </label>
+                  <input
+                    type="text"
+                    id="consultationDate"
+                    name="consultationDate"
+                    value={formData.consultationDate}
+                    onChange={handleChange}
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-teal-500 transition-colors text-base bg-gray-50"
+                    placeholder="Select from calendar below"
+                    readOnly
+                  />
+                </div>
+
+                <div>
+                  <label htmlFor="consultationTime" className="block text-sm font-medium text-gray-700 mb-2">
+                    Desired Consultation Time
+                  </label>
+                  <input
+                    type="text"
+                    id="consultationTime"
+                    name="consultationTime"
+                    value={formData.consultationTime}
+                    onChange={handleChange}
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-teal-500 transition-colors text-base bg-gray-50"
+                    placeholder="Select from calendar below"
+                    readOnly
+                  />
+                </div>
+              </div>
+
               <div>
                 <label htmlFor="project" className="block text-sm font-medium text-gray-700 mb-2">
                   Tell Us About Your Project *
@@ -255,17 +304,22 @@ const ContactPage = () => {
                   placeholder="The more details you can provide, the better we can understand your needs and get back to you with the right solutions. Don't be shy; no project is too big or too small for our dedicated team at Captain Home Services."
                 />
               </div>
-              
+
               <div className="text-center">
                 <button
                   type="submit"
                   disabled={isSubmitting}
                   className="bg-teal-600 hover:bg-teal-700 disabled:bg-teal-400 text-white px-6 md:px-8 py-3 md:py-4 rounded-lg text-base md:text-lg font-semibold transition-colors duration-200 transform hover:scale-105 disabled:transform-none w-full md:w-auto"
                 >
-                  {isSubmitting ? 'Sending...' : 'Request an Estimate'}
+                  {isSubmitting ? 'Sending...' : 'Request a Consultation'}
                 </button>
               </div>
             </form>
+          </div>
+
+          {/* Calendar Section */}
+          <div className="mt-12">
+            <ConsultationCalendar onSelectTime={handleCalendarSelection} />
           </div>
         </div>
       </section>
@@ -344,7 +398,7 @@ const ContactPage = () => {
             Ready to Make Your Waterfront Perfect?
           </h2>
           <p className="text-lg md:text-xl text-gray-600 mb-6 md:mb-8 max-w-3xl mx-auto">
-            Once you hit that 'Request an Estimate' button, consider it done. We'll reach out quickly.
+            Once you hit that 'Request a Consultation' button, consider it done. We'll reach out quickly.
           </p>
           <p className="text-base md:text-lg font-semibold text-gray-900">
             Choose <span className="text-teal-600">Captain Home Services</span> for your <strong>Austin lake weed removal</strong>.
