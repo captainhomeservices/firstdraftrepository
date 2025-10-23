@@ -11,7 +11,7 @@ const ConsultationCalendar: React.FC<ConsultationCalendarProps> = ({ onSelectTim
   const [selectedTime, setSelectedTime] = useState<string>('');
 
   const consultationDays = [1, 3, 5]; // Monday, Wednesday, Friday
-  const timeSlots = ['12:00 PM', '12:30 PM', '1:00 PM', '1:30 PM', '2:00 PM', '2:30 PM', '3:00 PM', '3:30 PM'];
+  const timeBlock = '12:00 PM - 4:00 PM';
 
   const getDaysInMonth = (date: Date) => {
     const year = date.getFullYear();
@@ -42,16 +42,16 @@ const ConsultationCalendar: React.FC<ConsultationCalendarProps> = ({ onSelectTim
     }
   };
 
-  const handleTimeSelect = (time: string) => {
+  const handleTimeSelect = () => {
     if (selectedDate) {
-      setSelectedTime(time);
+      setSelectedTime(timeBlock);
       const dateStr = selectedDate.toLocaleDateString('en-US', {
         weekday: 'long',
         year: 'numeric',
         month: 'long',
         day: 'numeric'
       });
-      onSelectTime(dateStr, time);
+      onSelectTime(dateStr, timeBlock);
 
       // Scroll to form
       const formElement = document.getElementById('consultation-form');
@@ -159,13 +159,13 @@ const ConsultationCalendar: React.FC<ConsultationCalendarProps> = ({ onSelectTim
         {calendarDays}
       </div>
 
-      {/* Time Slots */}
+      {/* Time Block Selection */}
       {selectedDate && (
         <div className="border-t pt-6">
           <div className="flex items-center justify-center mb-4">
             <Clock className="h-5 w-5 text-teal-600 mr-2" />
             <h4 className="text-lg font-semibold text-gray-900">
-              Select a Time
+              Confirm Time Block
             </h4>
           </div>
           <p className="text-center text-gray-600 mb-4">
@@ -175,23 +175,25 @@ const ConsultationCalendar: React.FC<ConsultationCalendarProps> = ({ onSelectTim
               day: 'numeric'
             })}
           </p>
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
-            {timeSlots.map(time => (
-              <button
-                key={time}
-                onClick={() => handleTimeSelect(time)}
-                className={`
-                  px-4 py-3 rounded-lg font-medium transition-all
-                  ${selectedTime === time
-                    ? 'bg-teal-600 text-white shadow-lg'
-                    : 'bg-gray-100 text-gray-700 hover:bg-teal-50 hover:text-teal-700'
-                  }
-                `}
-              >
-                {time}
-              </button>
-            ))}
+          <div className="flex justify-center">
+            <button
+              onClick={handleTimeSelect}
+              className={`
+                px-8 py-4 rounded-lg font-semibold text-lg transition-all
+                ${selectedTime === timeBlock
+                  ? 'bg-teal-600 text-white shadow-lg transform scale-105'
+                  : 'bg-green-100 text-green-800 hover:bg-green-200 hover:shadow-md'
+                }
+              `}
+            >
+              {timeBlock}
+            </button>
           </div>
+          {selectedTime && (
+            <p className="text-center text-green-600 font-semibold mt-4">
+              ✓ Time selected! Fill out the form above to complete your consultation request.
+            </p>
+          )}
         </div>
       )}
     </div>

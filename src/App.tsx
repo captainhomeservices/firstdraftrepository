@@ -20,6 +20,7 @@ import ManualAquaticWeedRemovalPage from './pages/blog/ManualAquaticWeedRemovalP
 import ImportanceAquaticVegetationPage from './pages/blog/ImportanceAquaticVegetationPage';
 import HydrillaCrisis2025Page from './pages/blog/HydrillaCrisis2025Page';
 import AustinHydrillaProposalPage from './pages/blog/AustinHydrillaProposalPage';
+import BenthicBarriersGuidePage from './pages/blog/BenthicBarriersGuidePage';
 
 function App() {
   return (
@@ -45,6 +46,7 @@ function App() {
           <Route path="/blog/navigating-permitting-aquatic-vegetation-removal-texas" element={<NavigatingPermittingPage />} />
           <Route path="/blog/benefits-manual-aquatic-weed-removal-sustainable-approach" element={<ManualAquaticWeedRemovalPage />} />
           <Route path="/blog/importance-aquatic-vegetation-removal-healthy-lakefront" element={<ImportanceAquaticVegetationPage />} />
+          <Route path="/blog/benthic-barriers-complete-guide" element={<BenthicBarriersGuidePage />} />
         </Routes>
         <Footer />
       </div>

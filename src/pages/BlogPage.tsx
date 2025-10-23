@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Calendar, User, ArrowRight, Fish, Wrench, FileText, MapPin, Leaf, Clock, BookOpen, Waves } from 'lucide-react';
+import { Calendar, User, ArrowRight, Fish, Wrench, FileText, MapPin, Leaf, Clock, BookOpen, Waves, Shield } from 'lucide-react';
 import SEOHead from '../components/SEOHead';
 
 const BlogPage = () => {
@@ -137,6 +137,20 @@ const BlogPage = () => {
     },
     {
       id: 6,
+      title: "Benthic Barriers: The Complete Guide to Effective Lake Bottom Weed Control",
+      slug: "benthic-barriers-complete-guide",
+      excerpt: "Discover how benthic barriers provide long-term aquatic weed control for Austin lakes. Learn about installation, effectiveness, costs, and why they're the safest management option available.",
+      date: "January 15, 2025",
+      author: "Captain Cam",
+      category: "Weed Control Methods",
+      image: "/benthic barrier pic.jpeg",
+      icon: <Shield className="h-5 w-5" />,
+      keywords: ["benthic barriers", "lake mats", "lake bottom blankets", "LakeMat", "aquatic weed control", "hydrilla control Austin", "safe weed management"],
+      readTime: "16 min read",
+      featured: true
+    },
+    {
+      id: 7,
       title: "Understanding Lake Weeds: Why They Grow and How to Manage Them",
       slug: "understanding-lake-weeds-why-they-grow-and-how-to-manage-them",
       excerpt: "Discover the key factors behind aquatic weed growth in Texas lakes and learn sustainable management strategies. From nutrient levels to invasive species, understand why lakes get weeds and how professional removal can restore your waterfront.",
@@ -150,7 +164,7 @@ const BlogPage = () => {
       featured: true
     },
     {
-      id: 7,
+      id: 8,
       title: "Navigating Permitting for Aquatic Vegetation Removal in Texas",
       slug: "navigating-permitting-aquatic-vegetation-removal-texas",
       excerpt: "Learn about TPWD and LCRA permitting requirements for aquatic vegetation removal in Texas. Understand why compliance matters and how Captain Home Services handles all the red tape for legal, hassle-free lake weed removal.",
@@ -164,7 +178,7 @@ const BlogPage = () => {
       featured: true
     },
     {
-      id: 8,
+      id: 9,
       title: "The Benefits of Manual Aquatic Weed Removal: A Sustainable Approach",
       slug: "benefits-manual-aquatic-weed-removal-sustainable-approach",
       excerpt: "Discover why manual aquatic weed removal is the most sustainable and effective method for lakefront restoration. Learn about precision targeting, chemical-free approaches, and long-term benefits for your Texas waterfront.",
@@ -178,7 +192,7 @@ const BlogPage = () => {
       featured: true
     },
     {
-      id: 9,
+      id: 10,
       title: "The Importance of Aquatic Vegetation Removal for a Healthy Lakefront",
       slug: "importance-aquatic-vegetation-removal-healthy-lakefront",
       excerpt: "Understand how aggressive aquatic weeds impact your lakefront's ecology, recreation value, and property worth. Learn why professional aquatic vegetation removal is essential for maintaining a healthy Texas waterfront.",
