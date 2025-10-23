@@ -246,7 +246,7 @@ const BenthicBarriersGuidePage = () => {
               <ul className="space-y-3 text-gray-700">
                 <li className="flex items-start">
                   <span className="text-amber-600 mr-2">•</span>
-                  <span><strong>Higher Upfront Cost</strong>: $15,000+ per acre professionally installed</span>
+                  <span><strong>Higher Upfront Cost</strong>: Professional installation investment required</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-amber-600 mr-2">•</span>
@@ -275,24 +275,24 @@ const BenthicBarriersGuidePage = () => {
               <thead className="bg-gray-100">
                 <tr>
                   <th className="px-6 py-3 text-left text-sm font-semibold text-gray-900">Method</th>
-                  <th className="px-6 py-3 text-left text-sm font-semibold text-gray-900">5-Year Cost</th>
+                  <th className="px-6 py-3 text-left text-sm font-semibold text-gray-900">5-Year Cost Structure</th>
                   <th className="px-6 py-3 text-left text-sm font-semibold text-gray-900">Environmental Impact</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-200">
                 <tr>
-                  <td className="px-6 py-4 text-gray-700">Herbicide Treatments</td>
-                  <td className="px-6 py-4 text-gray-700">$15,000-$45,000</td>
+                  <td className="px-6 py-4 text-gray-700">Herbicide Treatments (Illegal on Lake Austin)</td>
+                  <td className="px-6 py-4 text-gray-700">10-15+ repeated treatments</td>
                   <td className="px-6 py-4 text-red-600">Chemical exposure</td>
                 </tr>
                 <tr>
                   <td className="px-6 py-4 text-gray-700">Mechanical Harvesting</td>
-                  <td className="px-6 py-4 text-gray-700">$5,000-$30,000</td>
+                  <td className="px-6 py-4 text-gray-700">10-20+ repeated harvests</td>
                   <td className="px-6 py-4 text-yellow-600">Minimal</td>
                 </tr>
                 <tr className="bg-green-50">
                   <td className="px-6 py-4 text-gray-900 font-semibold">Benthic Barriers</td>
-                  <td className="px-6 py-4 text-gray-900 font-semibold">$15,000-$20,000</td>
+                  <td className="px-6 py-4 text-gray-900 font-semibold">One-time removal + minimal maintenance</td>
                   <td className="px-6 py-4 text-green-600 font-semibold">Safest option</td>
                 </tr>
               </tbody>
@@ -305,7 +305,7 @@ const BenthicBarriersGuidePage = () => {
               <div>
                 <p className="text-blue-900 font-semibold mb-2">Cost-Effective Winner</p>
                 <p className="text-blue-800">
-                  Benthic barriers provide the best long-term value while being the most environmentally responsible choice. One installation replaces years of repeated treatments.
+                  Benthic barriers provide the best long-term value while being the most environmentally responsible choice. You remove vegetation once for installation, then only pay minimal maintenance fees—no repeated removal costs ever again.
                 </p>
               </div>
             </div>

@@ -116,8 +116,9 @@ Some clients prefer seasonal removal to:
 ### Limitations
 
 **Cost Considerations**
-- Higher upfront investment ($15,000+ per acre for professional installation)
-- However, cost-effective when compared to repeated herbicide treatments over 5 years
+- Higher upfront investment for professional installation
+- However, highly cost-effective long-term: once vegetation is removed for initial installation, you only pay minimal maintenance fees
+- No repeated removal costs like other methods require
 
 **Installation Challenges**
 - Requires professional expertise for proper placement
@@ -149,22 +150,23 @@ At Captain Home Services, we don't just drop a mat on your lake bottom and call 
 
 Let's compare benthic barriers to other common control methods over a 5-year period:
 
-### Herbicide Treatments
-- **Cost**: $1,500-$3,000 per treatment × 10-15 treatments = $15,000-$45,000
+### Herbicide Treatments (Illegal on Lake Austin)
+- **Cost**: Thousands per treatment, requiring 10-15+ treatments over 5 years
 - **Effectiveness**: Temporary, requires repeated applications
 - **Environmental impact**: Chemical exposure, potential harm to non-target species
 
 ### Mechanical Harvesting
-- **Cost**: $500-$1,500 per harvest × 10-20 harvests = $5,000-$30,000
+- **Cost**: Hundreds to thousands per harvest, requiring 10-20+ harvests over 5 years
 - **Effectiveness**: Immediate but temporary, promotes fragmentation and spread
 - **Environmental impact**: Minimal, but can disturb sediment and fish habitat
 
 ### Benthic Barriers (Professional Installation)
-- **Cost**: $15,000-$20,000 per acre (one-time installation)
+- **Cost**: One-time vegetation removal for installation, then only minimal maintenance fees
 - **Effectiveness**: Immediate and long-lasting (3-5+ years)
 - **Environmental impact**: Minimal to none, safest option available
+- **Key Advantage**: You remove weeds once, install barriers, and never need full removal again—just occasional maintenance
 
-**Winner**: Benthic barriers provide the best long-term value while being the most environmentally responsible choice.
+**Winner**: Benthic barriers provide the best long-term value while being the most environmentally responsible choice. The cost savings compound over time since you avoid repeated removal expenses.
 
 ## DIY vs. Professional Installation
 
