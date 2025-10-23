@@ -38,10 +38,10 @@ const HowItWorksPage = () => {
                 Your Clear, Beautiful Waterfront Starts Here
               </h2>
               <p className="text-lg text-gray-700 mb-4 leading-relaxed">
-                Imagine stepping off your dock into crystal-clear water, free from tangled weeds and invasive growth. A pristine waterfront where your family can swim, boat, and enjoy the lake without obstacles. That's what we create for every Austin lakefront property we serve.
+                Imagine sitting by your lakefront enjoying the reflection of a sunset in the water, free from surfaced lake weeds, trash, and algae on the surface. A pristine waterfront where your family can swim, boat, and enjoy the lake without obstacles. That's what we create for every Austin lakefront property we serve.
               </p>
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                The secret? Pulling vegetation by the roots, not just cutting at the surface. While other methods can damage docks or require repeated treatments, our approach eliminates weeds at the source and prevents regrowth with long-lasting benthic barriers.
+                The secret? Pulling vegetation by the roots, planning out a comprehensive management strategy involving benthic barriers to cover and stifle new growth, and maintaning your lakefront for you to enjoy. While other methods require costly repeated treatments, our approach eliminates weeds at the source and prevents regrowth with a coverage solution to keep plants form growing where you want them gone.
               </p>
               <div className="bg-emerald-50 border-l-4 border-emerald-500 p-4">
                 <p className="text-emerald-900 font-semibold">
@@ -72,7 +72,7 @@ const HowItWorksPage = () => {
                 <ul className="space-y-2 text-gray-700">
                   <li>• Most problematic aquatic plant in the United States</li>
                   <li>• Single cut fragment can produce over 6,000 new tubers per square meter</li>
-                  <li>• Tubers remain viable for over four years</li>
+                  <li>• Tubers remain viable for years</li>
                   <li>• Clogs boat propellers and entangles swimmers</li>
                   <li>• Forms suffocating mats from bottom to surface</li>
                 </ul>
@@ -122,7 +122,7 @@ const HowItWorksPage = () => {
                   <CheckCircle className="h-8 w-8 text-teal-600" />
                 </div>
                 <h3 className="text-lg font-semibold text-gray-900 mb-2">4. Maintain</h3>
-                <p className="text-gray-600">Monitor and maintain barriers seasonally</p>
+                <p className="text-gray-600">Monitor and maintain barriers seasonally, including moving periodically and cleaning regulary to reduce sediment build up</p>
               </div>
             </div>
           </div>
@@ -144,21 +144,18 @@ const HowItWorksPage = () => {
                 <CheckCircle className="h-6 w-6 text-green-600 mt-1 flex-shrink-0" />
                 <div>
                   <h3 className="font-semibold text-gray-900">Long-Term Prevention</h3>
-                  <p className="text-gray-700">Benthic barriers block remaining tubers and prevent future growth</p>
+                  <p className="text-gray-700">Benthic barriers suffocate sunlight and kill plants, allow for decomposition and gas pass-through of remaining vegetation, and prvent regrowth requiring regular cuts or removal treatments</p>
                 </div>
               </div>
               <div className="flex items-start space-x-3">
                 <CheckCircle className="h-6 w-6 text-green-600 mt-1 flex-shrink-0" />
                 <div>
-                  <h3 className="font-semibold text-gray-900">No Property Damage</h3>
-                  <p className="text-gray-700">No heavy machinery, no lawn damage, no dock destruction</p>
+                  <h3 className="font-semibold text-gray-900">No machinery, chemicals, or repeat infestations</h3>
+                  <p className="text-gray-700">A clean and clear lakefront for your family and friends to enjoy</p>
                 </div>
               </div>
               <div className="flex items-start space-x-3">
                 <CheckCircle className="h-6 w-6 text-green-600 mt-1 flex-shrink-0" />
-                <div>
-                  <h3 className="font-semibold text-gray-900">Chemical-Free</h3>
-                  <p className="text-gray-700">Environmentally safe for fish, wildlife, and swimmers</p>
                 </div>
               </div>
             </div>
