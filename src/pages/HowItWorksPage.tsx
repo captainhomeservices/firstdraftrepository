@@ -71,7 +71,7 @@ const HowItWorksPage = () => {
                 <h3 className="text-xl font-bold text-red-600 mb-4">Hydrilla (Hydrilla verticillata)</h3>
                 <ul className="space-y-2 text-gray-700">
                   <li>• Most problematic aquatic plant in the United States</li>
-                  <li>• Single tuber produces over 6,000 new tubers per square meter</li>
+                  <li>• Single cut fragment can produce over 6,000 new tubers per square meter</li>
                   <li>• Tubers remain viable for over four years</li>
                   <li>• Clogs boat propellers and entangles swimmers</li>
                   <li>• Forms suffocating mats from bottom to surface</li>
