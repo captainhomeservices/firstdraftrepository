@@ -11,9 +11,9 @@ const HowItWorksPage = () => {
   return (
     <>
       <SEOHead
-        title="How Manual Lake Weed Removal Works | Captain Home Services Austin"
+        title="How Lake Weed Removal Works | Captain Home Services Austin"
         description="Learn how Captain Home Services removes lake weeds by pulling roots and offers long-term benthic barrier solutions. Complete hydrilla removal in Lake Austin."
-        keywords="manual lake weed removal, hydrilla removal Austin, benthic barriers, root removal, Lake Austin weed control"
+        keywords="lake weed removal, hydrilla removal Austin, benthic barriers, root removal, Lake Austin weed control"
         canonicalUrl="https://austinlakemanagement.com/how-it-works"
       />
       <div className="min-h-screen bg-white">
@@ -35,13 +35,13 @@ const HowItWorksPage = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
             <div>
               <h2 className="text-3xl font-bold text-gray-900 mb-6">
-                Why We Remove by Hand
+                Your Clear, Beautiful Waterfront Starts Here
               </h2>
               <p className="text-lg text-gray-700 mb-4 leading-relaxed">
-                Mechanical harvesters cut weeds at the surface, leaving roots and tubers behind. They damage docks and shorelines with heavy equipment. And what happens when roots remain? Plants return stronger within weeks.
+                Imagine stepping off your dock into crystal-clear water, free from tangled weeds and invasive growth. A pristine waterfront where your family can swim, boat, and enjoy the lake without obstacles. That's what we create for every Austin lakefront property we serve.
               </p>
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                This creates a never-ending cycle of expense and frustration. Chemical treatments are illegal on Lake Austin, so homeowners need effective alternatives.
+                The secret? Pulling vegetation by the roots, not just cutting at the surface. While other methods can damage docks or require repeated treatments, our approach eliminates weeds at the source and prevents regrowth with long-lasting benthic barriers.
               </p>
               <div className="bg-emerald-50 border-l-4 border-emerald-500 p-4">
                 <p className="text-emerald-900 font-semibold">
@@ -107,7 +107,7 @@ const HowItWorksPage = () => {
                 <div className="bg-green-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
                   <Scissors className="h-8 w-8 text-green-600" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900 mb-2">2. Remove by Roots</h3>
+                <h3 className="text-lg font-semibold text-gray-900 mb-2">2. Pull by the Roots</h3>
                 <p className="text-gray-600">Pull entire plants by the roots with minimal fragmentation</p>
               </div>
               <div className="text-center">
