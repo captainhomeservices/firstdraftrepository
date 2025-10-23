@@ -61,7 +61,7 @@ const ContactPage = () => {
     "@context": "https://schema.org",
     "@type": "ContactPage",
     "name": "Contact Captain Home Services - Austin Lake Weed Removal",
-    "description": "Contact Captain Home Services for professional Austin lake weed removal, hydrilla control, and aquatic vegetation management. Free estimates available.",
+    "description": "Contact Captain Home Services for professional Austin lake weed removal, hydrilla control, and aquatic vegetation management. Schedule your consultation today.",
     "url": "https://austinlakemanagement.com/contact",
     "mainEntity": {
       "@type": "LocalBusiness",
@@ -140,7 +140,7 @@ const ContactPage = () => {
     <div className="min-h-screen bg-white">
       <SEOHead
         title="Contact Captain Home Services - Austin Lake Weed Removal Experts"
-        description="Contact Captain Home Services for professional Austin lake weed removal, hydrilla control, and aquatic vegetation management. Free estimates available. Call (737) 300-9033."
+        description="Contact Captain Home Services for professional Austin lake weed removal, hydrilla control, and aquatic vegetation management. Schedule your consultation today. Call (737) 300-9033."
         keywords="contact Austin lake weed removal, Captain Home Services contact, Austin hydrilla removal quote, lake management consultation Austin, TPWD permit assistance, Austin lake weed removal estimate, Lake Austin hydrilla removal contact"
         canonicalUrl="https://austinlakemanagement.com/contact"
         structuredData={contactPageSchema}
@@ -153,7 +153,7 @@ const ContactPage = () => {
             Howdy Neighbor!
           </h1>
           <p className="text-lg md:text-xl lg:text-2xl mb-6 md:mb-8 max-w-4xl mx-auto">
-            Schedule a lake weed removal estimate
+            Schedule Your Free Consultation
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
@@ -172,7 +172,7 @@ const ContactPage = () => {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-8 md:mb-12">
             <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
-              Request an Estimate - We'll Contact You Today
+              Book Your Consultation - We'll Contact You Today
             </h2>
             <p className="text-base md:text-lg text-gray-700 max-w-3xl mx-auto">
               Got a question about why your lake weeds grew in so fast? Or about how we can help keep your swimming area weed-free? Whatever your <strong>Austin aquatic vegetation removal</strong> needs, <strong>Captain Home Services</strong> is here to chat and help.

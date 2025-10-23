@@ -321,23 +321,23 @@ const BenthicBarriersPage = () => {
               Ready for Clear Water?
             </h2>
             <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-              Get a free assessment and custom quote for your waterfront property.
+              Contact us today for a professional consultation and personalized solution for your waterfront property.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link
-                to="/contact"
-                className="inline-flex items-center justify-center bg-emerald-600 hover:bg-emerald-500 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200 transform hover:scale-105 shadow-lg"
-              >
-                Get Free Assessment
-                <ArrowRight className="ml-2 h-5 w-5" />
-              </Link>
               <a
                 href="tel:(737)-300-9033"
-                className="inline-flex items-center justify-center bg-slate-900 hover:bg-slate-800 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200 shadow-lg"
+                className="inline-flex items-center justify-center bg-white text-emerald-600 hover:bg-gray-50 px-8 py-4 rounded-lg text-base sm:text-lg font-semibold transition-all duration-200 shadow-lg"
               >
                 <Phone className="mr-2 h-5 w-5" />
-                Call (737) 300-9033
+                Call Us
               </a>
+              <Link
+                to="/contact"
+                className="inline-flex items-center justify-center bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-4 rounded-lg text-base sm:text-lg font-semibold transition-all duration-200 shadow-lg"
+              >
+                Book a Consultation
+                <ArrowRight className="ml-2 h-5 w-5" />
+              </Link>
             </div>
           </div>
         </div>

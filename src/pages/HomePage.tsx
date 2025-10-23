@@ -114,16 +114,6 @@ const HomePage = () => {
               </p>
 
               <div className="flex flex-col sm:flex-row gap-3 justify-center pt-2 sm:pt-3 opacity-0 animate-fadeInUp animation-delay-200 px-4">
-                <Link
-                  to="/contact"
-                  onClick={scrollToTop}
-                  className="group inline-flex items-center justify-center px-5 sm:px-7 py-3 sm:py-4 bg-[#00B47B]/50 hover:bg-[#009966]/70 text-white text-sm sm:text-base font-semibold rounded-xl transition-all duration-300 shadow-2xl hover:shadow-emerald-500/50 hover:scale-105 backdrop-blur-sm"
-                >
-                  Get a Free Quote
-                  <svg className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                  </svg>
-                </Link>
                 <a
                   href="tel:(737)-300-9033"
                   className="inline-flex items-center justify-center px-5 sm:px-7 py-3 sm:py-4 bg-white/50 hover:bg-white/70 text-white text-sm sm:text-base font-semibold rounded-xl transition-all duration-300 hover:scale-105 shadow-2xl backdrop-blur-sm whitespace-nowrap"
@@ -131,8 +121,18 @@ const HomePage = () => {
                   <svg className="mr-2 w-5 h-5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                   </svg>
-                  (737) 300-9033
+                  Call Us
                 </a>
+                <Link
+                  to="/contact"
+                  onClick={scrollToTop}
+                  className="group inline-flex items-center justify-center px-5 sm:px-7 py-3 sm:py-4 bg-[#00B47B]/50 hover:bg-[#009966]/70 text-white text-sm sm:text-base font-semibold rounded-xl transition-all duration-300 shadow-2xl hover:shadow-emerald-500/50 hover:scale-105 backdrop-blur-sm"
+                >
+                  Book a Consultation
+                  <svg className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                  </svg>
+                </Link>
               </div>
 
               {/* Trust Indicators */}
@@ -323,19 +323,21 @@ const HomePage = () => {
             Hand-pulling by the roots + benthic barriers = lasting hydrilla control. No chemicals, no property damage, just professional lake management.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center px-4">
+            <a
+              href="tel:(737)-300-9033"
+              className="inline-flex items-center justify-center bg-white text-teal-600 hover:bg-gray-100 px-8 py-4 rounded-lg text-base sm:text-lg font-semibold transition-colors duration-200 transform hover:scale-105 shadow-lg"
+            >
+              <svg className="mr-2 w-5 h-5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+              </svg>
+              Call Us
+            </a>
             <Link
               to="/contact"
               onClick={scrollToTop}
-              className="bg-white text-teal-600 hover:bg-gray-100 px-8 py-4 rounded-lg text-lg font-semibold transition-colors duration-200 transform hover:scale-105"
+              className="bg-teal-600 hover:bg-teal-700 text-white px-8 py-4 rounded-lg text-base sm:text-lg font-semibold transition-colors duration-200 shadow-lg"
             >
-              Get Free Quote
-            </Link>
-            <Link
-              to="/benthic-barriers"
-              onClick={scrollToTop}
-              className="bg-teal-700 hover:bg-teal-800 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors duration-200 border border-teal-500"
-            >
-              Benthic Barriers
+              Book a Consultation
             </Link>
           </div>
         </div>
