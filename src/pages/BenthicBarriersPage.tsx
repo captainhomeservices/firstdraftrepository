@@ -29,7 +29,7 @@ const BenthicBarriersPage = () => {
                 Benthic Barrier Service
               </h1>
               <p className="text-xl md:text-2xl text-gray-200 mb-10 leading-relaxed max-w-3xl mx-auto">
-                We <Link to="/how-it-works" className="text-emerald-300 hover:text-emerald-200 font-semibold underline">remove most of your lake weeds manually</Link>, then install professional benthic barriers that block remaining growth and prevent future weeds—delivering instant, clear swim and boat areas.
+                We <Link to="/how-it-works" className="text-emerald-300 hover:text-emerald-200 font-semibold underline">remove your lake weeds manually</Link>, then install professional benthic barriers that block remaining growth and prevent future weeds—delivering instant, clear swim and boat areas.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
