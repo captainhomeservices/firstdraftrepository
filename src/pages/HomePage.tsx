@@ -192,6 +192,18 @@ const HomePage = () => {
             </div>
           </div>
 
+          <div className="bg-blue-50 border-l-4 border-blue-500 p-6 mb-8">
+            <div className="flex items-start">
+              <Shield className="h-6 w-6 text-blue-600 mr-3 mt-1 flex-shrink-0" />
+              <div>
+                <p className="text-blue-900 font-semibold mb-2">Working with TPWD's Integrated Pest Management Plan</p>
+                <p className="text-blue-800">
+                  Captain Home Services works in alignment with <a href="https://tpwd.texas.gov/landwater/water/aquatic-invasives/aquatic_invasive_plants.phtml" target="_blank" rel="noopener noreferrer" className="underline hover:text-blue-900 font-semibold">Texas Parks and Wildlife Department's integrated pest management approach</a> to help homeowners effectively manage hydrilla infestations while protecting lake ecosystems.
+                </p>
+              </div>
+            </div>
+          </div>
+
           {/* Bridge Image under the boxes */}
           <div className="text-center">
             <img

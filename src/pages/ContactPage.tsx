@@ -291,7 +291,7 @@ const ContactPage = () => {
 
               <div>
                 <label htmlFor="project" className="block text-sm font-medium text-gray-700 mb-2">
-                  Tell Us About Your Project *
+                  Tell Us About Your Lakefront *
                 </label>
                 <textarea
                   id="project"
@@ -301,7 +301,7 @@ const ContactPage = () => {
                   value={formData.project}
                   onChange={handleChange}
                   className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-teal-500 transition-colors resize-none text-base"
-                  placeholder="The more details you can provide, the better we can understand your needs and get back to you with the right solutions. Don't be shy; no project is too big or too small for our dedicated team at Captain Home Services."
+                  placeholder="Tell us about your lakefront and how we can help to make it perfect!"
                 />
               </div>
 

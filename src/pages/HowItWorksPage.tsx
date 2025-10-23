@@ -41,7 +41,7 @@ const HowItWorksPage = () => {
                 Mechanical harvesters cut weeds at the surface, leaving roots and tubers behind. They damage docks and shorelines with heavy equipment. And what happens when roots remain? Plants return stronger within weeks.
               </p>
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                This creates a never-ending cycle of expense and frustration, leading many to use environmentally damaging chemicals on shorelines where families swim and play.
+                This creates a never-ending cycle of expense and frustration. Chemical treatments are illegal on Lake Austin, so homeowners need effective alternatives.
               </p>
               <div className="bg-emerald-50 border-l-4 border-emerald-500 p-4">
                 <p className="text-emerald-900 font-semibold">
