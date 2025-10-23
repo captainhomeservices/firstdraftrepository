@@ -160,11 +160,11 @@ const ThankYouPage = () => {
               How It Works
             </Link>
             <Link
-              to="/pricing"
+              to="/blog"
               onClick={scrollToTop}
               className="bg-teal-700 hover:bg-teal-800 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors duration-200 border border-teal-500"
             >
-              View Pricing
+              Read Our Blog
             </Link>
             <Link
               to="/blog"

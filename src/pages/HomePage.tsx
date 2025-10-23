@@ -346,11 +346,11 @@ const HomePage = () => {
               Contact Us Today
             </Link>
             <Link
-              to="/pricing"
+              to="/how-it-works"
               onClick={scrollToTop}
               className="bg-teal-700 hover:bg-teal-800 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors duration-200 border border-teal-500"
             >
-              View Pricing
+              How It Works
             </Link>
           </div>
         </div>

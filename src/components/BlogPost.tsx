@@ -78,16 +78,16 @@ const BlogPost: React.FC<BlogPostProps> = ({
     const internalLinks = {
       'Captain Home Services': '/contact',
       'Austin lake weed removal': '/how-it-works',
-      'Lake Austin hydrilla removal': '/pricing',
+      'Lake Austin hydrilla removal': '/contact',
       'Austin aquatic vegetation removal': '/how-it-works',
       'TPWD permits': '/permitting',
       'LCRA compliance': '/permitting',
       'manual lake weed removal': '/how-it-works',
       'chemical-free lake cleaning': '/how-it-works',
-      'Austin lake management': '/pricing',
+      'Austin lake management': '/contact',
       'Lake Austin weed removal': '/contact',
       'hydrilla control': '/how-it-works',
-      'aquatic vegetation management': '/pricing'
+      'aquatic vegetation management': '/contact'
     };
 
     // Apply internal links only to first occurrence and avoid double-linking
@@ -297,11 +297,11 @@ const BlogPost: React.FC<BlogPostProps> = ({
               Get Free Estimate
             </Link>
             <Link
-              to="/pricing"
+              to="/how-it-works"
               onClick={scrollToTop}
               className="bg-teal-700 hover:bg-teal-800 text-white px-6 md:px-8 py-3 md:py-4 rounded-lg text-lg font-semibold transition-colors duration-200 border border-teal-500 shadow-lg"
             >
-              View Pricing
+              Learn More
             </Link>
           </div>
         </div>

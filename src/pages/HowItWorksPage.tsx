@@ -191,11 +191,11 @@ const HowItWorksPage = () => {
               Get Started Today
             </Link>
             <Link
-              to="/pricing"
+              to="/benthic-barriers"
               onClick={scrollToTop}
               className="bg-green-700 hover:bg-green-800 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors duration-200 border border-green-500"
             >
-              View Pricing
+              Benthic Barriers
             </Link>
           </div>
         </div>

@@ -85,15 +85,6 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  to="/pricing"
-                  onClick={scrollToTop}
-                  className="hover:text-teal-400 transition-colors"
-                >
-                  Pricing
-                </Link>
-              </li>
-              <li>
-                <Link
                   to="/blog"
                   onClick={scrollToTop}
                   className="hover:text-teal-400 transition-colors"

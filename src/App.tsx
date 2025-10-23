@@ -8,7 +8,6 @@ import BenthicBarriersPage from './pages/BenthicBarriersPage';
 import PermittingPage from './pages/PermittingPage';
 import ContactPage from './pages/ContactPage';
 import ThankYouPage from './pages/ThankYouPage';
-import PricingPage from './pages/PricingPage';
 import BlogPage from './pages/BlogPage';
 
 // Blog Post Pages
@@ -34,7 +33,6 @@ function App() {
           <Route path="/permitting" element={<PermittingPage />} />
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/thank-you" element={<ThankYouPage />} />
-          <Route path="/pricing" element={<PricingPage />} />
           <Route path="/blog" element={<BlogPage />} />
           
           {/* Blog Post Routes */}

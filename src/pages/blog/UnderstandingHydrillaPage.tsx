@@ -194,10 +194,10 @@ const UnderstandingHydrillaPage = () => {
               Schedule Free Assessment
             </a>
             <a
-              href="/pricing"
+              href="/how-it-works"
               className="inline-block bg-teal-700 hover:bg-teal-800 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors duration-200 border-2 border-white shadow-lg"
             >
-              View Pricing
+              Learn More
             </a>
           </div>
         </div>
