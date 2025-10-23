@@ -45,7 +45,7 @@ const HowItWorksPage = () => {
               </p>
               <div className="bg-emerald-50 border-l-4 border-emerald-500 p-4">
                 <p className="text-emerald-900 font-semibold">
-                  <strong>Captain Home Services</strong> hand-pulls invasive vegetation by the roots with minimal fragmentation, then installs benthic barriers for complete long-term control.
+                  <strong>Captain Home Services</strong> hand-pulls invasive vegetation by the roots with minimal fragmentation, then installs <Link to="/benthic-barriers" onClick={scrollToTop} className="text-emerald-700 hover:text-emerald-800 underline">benthic barriers</Link> for complete long-term control. All work is <Link to="/permitting" onClick={scrollToTop} className="text-emerald-700 hover:text-emerald-800 underline">fully permitted</Link>.
                 </p>
               </div>
             </div>
@@ -60,9 +60,12 @@ const HowItWorksPage = () => {
 
           {/* Why Roots Matter */}
           <div className="bg-gray-50 rounded-lg p-8 mb-16">
-            <h2 className="text-3xl font-bold text-gray-900 mb-6 text-center">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4 text-center">
               Why Roots Matter
             </h2>
+            <p className="text-center text-gray-600 mb-6 max-w-3xl mx-auto">
+              Read more about these invasive species in our <Link to="/blog" onClick={scrollToTop} className="text-teal-600 hover:text-teal-700 font-semibold underline">educational blog</Link>.
+            </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div className="bg-white p-6 rounded-lg shadow-md">
                 <h3 className="text-xl font-bold text-red-600 mb-4">Hydrilla (Hydrilla verticillata)</h3>
@@ -112,7 +115,7 @@ const HowItWorksPage = () => {
                   <Shield className="h-8 w-8 text-emerald-600" />
                 </div>
                 <h3 className="text-lg font-semibold text-gray-900 mb-2">3. Install Barriers</h3>
-                <p className="text-gray-600">Benthic barriers for long-term prevention</p>
+                <p className="text-gray-600"><Link to="/benthic-barriers" onClick={scrollToTop} className="text-emerald-600 hover:text-emerald-700 font-semibold underline">Benthic barriers</Link> for long-term prevention</p>
               </div>
               <div className="text-center">
                 <div className="bg-yellow-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
@@ -175,7 +178,7 @@ const HowItWorksPage = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold mb-4">Ready for a Complete Solution?</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
-            Hand-pulling by the roots + benthic barriers = long-term hydrilla control. Restore your lakefront's health and beauty.
+            Hand-pulling by the roots + <Link to="/benthic-barriers" onClick={scrollToTop} className="text-white hover:text-emerald-200 font-semibold underline">benthic barriers</Link> = long-term hydrilla control. All work is <Link to="/permitting" onClick={scrollToTop} className="text-white hover:text-blue-200 font-semibold underline">fully permitted</Link>. Restore your lakefront's health and beauty.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link

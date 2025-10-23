@@ -228,16 +228,28 @@ const HomePage = () => {
             </div>
             <div className="px-4">
               <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4">The Hydrilla Problem</h3>
-              <p className="text-sm sm:text-base text-gray-700 mb-6 leading-relaxed">
-                <strong>Lake Austin hydrilla</strong> and <strong>Eurasian watermilfoil</strong> create dense mats that make swimming and boating impossible. Our team hand-pulls these invasive species by the roots, then installs benthic barriers for long-term prevention.
+              <p className="text-sm sm:text-base text-gray-700 mb-4 leading-relaxed">
+                <strong>Lake Austin hydrilla</strong> and <strong>Eurasian watermilfoil</strong> create dense mats that make swimming and boating impossible. Our team hand-pulls these invasive species by the roots, then installs <Link to="/benthic-barriers" onClick={scrollToTop} className="text-emerald-600 hover:text-emerald-700 font-semibold underline">benthic barriers</Link> for long-term prevention.
               </p>
-              <Link
-                to="/how-it-works"
-                onClick={scrollToTop}
-                className="inline-flex items-center bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-lg font-semibold transition-colors duration-200"
-              >
-                Learn Our Process
-              </Link>
+              <p className="text-sm sm:text-base text-gray-700 mb-6 leading-relaxed">
+                All our work is fully <Link to="/permitting" onClick={scrollToTop} className="text-blue-600 hover:text-blue-700 font-semibold underline">TPWD permitted and LCRA compliant</Link> for legal peace of mind.
+              </p>
+              <div className="flex flex-wrap gap-3">
+                <Link
+                  to="/how-it-works"
+                  onClick={scrollToTop}
+                  className="inline-flex items-center bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-lg font-semibold transition-colors duration-200"
+                >
+                  Learn Our Process
+                </Link>
+                <Link
+                  to="/benthic-barriers"
+                  onClick={scrollToTop}
+                  className="inline-flex items-center bg-emerald-600 hover:bg-emerald-700 text-white px-6 py-3 rounded-lg font-semibold transition-colors duration-200"
+                >
+                  Benthic Barriers
+                </Link>
+              </div>
             </div>
           </div>
         </div>
@@ -251,8 +263,11 @@ const HomePage = () => {
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-6">
                 The Complete Long-Term Solution
               </h2>
+              <p className="text-base sm:text-lg text-gray-700 mb-4 leading-relaxed">
+                Tired of battling stubborn hydrilla that returns every season? <strong>Captain Home Services</strong> offers a complete solution: we <Link to="/how-it-works" onClick={scrollToTop} className="text-green-600 hover:text-green-700 font-semibold underline">hand-pull weeds by the roots</Link> with minimal fragmentation, then install <Link to="/benthic-barriers" onClick={scrollToTop} className="text-emerald-600 hover:text-emerald-700 font-semibold underline">benthic barriers</Link> to prevent regrowth.
+              </p>
               <p className="text-base sm:text-lg text-gray-700 mb-6 leading-relaxed">
-                Tired of battling stubborn hydrilla that returns every season? <strong>Captain Home Services</strong> offers a complete solution: we hand-pull weeds by the roots with minimal fragmentation, then install benthic barriers to prevent regrowth.
+                Learn more about our <Link to="/permitting" onClick={scrollToTop} className="text-blue-600 hover:text-blue-700 font-semibold underline">permitting process</Link> and read our <Link to="/blog" onClick={scrollToTop} className="text-teal-600 hover:text-teal-700 font-semibold underline">educational blog</Link> for lake management tips.
               </p>
               <div className="space-y-4">
                 <div className="flex items-start space-x-3">

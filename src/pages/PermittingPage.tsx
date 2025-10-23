@@ -48,7 +48,7 @@ const PermittingPage = () => {
               </p>
               <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4">
                 <p className="text-yellow-800 font-semibold">
-                  That's why <strong>Captain Home Services</strong> helps navigate this complex process.
+                  That's why <strong>Captain Home Services</strong> helps navigate this complex process for all our <Link to="/how-it-works" onClick={scrollToTop} className="text-yellow-900 hover:text-yellow-950 underline">manual removal</Link> and <Link to="/benthic-barriers" onClick={scrollToTop} className="text-yellow-900 hover:text-yellow-950 underline">benthic barrier</Link> projects.
                 </p>
               </div>
             </div>
@@ -67,7 +67,7 @@ const PermittingPage = () => {
               The TPWD Permitting Process: We Handle the Heavy Lifting
             </h2>
             <p className="text-lg text-gray-700 mb-8 text-center max-w-4xl mx-auto">
-              If you're not familiar with the ins and outs of environmental regulations, the permitting and treatment proposal process can be a huge pain and take months of your precious boating and swimming season. Our team at <strong>Captain Home Services</strong> is here to clean up your shoreline and take care of the red tape for you.
+              If you're not familiar with the ins and outs of environmental regulations, the permitting and treatment proposal process can be a huge pain and take months of your precious boating and swimming season. Our team at <strong>Captain Home Services</strong> is here to <Link to="/how-it-works" onClick={scrollToTop} className="text-green-600 hover:text-green-700 font-semibold underline">clean up your shoreline</Link> and take care of the red tape for you.
             </p>
             
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -118,8 +118,11 @@ const PermittingPage = () => {
               <h2 className="text-3xl font-bold text-gray-900 mb-6">
                 Trust Us to Do It Right
               </h2>
-              <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              <p className="text-lg text-gray-700 mb-4 leading-relaxed">
                 When you choose <strong>Captain Home Services</strong>, you can trust us to stay in strict compliance with all regulations concerning the removal, treatment, transportation, and disposal of invasive aquatic vegetation.
+              </p>
+              <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+                Our <Link to="/how-it-works" onClick={scrollToTop} className="text-green-600 hover:text-green-700 font-semibold underline">manual removal methods</Link> and <Link to="/benthic-barriers" onClick={scrollToTop} className="text-emerald-600 hover:text-emerald-700 font-semibold underline">benthic barrier installations</Link> are all fully permitted.
               </p>
               
               <div className="space-y-4">
@@ -178,8 +181,11 @@ const PermittingPage = () => {
             </div>
             
             <div className="mt-8 text-center">
-              <p className="text-lg text-gray-700 max-w-4xl mx-auto">
+              <p className="text-lg text-gray-700 max-w-4xl mx-auto mb-4">
                 Our team at <strong>Captain Home Services</strong> boasts extensive experience in navigating the permitting landscape. We've got the know-how, the connections, and the tools to ensure your waterfront restoration is a seamless, legal, and ultimately successful endeavor.
+              </p>
+              <p className="text-lg text-gray-700 max-w-4xl mx-auto">
+                Learn more about our <Link to="/how-it-works" onClick={scrollToTop} className="text-green-600 hover:text-green-700 font-semibold underline">removal process</Link>, <Link to="/benthic-barriers" onClick={scrollToTop} className="text-emerald-600 hover:text-emerald-700 font-semibold underline">benthic barriers</Link>, and read our <Link to="/blog" onClick={scrollToTop} className="text-teal-600 hover:text-teal-700 font-semibold underline">blog</Link> for helpful tips.
               </p>
             </div>
           </div>

@@ -29,7 +29,7 @@ const BenthicBarriersPage = () => {
                 Benthic Barrier Service
               </h1>
               <p className="text-xl md:text-2xl text-gray-200 mb-10 leading-relaxed max-w-3xl mx-auto">
-                We remove most of your lake weeds manually, then install professional benthic barriers that block remaining growth and prevent future weeds—delivering instant, clear swim and boat areas.
+                We <Link to="/how-it-works" className="text-emerald-300 hover:text-emerald-200 font-semibold underline">remove most of your lake weeds manually</Link>, then install professional benthic barriers that block remaining growth and prevent future weeds—delivering instant, clear swim and boat areas.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -73,8 +73,11 @@ const BenthicBarriersPage = () => {
                 <p className="text-lg text-gray-600 mb-6">
                   As authorized dealers for LakeMat and Lake Bottom Blanket, we use commercial-grade nonwoven polypropylene fabric designed specifically for aquatic environments. The material is gas-permeable, environmentally safe, and creates instant clear water.
                 </p>
-                <p className="text-lg text-gray-600">
+                <p className="text-lg text-gray-600 mb-4">
                   We can cover any size area—from small dock zones to expansive waterfront properties.
+                </p>
+                <p className="text-lg text-gray-600">
+                  Learn about our complete process on our <Link to="/how-it-works" className="text-green-600 hover:text-green-700 font-semibold underline">How It Works</Link> page. All installations are <Link to="/permitting" className="text-blue-600 hover:text-blue-700 font-semibold underline">fully permitted</Link>.
                 </p>
               </div>
             </div>
@@ -178,7 +181,7 @@ const BenthicBarriersPage = () => {
                       </li>
                     </ul>
                     <p className="mt-4 text-gray-900 font-semibold">
-                      This is why we remove most vegetation first. The barriers then handle remaining growth and prevent future infestations.
+                      This is why we <Link to="/how-it-works" className="text-green-600 hover:text-green-700 underline">remove most vegetation first</Link>. The barriers then handle remaining growth and prevent future infestations.
                     </p>
                   </div>
                 </div>
@@ -280,17 +283,35 @@ const BenthicBarriersPage = () => {
           <div className="mb-20">
             <div className="text-center">
               <h3 className="text-2xl font-bold text-gray-900 mb-4">
-                Learn More About Benthic Barriers
+                Learn More
               </h3>
-              <a
-                href="https://humanwildlifeecology.wordpress.com/2018/04/12/hydrilla-verticillata-management-strategy-section-62/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center text-teal-600 hover:text-teal-700 font-semibold text-lg"
-              >
-                <span className="underline">Hydrilla Management Strategy - Extended Reading</span>
-                <ArrowRight className="ml-2 h-5 w-5" />
-              </a>
+              <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                <Link
+                  to="/blog"
+                  className="inline-flex items-center text-teal-600 hover:text-teal-700 font-semibold text-lg"
+                >
+                  <span className="underline">Read Our Blog</span>
+                  <ArrowRight className="ml-2 h-5 w-5" />
+                </Link>
+                <span className="text-gray-400 hidden sm:block">•</span>
+                <Link
+                  to="/permitting"
+                  className="inline-flex items-center text-blue-600 hover:text-blue-700 font-semibold text-lg"
+                >
+                  <span className="underline">Permitting Info</span>
+                  <ArrowRight className="ml-2 h-5 w-5" />
+                </Link>
+                <span className="text-gray-400 hidden sm:block">•</span>
+                <a
+                  href="https://humanwildlifeecology.wordpress.com/2018/04/12/hydrilla-verticillata-management-strategy-section-62/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center text-emerald-600 hover:text-emerald-700 font-semibold text-lg"
+                >
+                  <span className="underline">Hydrilla Research</span>
+                  <ArrowRight className="ml-2 h-5 w-5" />
+                </a>
+              </div>
             </div>
           </div>
 

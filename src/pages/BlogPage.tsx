@@ -514,7 +514,7 @@ const BlogPage = () => {
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-4">Lake Weed Control</h3>
               <p className="text-gray-700 leading-relaxed">
-                Practical advice on <strong>hydrilla removal</strong>, <strong>lake weed removal</strong> techniques, and identifying invasive species in Austin area lakes.
+                Practical advice on <Link to="/how-it-works" onClick={scrollToTop} className="text-blue-600 hover:text-blue-700 font-semibold underline">hydrilla removal</Link>, <strong>lake weed removal</strong> techniques, and <Link to="/benthic-barriers" onClick={scrollToTop} className="text-blue-600 hover:text-blue-700 font-semibold underline">benthic barriers</Link> for Austin area lakes.
               </p>
             </div>
             
@@ -534,7 +534,7 @@ const BlogPage = () => {
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-4">Lake Management</h3>
               <p className="text-gray-700 leading-relaxed">
-                Professional <strong>lake management</strong> strategies, permitting guidance, and sustainable waterfront maintenance practices.
+                Professional <strong>lake management</strong> strategies, <Link to="/permitting" onClick={scrollToTop} className="text-teal-600 hover:text-teal-700 font-semibold underline">permitting guidance</Link>, and sustainable waterfront maintenance practices.
               </p>
             </div>
           </div>
@@ -568,7 +568,7 @@ const BlogPage = () => {
             Need Professional Lake Weed Removal?
           </h2>
           <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-            <strong>Captain Home Services</strong> provides expert <strong>Lake Austin weed removal</strong> and comprehensive <strong>lake management</strong> services throughout the Highland Lakes.
+            <strong>Captain Home Services</strong> provides expert <Link to="/how-it-works" onClick={scrollToTop} className="text-green-600 hover:text-green-700 font-semibold underline">manual lake weed removal</Link> and <Link to="/benthic-barriers" onClick={scrollToTop} className="text-emerald-600 hover:text-emerald-700 font-semibold underline">benthic barrier installation</Link> throughout the Highland Lakes. All work is <Link to="/permitting" onClick={scrollToTop} className="text-blue-600 hover:text-blue-700 font-semibold underline">fully permitted</Link>.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
@@ -579,11 +579,11 @@ const BlogPage = () => {
               Get Free Estimate
             </Link>
             <Link
-              to="/how-it-works"
+              to="/benthic-barriers"
               onClick={scrollToTop}
-              className="bg-gray-200 hover:bg-gray-300 text-gray-900 px-8 py-4 rounded-lg text-lg font-semibold transition-colors duration-200"
+              className="bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200 transform hover:scale-105 shadow-lg"
             >
-              Learn Our Process
+              Benthic Barriers
             </Link>
           </div>
         </div>
