@@ -110,7 +110,7 @@ const HomePage = () => {
                 </span>
               </h1>
               <p className="text-base sm:text-lg md:text-xl text-white drop-shadow-lg px-2">
-                Hand-Pulling by the Roots + Benthic Barriers for Lake Austin
+                Hand-Pulling by the Roots + Benthic Barriers
               </p>
 
               <div className="flex flex-col sm:flex-row gap-3 justify-center pt-2 sm:pt-3 opacity-0 animate-fadeInUp animation-delay-200 px-4">
