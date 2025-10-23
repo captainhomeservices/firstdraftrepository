@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Target, Scissors, Truck, CheckCircle } from 'lucide-react';
+import { Target, Scissors, Truck, CheckCircle, Shield } from 'lucide-react';
 import SEOHead from '../components/SEOHead';
 
 const HowItWorksPage = () => {
@@ -12,8 +12,8 @@ const HowItWorksPage = () => {
     <>
       <SEOHead
         title="How Manual Lake Weed Removal Works | Captain Home Services Austin"
-        description="Learn how Captain Home Services manually removes lake weeds by the roots for lasting results. Our precision removal method targets hydrilla, watermilfoil and invasive species in Lake Austin."
-        keywords="manual lake weed removal, how lake weed removal works, Austin hydrilla removal process, root removal method, Lake Austin weed control, precision aquatic vegetation removal"
+        description="Learn how Captain Home Services removes lake weeds by hand-pulling roots and offers long-term benthic barrier solutions. Complete hydrilla removal in Lake Austin."
+        keywords="manual lake weed removal, hydrilla removal Austin, benthic barriers, root removal, Lake Austin weed control"
         canonicalUrl="https://austinlakemanagement.com/how-it-works"
       />
       <div className="min-h-screen bg-white">
@@ -21,8 +21,11 @@ const HowItWorksPage = () => {
       <section className="py-16 bg-gradient-to-r from-green-600 to-teal-600 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">
-            Precise Manual Lake Weed Removal
+            Complete Long-Term Hydrilla Removal
           </h1>
+          <p className="text-xl text-green-100 max-w-3xl mx-auto">
+            Hand-pulling by the roots with minimal fragmentation + benthic barrier installation
+          </p>
         </div>
       </section>
 
@@ -35,14 +38,14 @@ const HowItWorksPage = () => {
                 Why We Remove by Hand
               </h2>
               <p className="text-lg text-gray-700 mb-4 leading-relaxed">
-                Imagine trying to clear a brush fire by just trimming the tops of the trees. Foolish, right? It's the same with aquatic weeds. Mechanical harvesters and floating machinery are great tools for large, multi-acreage projects, but they are simply inefficient blunt objects for most homeowners' beach and dock cleanup jobs. They leave roots and tubers behind; can damage docks, boats, and shorelines; and may damage landscaping upon entering and exiting the shoreline.
+                Mechanical harvesters cut weeds at the surface, leaving roots and tubers behind. They damage docks and shorelines with heavy equipment. And what happens when roots remain? Plants return stronger within weeks.
               </p>
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                And what happens when you leave the tubers (plant stems and fragments) and roots from hydrilla and other invasive species behind? They come back, branching into new growth stronger and more aggressive than before, often within weeks. This leads to a never-ending cycle of harvesting and removal, expense, and frustration. You're not solving the problem; you're just putting a band-aid on it. This leads many to turn to environmentally damaging chemicals. Imagine spraying Roundup on your shoreline where you swim, fish, and play.
+                This creates a never-ending cycle of expense and frustration, leading many to use environmentally damaging chemicals on shorelines where families swim and play.
               </p>
-              <div className="bg-red-50 border-l-4 border-red-400 p-4 mb-6">
-                <p className="text-red-800 font-semibold">
-                  <strong>Captain Home Services</strong> precisely identifies and manually targets <strong>invasive aquatic vegetation</strong> for a high value, long-term solution.
+              <div className="bg-emerald-50 border-l-4 border-emerald-500 p-4">
+                <p className="text-emerald-900 font-semibold">
+                  <strong>Captain Home Services</strong> hand-pulls invasive vegetation by the roots with minimal fragmentation, then installs benthic barriers for complete long-term control.
                 </p>
               </div>
             </div>
@@ -55,79 +58,75 @@ const HowItWorksPage = () => {
             </div>
           </div>
 
-          {/* The Hydrilla Problem */}
+          {/* Why Roots Matter */}
           <div className="bg-gray-50 rounded-lg p-8 mb-16">
             <h2 className="text-3xl font-bold text-gray-900 mb-6 text-center">
-              Why Roots Matter: The Hydrilla and Eurasian Watermilfoil Menace
+              Why Roots Matter
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div className="bg-white p-6 rounded-lg shadow-md">
                 <h3 className="text-xl font-bold text-red-600 mb-4">Hydrilla (Hydrilla verticillata)</h3>
                 <ul className="space-y-2 text-gray-700">
-                  <li>• Clogs coolant passages and wraps around propellers on boats</li>
-                  <li>• Can entangle children and cause drowning</li>
-                  <li>• Can snag fish hooks and lures, creating swimming hazards</li>
-                  <li>• Considered the most problematic aquatic plant in the United States</li>               
-                  <li>• Forms dense, suffocating mats from bottom to surface</li>
-                  <li>• Chokes out native vegetation and destroys fish habitat</li>
-                  <li>• Single tuber can produce over 6,000 new tubers per square meter</li>
+                  <li>• Most problematic aquatic plant in the United States</li>
+                  <li>• Single tuber produces over 6,000 new tubers per square meter</li>
                   <li>• Tubers remain viable for over four years</li>
+                  <li>• Clogs boat propellers and entangles swimmers</li>
+                  <li>• Forms suffocating mats from bottom to surface</li>
                 </ul>
               </div>
               <div className="bg-white p-6 rounded-lg shadow-md">
                 <h3 className="text-xl font-bold text-red-600 mb-4">Eurasian Watermilfoil</h3>
                 <ul className="space-y-2 text-gray-700">
-                  <li>• Clogs coolant passages and wraps around propellers on boats</li>
-                  <li>• Can entangle children and cause drowning</li>
-                  <li>• Can snag fish hooks and lures, creating swimming hazards</li>
-                  <li>• Forms thick underwater stands</li>
-                  <li>• Outcompetes native plants</li>
-                  <li>• Alters water chemistry</li>
                   <li>• Masters of regrowth from tiny fragments</li>
                   <li>• Spreads rapidly through root systems</li>
+                  <li>• Forms thick underwater stands</li>
+                  <li>• Outcompetes native plants</li>
+                  <li>• Creates safety hazards for swimmers and boaters</li>
                 </ul>
               </div>
             </div>
-            <div className="mt-8 text-center">
-              <p className="text-lg text-gray-700 max-w-3xl mx-auto">
-                Both of these invasive species are masters of regrowth from even tiny fragments. If you don't get the roots and the underground structures, you're just inviting them back for another round. For effective <strong>Austin hydrilla control</strong>, trust <strong>Captain Home Services</strong>.
-              </p>
-            </div>
           </div>
 
-          {/* Our Process */}
+          {/* Our Complete Solution */}
           <div className="mb-16">
             <h2 className="text-3xl font-bold text-gray-900 mb-12 text-center">
-              Our Advantage: Precise Removal, High Value
+              Our Complete Removal Solution
             </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6">
               <div className="text-center">
                 <div className="bg-blue-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
                   <Target className="h-8 w-8 text-blue-600" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900 mb-2">1. Identification</h3>
-                <p className="text-gray-600">Identify each invasive plant species and assess the extent of infestation; obtain treatment proposal approval</p>
+                <h3 className="text-lg font-semibold text-gray-900 mb-2">1. Identify</h3>
+                <p className="text-gray-600">Assess species and infestation extent</p>
               </div>
               <div className="text-center">
                 <div className="bg-green-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
                   <Scissors className="h-8 w-8 text-green-600" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900 mb-2">2. Targeted Complete Removal</h3>
-                <p className="text-gray-600">Use specialized rakes and tools to remove the entire plant including the root system</p>
+                <h3 className="text-lg font-semibold text-gray-900 mb-2">2. Remove by Roots</h3>
+                <p className="text-gray-600">Hand-pull entire plants with minimal fragmentation</p>
+              </div>
+              <div className="text-center">
+                <div className="bg-emerald-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                  <Shield className="h-8 w-8 text-emerald-600" />
+                </div>
+                <h3 className="text-lg font-semibold text-gray-900 mb-2">3. Install Barriers</h3>
+                <p className="text-gray-600">Benthic barriers for long-term prevention</p>
               </div>
               <div className="text-center">
                 <div className="bg-yellow-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
                   <Truck className="h-8 w-8 text-yellow-600" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900 mb-2">3. No-Mess Transport and Responsible Disposal</h3>
-                <p className="text-gray-600">Transport and dispose of vegetation responsibly to prevent spread. We don't leave a mess or damage your landscaping with heavy equipment used for harvesting or disposal</p>
+                <h3 className="text-lg font-semibold text-gray-900 mb-2">4. Dispose Safely</h3>
+                <p className="text-gray-600">Responsible disposal prevents spread</p>
               </div>
               <div className="text-center">
                 <div className="bg-teal-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
                   <CheckCircle className="h-8 w-8 text-teal-600" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900 mb-2">4. Results</h3>
-                <p className="text-gray-600">Immediately clean lakefront and clear water for you to enjoy with your family</p>
+                <h3 className="text-lg font-semibold text-gray-900 mb-2">5. Maintain</h3>
+                <p className="text-gray-600">Monitor and maintain barriers seasonally</p>
               </div>
             </div>
           </div>
@@ -135,39 +134,35 @@ const HowItWorksPage = () => {
           {/* Benefits */}
           <div className="bg-teal-50 rounded-lg p-8">
             <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
-              Why Choose Manual Removal?
+              Why Choose Our Method?
             </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              <div className="space-y-4">
-                <div className="flex items-start space-x-3">
-                  <CheckCircle className="h-6 w-6 text-green-600 mt-1 flex-shrink-0" />
-                  <div>
-                    <h3 className="font-semibold text-gray-900">Immediate Results</h3>
-                    <p className="text-gray-700">See and experience your clean lakefront again after <strong>lake weed removal</strong>.</p>
-                  </div>
-                </div>
-                <div className="flex items-start space-x-3">
-                  <CheckCircle className="h-6 w-6 text-green-600 mt-1 flex-shrink-0" />
-                  <div>
-                    <h3 className="font-semibold text-gray-900">Minimal Impact</h3>
-                    <p className="text-gray-700">No chemicals, no machinery on your lawn, no damage to your property or landscaping.</p>
-                  </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div className="flex items-start space-x-3">
+                <CheckCircle className="h-6 w-6 text-green-600 mt-1 flex-shrink-0" />
+                <div>
+                  <h3 className="font-semibold text-gray-900">Root Removal</h3>
+                  <p className="text-gray-700">Hand-pulling by the roots with minimal fragmentation prevents rapid regrowth</p>
                 </div>
               </div>
-              <div className="space-y-4">
-                <div className="flex items-start space-x-3">
-                  <CheckCircle className="h-6 w-6 text-green-600 mt-1 flex-shrink-0" />
-                  <div>
-                    <h3 className="font-semibold text-gray-900">Long-Term Solution</h3>
-                    <p className="text-gray-700">Root removal drastically reduces chances of rapid re-growth.</p>
-                  </div>
+              <div className="flex items-start space-x-3">
+                <CheckCircle className="h-6 w-6 text-green-600 mt-1 flex-shrink-0" />
+                <div>
+                  <h3 className="font-semibold text-gray-900">Long-Term Prevention</h3>
+                  <p className="text-gray-700">Benthic barriers block remaining tubers and prevent future growth</p>
                 </div>
-                <div className="flex items-start space-x-3">
-                  <CheckCircle className="h-6 w-6 text-green-600 mt-1 flex-shrink-0" />
-                  <div>
-                    <h3 className="font-semibold text-gray-900">Unmatched Accuracy</h3>
-                    <p className="text-gray-700">Selectively remove invasive species while preserving beneficial native plants.</p>
-                  </div>
+              </div>
+              <div className="flex items-start space-x-3">
+                <CheckCircle className="h-6 w-6 text-green-600 mt-1 flex-shrink-0" />
+                <div>
+                  <h3 className="font-semibold text-gray-900">No Property Damage</h3>
+                  <p className="text-gray-700">No heavy machinery, no lawn damage, no dock destruction</p>
+                </div>
+              </div>
+              <div className="flex items-start space-x-3">
+                <CheckCircle className="h-6 w-6 text-green-600 mt-1 flex-shrink-0" />
+                <div>
+                  <h3 className="font-semibold text-gray-900">Chemical-Free</h3>
+                  <p className="text-gray-700">Environmentally safe for fish, wildlife, and swimmers</p>
                 </div>
               </div>
             </div>
@@ -178,9 +173,9 @@ const HowItWorksPage = () => {
       {/* Call to Action */}
       <section className="py-16 bg-gradient-to-r from-green-600 to-teal-600 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-bold mb-4">Ready for a Quote and Consultation?</h2>
+          <h2 className="text-3xl font-bold mb-4">Ready for a Complete Solution?</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
-            We're not just cleaning your shoreline up; we're restoring its health, beauty, and recreational usability. Let us make your backyard the place the entire family dreams of spending weekends again.
+            Hand-pulling by the roots + benthic barriers = long-term hydrilla control. Restore your lakefront's health and beauty.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
@@ -188,14 +183,14 @@ const HowItWorksPage = () => {
               onClick={scrollToTop}
               className="bg-white text-green-600 hover:bg-gray-100 px-8 py-4 rounded-lg text-lg font-semibold transition-colors duration-200"
             >
-              Get Started Today
+              Get Free Quote
             </Link>
             <Link
               to="/benthic-barriers"
               onClick={scrollToTop}
               className="bg-green-700 hover:bg-green-800 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors duration-200 border border-green-500"
             >
-              Benthic Barriers
+              Learn About Benthic Barriers
             </Link>
           </div>
         </div>

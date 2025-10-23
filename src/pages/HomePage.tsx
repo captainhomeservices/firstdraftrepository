@@ -104,13 +104,13 @@ const HomePage = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <div className="space-y-3 sm:space-y-4 opacity-0 animate-fadeInUp px-4">
               <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight tracking-tight drop-shadow-2xl">
-                Clear Lake Weeds.
+                Long-Term Hydrilla Removal.
                 <span className="block mt-1 text-[#00B47B] drop-shadow-2xl">
                   Restore Your Waterfront.
                 </span>
               </h1>
               <p className="text-base sm:text-lg md:text-xl text-white drop-shadow-lg px-2">
-                Hydrilla Removal and Lake Management for Lake Austin
+                Hand-Pulling by the Roots + Benthic Barriers for Lake Austin
               </p>
 
               <div className="flex flex-col sm:flex-row gap-3 justify-center pt-2 sm:pt-3 opacity-0 animate-fadeInUp animation-delay-200 px-4">
@@ -169,33 +169,28 @@ const HomePage = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              What We Can Do For You
+              Complete Long-Term Solution
             </h2>
             <p className="text-xl text-gray-600">
-              Comprehensive aquatic vegetation control with the precision and care your waterfront deserves.
+              Hand-pulling by the roots with minimal fragmentation + benthic barrier installation for lasting results
             </p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8 mb-12 sm:mb-16">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 mb-12 sm:mb-16">
             <div className="text-center p-6 bg-gray-50 rounded-lg">
               <Leaf className="h-10 w-10 sm:h-12 sm:w-12 text-green-600 mx-auto mb-4" />
-              <h3 className="text-base sm:text-lg font-semibold text-gray-900 mb-2">Precision Manual Removal</h3>
-              <p className="text-sm sm:text-base text-gray-600">Root-deep extraction using specialized tools for long-term results</p>
+              <h3 className="text-base sm:text-lg font-semibold text-gray-900 mb-2">Manual Root Removal</h3>
+              <p className="text-sm sm:text-base text-gray-600">Hand-pulling by the roots with minimal fragmentation prevents rapid regrowth</p>
             </div>
             <div className="text-center p-6 bg-gray-50 rounded-lg">
-              <Shield className="h-10 w-10 sm:h-12 sm:w-12 text-blue-600 mx-auto mb-4" />
-              <h3 className="text-base sm:text-lg font-semibold text-gray-900 mb-2">Exotic Invasive Species Removal Permits</h3>
-              <p className="text-sm sm:text-base text-gray-600">We handle permitting and compliance with State and Local regulations including approved TPWD and LCRA Treatment Proposals for every job</p>
+              <Shield className="h-10 w-10 sm:h-12 sm:w-12 text-emerald-600 mx-auto mb-4" />
+              <h3 className="text-base sm:text-lg font-semibold text-gray-900 mb-2">Benthic Barriers</h3>
+              <p className="text-sm sm:text-base text-gray-600">Long-term prevention through professional barrier installation and maintenance</p>
             </div>
             <div className="text-center p-6 bg-gray-50 rounded-lg">
-              <Users className="h-10 w-10 sm:h-12 sm:w-12 text-teal-600 mx-auto mb-4" />
-              <h3 className="text-base sm:text-lg font-semibold text-gray-900 mb-2">Clean and Efficient Haul-Away and Responsible Disposal</h3>
-              <p className="text-sm sm:text-base text-gray-600">Clean removal and disposal keeps your property from being damaged by large machinery and making a mess</p>
-            </div>
-            <div className="text-center p-6 bg-gray-50 rounded-lg">
-              <CheckCircle className="h-10 w-10 sm:h-12 sm:w-12 text-green-600 mx-auto mb-4" />
-              <h3 className="text-base sm:text-lg font-semibold text-gray-900 mb-2">Guaranteed Results</h3>
-              <p className="text-sm sm:text-base text-gray-600">The beautiful, usable, clean and clear waterfront you desire</p>
+              <CheckCircle className="h-10 w-10 sm:h-12 sm:w-12 text-blue-600 mx-auto mb-4" />
+              <h3 className="text-base sm:text-lg font-semibold text-gray-900 mb-2">TPWD Permitted</h3>
+              <p className="text-sm sm:text-base text-gray-600">Full compliance with state regulations and proper disposal</p>
             </div>
           </div>
 
@@ -232,12 +227,9 @@ const HomePage = () => {
               />
             </div>
             <div className="px-4">
-              <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4">The Lake Austin Hydrilla Problem</h3>
-              <p className="text-sm sm:text-base text-gray-700 mb-4 leading-relaxed">
-                When aggressive aquatic weeds like <strong>Lake Austin hydrilla</strong> and <strong>Eurasian watermilfoil</strong> invade, they throw that delicate balance into chaotic mess. These fast-growing invasive species can quickly overwhelm native vegetation and create dense mats that make swimming, boating, and fishing nearly impossible.
-              </p>
+              <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4">The Hydrilla Problem</h3>
               <p className="text-sm sm:text-base text-gray-700 mb-6 leading-relaxed">
-                Our seasoned team at <strong>Captain Home Services</strong> is ready to tackle any lake weed removal challenge, big or small. We're experts in getting your water back to its healthy, vibrant condition, ensuring your slice of Texas paradise remains just that – paradise.
+                <strong>Lake Austin hydrilla</strong> and <strong>Eurasian watermilfoil</strong> create dense mats that make swimming and boating impossible. Our team hand-pulls these invasive species by the roots, then installs benthic barriers for long-term prevention.
               </p>
               <Link
                 to="/how-it-works"
@@ -257,26 +249,27 @@ const HomePage = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
             <div className="px-4">
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-                Aquatic Vegetation Removal That Works
+                The Complete Long-Term Solution
               </h2>
               <p className="text-base sm:text-lg text-gray-700 mb-6 leading-relaxed">
-                Are you tired of battling stubborn aquatic vegetation that chokes out your beautiful lakefront? Manual lake weed removal is the only way to ensure invasive aquatic vegetation is pulled by the roots and brings back that beauty to your lakefront you've been missing.
-              </p>
-              <p className="text-base sm:text-lg text-gray-700 mb-6 leading-relaxed">
-                At <strong>Captain Home Services</strong>, we use specialized tools and equipment to remove invasive aquatic vegetation's tubers and roots, leaving minimal debris that causes rapid re-growth of lake weeds. Our method of manual <strong>aquatic vegetation removal</strong> isn't just about clearing weeds; it\'s about restoring the natural beauty and balance of your dock area and shoreline. Let our <strong>Lake Management</strong> experts take care of your dock and shoreline for you.
+                Tired of battling stubborn hydrilla that returns every season? <strong>Captain Home Services</strong> offers a complete solution: we hand-pull weeds by the roots with minimal fragmentation, then install benthic barriers to prevent regrowth.
               </p>
               <div className="space-y-4">
                 <div className="flex items-start space-x-3">
                   <CheckCircle className="h-6 w-6 text-green-600 mt-1 flex-shrink-0" />
-                  <p className="text-gray-700">Immediate, visible results with minimal environmental impact</p>
+                  <p className="text-gray-700">Hand-pulling by the roots with minimal fragmentation</p>
                 </div>
                 <div className="flex items-start space-x-3">
                   <CheckCircle className="h-6 w-6 text-green-600 mt-1 flex-shrink-0" />
-                  <p className="text-gray-700">Complete root removal prevents rapid regrowth</p>
+                  <p className="text-gray-700">Benthic barrier installation for long-term prevention</p>
                 </div>
                 <div className="flex items-start space-x-3">
                   <CheckCircle className="h-6 w-6 text-green-600 mt-1 flex-shrink-0" />
-                  <p className="text-gray-700">Chemical-free approach protects your family and ecosystem</p>
+                  <p className="text-gray-700">Chemical-free, eco-friendly approach</p>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <CheckCircle className="h-6 w-6 text-green-600 mt-1 flex-shrink-0" />
+                  <p className="text-gray-700">No heavy machinery damaging your property</p>
                 </div>
               </div>
             </div>
@@ -296,34 +289,11 @@ const HomePage = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12 px-4">
             <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4">
-              Austin's Premier Lake Management Experts
+              Serving the Highland Lakes
             </h2>
             <p className="text-base sm:text-lg md:text-xl text-gray-600 max-w-4xl mx-auto">
-              Serving the Highland Lakes with professional <strong>Austin aquatic vegetation removal</strong>, <strong>Lake Austin hydrilla control</strong>, and comprehensive <strong>Austin lake management</strong> solutions.
+              Professional <strong>Lake Austin hydrilla removal</strong> and <strong>benthic barrier installation</strong> for Lake Travis, Lake Austin, Lake LBJ, and all Highland Lakes.
             </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
-            <div className="bg-white p-6 rounded-lg shadow-md">
-              <h3 className="text-lg sm:text-xl font-semibold text-gray-900 mb-3">Lake Austin Hydrilla Removal</h3>
-              <p className="text-sm sm:text-base text-gray-700">
-                Specialized <strong>Lake Austin hydrilla removal</strong> services using manual extraction techniques. Our TPWD-permitted approach ensures complete root removal for lasting results.
-              </p>
-            </div>
-
-            <div className="bg-white p-6 rounded-lg shadow-md">
-              <h3 className="text-lg sm:text-xl font-semibold text-gray-900 mb-3">Austin Eurasian Watermilfoil Control</h3>
-              <p className="text-sm sm:text-base text-gray-700">
-                Professional <strong>Austin Eurasian watermilfoil removal</strong> targeting this aggressive invasive species. Chemical-free methods protect your lake ecosystem.
-              </p>
-            </div>
-
-            <div className="bg-white p-6 rounded-lg shadow-md">
-              <h3 className="text-lg sm:text-xl font-semibold text-gray-900 mb-3">Highland Lakes Service Area</h3>
-              <p className="text-sm sm:text-base text-gray-700">
-                Comprehensive <strong>Austin lake weed removal</strong> serving Lake Travis, Lake LBJ, Inks Lake, Lake Marble Falls, Lake Buchanan, and Lady Bird Lake.
-              </p>
-            </div>
           </div>
         </div>
       </section>
@@ -332,10 +302,10 @@ const HomePage = () => {
       <section className="py-16 bg-gradient-to-r from-teal-600 to-blue-600 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4">
-            Ready to Reclaim Your Waterfront?
+            Ready for Long-Term Results?
           </h2>
           <p className="text-base sm:text-lg md:text-xl mb-8 max-w-3xl mx-auto px-4">
-            Contact <strong>Captain Home Services</strong> today for a free consultation and let's talk about bringing that Texas sparkle back to your lakefront. No chemicals, no heavy machinery on your property, just efficient and professional permitted and insured invasive lake weed removal.
+            Hand-pulling by the roots + benthic barriers = lasting hydrilla control. No chemicals, no property damage, just professional lake management.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center px-4">
             <Link
@@ -343,14 +313,14 @@ const HomePage = () => {
               onClick={scrollToTop}
               className="bg-white text-teal-600 hover:bg-gray-100 px-8 py-4 rounded-lg text-lg font-semibold transition-colors duration-200 transform hover:scale-105"
             >
-              Contact Us Today
+              Get Free Quote
             </Link>
             <Link
-              to="/how-it-works"
+              to="/benthic-barriers"
               onClick={scrollToTop}
               className="bg-teal-700 hover:bg-teal-800 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors duration-200 border border-teal-500"
             >
-              How It Works
+              Benthic Barriers
             </Link>
           </div>
         </div>

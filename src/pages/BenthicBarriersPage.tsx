@@ -58,8 +58,8 @@ const BenthicBarriersPage = () => {
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
                 <img
-                  src="/IMG_0761 Medium.jpeg"
-                  alt="Lake with aquatic weeds before benthic barrier installation"
+                  src="/benthic barrier pic.jpeg"
+                  alt="Benthic barrier blocking sunlight on lake bottom"
                   className="rounded-xl shadow-2xl w-full h-auto"
                 />
               </div>
@@ -191,8 +191,8 @@ const BenthicBarriersPage = () => {
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div>
                 <img
-                  src="/IMG_0772 Medium.jpeg"
-                  alt="Lakefront property before weed removal"
+                  src="/lake bottom blanket.jpg"
+                  alt="Lake bottom blanket installation"
                   className="rounded-xl shadow-2xl w-full h-auto"
                 />
               </div>
@@ -267,8 +267,8 @@ const BenthicBarriersPage = () => {
                 </div>
                 <div className="relative min-h-[300px] md:min-h-0">
                   <img
-                    src="/IMG_4906 Medium.jpeg"
-                    alt="Clear lakefront with dock"
+                    src="/lakemat.jpg"
+                    alt="LakeMat product showing how benthic barriers work"
                     className="absolute inset-0 w-full h-full object-cover"
                   />
                 </div>
