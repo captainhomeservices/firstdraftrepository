@@ -172,7 +172,7 @@ const HomePage = () => {
               Complete Long-Term Solution
             </h2>
             <p className="text-xl text-gray-600">
-              Hand-pulling by the roots with minimal fragmentation + benthic barrier installation for lasting results
+              Hand-pulling Hydrilla by the roots with minimal fragmentation + benthic barrier installation for lasting results
             </p>
           </div>
 
@@ -180,7 +180,7 @@ const HomePage = () => {
             <div className="text-center p-6 bg-gray-50 rounded-lg">
               <Leaf className="h-10 w-10 sm:h-12 sm:w-12 text-green-600 mx-auto mb-4" />
               <h3 className="text-base sm:text-lg font-semibold text-gray-900 mb-2">Manual Root Removal</h3>
-              <p className="text-sm sm:text-base text-gray-600">Hand-pulling by the roots with minimal fragmentation prevents rapid regrowth</p>
+              <p className="text-sm sm:text-base text-gray-600">ulling by the roots with minimal fragmentation prevents rapid regrowth</p>
             </div>
             <div className="text-center p-6 bg-gray-50 rounded-lg">
               <Shield className="h-10 w-10 sm:h-12 sm:w-12 text-emerald-600 mx-auto mb-4" />
