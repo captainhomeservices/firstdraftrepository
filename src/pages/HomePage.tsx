@@ -170,15 +170,15 @@ const HomePage = () => {
               Complete Long-Term Solution
             </h2>
             <p className="text-xl text-gray-600">
-              Hand-pulling Hydrilla by the roots with minimal fragmentation + benthic barrier installation for lasting results
+              Pulling Hydrilla by the roots with minimal fragmentation + benthic barrier installation for lasting results
             </p>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 mb-12 sm:mb-16">
             <div className="text-center p-6 bg-gray-50 rounded-lg">
               <Leaf className="h-10 w-10 sm:h-12 sm:w-12 text-green-600 mx-auto mb-4" />
-              <h3 className="text-base sm:text-lg font-semibold text-gray-900 mb-2">Manual Root Removal</h3>
-              <p className="text-sm sm:text-base text-gray-600">ulling by the roots with minimal fragmentation prevents rapid regrowth</p>
+              <h3 className="text-base sm:text-lg font-semibold text-gray-900 mb-2">Root Removal</h3>
+              <p className="text-sm sm:text-base text-gray-600">Pulling by the roots with minimal fragmentation prevents rapid regrowth</p>
             </div>
             <div className="text-center p-6 bg-gray-50 rounded-lg">
               <Shield className="h-10 w-10 sm:h-12 sm:w-12 text-emerald-600 mx-auto mb-4" />
@@ -239,7 +239,7 @@ const HomePage = () => {
             <div className="px-4">
               <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4">The Hydrilla Problem</h3>
               <p className="text-sm sm:text-base text-gray-700 mb-4 leading-relaxed">
-                <strong>Lake Austin hydrilla</strong> and <strong>Eurasian watermilfoil</strong> create dense mats that make swimming and boating impossible. Our team hand-pulls these invasive species by the roots, then installs <Link to="/benthic-barriers" onClick={scrollToTop} className="text-emerald-600 hover:text-emerald-700 font-semibold underline">benthic barriers</Link> for long-term prevention.
+                <strong>Lake Austin hydrilla</strong> and <strong>Eurasian watermilfoil</strong> create dense mats that make swimming and boating impossible. Our team pulls these invasive species by the roots, then installs <Link to="/benthic-barriers" onClick={scrollToTop} className="text-emerald-600 hover:text-emerald-700 font-semibold underline">benthic barriers</Link> for long-term prevention.
               </p>
               <p className="text-sm sm:text-base text-gray-700 mb-6 leading-relaxed">
                 All our work is fully <Link to="/permitting" onClick={scrollToTop} className="text-blue-600 hover:text-blue-700 font-semibold underline">TPWD permitted and LCRA compliant</Link> for legal peace of mind.
@@ -274,7 +274,7 @@ const HomePage = () => {
                 The Complete Long-Term Solution
               </h2>
               <p className="text-base sm:text-lg text-gray-700 mb-4 leading-relaxed">
-                Tired of battling stubborn hydrilla that returns every season? <strong>Captain Home Services</strong> offers a complete solution: we <Link to="/how-it-works" onClick={scrollToTop} className="text-green-600 hover:text-green-700 font-semibold underline">hand-pull weeds by the roots</Link> with minimal fragmentation, then install <Link to="/benthic-barriers" onClick={scrollToTop} className="text-emerald-600 hover:text-emerald-700 font-semibold underline">benthic barriers</Link> to prevent regrowth.
+                Tired of battling stubborn hydrilla that returns every season? <strong>Captain Home Services</strong> offers a complete solution: we <Link to="/how-it-works" onClick={scrollToTop} className="text-green-600 hover:text-green-700 font-semibold underline">pull weeds by the roots</Link> with minimal fragmentation, then install <Link to="/benthic-barriers" onClick={scrollToTop} className="text-emerald-600 hover:text-emerald-700 font-semibold underline">benthic barriers</Link> to prevent regrowth.
               </p>
               <p className="text-base sm:text-lg text-gray-700 mb-6 leading-relaxed">
                 Learn more about our <Link to="/permitting" onClick={scrollToTop} className="text-blue-600 hover:text-blue-700 font-semibold underline">permitting process</Link> and read our <Link to="/blog" onClick={scrollToTop} className="text-teal-600 hover:text-teal-700 font-semibold underline">educational blog</Link> for lake management tips.
@@ -282,7 +282,7 @@ const HomePage = () => {
               <div className="space-y-4">
                 <div className="flex items-start space-x-3">
                   <CheckCircle className="h-6 w-6 text-green-600 mt-1 flex-shrink-0" />
-                  <p className="text-gray-700">Hand-pulling by the roots with minimal fragmentation</p>
+                  <p className="text-gray-700">Pulling by the roots with minimal fragmentation</p>
                 </div>
                 <div className="flex items-start space-x-3">
                   <CheckCircle className="h-6 w-6 text-green-600 mt-1 flex-shrink-0" />
@@ -330,7 +330,7 @@ const HomePage = () => {
             Ready for Long-Term Results?
           </h2>
           <p className="text-base sm:text-lg md:text-xl mb-8 max-w-3xl mx-auto px-4">
-            Hand-pulling by the roots + benthic barriers = lasting hydrilla control. No chemicals, no property damage, just professional lake management.
+            Pulling by the roots + benthic barriers = lasting hydrilla control. No chemicals, no property damage, just professional lake management.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center px-4">
             <a

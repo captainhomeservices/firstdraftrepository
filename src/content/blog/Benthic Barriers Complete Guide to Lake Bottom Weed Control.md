@@ -140,7 +140,7 @@ Some clients prefer seasonal removal to:
 
 At Captain Home Services, we don't just drop a mat on your lake bottom and call it done. Our comprehensive approach ensures maximum effectiveness and longevity:
 
-1. **We remove most weeds first**: Our manual hand-pulling method extracts up to 90% of existing vegetation by the roots before barrier installation
+1. **We remove most weeds first**: Our method extracts up to 90% of existing vegetation by the roots before barrier installation
 2. **We use premium materials**: Authorized dealers for LakeMat and Lake Bottom Blanket—commercial-grade products designed specifically for the harsh aquatic environment
 3. **We handle all permits**: Every installation is [fully permitted through TPWD](/permitting), ensuring compliance and peace of mind
 4. **We provide complete service**: From initial assessment through installation, maintenance guidance, and optional seasonal removal
@@ -243,10 +243,10 @@ A: While possible, professional installation ensures proper anchoring, material 
 
 At Captain Home Services, we advocate for an integrated approach:
 
-1. **Initial Manual Removal**: We hand-pull 80-90% of existing weeds to minimize bulk and fragmentation
+1. **Initial Manual Removal**: We pull 80-90% of existing weeds by the roots to minimize bulk and fragmentation
 2. **Benthic Barrier Installation**: We place commercial-grade barriers over cleared areas for long-term prevention
 3. **Ongoing Monitoring**: We provide guidance for seasonal inspections and maintenance
-4. **Edge Management**: We offer periodic hand-pulling services for weed growth around barrier edges
+4. **Edge Management**: We offer periodic removal services for weed growth around barrier edges
 
 This combined approach delivers:
 - **Immediate results** from manual removal

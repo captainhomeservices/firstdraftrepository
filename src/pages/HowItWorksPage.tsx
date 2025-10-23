@@ -12,7 +12,7 @@ const HowItWorksPage = () => {
     <>
       <SEOHead
         title="How Manual Lake Weed Removal Works | Captain Home Services Austin"
-        description="Learn how Captain Home Services removes lake weeds by hand-pulling roots and offers long-term benthic barrier solutions. Complete hydrilla removal in Lake Austin."
+        description="Learn how Captain Home Services removes lake weeds by pulling roots and offers long-term benthic barrier solutions. Complete hydrilla removal in Lake Austin."
         keywords="manual lake weed removal, hydrilla removal Austin, benthic barriers, root removal, Lake Austin weed control"
         canonicalUrl="https://austinlakemanagement.com/how-it-works"
       />
@@ -24,7 +24,7 @@ const HowItWorksPage = () => {
             Complete Long-Term Hydrilla Removal
           </h1>
           <p className="text-xl text-green-100 max-w-3xl mx-auto">
-            Hand-pulling by the roots with minimal fragmentation + benthic barrier installation
+            Pulling by the roots with minimal fragmentation + benthic barrier installation
           </p>
         </div>
       </section>
@@ -45,7 +45,7 @@ const HowItWorksPage = () => {
               </p>
               <div className="bg-emerald-50 border-l-4 border-emerald-500 p-4">
                 <p className="text-emerald-900 font-semibold">
-                  <strong>Captain Home Services</strong> hand-pulls invasive vegetation by the roots with minimal fragmentation, then installs <Link to="/benthic-barriers" onClick={scrollToTop} className="text-emerald-700 hover:text-emerald-800 underline">benthic barriers</Link> for complete long-term control. All work is <Link to="/permitting" onClick={scrollToTop} className="text-emerald-700 hover:text-emerald-800 underline">fully permitted</Link>.
+                  <strong>Captain Home Services</strong> pulls invasive vegetation by the roots with minimal fragmentation, then installs <Link to="/benthic-barriers" onClick={scrollToTop} className="text-emerald-700 hover:text-emerald-800 underline">benthic barriers</Link> for complete long-term control. All work is <Link to="/permitting" onClick={scrollToTop} className="text-emerald-700 hover:text-emerald-800 underline">fully permitted</Link>.
                 </p>
               </div>
             </div>
@@ -108,7 +108,7 @@ const HowItWorksPage = () => {
                   <Scissors className="h-8 w-8 text-green-600" />
                 </div>
                 <h3 className="text-lg font-semibold text-gray-900 mb-2">2. Remove by Roots</h3>
-                <p className="text-gray-600">Hand-pull entire plants with minimal fragmentation</p>
+                <p className="text-gray-600">Pull entire plants by the roots with minimal fragmentation</p>
               </div>
               <div className="text-center">
                 <div className="bg-emerald-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
@@ -144,7 +144,7 @@ const HowItWorksPage = () => {
                 <CheckCircle className="h-6 w-6 text-green-600 mt-1 flex-shrink-0" />
                 <div>
                   <h3 className="font-semibold text-gray-900">Root Removal</h3>
-                  <p className="text-gray-700">Hand-pulling by the roots with minimal fragmentation prevents rapid regrowth</p>
+                  <p className="text-gray-700">Pulling by the roots with minimal fragmentation prevents rapid regrowth</p>
                 </div>
               </div>
               <div className="flex items-start space-x-3">
@@ -178,7 +178,7 @@ const HowItWorksPage = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold mb-4">Ready for a Complete Solution?</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
-            Hand-pulling by the roots + <Link to="/benthic-barriers" onClick={scrollToTop} className="text-white hover:text-emerald-200 font-semibold underline">benthic barriers</Link> = long-term hydrilla control. All work is <Link to="/permitting" onClick={scrollToTop} className="text-white hover:text-blue-200 font-semibold underline">fully permitted</Link>. Restore your lakefront's health and beauty.
+            Pulling by the roots + <Link to="/benthic-barriers" onClick={scrollToTop} className="text-white hover:text-emerald-200 font-semibold underline">benthic barriers</Link> = long-term hydrilla control. All work is <Link to="/permitting" onClick={scrollToTop} className="text-white hover:text-blue-200 font-semibold underline">fully permitted</Link>. Restore your lakefront's health and beauty.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
