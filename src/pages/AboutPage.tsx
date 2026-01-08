@@ -89,7 +89,7 @@ const AboutPage = () => {
 
           <div className="my-8 flex justify-center">
             <img
-              src="/weed_removal_worker copy.jpg"
+              src="/weed_removal_worker.jpg"
               alt="Lake weed removal specialist working on Lake Austin removing hydrilla by hand"
               className="max-w-lg w-full h-auto rounded-lg shadow-lg"
               loading="lazy"
@@ -102,7 +102,7 @@ const AboutPage = () => {
 
           <div className="my-8 flex justify-center">
             <img
-              src="/gabriel_ramon copy copy copy.jpg"
+              src="/gabriel_ramon.jpg"
               alt="Austin Lake Management team member working on Lake Austin"
               className="max-w-lg w-full h-auto rounded-lg shadow-lg"
               loading="lazy"
