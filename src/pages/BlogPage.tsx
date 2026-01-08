@@ -65,7 +65,7 @@ const BlogPage = () => {
       title: "Lake Weed Removal FAQ: Hydrilla, Root Removal, Benthic Barriers & What to Expect",
       slug: "lake-weed-removal-faq",
       excerpt: "Your complete guide to lake weed removal. Get answers to the most common questions about hydrilla, root removal methods, benthic barriers, pricing, and what to expect from professional aquatic weed management services.",
-      date: "January 8, 2025",
+      date: "January 8, 2026",
       author: "Captain Cam",
       category: "FAQ",
       image: "/dock1.jpg",

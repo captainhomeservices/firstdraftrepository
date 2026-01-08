@@ -6,7 +6,7 @@ const FAQPage = () => {
   return (
     <BlogPost
       title="Lake Weed Removal FAQ: Hydrilla, Root Removal, Benthic Barriers & What to Expect"
-      date="January 8, 2025"
+      date="January 8, 2026"
       author="Captain Cam"
       category="FAQ"
       readTime="18 min read"
