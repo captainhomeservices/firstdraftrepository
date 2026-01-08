@@ -337,7 +337,7 @@ const FAQPage = () => {
         <h2 id="q17" className="text-3xl font-bold text-gray-900 mt-12 mb-6">17. Do I need a permit for aquatic weed removal in Texas?</h2>
 
         <p>
-          Permit requirements depend on the scope of work, location, and local regulations. In many cases, manual weed removal may not require permits, but it's important to verify with local authorities.
+          We hold <strong>invasive aquatic vegetation removal permits</strong> and submit and obtain approval for proposed treatment plans through <strong>Texas Parks and Wildlife Department (TPWD)</strong>, which is required for weed removal in public waters like Lake Austin.
         </p>
 
         <p>
