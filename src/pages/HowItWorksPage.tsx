@@ -8,17 +8,52 @@ const HowItWorksPage = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
+  const howItWorksSchema = {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    "name": "How to Remove Lake Weeds Permanently",
+    "description": "Complete manual hydrilla removal process with benthic barrier installation for long-term aquatic weed control",
+    "totalTime": "P3D",
+    "step": [
+      {
+        "@type": "HowToStep",
+        "position": 1,
+        "name": "Identify",
+        "text": "Assess aquatic weed species and infestation extent to determine the best removal approach"
+      },
+      {
+        "@type": "HowToStep",
+        "position": 2,
+        "name": "Pull by the Roots",
+        "text": "Extract entire plants by roots with minimal fragmentation to prevent regrowth"
+      },
+      {
+        "@type": "HowToStep",
+        "position": 3,
+        "name": "Install Benthic Barriers",
+        "text": "Install lake bottom barriers for long-term prevention and weed control"
+      },
+      {
+        "@type": "HowToStep",
+        "position": 4,
+        "name": "Monitor and Maintain",
+        "text": "Regular monitoring and seasonal maintenance to ensure lasting results"
+      }
+    ]
+  };
+
   return (
     <>
       <SEOHead
         title="How Lake Weed Removal Works | Captain Home Services Austin"
-        description="Learn how Captain Home Services removes lake weeds by pulling roots and offers long-term benthic barrier solutions. Complete hydrilla removal in Lake Austin."
+        description="Learn how Captain Home Services removes lake weeds by pulling roots with minimal fragmentation and installing benthic barriers for lasting hydrilla control in Lake Austin and Highland Lakes."
         keywords="lake weed removal, hydrilla removal Austin, benthic barriers, root removal, Lake Austin weed control"
         canonicalUrl="https://austinlakemanagement.com/how-it-works"
+        structuredData={howItWorksSchema}
       />
       <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="py-16 bg-gradient-to-r from-green-600 to-teal-600 text-white py-20">
+      <section className="bg-gradient-to-r from-green-600 to-teal-600 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">
             Complete Long-Term Hydrilla Removal
@@ -41,7 +76,7 @@ const HowItWorksPage = () => {
                 Imagine sitting by your lakefront enjoying the reflection of a sunset in the water, free from surfaced lake weeds, trash, and algae on the surface. A pristine waterfront where your family can swim, boat, and enjoy the lake without obstacles. That's what we create for every Austin lakefront property we serve.
               </p>
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                The secret? Pulling vegetation by the roots, planning out a comprehensive management strategy involving benthic barriers to cover and stifle new growth, and maintaning your lakefront for you to enjoy. While other methods require costly repeated treatments, our approach eliminates weeds at the source and prevents regrowth with a coverage solution to keep plants form growing where you want them gone.
+                The secret? Pulling vegetation by the roots, planning out a comprehensive management strategy involving benthic barriers to cover and stifle new growth, and maintaining your lakefront for you to enjoy. While other methods require costly repeated treatments, our approach eliminates weeds at the source and prevents regrowth with a coverage solution to keep plants from growing where you want them gone.
               </p>
               <div className="bg-emerald-50 border-l-4 border-emerald-500 p-4">
                 <p className="text-emerald-900 font-semibold">
@@ -144,7 +179,7 @@ const HowItWorksPage = () => {
                 <CheckCircle className="h-6 w-6 text-green-600 mt-1 flex-shrink-0" />
                 <div>
                   <h3 className="font-semibold text-gray-900">Long-Term Prevention</h3>
-                  <p className="text-gray-700">Benthic barriers suffocate sunlight and kill plants, allow for decomposition and gas pass-through of remaining vegetation, and prvent regrowth requiring regular cuts or removal treatments</p>
+                  <p className="text-gray-700">Benthic barriers suffocate sunlight and kill plants, allow for decomposition and gas pass-through of remaining vegetation, and prevent regrowth requiring regular cuts or removal treatments</p>
                 </div>
               </div>
               <div className="flex items-start space-x-3">

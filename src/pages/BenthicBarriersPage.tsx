@@ -4,12 +4,48 @@ import { Shield, CheckCircle, Phone, ArrowRight, AlertTriangle, Settings, Anchor
 import SEOHead from '../components/SEOHead';
 
 const BenthicBarriersPage = () => {
+  const benthicBarriersSchema = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "serviceType": "Benthic Barrier Installation and Maintenance",
+    "name": "Benthic Barriers & Lake Mats Service",
+    "description": "Professional benthic barrier installation, maintenance, and removal service for Austin lakes including LakeMat and Lake Bottom Blanket products",
+    "provider": {
+      "@type": "LocalBusiness",
+      "name": "Captain Home Services",
+      "areaServed": {
+        "@type": "City",
+        "name": "Austin"
+      }
+    },
+    "areaServed": [
+      {
+        "@type": "Place",
+        "name": "Lake Austin"
+      },
+      {
+        "@type": "Place",
+        "name": "Lake Travis"
+      },
+      {
+        "@type": "Place",
+        "name": "Highland Lakes"
+      }
+    ],
+    "offers": {
+      "@type": "Offer",
+      "description": "Complete benthic barrier service including assessment, installation, seasonal maintenance, and removal"
+    }
+  };
+
   return (
     <>
       <SEOHead
         title="Benthic Barriers & Lake Mats - Installation & Maintenance | Captain Home Services"
-        description="Professional benthic barrier service for Austin lakes. Complete assessment, installation, maintenance, and removal. Instant clear swim and boat areas."
+        description="Professional benthic barrier service for Austin lakes including LakeMat & Lake Bottom Blanket. Complete assessment, installation, maintenance, and removal. Instant clear swim and boat areas."
         keywords="benthic barriers, lake mats, lake bottom blankets, LakeMat, aquatic weed prevention, hydrilla control, Austin lake barriers"
+        canonicalUrl="https://austinlakemanagement.com/benthic-barriers"
+        structuredData={benthicBarriersSchema}
       />
 
       <div className="bg-gradient-to-br from-slate-50 via-white to-emerald-50 min-h-screen">

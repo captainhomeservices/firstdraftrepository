@@ -6,6 +6,7 @@ import HomePage from './pages/HomePage';
 import HowItWorksPage from './pages/HowItWorksPage';
 import BenthicBarriersPage from './pages/BenthicBarriersPage';
 import PermittingPage from './pages/PermittingPage';
+import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
 import ThankYouPage from './pages/ThankYouPage';
 import BlogPage from './pages/BlogPage';
@@ -33,6 +34,7 @@ function App() {
           <Route path="/how-it-works" element={<HowItWorksPage />} />
           <Route path="/benthic-barriers" element={<BenthicBarriersPage />} />
           <Route path="/permitting" element={<PermittingPage />} />
+          <Route path="/about" element={<AboutPage />} />
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/thank-you" element={<ThankYouPage />} />
           <Route path="/blog" element={<BlogPage />} />

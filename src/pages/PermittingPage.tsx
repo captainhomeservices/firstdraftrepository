@@ -8,6 +8,26 @@ const PermittingPage = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
+  const permittingSchema = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "serviceType": "TPWD Permit Assistance and Lake Compliance",
+    "name": "TPWD Permits & Lake Weed Removal Compliance",
+    "description": "Expert permitting assistance for TPWD and LCRA compliance for aquatic vegetation removal in Austin, TX",
+    "provider": {
+      "@type": "LocalBusiness",
+      "name": "Captain Home Services",
+      "areaServed": {
+        "@type": "State",
+        "name": "Texas"
+      }
+    },
+    "offers": {
+      "@type": "Offer",
+      "description": "Complete permitting assistance for legal aquatic vegetation removal including TPWD and LCRA compliance"
+    }
+  };
+
   return (
     <>
       <SEOHead
@@ -15,10 +35,11 @@ const PermittingPage = () => {
         description="We handle all TPWD and LCRA permits for Austin lake weed removal. Expert permitting assistance for legal, compliant aquatic vegetation removal. No fines, no delays."
         keywords="TPWD permits Austin, LCRA lake permits, Texas aquatic vegetation permit, Lake Austin weed removal permit, invasive species permit Texas, legal lake weed removal"
         canonicalUrl="https://austinlakemanagement.com/permitting"
+        structuredData={permittingSchema}
       />
       <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="py-16 bg-gradient-to-r from-green-600 to-teal-600 text-white py-20">
+      <section className="bg-gradient-to-r from-green-600 to-teal-600 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">
             Navigating the Waters
@@ -26,9 +47,24 @@ const PermittingPage = () => {
           <p className="text-xl md:text-2xl mb-8 max-w-4xl mx-auto">
             Our Permitting & Treatment Plan Expertise
           </p>
-          <p className="text-lg max-w-3xl mx-auto">
+          <p className="text-lg max-w-3xl mx-auto mb-8">
             We handle the red tape so you can enjoy your blue water, ensuring every job is done by the book.
           </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
+            <a
+              href="tel:(737)-300-9033"
+              className="inline-block bg-white text-green-600 hover:bg-gray-100 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200 transform hover:scale-105 shadow-lg"
+            >
+              Call (737) 300-9033
+            </a>
+            <Link
+              to="/contact"
+              onClick={scrollToTop}
+              className="inline-block bg-green-700 hover:bg-green-800 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors duration-200 border-2 border-white shadow-lg"
+            >
+              Get Free Consultation
+            </Link>
+          </div>
         </div>
       </section>
 

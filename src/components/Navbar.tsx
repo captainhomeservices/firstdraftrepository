@@ -11,6 +11,7 @@ const Navbar = () => {
     { name: 'How It Works', href: '/how-it-works' },
     { name: 'Benthic Barriers', href: '/benthic-barriers' },
     { name: 'Permitting', href: '/permitting' },
+    { name: 'About', href: '/about' },
     { name: 'Blog', href: '/blog' },
     { name: 'Contact', href: '/contact' },
   ];
