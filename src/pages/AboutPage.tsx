@@ -70,11 +70,11 @@ const AboutPage = () => {
             I'm Cameron Reid, and I grew up in Austin spending my time on Lake Austin—boating, skiing, swimming, fishing, and hanging out at Emma Long for lightning storms, smores, and lazy afternoons that slip away before you know it. The lake has always been where weekends happen, where friends meet up, and where I get to slow down in the middle of this wild, crazy, fun city we all call home.
           </p>
 
-          <div className="my-12">
+          <div className="my-12 flex justify-center">
             <img
-              src="/cam_kay copy.jpeg"
+              src="/cam_kay.jpeg"
               alt="Cameron Reid and Kalyn Ohrt, founders of Austin Lake Management, on Lake Austin"
-              className="w-full h-auto rounded-lg shadow-lg"
+              className="max-w-2xl w-full h-auto rounded-lg shadow-lg"
               loading="lazy"
             />
           </div>
@@ -87,11 +87,11 @@ const AboutPage = () => {
             I've spent 10+ years working on Lake Austin and know its bends and lake bottom like the back of my hand. In thinking about this hydrilla and how it returned, I came to realize there's another way to combat the weed besides what has always been done (lawnmowing). We strive to provide a sustainable solution that's good for our customers, the lake, and recreational lake users.
           </p>
 
-          <div className="my-12">
+          <div className="my-12 flex justify-center">
             <img
               src="/weed_removal_worker copy.jpg"
               alt="Lake weed removal specialist working on Lake Austin removing hydrilla by hand"
-              className="w-full h-auto rounded-lg shadow-lg"
+              className="max-w-2xl w-full h-auto rounded-lg shadow-lg"
               loading="lazy"
             />
           </div>
