@@ -77,7 +77,7 @@ const BenthicBarriersPage = () => {
                   We can cover any size area—from small dock zones to expansive waterfront properties.
                 </p>
                 <p className="text-lg text-gray-600">
-                  Learn about our complete process on our <Link to="/how-it-works" className="text-green-600 hover:text-green-700 font-semibold underline">How It Works</Link> page. All installations are <Link to="/permitting" className="text-blue-600 hover:text-blue-700 font-semibold underline">fully permitted</Link>.
+                  Learn about our complete process on our <Link to="/how-it-works" className="text-green-600 hover:text-green-700 font-semibold underline">How It Works</Link> page, or check our <Link to="/blog/lake-weed-removal-faq" className="text-purple-600 hover:text-purple-700 font-semibold underline">FAQ</Link> for common questions. All installations are <Link to="/permitting" className="text-blue-600 hover:text-blue-700 font-semibold underline">fully permitted</Link>.
                 </p>
               </div>
             </div>

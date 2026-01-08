@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
 import { Phone, Mail, MapPin, Clock, CheckCircle } from 'lucide-react';
 import SEOHead from '../components/SEOHead';
 import ConsultationCalendar from '../components/ConsultationCalendar';
@@ -188,7 +188,7 @@ const ContactPage = () => {
               Book Your Consultation - We'll Contact You Today
             </h2>
             <p className="text-base md:text-lg text-gray-700 max-w-3xl mx-auto">
-              Got a question about why your lake weeds grew in so fast? Or about how we can help keep your swimming area weed-free? Whatever your <strong>Austin aquatic vegetation removal</strong> needs, <strong>Captain Home Services</strong> is here to chat and help.
+              Got a question about why your lake weeds grew in so fast? Or about how we can help keep your swimming area weed-free? Check out our <Link to="/blog/lake-weed-removal-faq" className="text-teal-600 hover:text-teal-700 font-semibold underline">frequently asked questions</Link> or reach out directly. Whatever your <strong>Austin aquatic vegetation removal</strong> needs, <strong>Captain Home Services</strong> is here to chat and help.
             </p>
           </div>
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Calendar, User, ArrowRight, Fish, Wrench, FileText, MapPin, Leaf, Clock, BookOpen, Waves, Shield } from 'lucide-react';
+import { Calendar, User, ArrowRight, Fish, Wrench, FileText, MapPin, Leaf, Clock, BookOpen, Waves, Shield, HelpCircle } from 'lucide-react';
 import SEOHead from '../components/SEOHead';
 
 const BlogPage = () => {
@@ -62,6 +62,21 @@ const BlogPage = () => {
   const blogPosts = [
     {
       id: 1,
+      title: "Lake Weed Removal FAQ: Hydrilla, Root Removal, Benthic Barriers & What to Expect",
+      slug: "lake-weed-removal-faq",
+      excerpt: "Your complete guide to lake weed removal. Get answers to the most common questions about hydrilla, root removal methods, benthic barriers, pricing, and what to expect from professional aquatic weed management services.",
+      date: "January 8, 2025",
+      author: "Captain Cam",
+      category: "FAQ",
+      image: "/cleaned up weeds.png",
+      icon: <HelpCircle className="h-5 w-5" />,
+      keywords: ["lake weed removal FAQ", "hydrilla questions", "benthic barriers", "aquatic weed removal cost", "lake weed removal pricing", "manual weed removal"],
+      readTime: "18 min read",
+      featured: true,
+      isNew: false
+    },
+    {
+      id: 2,
       title: "A Proposal for Austin: Innovative Chain Drag Seine Net System for Sustainable Hydrilla Management",
       slug: "austin-hydrilla-proposal-chain-drag-seine-net-system",
       excerpt: "A comprehensive proposal to Austin city leaders and community stakeholders for implementing an innovative chain drag seine net system to combat hydrilla infestation—a proven method used successfully in Asia and California that removes plants at the root while preventing fragmentation.",
@@ -76,7 +91,7 @@ const BlogPage = () => {
       isNew: true
     },
     {
-      id: 2,
+      id: 3,
       title: "Lake Austin Hydrilla Crisis Deepens: City Plans Major Grass Carp Response for Fall 2025",
       slug: "lake-austin-hydrilla-crisis-deepens-city-plans-grass-carp-response-fall-2025",
       excerpt: "The hydrilla crisis on Lake Austin has reached critical levels in fall 2025, with nearly 456 acres now affected. Learn about the City's grass carp response plan, TPWD survey findings, and what lakefront property owners can do to protect their waterfronts right now.",
@@ -91,7 +106,7 @@ const BlogPage = () => {
       isNew: false
     },
     {
-      id: 3,
+      id: 4,
       title: "Understanding Hydrilla: The Most Invasive Aquatic Weed in Austin Lakes",
       slug: "understanding-hydrilla-most-invasive-aquatic-weed-austin-lakes",
       excerpt: "Everything you need to know about hydrilla - the most problematic aquatic weed in Austin lakes. Learn how it spreads, why it's so difficult to control, and what proven methods work for Lake Austin properties. Includes local news coverage and expert research from LSU AgCenter and University of Florida.",
@@ -106,7 +121,7 @@ const BlogPage = () => {
       isNew: false
     },
     {
-      id: 4,
+      id: 5,
       title: "Global Innovations in Hydrilla Management: Beyond Traditional Removal Methods",
       slug: "global-innovations-hydrilla-management-beyond-traditional-methods",
       excerpt: "Explore cutting-edge hydrilla removal techniques from around the world and discover how harvested biomass can be transformed into valuable resources. From dragline systems to bio-oil production, learn how global innovations could revolutionize Austin lake management.",
@@ -121,7 +136,7 @@ const BlogPage = () => {
       isNew: false
     },
     {
-      id: 5,
+      id: 6,
       title: "Lake Austin Hydrilla Management Methods: A Historical Perspective and Modern Solutions",
       slug: "lake-austin-hydrilla-management-methods",
       excerpt: "A comprehensive examination of hydrilla invasion in Central Texas lakes, exploring the historical context, management approaches, and why precision manual removal offers the most effective solution for Lake Austin property owners.",
@@ -136,7 +151,7 @@ const BlogPage = () => {
       isNew: false
     },
     {
-      id: 6,
+      id: 7,
       title: "Benthic Barriers: The Complete Guide to Effective Lake Bottom Weed Control",
       slug: "benthic-barriers-complete-guide",
       excerpt: "Discover how benthic barriers provide long-term aquatic weed control for Austin lakes. Learn about installation, effectiveness, costs, and why they're the safest management option available.",
@@ -150,7 +165,7 @@ const BlogPage = () => {
       featured: true
     },
     {
-      id: 7,
+      id: 8,
       title: "Understanding Lake Weeds: Why They Grow and How to Manage Them",
       slug: "understanding-lake-weeds-why-they-grow-and-how-to-manage-them",
       excerpt: "Discover the key factors behind aquatic weed growth in Texas lakes and learn sustainable management strategies. From nutrient levels to invasive species, understand why lakes get weeds and how professional removal can restore your waterfront.",
@@ -164,7 +179,7 @@ const BlogPage = () => {
       featured: true
     },
     {
-      id: 8,
+      id: 9,
       title: "Navigating Permitting for Aquatic Vegetation Removal in Texas",
       slug: "navigating-permitting-aquatic-vegetation-removal-texas",
       excerpt: "Learn about TPWD and LCRA permitting requirements for aquatic vegetation removal in Texas. Understand why compliance matters and how Captain Home Services handles all the red tape for legal, hassle-free lake weed removal.",
@@ -178,7 +193,7 @@ const BlogPage = () => {
       featured: true
     },
     {
-      id: 9,
+      id: 10,
       title: "The Benefits of Manual Aquatic Weed Removal: A Sustainable Approach",
       slug: "benefits-manual-aquatic-weed-removal-sustainable-approach",
       excerpt: "Discover why manual aquatic weed removal is the most sustainable and effective method for lakefront restoration. Learn about precision targeting, chemical-free approaches, and long-term benefits for your Texas waterfront.",
@@ -192,7 +207,7 @@ const BlogPage = () => {
       featured: true
     },
     {
-      id: 10,
+      id: 11,
       title: "The Importance of Aquatic Vegetation Removal for a Healthy Lakefront",
       slug: "importance-aquatic-vegetation-removal-healthy-lakefront",
       excerpt: "Understand how aggressive aquatic weeds impact your lakefront's ecology, recreation value, and property worth. Learn why professional aquatic vegetation removal is essential for maintaining a healthy Texas waterfront.",
@@ -206,7 +221,7 @@ const BlogPage = () => {
       featured: false
     },
     {
-      id: 10,
+      id: 12,
       title: "The Battle for Our Lakes: Understanding and Removing Invasive Aquatic Plants in Texas",
       excerpt: "Texas lakes face constant threats from invasive aquatic plants. Learn about hydrilla and Eurasian watermilfoil science, plus the most effective removal methods for Austin area lakes.",
       date: "January 15, 2025",
@@ -217,7 +232,7 @@ const BlogPage = () => {
       readTime: "10 min read"
     },
     {
-      id: 11,
+      id: 13,
       title: "Beyond the Weeds: Your Guide to Boating and Dining on Lake Austin",
       excerpt: "Once your waterfront is clear, discover the best boating experiences, lakeside restaurants, and water activities that make Lake Austin special.",
       date: "January 10, 2025",
@@ -228,7 +243,7 @@ const BlogPage = () => {
       readTime: "6 min read"
     },
     {
-      id: 12,
+      id: 14,
       title: "Bass Fishing on Lake Austin: Techniques and Top Spots",
       excerpt: "Lake Austin offers excellent bass fishing. Learn the best techniques, prime locations, and why clear water makes all the difference for successful fishing.",
       date: "January 5, 2025",
@@ -239,7 +254,7 @@ const BlogPage = () => {
       readTime: "8 min read"
     },
     {
-      id: 13,
+      id: 15,
       title: "Lake Austin Resources: Essential Links for Waterfront Owners",
       excerpt: "Your resource hub for Lake Austin living. Find boat rentals, repair services, marinas, and everything needed for your waterfront lifestyle.",
       date: "December 28, 2024",

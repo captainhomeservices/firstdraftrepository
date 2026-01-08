@@ -64,7 +64,7 @@ const HowItWorksPage = () => {
               Why Roots Matter
             </h2>
             <p className="text-center text-gray-600 mb-6 max-w-3xl mx-auto">
-              Read more about these invasive species in our <Link to="/blog" onClick={scrollToTop} className="text-teal-600 hover:text-teal-700 font-semibold underline">educational blog</Link>.
+              Read more about these invasive species in our <Link to="/blog" onClick={scrollToTop} className="text-teal-600 hover:text-teal-700 font-semibold underline">educational blog</Link> or check out our <Link to="/blog/lake-weed-removal-faq" onClick={scrollToTop} className="text-purple-600 hover:text-purple-700 font-semibold underline">FAQ page</Link> for common questions.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div className="bg-white p-6 rounded-lg shadow-md">

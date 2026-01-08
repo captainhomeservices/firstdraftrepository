@@ -94,6 +94,15 @@ const Footer = () => {
               </li>
               <li>
                 <Link
+                  to="/blog/lake-weed-removal-faq"
+                  onClick={scrollToTop}
+                  className="hover:text-teal-400 transition-colors"
+                >
+                  FAQ
+                </Link>
+              </li>
+              <li>
+                <Link
                   to="/contact"
                   onClick={scrollToTop}
                   className="hover:text-teal-400 transition-colors"

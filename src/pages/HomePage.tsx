@@ -277,7 +277,7 @@ const HomePage = () => {
                 Tired of battling stubborn hydrilla that returns every season? <strong>Captain Home Services</strong> offers a complete solution: we <Link to="/how-it-works" onClick={scrollToTop} className="text-green-600 hover:text-green-700 font-semibold underline">pull weeds by the roots</Link> with minimal fragmentation, then install <Link to="/benthic-barriers" onClick={scrollToTop} className="text-emerald-600 hover:text-emerald-700 font-semibold underline">benthic barriers</Link> to prevent regrowth.
               </p>
               <p className="text-base sm:text-lg text-gray-700 mb-6 leading-relaxed">
-                Learn more about our <Link to="/permitting" onClick={scrollToTop} className="text-blue-600 hover:text-blue-700 font-semibold underline">permitting process</Link> and read our <Link to="/blog" onClick={scrollToTop} className="text-teal-600 hover:text-teal-700 font-semibold underline">educational blog</Link> for lake management tips.
+                Learn more about our <Link to="/permitting" onClick={scrollToTop} className="text-blue-600 hover:text-blue-700 font-semibold underline">permitting process</Link>, check out our <Link to="/blog/lake-weed-removal-faq" onClick={scrollToTop} className="text-purple-600 hover:text-purple-700 font-semibold underline">comprehensive FAQ</Link>, and read our <Link to="/blog" onClick={scrollToTop} className="text-teal-600 hover:text-teal-700 font-semibold underline">educational blog</Link> for lake management tips.
               </p>
               <div className="space-y-4">
                 <div className="flex items-start space-x-3">
