@@ -10,6 +10,7 @@ const FAQPage = () => {
       author="Captain Cam"
       category="FAQ"
       readTime="18 min read"
+      image="https://austinlakemanagement.com/dock1.jpg"
       keywords={[
         'lake weed removal FAQ',
         'hydrilla questions',
@@ -348,8 +349,8 @@ const FAQPage = () => {
         <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">Final Note</h2>
 
         <img
-          src="/cleaned up weeds.png"
-          alt="Successfully cleared lake area after professional weed removal"
+          src="/dock1.jpg"
+          alt="Clean Austin waterfront dock with clear water - professional lake weed removal results"
           className="rounded-lg shadow-lg my-8 w-full"
         />
 
