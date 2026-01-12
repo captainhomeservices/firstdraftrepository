@@ -59,7 +59,7 @@ const HowItWorksPage = () => {
             Complete Long-Term Hydrilla Removal
           </h1>
           <p className="text-xl text-green-100 max-w-3xl mx-auto">
-            Pulling by the roots with minimal fragmentation + benthic barrier installation
+            Pulling by the roots with minimal fragmentation + benthic barrier installation (when applicable)
           </p>
         </div>
       </section>
@@ -67,6 +67,43 @@ const HowItWorksPage = () => {
       {/* Main Content */}
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          {/* Our Complete Solution - Moved to Top */}
+          <div className="mb-16">
+            <h2 className="text-3xl font-bold text-gray-900 mb-12 text-center">
+              Our Complete Removal Solution
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+              <div className="text-center">
+                <div className="bg-blue-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                  <Target className="h-8 w-8 text-blue-600" />
+                </div>
+                <h3 className="text-lg font-semibold text-gray-900 mb-2">1. Identify</h3>
+                <p className="text-gray-600">Assess species and infestation extent</p>
+              </div>
+              <div className="text-center">
+                <div className="bg-green-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                  <Scissors className="h-8 w-8 text-green-600" />
+                </div>
+                <h3 className="text-lg font-semibold text-gray-900 mb-2">2. Pull by the Roots</h3>
+                <p className="text-gray-600">Pull entire plants by the roots with minimal fragmentation</p>
+              </div>
+              <div className="text-center">
+                <div className="bg-emerald-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                  <Shield className="h-8 w-8 text-emerald-600" />
+                </div>
+                <h3 className="text-lg font-semibold text-gray-900 mb-2">3. Install Barriers</h3>
+                <p className="text-gray-600"><Link to="/benthic-barriers" onClick={scrollToTop} className="text-emerald-600 hover:text-emerald-700 font-semibold underline">Benthic barriers</Link> (when applicable) for long-term prevention</p>
+              </div>
+              <div className="text-center">
+                <div className="bg-teal-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                  <CheckCircle className="h-8 w-8 text-teal-600" />
+                </div>
+                <h3 className="text-lg font-semibold text-gray-900 mb-2">4. Maintain</h3>
+                <p className="text-gray-600">Monitor and maintain barriers seasonally, including moving periodically and cleaning regulary to reduce sediment build up</p>
+              </div>
+            </div>
+          </div>
+
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
             <div>
               <h2 className="text-3xl font-bold text-gray-900 mb-6">
@@ -76,11 +113,11 @@ const HowItWorksPage = () => {
                 Imagine sitting by your lakefront enjoying the reflection of a sunset in the water, free from surfaced lake weeds, trash, and algae on the surface. A pristine waterfront where your family can swim, boat, and enjoy the lake without obstacles. That's what we create for every Austin lakefront property we serve.
               </p>
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                The secret? Pulling vegetation by the roots, planning out a comprehensive management strategy involving benthic barriers to cover and stifle new growth, and maintaining your lakefront for you to enjoy. While other methods require costly repeated treatments, our approach eliminates weeds at the source and prevents regrowth with a coverage solution to keep plants from growing where you want them gone.
+                The secret? Pulling vegetation by the roots, planning out a comprehensive management strategy involving benthic barriers (when applicable) to cover and stifle new growth, and maintaining your lakefront for you to enjoy. While other methods require costly repeated treatments, our approach eliminates weeds at the source and prevents regrowth with a coverage solution to keep plants from growing where you want them gone.
               </p>
               <div className="bg-emerald-50 border-l-4 border-emerald-500 p-4">
                 <p className="text-emerald-900 font-semibold">
-                  <strong>Captain Home Services</strong> pulls invasive vegetation by the roots with minimal fragmentation, then installs <Link to="/benthic-barriers" onClick={scrollToTop} className="text-emerald-700 hover:text-emerald-800 underline">benthic barriers</Link> for complete long-term control. All work is <Link to="/permitting" onClick={scrollToTop} className="text-emerald-700 hover:text-emerald-800 underline">fully permitted</Link>.
+                  <strong>Captain Home Services</strong> pulls invasive vegetation by the roots with minimal fragmentation, then installs <Link to="/benthic-barriers" onClick={scrollToTop} className="text-emerald-700 hover:text-emerald-800 underline">benthic barriers</Link> (when applicable) for complete long-term control. All work is <Link to="/permitting" onClick={scrollToTop} className="text-emerald-700 hover:text-emerald-800 underline">fully permitted</Link>.
                 </p>
               </div>
             </div>
@@ -125,43 +162,6 @@ const HowItWorksPage = () => {
             </div>
           </div>
 
-          {/* Our Complete Solution */}
-          <div className="mb-16">
-            <h2 className="text-3xl font-bold text-gray-900 mb-12 text-center">
-              Our Complete Removal Solution
-            </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-              <div className="text-center">
-                <div className="bg-blue-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                  <Target className="h-8 w-8 text-blue-600" />
-                </div>
-                <h3 className="text-lg font-semibold text-gray-900 mb-2">1. Identify</h3>
-                <p className="text-gray-600">Assess species and infestation extent</p>
-              </div>
-              <div className="text-center">
-                <div className="bg-green-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                  <Scissors className="h-8 w-8 text-green-600" />
-                </div>
-                <h3 className="text-lg font-semibold text-gray-900 mb-2">2. Pull by the Roots</h3>
-                <p className="text-gray-600">Pull entire plants by the roots with minimal fragmentation</p>
-              </div>
-              <div className="text-center">
-                <div className="bg-emerald-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                  <Shield className="h-8 w-8 text-emerald-600" />
-                </div>
-                <h3 className="text-lg font-semibold text-gray-900 mb-2">3. Install Barriers</h3>
-                <p className="text-gray-600"><Link to="/benthic-barriers" onClick={scrollToTop} className="text-emerald-600 hover:text-emerald-700 font-semibold underline">Benthic barriers</Link> for long-term prevention</p>
-              </div>
-              <div className="text-center">
-                <div className="bg-teal-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                  <CheckCircle className="h-8 w-8 text-teal-600" />
-                </div>
-                <h3 className="text-lg font-semibold text-gray-900 mb-2">4. Maintain</h3>
-                <p className="text-gray-600">Monitor and maintain barriers seasonally, including moving periodically and cleaning regulary to reduce sediment build up</p>
-              </div>
-            </div>
-          </div>
-
           {/* Benefits */}
           <div className="bg-teal-50 rounded-lg p-8">
             <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
@@ -179,7 +179,7 @@ const HowItWorksPage = () => {
                 <CheckCircle className="h-6 w-6 text-green-600 mt-1 flex-shrink-0" />
                 <div>
                   <h3 className="font-semibold text-gray-900">Long-Term Prevention</h3>
-                  <p className="text-gray-700">Benthic barriers suffocate sunlight and kill plants, allow for decomposition and gas pass-through of remaining vegetation, and prevent regrowth requiring regular cuts or removal treatments</p>
+                  <p className="text-gray-700">Benthic barriers (when applicable) suffocate sunlight and kill plants, allow for decomposition and gas pass-through of remaining vegetation, and prevent regrowth requiring regular cuts or removal treatments</p>
                 </div>
               </div>
               <div className="flex items-start space-x-3">
@@ -199,7 +199,7 @@ const HowItWorksPage = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold mb-4">Ready for a Complete Solution?</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
-            Pulling by the roots + <Link to="/benthic-barriers" onClick={scrollToTop} className="text-white hover:text-emerald-200 font-semibold underline">benthic barriers</Link> = long-term hydrilla control. All work is <Link to="/permitting" onClick={scrollToTop} className="text-white hover:text-blue-200 font-semibold underline">fully permitted</Link>. Restore your lakefront's health and beauty.
+            Pulling by the roots + <Link to="/benthic-barriers" onClick={scrollToTop} className="text-white hover:text-emerald-200 font-semibold underline">benthic barriers</Link> (when applicable) = long-term hydrilla control. All work is <Link to="/permitting" onClick={scrollToTop} className="text-white hover:text-blue-200 font-semibold underline">fully permitted</Link>. Restore your lakefront's health and beauty.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
