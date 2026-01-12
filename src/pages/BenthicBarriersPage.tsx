@@ -315,6 +315,100 @@ const BenthicBarriersPage = () => {
             </div>
           </div>
 
+          {/* FAQ Section */}
+          <div className="mb-20">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                Frequently Asked Questions
+              </h2>
+              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+                Everything you need to know about benthic barriers
+              </p>
+            </div>
+
+            <div className="max-w-4xl mx-auto space-y-6">
+              {/* Q1 */}
+              <div className="bg-white rounded-xl p-6 shadow-lg border border-gray-100">
+                <h3 className="text-xl font-bold text-gray-900 mb-3">
+                  What are benthic barriers?
+                </h3>
+                <p className="text-gray-700 leading-relaxed">
+                  Benthic barriers are heavy-duty, gas-permeable mats placed on the lake bottom that block sunlight using the "snowshoe" principle. They distribute weight evenly to create a firm, stable surface. Without light, aquatic weeds cannot grow. Our commercial-grade barriers are made from nonwoven polypropylene fabric designed specifically for aquatic environments and are environmentally safe.
+                </p>
+              </div>
+
+              {/* Q2 */}
+              <div className="bg-white rounded-xl p-6 shadow-lg border border-gray-100">
+                <h3 className="text-xl font-bold text-gray-900 mb-3">
+                  How are they installed?
+                </h3>
+                <p className="text-gray-700 leading-relaxed">
+                  We install temporary benthic barriers that are not meant to become a part of the bottom of the lake. Our barriers have a metal frame in most cases, allowing them to be removed or moved around the property/lake bed. This ensures they do not become lake trash.
+                </p>
+              </div>
+
+              {/* Q3 */}
+              <div className="bg-white rounded-xl p-6 shadow-lg border border-gray-100">
+                <h3 className="text-xl font-bold text-gray-900 mb-3">
+                  Do they require maintenance?
+                </h3>
+                <p className="text-gray-700 leading-relaxed">
+                  They require regular cleaning, which we provide and will include in our estimate with installation. You can clean them yourself, but they must be swept/brushed off every month or so to keep debris and sand/muck from getting on them and growing weeds on top of the barrier.
+                </p>
+              </div>
+
+              {/* Q4 */}
+              <div className="bg-white rounded-xl p-6 shadow-lg border border-gray-100">
+                <h3 className="text-xl font-bold text-gray-900 mb-3">
+                  What if I don't clean them?
+                </h3>
+                <p className="text-gray-700 leading-relaxed">
+                  If left alone, the barriers will become part of the lake bottom. They'll get covered in sand/muck, and new weeds will grow on top of the mat.
+                </p>
+              </div>
+
+              {/* Q5 */}
+              <div className="bg-white rounded-xl p-6 shadow-lg border border-gray-100">
+                <h3 className="text-xl font-bold text-gray-900 mb-3">
+                  Can we step on them?
+                </h3>
+                <p className="text-gray-700 leading-relaxed">
+                  Yes! A huge benefit of the benthic barriers is that they create a soft, clean beach surface that kids and adults can walk and play on.
+                </p>
+              </div>
+
+              {/* Q6 */}
+              <div className="bg-white rounded-xl p-6 shadow-lg border border-gray-100">
+                <h3 className="text-xl font-bold text-gray-900 mb-3">
+                  Can they help with mucky, nasty lake bottoms?
+                </h3>
+                <p className="text-gray-700 leading-relaxed">
+                  Yes! One of our products we install is made by LakeMat™ called the MuckMat™ and it has a lattice/grid structure underneath to support the weed cover material that allows it to be placed on top of mucky lake bottoms and create a soft, clean beach that you won't sink down into.
+                </p>
+              </div>
+
+              {/* Q7 */}
+              <div className="bg-white rounded-xl p-6 shadow-lg border border-gray-100">
+                <h3 className="text-xl font-bold text-gray-900 mb-3">
+                  Can benthic barriers be installed anywhere on the lake?
+                </h3>
+                <p className="text-gray-700 leading-relaxed">
+                  Our temporary benthic barriers cannot be installed anywhere on the lake, mostly because of water flow and recreational boat traffic issues. If you are in an area where boats drop anchor often it's not a good idea, and if you are in the middle of a channel it's not a great idea. The barriers are not meant to be staked down, only weighed down so they may be moved from time to time to adjust for new vegetation growing patterns.
+                </p>
+              </div>
+
+              {/* Q8 */}
+              <div className="bg-white rounded-xl p-6 shadow-lg border border-gray-100">
+                <h3 className="text-xl font-bold text-gray-900 mb-3">
+                  What if I cover my lakefront in barriers and have a perfect weed-free beach, but my neighbor's pesky weeds grow into my area?
+                </h3>
+                <p className="text-gray-700 leading-relaxed">
+                  This is a problem we face with Hydrilla's extreme and uncontrolled growth cycle. We can remove any weeds encroaching into your property line and can of course help out neighbors by installing barriers too. The more area of the lake is covered by barriers, the more effective grass carp will be in eating what's left.
+                </p>
+              </div>
+            </div>
+          </div>
+
           {/* Extended Reading */}
           <div className="mb-20">
             <div className="text-center">
