@@ -208,8 +208,8 @@ const HomePage = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
             <figure className="m-0">
               <img
-                src="/booth-clear.webp"
-                alt="Clear, weed-free water in front of a Lake Austin boathouse after professional hydrilla removal by Captain Home Services — clean open water restored"
+                src="/booth-hydrilla-bad.webp"
+                alt="Lake Austin boathouse surrounded by dense hydrilla infestation covering the water surface — invasive aquatic weeds blocking waterfront access before professional removal"
                 className="rounded-lg shadow-2xl w-full h-64 sm:h-72 md:h-80 lg:h-96 object-cover object-center"
                 loading="lazy"
                 width="1170"
@@ -219,12 +219,12 @@ const HomePage = () => {
             </figure>
             <figure className="m-0">
               <img
-                src="/David-booth-weedfree.jpeg"
+                src="/booth-clear.webp"
                 alt="Clear, weed-free water in front of a Lake Austin boathouse after professional hydrilla removal by Captain Home Services — same location restored to clean, open water"
                 className="rounded-lg shadow-2xl w-full h-64 sm:h-72 md:h-80 lg:h-96 object-cover object-center"
                 loading="lazy"
-                width="960"
-                height="1280"
+                width="1170"
+                height="1560"
               />
               <figcaption className="text-center text-sm text-gray-500 mt-2 font-medium">After: Restored to clean, open water</figcaption>
             </figure>

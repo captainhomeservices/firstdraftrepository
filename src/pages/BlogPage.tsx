@@ -143,7 +143,7 @@ const BlogPage = () => {
       date: "January 24, 2025",
       author: "Captain Cam",
       category: "Global Innovations",
-      image: "/IMG_5761.jpeg",
+      image: "/booth-clear.webp",
       icon: <Waves className="h-5 w-5" />,
       keywords: ["global hydrilla management", "biomass recycling", "aquatic vegetation removal", "sustainable lake management", "hydrilla composting"],
       readTime: "12 min read",
