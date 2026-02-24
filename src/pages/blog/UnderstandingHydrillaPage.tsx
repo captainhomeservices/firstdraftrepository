@@ -47,9 +47,9 @@ const UnderstandingHydrillaPage = () => {
         <h2 id="what-is-hydrilla" className="text-3xl font-bold text-gray-900 mt-12 mb-6">What Is Hydrilla and Where Did It Come From?</h2>
 
         <img
-          src="https://www.lsuagcenter.com/NR/rdonlyres/B15AC6DE-44B9-42B5-8A4A-2ED3CFE6EF1A/101283/hydrilla03_lg.jpg"
-          alt="Hydrilla verticillata plant showing characteristic whorled leaf arrangement"
-          className="rounded-lg shadow-lg my-8 w-full"
+          src="/david booth weeds.png"
+          alt="Hydrilla verticillata invasive aquatic weed growing in Lake Austin waters"
+          className="rounded-lg shadow-lg my-8 w-full h-80 object-cover"
         />
 
         <p>
@@ -73,7 +73,7 @@ const UnderstandingHydrillaPage = () => {
         <img
           src="/lake weeds removed.png"
           alt="Dense aquatic vegetation in Austin lake requiring professional removal"
-          className="rounded-lg shadow-lg my-8 w-full"
+          className="rounded-lg shadow-lg my-8 w-full h-72 md:h-96 object-cover"
         />
 
         <p>
@@ -99,7 +99,7 @@ const UnderstandingHydrillaPage = () => {
         <img
           src="/lake weed removal pose copy.jpeg"
           alt="Professional lake weed removal demonstration on Austin-area lake"
-          className="rounded-lg shadow-lg my-8 w-full"
+          className="rounded-lg shadow-lg my-8 w-full h-72 md:h-96 object-cover"
         />
 
         <p>
@@ -124,7 +124,7 @@ const UnderstandingHydrillaPage = () => {
         <img
           src="/lake weed removal tools.jpg"
           alt="Specialized manual lake weed removal tools for hydrilla control"
-          className="rounded-lg shadow-lg my-8 w-full"
+          className="rounded-lg shadow-lg my-8 w-full h-72 md:h-96 object-cover"
         />
 
         <p>
@@ -146,7 +146,7 @@ const UnderstandingHydrillaPage = () => {
         <img
           src="/IMG_5761.jpeg"
           alt="Professional lake weed removal service on Austin-area lake"
-          className="rounded-lg shadow-lg my-8 w-full"
+          className="rounded-lg shadow-lg my-8 w-full h-72 md:h-96 object-cover"
         />
 
         <p>

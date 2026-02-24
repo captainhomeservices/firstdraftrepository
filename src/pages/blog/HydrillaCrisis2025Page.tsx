@@ -49,7 +49,7 @@ const HydrillaCrisis2025Page = () => {
         <img
           src="/Copy of Untitled.jpg"
           alt="Dense hydrilla and aquatic vegetation covering Lake Austin waterfront in 2025"
-          className="rounded-lg shadow-lg my-8 w-full"
+          className="rounded-lg shadow-lg my-8 w-full h-72 md:h-96 object-cover"
         />
 
         <p>
@@ -74,7 +74,7 @@ const HydrillaCrisis2025Page = () => {
         <img
           src="/echelon cleaned up.jpg"
           alt="Lake Austin waterfront property after professional vegetation removal showing clear water"
-          className="rounded-lg shadow-lg my-8 w-full"
+          className="rounded-lg shadow-lg my-8 w-full h-72 md:h-96 object-cover"
         />
 
         <p>
@@ -141,7 +141,7 @@ const HydrillaCrisis2025Page = () => {
         <img
           src="/lake weed removal pose copy.jpeg"
           alt="Professional manual aquatic vegetation removal on Lake Austin"
-          className="rounded-lg shadow-lg my-8 w-full"
+          className="rounded-lg shadow-lg my-8 w-full h-72 md:h-96 object-cover"
         />
 
         <p>
@@ -164,7 +164,7 @@ const HydrillaCrisis2025Page = () => {
         <img
           src="/cleaned up weeds.png"
           alt="Lake Austin waterfront after professional manual weed removal showing clear water"
-          className="rounded-lg shadow-lg my-8 w-full"
+          className="rounded-lg shadow-lg my-8 w-full h-72 md:h-96 object-cover"
         />
 
         <h3 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">Prevention: Protecting Lake Austin for Everyone</h3>
@@ -183,9 +183,9 @@ const HydrillaCrisis2025Page = () => {
         </p>
 
         <img
-          src="/lake weeds removed copy.png"
+          src="/lake weeds removed.png"
           alt="Lake Austin waterfront after professional aquatic weed removal showing clear water and restored access"
-          className="rounded-lg shadow-lg my-8 w-full"
+          className="rounded-lg shadow-lg my-8 w-full object-cover"
         />
 
         <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">Looking Ahead: Managing Expectations</h2>

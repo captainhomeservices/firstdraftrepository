@@ -233,7 +233,7 @@ const HomePage = () => {
               <img
                 src="/Copy of Untitled.jpg"
                 alt="Lake Austin hydrilla problem showing dense invasive aquatic vegetation before removal"
-                className="rounded-lg shadow-xl w-full"
+                className="rounded-lg shadow-xl w-full h-72 md:h-96 object-cover"
               />
             </div>
             <div className="px-4">
@@ -302,7 +302,7 @@ const HomePage = () => {
               <img
                 src="/echelon cleaned up.jpg"
                 alt="Lake Austin waterfront property showcasing clear water and pristine conditions after professional aquatic vegetation removal"
-                className="rounded-lg shadow-2xl w-full max-w-md mx-auto lg:max-w-full"
+                className="rounded-lg shadow-2xl w-full h-80 md:h-[500px] object-cover object-center"
               />
             </div>
           </div>

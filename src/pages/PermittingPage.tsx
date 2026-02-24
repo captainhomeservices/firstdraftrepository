@@ -90,9 +90,9 @@ const PermittingPage = () => {
             </div>
             <div>
               <img
-                src="https://i.imgur.com/dmrnTO6.jpg"
-                alt="Official documentation and permits"
-                className="rounded-lg shadow-xl"
+                src="/IMG_0777.jpeg"
+                alt="Official documentation and permits for Lake Austin aquatic vegetation removal"
+                className="rounded-lg shadow-xl w-full h-72 object-cover"
               />
             </div>
           </div>
@@ -145,9 +145,9 @@ const PermittingPage = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
             <div>
               <img
-                src="https://www.petzooie.com/assets/uploaded_images/pet_care_images/original/pp90.jpg"
-                alt="Proper vegetation removal techniques"
-                className="rounded-lg shadow-xl"
+                src="/weed_removal_worker.jpg"
+                alt="Proper vegetation removal techniques on Lake Austin"
+                className="rounded-lg shadow-xl w-full h-72 object-cover"
               />
             </div>
             <div>

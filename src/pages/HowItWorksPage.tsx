@@ -123,9 +123,9 @@ const HowItWorksPage = () => {
             </div>
             <div>
               <img
-                src="https://mdc.mo.gov/sites/default/files/styles/gallery_main_image/public/mo_nature/media/images/2010/07/eurasian_water_milfoilcmyk.jpg?itok=efZIYgsg"
-                alt="Eurasian watermilfoil invasive aquatic vegetation"
-                className="rounded-lg shadow-xl"
+                src="/david booth weeds.png"
+                alt="Eurasian watermilfoil invasive aquatic vegetation growing in Austin lake"
+                className="rounded-lg shadow-xl w-full h-72 object-cover"
               />
             </div>
           </div>

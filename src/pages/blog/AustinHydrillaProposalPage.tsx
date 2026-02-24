@@ -53,7 +53,7 @@ const AustinHydrillaProposalPage = () => {
         <img
           src="/lake weeds removed.png"
           alt="Dense hydrilla infestation in Austin lakes"
-          className="rounded-lg shadow-lg my-8 w-full"
+          className="rounded-lg shadow-lg my-8 w-full h-72 md:h-96 object-cover"
         />
 
         <p className="text-lg leading-relaxed">
@@ -121,7 +121,7 @@ const AustinHydrillaProposalPage = () => {
         <img
           src="/lake weed removal tools.jpg"
           alt="Traditional cutting tools that fragment hydrilla"
-          className="rounded-lg shadow-lg my-8 w-full"
+          className="rounded-lg shadow-lg my-8 w-full h-72 md:h-96 object-cover"
         />
 
         <p>
@@ -178,7 +178,7 @@ const AustinHydrillaProposalPage = () => {
         <img
           src="/david booth weeds.png"
           alt="Historical progression of hydrilla spread"
-          className="rounded-lg shadow-lg my-8 w-full"
+          className="rounded-lg shadow-lg my-8 w-full h-72 md:h-96 object-cover"
         />
 
         <h3 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">Origins and Introduction</h3>
@@ -246,7 +246,7 @@ const AustinHydrillaProposalPage = () => {
         <img
           src="/lake weed removal pose copy.jpeg"
           alt="Demonstration of proposed removal system concept"
-          className="rounded-lg shadow-lg my-8 w-full"
+          className="rounded-lg shadow-lg my-8 w-full h-72 md:h-96 object-cover"
         />
 
         <p className="text-lg leading-relaxed">
@@ -392,7 +392,7 @@ const AustinHydrillaProposalPage = () => {
         <img
           src="/dock copy.jpg"
           alt="Austin lake area suitable for restoration"
-          className="rounded-lg shadow-lg my-8 w-full"
+          className="rounded-lg shadow-lg my-8 w-full h-72 md:h-96 object-cover"
         />
 
         <h3 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">Phase 1: Pilot Program (Months 1-6)</h3>
@@ -544,7 +544,7 @@ const AustinHydrillaProposalPage = () => {
         <img
           src="/echelon cleaned up.jpg"
           alt="Vision of restored Austin lake after hydrilla removal"
-          className="rounded-lg shadow-lg my-8 w-full"
+          className="rounded-lg shadow-lg my-8 w-full h-72 md:h-96 object-cover"
         />
 
         <p className="text-xl leading-relaxed font-semibold text-gray-800">

@@ -98,7 +98,7 @@ const FAQPage = () => {
         <img
           src="/lake weeds removed.png"
           alt="Dense hydrilla infestation in Austin lake"
-          className="rounded-lg shadow-lg my-8 w-full"
+          className="rounded-lg shadow-lg my-8 w-full h-72 md:h-96 object-cover"
         />
 
         <p>
@@ -140,7 +140,7 @@ const FAQPage = () => {
         <img
           src="/lake weed removal tools.jpg"
           alt="Manual lake weed removal tools and equipment"
-          className="rounded-lg shadow-lg my-8 w-full"
+          className="rounded-lg shadow-lg my-8 w-full h-72 md:h-96 object-cover"
         />
 
         <p>
@@ -172,7 +172,7 @@ const FAQPage = () => {
         <img
           src="/lake weed removal pose copy.jpeg"
           alt="Professional performing manual lake weed removal"
-          className="rounded-lg shadow-lg my-8 w-full"
+          className="rounded-lg shadow-lg my-8 w-full h-72 md:h-96 object-cover"
         />
 
         <p>Our process is straightforward and site-specific:</p>
@@ -257,7 +257,7 @@ const FAQPage = () => {
         <img
           src="/benthic barrier pic.jpeg"
           alt="Benthic barrier installation for lake weed control"
-          className="rounded-lg shadow-lg my-8 w-full"
+          className="rounded-lg shadow-lg my-8 w-full h-72 md:h-96 object-cover"
         />
 
         <p>
@@ -360,7 +360,7 @@ const FAQPage = () => {
         <img
           src="/dock1.jpg"
           alt="Clean Austin waterfront dock with clear water - professional lake weed removal results"
-          className="rounded-lg shadow-lg my-8 w-full"
+          className="rounded-lg shadow-lg my-8 w-full h-72 md:h-96 object-cover"
         />
 
         <p>

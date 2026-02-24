@@ -51,7 +51,7 @@ const BenthicBarriersPage = () => {
       <div className="bg-gradient-to-br from-slate-50 via-white to-emerald-50 min-h-screen">
         {/* Hero */}
         <div className="relative bg-gradient-to-br from-slate-900 via-slate-800 to-emerald-900 text-white overflow-hidden">
-          <div className="absolute inset-0 bg-[url('/lake weed removal tools.jpg')] bg-cover bg-center opacity-20"></div>
+          <div className="absolute inset-0 bg-[url('/lake%20weed%20removal%20tools.jpg')] bg-cover bg-center opacity-20"></div>
           <div className="absolute inset-0 bg-gradient-to-br from-slate-900/95 via-slate-800/90 to-emerald-900/95"></div>
 
           <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-28">
