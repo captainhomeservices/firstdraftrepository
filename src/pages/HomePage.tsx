@@ -204,14 +204,30 @@ const HomePage = () => {
             </div>
           </div>
 
-          {/* Bridge Image under the boxes */}
-          <div className="text-center">
-            <img
-              src="/dock.jpg"
-              alt="Beautiful Lake Austin waterfront with clean, clear water after professional aquatic weed removal by Captain Home Services"
-              className="rounded-lg shadow-2xl mx-auto w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-2xl xl:max-w-4xl h-auto object-cover"
-              loading="lazy"
-            />
+          {/* Before & After Images */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
+            <figure className="m-0">
+              <img
+                src="/Booth-Hydrilla.JPEG"
+                alt="Dense hydrilla infestation covering the water surface in front of a Lake Austin boathouse before professional aquatic weed removal by Captain Home Services"
+                className="rounded-lg shadow-2xl w-full h-64 sm:h-72 md:h-80 lg:h-96 object-cover object-center"
+                loading="lazy"
+                width="1170"
+                height="1560"
+              />
+              <figcaption className="text-center text-sm text-gray-500 mt-2 font-medium">Before: Hydrilla covering the waterfront</figcaption>
+            </figure>
+            <figure className="m-0">
+              <img
+                src="/David-booth-weedfree.jpeg"
+                alt="Clear, weed-free water in front of a Lake Austin boathouse after professional hydrilla removal by Captain Home Services — same location restored to clean, open water"
+                className="rounded-lg shadow-2xl w-full h-64 sm:h-72 md:h-80 lg:h-96 object-cover object-center"
+                loading="lazy"
+                width="960"
+                height="1280"
+              />
+              <figcaption className="text-center text-sm text-gray-500 mt-2 font-medium">After: Restored to clean, open water</figcaption>
+            </figure>
           </div>
         </div>
       </section>
