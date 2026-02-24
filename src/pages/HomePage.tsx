@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { CheckCircle, Leaf, Shield, Users } from 'lucide-react';
+import { CheckCircle, Leaf, Shield, ClipboardList } from 'lucide-react';
 import SEOHead from '../components/SEOHead';
 
 const HomePage = () => {
@@ -17,7 +17,7 @@ const HomePage = () => {
     "mainEntity": {
       "@type": "LocalBusiness",
       "name": "Captain Home Services",
-      "description": "Professional aquatic vegetation removal services specializing in manual lake weed removal, hydrilla control, and TPWD-permitted lake management solutions in Austin, Texas.",
+      "description": "Professional aquatic vegetation removal services specializing in manual lake weed removal, hydrilla root extraction, custom management plans, and TPWD-permitted lake management solutions in Austin, Texas.",
       "telephone": "(737) 300-9033",
       "email": "captainhomeservices@gmail.com",
       "address": {
@@ -28,45 +28,13 @@ const HomePage = () => {
       },
       "serviceArea": [
         "Lake Austin",
-        "Lake Travis", 
+        "Lake Travis",
         "Lake LBJ",
         "Inks Lake",
         "Lake Marble Falls",
         "Lake Buchanan",
         "Lady Bird Lake"
-      ],
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Austin Lake Management Services",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Austin Hydrilla Removal",
-              "description": "Complete manual hydrilla removal including root extraction for lasting results"
-            },
-            "priceRange": "$650-$1850"
-          },
-          {
-            "@type": "Offer", 
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Eurasian Watermilfoil Removal",
-              "description": "Professional removal of invasive Eurasian watermilfoil from Austin area lakes"
-            },
-            "priceRange": "$650-$1850"
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service", 
-              "name": "TPWD Permitting Services",
-              "description": "Complete permitting and compliance assistance for legal aquatic vegetation removal"
-            }
-          }
-        ]
-      }
+      ]
     }
   };
 
@@ -74,15 +42,14 @@ const HomePage = () => {
     <div className="min-h-screen">
       <SEOHead
         title="Austin Lake Weed Removal | Hydrilla Control | Captain Home Services"
-        description="Professional Austin lake weed removal and hydrilla control services. Manual aquatic vegetation removal for Lake Austin, Lake Travis, and Highland Lakes. TPWD permitted, chemical-free, eco-friendly solutions."
-        keywords="Austin lake weed removal, Lake Austin hydrilla removal, aquatic vegetation removal Austin, TPWD permits, LCRA compliance, manual lake weed removal, chemical-free lake cleaning, Austin lake management, Highland Lakes weed control, Eurasian watermilfoil removal Austin"
+        description="Professional Austin lake weed removal and hydrilla control. We pull weeds by the root and create custom multi-year management plans for lasting results. TPWD permitted, chemical-free."
+        keywords="Austin lake weed removal, Lake Austin hydrilla removal, aquatic vegetation removal Austin, TPWD permits, LCRA compliance, manual lake weed removal, chemical-free lake cleaning, Austin lake management, Highland Lakes weed control, custom lake management plan"
         canonicalUrl="https://austinlakemanagement.com/"
         structuredData={homePageSchema}
       />
 
-      {/* Hero Section with Video Background */}
+      {/* Hero Section */}
       <section className="relative h-screen min-h-[600px] max-h-[900px] overflow-hidden">
-        {/* Video Background */}
         <div className="absolute inset-0 w-full h-full">
           <video
             autoPlay
@@ -93,23 +60,19 @@ const HomePage = () => {
           >
             <source src="https://zyslabgmutwpcyabzcag.supabase.co/storage/v1/object/public/videos/1o%20second%20weed%20removal.mp4" type="video/mp4" />
           </video>
-
-          {/* Gradient Overlay for better text readability */}
           <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/60"></div>
           <div className="absolute inset-0 bg-gradient-to-r from-black/30 via-transparent to-black/30"></div>
         </div>
 
-        {/* Hero Content */}
         <div className="relative h-full flex items-start justify-center pt-8 sm:pt-12">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <div className="space-y-3 sm:space-y-4 opacity-0 animate-fadeInUp px-4">
               <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight tracking-tight drop-shadow-2xl">
-                Long-Term Hydrilla Removal.
+                Root-Level Hydrilla Removal.
                 <span className="block mt-1 text-[#00B47B] drop-shadow-2xl">
-                  Restore Your Waterfront.
+                  Year-Long Management Plans.
                 </span>
               </h1>
-           
 
               <div className="flex flex-col sm:flex-row gap-3 justify-center pt-2 sm:pt-3 opacity-0 animate-fadeInUp animation-delay-200 px-4">
                 <a
@@ -133,7 +96,6 @@ const HomePage = () => {
                 </Link>
               </div>
 
-              {/* Trust Indicators */}
               <div className="pt-2 sm:pt-3 opacity-0 animate-fadeInUp animation-delay-400 px-4">
                 <div className="inline-flex flex-wrap items-center justify-center gap-2 sm:gap-4 px-3 sm:px-6 py-2 sm:py-3 bg-white/10 backdrop-blur-md rounded-xl border border-white/20">
                   <div className="flex items-center space-x-2">
@@ -146,7 +108,7 @@ const HomePage = () => {
                   </div>
                   <div className="flex items-center space-x-2">
                     <CheckCircle className="h-4 w-4 sm:h-5 sm:w-5 text-[#00B47B] flex-shrink-0" />
-                    <span className="font-semibold text-white text-sm sm:text-base whitespace-nowrap">Same-Day Service</span>
+                    <span className="font-semibold text-white text-sm sm:text-base whitespace-nowrap">Custom Management Plans</span>
                   </div>
                 </div>
               </div>
@@ -154,7 +116,6 @@ const HomePage = () => {
           </div>
         </div>
 
-        {/* Scroll Indicator */}
         <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
           <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
@@ -162,49 +123,58 @@ const HomePage = () => {
         </div>
       </section>
 
-      {/* Services Overview - Moved to second position */}
+      {/* How We Work - Core 3 pillars */}
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Complete Long-Term Solution
+          <div className="text-center mb-10">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-3">
+              How We Eliminate Lake Weeds
             </h2>
-            <p className="text-xl text-gray-600">
-              Pulling Hydrilla by the roots with minimal fragmentation + benthic barrier installation for lasting results
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+              Every property is different. We build a custom plan around your specific conditions, weed species, and long-term goals.
             </p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 mb-12 sm:mb-16">
-            <div className="text-center p-6 bg-gray-50 rounded-lg">
-              <Leaf className="h-10 w-10 sm:h-12 sm:w-12 text-green-600 mx-auto mb-4" />
-              <h3 className="text-base sm:text-lg font-semibold text-gray-900 mb-2">Root Removal</h3>
-              <p className="text-sm sm:text-base text-gray-600">Pulling by the roots with minimal fragmentation prevents rapid regrowth</p>
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 sm:gap-8 mb-10">
+            <div className="text-center p-6 bg-gray-50 rounded-xl border border-gray-100">
+              <Leaf className="h-12 w-12 text-green-600 mx-auto mb-4" />
+              <h3 className="text-lg font-bold text-gray-900 mb-2">Root Extraction</h3>
+              <p className="text-gray-600 text-sm leading-relaxed">We always pull weeds by the root with minimal fragmentation — no cutting, no chemicals, no shortcuts.</p>
             </div>
-            <div className="text-center p-6 bg-gray-50 rounded-lg">
-              <Shield className="h-10 w-10 sm:h-12 sm:w-12 text-emerald-600 mx-auto mb-4" />
-              <h3 className="text-base sm:text-lg font-semibold text-gray-900 mb-2">Benthic Barriers</h3>
-              <p className="text-sm sm:text-base text-gray-600">Long-term prevention through professional barrier installation and maintenance</p>
+            <div className="text-center p-6 bg-gray-50 rounded-xl border border-gray-100">
+              <ClipboardList className="h-12 w-12 text-blue-600 mx-auto mb-4" />
+              <h3 className="text-lg font-bold text-gray-900 mb-2">Custom Management Plan</h3>
+              <p className="text-gray-600 text-sm leading-relaxed">We assess your property, weed species, and growth factors, then build a year-long eradication strategy tailored to your waterfront.</p>
             </div>
-            <div className="text-center p-6 bg-gray-50 rounded-lg">
-              <CheckCircle className="h-10 w-10 sm:h-12 sm:w-12 text-blue-600 mx-auto mb-4" />
-              <h3 className="text-base sm:text-lg font-semibold text-gray-900 mb-2">TPWD Permitted</h3>
-              <p className="text-sm sm:text-base text-gray-600">Full compliance with state regulations and proper disposal</p>
-            </div>
-          </div>
-
-          <div className="bg-blue-50 border-l-4 border-blue-500 p-6 mb-8">
-            <div className="flex items-start">
-              <Shield className="h-6 w-6 text-blue-600 mr-3 mt-1 flex-shrink-0" />
-              <div>
-                <p className="text-blue-900 font-semibold mb-2">Working with TPWD's Integrated Pest Management Plan</p>
-                <p className="text-blue-800">
-                  Captain Home Services works in alignment with <a href="https://tpwd.texas.gov/landwater/water/aquatic-invasives/aquatic_invasive_plants.phtml" target="_blank" rel="noopener noreferrer" className="underline hover:text-blue-900 font-semibold">Texas Parks and Wildlife Department's integrated pest management approach</a> to help homeowners effectively manage hydrilla infestations while protecting lake ecosystems.
-                </p>
-              </div>
+            <div className="text-center p-6 bg-gray-50 rounded-xl border border-gray-100">
+              <Shield className="h-12 w-12 text-emerald-600 mx-auto mb-4" />
+              <h3 className="text-lg font-bold text-gray-900 mb-2">Benthic Barriers</h3>
+              <p className="text-gray-600 text-sm leading-relaxed">On select properties where conditions allow, we install lake bottom barriers to block regrowth and extend results.</p>
             </div>
           </div>
 
-          {/* Before & After Images */}
+          <div className="text-center">
+            <Link
+              to="/how-it-works"
+              onClick={scrollToTop}
+              className="inline-flex items-center text-green-700 hover:text-green-800 font-semibold underline underline-offset-4"
+            >
+              See our full process
+              <svg className="ml-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+              </svg>
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Before & After */}
+      <section className="py-16 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-10">
+            <h2 className="text-3xl font-bold text-gray-900 mb-3">Real Results on Lake Austin</h2>
+            <p className="text-gray-600 max-w-xl mx-auto">The same property, before and after our team got to work.</p>
+          </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
             <figure className="m-0">
               <img
@@ -232,110 +202,62 @@ const HomePage = () => {
         </div>
       </section>
 
-      {/* Problem & Solution - Third position */}
-      <section className="py-16 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4 px-4">
-              When Invasive Species Take Over
-            </h2>
-            <p className="text-base sm:text-lg md:text-xl text-gray-600 max-w-3xl mx-auto px-4">
-              Your waterfront isn't just a patch of water; it's a living, breathing part of your property, a sanctuary for native plants, a recreational oasis for you and your family, and part of a thriving large mouth bass population we aim to protect and enjoy.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
-            <div>
-              <img
-                src="/Hydrilla-patch.jpeg.JPG"
-                alt="Hydrilla patch being manually removed from Lake Austin — invasive aquatic weed pulled by roots by Captain Home Services crew"
-                className="rounded-lg shadow-xl w-full h-72 md:h-96 object-cover object-top"
-              />
-            </div>
-            <div className="px-4">
-              <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4">The Hydrilla Problem</h3>
-              <p className="text-sm sm:text-base text-gray-700 mb-4 leading-relaxed">
-                <strong>Lake Austin hydrilla</strong> and <strong>Eurasian watermilfoil</strong> create dense mats that make swimming and boating impossible. Our team pulls these invasive species by the roots, then installs <Link to="/benthic-barriers" onClick={scrollToTop} className="text-emerald-600 hover:text-emerald-700 font-semibold underline">benthic barriers</Link> for long-term prevention.
-              </p>
-              <p className="text-sm sm:text-base text-gray-700 mb-6 leading-relaxed">
-                All our work is fully <Link to="/permitting" onClick={scrollToTop} className="text-blue-600 hover:text-blue-700 font-semibold underline">TPWD permitted and LCRA compliant</Link> for legal peace of mind.
-              </p>
-              <div className="flex flex-wrap gap-3">
-                <Link
-                  to="/how-it-works"
-                  onClick={scrollToTop}
-                  className="inline-flex items-center bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-lg font-semibold transition-colors duration-200"
-                >
-                  Learn Our Process
-                </Link>
-                <Link
-                  to="/benthic-barriers"
-                  onClick={scrollToTop}
-                  className="inline-flex items-center bg-emerald-600 hover:bg-emerald-700 text-white px-6 py-3 rounded-lg font-semibold transition-colors duration-200"
-                >
-                  Benthic Barriers
-                </Link>
+      {/* TPWD Notice + Links */}
+      <section className="py-14 bg-white">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="bg-blue-50 border-l-4 border-blue-500 p-6 mb-10 rounded-r-lg">
+            <div className="flex items-start">
+              <Shield className="h-6 w-6 text-blue-600 mr-3 mt-1 flex-shrink-0" />
+              <div>
+                <p className="text-blue-900 font-semibold mb-1">Aligned with TPWD's Integrated Pest Management Approach</p>
+                <p className="text-blue-800 text-sm leading-relaxed">
+                  All work is fully permitted and compliant with{' '}
+                  <a href="https://tpwd.texas.gov/landwater/water/aquatic-invasives/aquatic_invasive_plants.phtml" target="_blank" rel="noopener noreferrer" className="underline hover:text-blue-900 font-semibold">Texas Parks and Wildlife Department</a>{' '}
+                  and LCRA regulations.{' '}
+                  <Link to="/permitting" onClick={scrollToTop} className="underline hover:text-blue-900 font-semibold">Learn about permitting.</Link>
+                </p>
               </div>
             </div>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 text-center">
+            <Link
+              to="/how-it-works"
+              onClick={scrollToTop}
+              className="block p-5 bg-gray-50 hover:bg-green-50 border border-gray-200 hover:border-green-300 rounded-xl transition-colors duration-200"
+            >
+              <p className="font-bold text-gray-900 mb-1">How It Works</p>
+              <p className="text-sm text-gray-600">Our step-by-step process and management strategy</p>
+            </Link>
+            <Link
+              to="/blog/lake-weed-removal-faq"
+              onClick={scrollToTop}
+              className="block p-5 bg-gray-50 hover:bg-blue-50 border border-gray-200 hover:border-blue-300 rounded-xl transition-colors duration-200"
+            >
+              <p className="font-bold text-gray-900 mb-1">FAQ</p>
+              <p className="text-sm text-gray-600">Common questions about lake weed removal</p>
+            </Link>
+            <Link
+              to="/benthic-barriers"
+              onClick={scrollToTop}
+              className="block p-5 bg-gray-50 hover:bg-emerald-50 border border-gray-200 hover:border-emerald-300 rounded-xl transition-colors duration-200"
+            >
+              <p className="font-bold text-gray-900 mb-1">Benthic Barriers</p>
+              <p className="text-sm text-gray-600">When and how we use lake bottom barriers</p>
+            </Link>
           </div>
         </div>
       </section>
 
-      {/* Main Content - Moved to fourth position */}
-      <section className="py-16 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
-            <div className="px-4">
-              <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-                The Complete Long-Term Solution
-              </h2>
-              <p className="text-base sm:text-lg text-gray-700 mb-4 leading-relaxed">
-                Tired of battling stubborn hydrilla that returns every season? <strong>Captain Home Services</strong> offers a complete solution: we <Link to="/how-it-works" onClick={scrollToTop} className="text-green-600 hover:text-green-700 font-semibold underline">pull weeds by the roots</Link> with minimal fragmentation, then install <Link to="/benthic-barriers" onClick={scrollToTop} className="text-emerald-600 hover:text-emerald-700 font-semibold underline">benthic barriers</Link> to prevent regrowth.
-              </p>
-              <p className="text-base sm:text-lg text-gray-700 mb-6 leading-relaxed">
-                Learn more about our <Link to="/permitting" onClick={scrollToTop} className="text-blue-600 hover:text-blue-700 font-semibold underline">permitting process</Link>, check out our <Link to="/blog/lake-weed-removal-faq" onClick={scrollToTop} className="text-purple-600 hover:text-purple-700 font-semibold underline">comprehensive FAQ</Link>, and read our <Link to="/blog" onClick={scrollToTop} className="text-teal-600 hover:text-teal-700 font-semibold underline">educational blog</Link> for lake management tips.
-              </p>
-              <div className="space-y-4">
-                <div className="flex items-start space-x-3">
-                  <CheckCircle className="h-6 w-6 text-green-600 mt-1 flex-shrink-0" />
-                  <p className="text-gray-700">Pulling by the roots with minimal fragmentation</p>
-                </div>
-                <div className="flex items-start space-x-3">
-                  <CheckCircle className="h-6 w-6 text-green-600 mt-1 flex-shrink-0" />
-                  <p className="text-gray-700">Benthic barrier installation for long-term prevention</p>
-                </div>
-                <div className="flex items-start space-x-3">
-                  <CheckCircle className="h-6 w-6 text-green-600 mt-1 flex-shrink-0" />
-                  <p className="text-gray-700">Chemical-free, eco-friendly approach</p>
-                </div>
-                <div className="flex items-start space-x-3">
-                  <CheckCircle className="h-6 w-6 text-green-600 mt-1 flex-shrink-0" />
-                  <p className="text-gray-700">No heavy machinery damaging your property</p>
-                </div>
-              </div>
-            </div>
-            <div className="relative px-4">
-              <img
-                src="/Hydrilla-load.jpeg.JPG"
-                alt="Dump trailer overflowing with manually extracted hydrilla removed from Lake Austin by Captain Home Services — full load of invasive aquatic weed hauled off after professional lake weed removal"
-                className="rounded-lg shadow-2xl w-full h-80 md:h-[500px] object-cover object-center"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* SEO Content Section */}
-      <section className="py-16 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12 px-4">
-            <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4">
-              Serving the Highland Lakes
-            </h2>
-            <p className="text-base sm:text-lg md:text-xl text-gray-600 max-w-4xl mx-auto">
-              Professional <strong>Lake Austin hydrilla removal</strong> and <strong>benthic barrier installation</strong> for Lake Travis, Lake Austin, Lake LBJ, and all Highland Lakes.
-            </p>
-          </div>
+      {/* Service Area */}
+      <section className="py-12 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-3">
+            Serving the Highland Lakes
+          </h2>
+          <p className="text-base sm:text-lg text-gray-600 max-w-3xl mx-auto">
+            Professional lake weed removal and custom management plans for Lake Austin, Lake Travis, Lake LBJ, and all Highland Lakes.
+          </p>
         </div>
       </section>
 
@@ -343,10 +265,10 @@ const HomePage = () => {
       <section className="py-16 bg-gradient-to-r from-teal-600 to-blue-600 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4">
-            Ready for Long-Term Results?
+            Ready to Reclaim Your Waterfront?
           </h2>
-          <p className="text-base sm:text-lg md:text-xl mb-8 max-w-3xl mx-auto px-4">
-            Pulling by the roots + benthic barriers = lasting hydrilla control. No chemicals, no property damage, just professional lake management.
+          <p className="text-base sm:text-lg mb-8 max-w-2xl mx-auto px-4 text-white/90">
+            We start with root extraction and build a plan designed to keep your lake clear for the long haul — no chemicals, no heavy machinery.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center px-4">
             <a
@@ -361,7 +283,7 @@ const HomePage = () => {
             <Link
               to="/contact"
               onClick={scrollToTop}
-              className="bg-teal-600 hover:bg-teal-700 text-white px-8 py-4 rounded-lg text-base sm:text-lg font-semibold transition-colors duration-200 shadow-lg"
+              className="bg-teal-500 hover:bg-teal-400 text-white px-8 py-4 rounded-lg text-base sm:text-lg font-semibold transition-colors duration-200 shadow-lg"
             >
               Book a Consultation
             </Link>
