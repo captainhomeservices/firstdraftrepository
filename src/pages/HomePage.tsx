@@ -206,12 +206,12 @@ const HomePage = () => {
       <section className="py-16 bg-white">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-8">
-            <p className="text-xs font-bold uppercase tracking-widest text-green-600 mb-3">The Proof is in the Trailer</p>
+            <p className="text-xs font-bold uppercase tracking-widest text-green-600 mb-3">Let us pile yours up</p>
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 leading-tight">
-              If it's not on the trailer, it's still in your lake.
+              This Hydrilla is heading to be composted
             </h2>
             <p className="text-gray-500 text-lg max-w-2xl mx-auto mb-8">
-              We pull every root, load every haul, and leave your waterfront cleaner than we found it. Call us to remove yours today.
+              We pull every plant we touch by the roots for long lasting removal. Let us fill a load of your lake weeds today.
             </p>
             <a
               href="tel:(737)-300-9033"
