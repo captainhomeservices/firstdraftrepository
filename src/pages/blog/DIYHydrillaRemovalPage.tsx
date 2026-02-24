@@ -280,19 +280,15 @@ const DIYHydrillaRemovalPage = () => {
         </p>
 
         <p>
-          A quality T-weeder on a proper extension pole, used by someone who knows the technique, is genuinely effective in shallower water. I've used them myself on lighter infestations. The tool works when the conditions are right.
+          A quality T-weeder on a proper extension pole, used by someone who knows the technique, is genuinely effective in shallower water. The standard tool you'll find online is a solid starting point — and with a few simple modifications to beef it up, you can significantly improve how well it seats in the substrate and how cleanly it pulls roots and tubers. It's the kind of thing I'm happy to walk someone through in person.
         </p>
 
         <p>
-          The limitations are real, though. Standard T-weeders are designed for softer substrates, and Lake Austin has a lot of hard clay-silt bottom where the head deflects instead of seating properly. Standard aluminum extension poles flex at depth — beyond 5 or 6 feet, the torque you're applying at the surface dissipates before it reaches the tool head. And there's no fragment containment built in, so any stem that breaks on the way up is heading somewhere it shouldn't.
-        </p>
-
-        <p>
-          We use modified T-weeders with wider-angled tines cut for Lake Austin's clay substrate, fiberglass-reinforced poles that hold their rigidity down to 10–12 feet, and a mesh collar just above the head that captures material on the extraction pull. The difference in what you can actually pull out — full root balls, tubers intact — versus the stock tool is significant.
+          We've taken that same concept and scaled it up for our boats — heavier-duty versions we can work with from the water, with digging tines that seat deeper into the substrate for better root and tuber extraction than what the standard tool can do from a dock. The approach is the same; the scale is just different.
         </p>
 
         <div className="callout">
-          <strong>If you're going to DIY:</strong> A T-weeder is the right tool to start with. Use it in shallow areas only, work in defined sections, and collect the extracted material with a lake rake rather than letting it float. For anything over 4–5 feet deep or with a heavy, multi-year established root system, you need equipment and technique that goes beyond what a homeowner setup can reliably deliver.
+          <strong>Want to see how it works?</strong> When we come out for an estimate, we're happy to show you how we use ours and walk you through how to modify a T-weeder yourself if you want to handle lighter maintenance between professional visits. <Link to="/contact">Schedule a free consultation</Link> and we'll cover all of it on-site.
         </div>
 
         <h2 id="benthic-barriers">Why Benthic Barriers Are the Long-Term Answer</h2>
