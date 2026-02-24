@@ -1,9 +1,34 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { CheckCircle, Leaf, Shield, ClipboardList } from 'lucide-react';
+import { CheckCircle, Leaf, Shield, ClipboardList, ChevronDown } from 'lucide-react';
 import SEOHead from '../components/SEOHead';
 
+const faqs = [
+  {
+    q: "How do you remove hydrilla?",
+    a: "Our crew dives in and pulls hydrilla by hand — no herbicides, no heavy equipment. We extract the full plant including the tuber at the root, bag it, and haul everything off-site. What doesn't stay in the lake can't grow back."
+  },
+  {
+    q: "Why do you pull from the root instead of cutting?",
+    a: "Cutting hydrilla is like mowing a lawn — it grows right back, and every fragment left behind can re-root and spread. Root extraction removes the plant entirely, which means fewer return visits, slower regrowth, and lasting results that actually compound over time."
+  },
+  {
+    q: "Why does hydrilla grow so fast?",
+    a: "Hydrilla is one of the most aggressive aquatic invaders on the planet. It can grow up to an inch per hour in ideal conditions, doubles its biomass in days, and can regenerate from a single stem fragment or tuber. That's why getting ahead of it — and staying ahead — requires a real plan, not a one-time fix."
+  },
+  {
+    q: "What does it cost?",
+    a: "We price every job based on the size of the area, density of growth, and your long-term goals. Our rates are consistently lower than other lake management companies in the region — and if you have a formal written estimate from a competitor, we'll match it. No haggling required."
+  },
+  {
+    q: "How do I get started?",
+    a: "Call or text us at (737) 300-9033 or fill out our contact form. We'll schedule a free on-site assessment, walk the shoreline with you, and put together a custom management plan — no pressure, no obligation."
+  }
+];
+
 const HomePage = () => {
+  const [openFaq, setOpenFaq] = useState<number | null>(null);
+
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
@@ -277,6 +302,68 @@ const HomePage = () => {
               <p className="font-bold text-gray-900 mb-1">Benthic Barriers</p>
               <p className="text-sm text-gray-600">When and how we use lake bottom barriers</p>
             </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ + Pricing */}
+      <section className="py-16 bg-gray-50">
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-10">
+            <p className="text-xs font-bold uppercase tracking-widest text-green-600 mb-3">Common Questions</p>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900">Everything You Want to Know</h2>
+          </div>
+
+          <div className="space-y-3 mb-12">
+            {faqs.map((faq, i) => (
+              <div
+                key={i}
+                className="bg-white rounded-xl border border-gray-200 overflow-hidden shadow-sm"
+              >
+                <button
+                  onClick={() => setOpenFaq(openFaq === i ? null : i)}
+                  className="w-full flex items-center justify-between px-6 py-5 text-left gap-4"
+                  aria-expanded={openFaq === i}
+                >
+                  <span className="font-semibold text-gray-900 text-base">{faq.q}</span>
+                  <ChevronDown
+                    className={`w-5 h-5 text-green-600 flex-shrink-0 transition-transform duration-200 ${openFaq === i ? 'rotate-180' : ''}`}
+                  />
+                </button>
+                {openFaq === i && (
+                  <div className="px-6 pb-5">
+                    <p className="text-gray-600 leading-relaxed text-sm">{faq.a}</p>
+                  </div>
+                )}
+              </div>
+            ))}
+          </div>
+
+          {/* Pricing Banner */}
+          <div className="bg-green-600 rounded-2xl p-8 text-center text-white shadow-lg">
+            <p className="text-xs font-bold uppercase tracking-widest text-green-200 mb-2">Pricing</p>
+            <h3 className="text-2xl md:text-3xl font-bold mb-3">Priced Lower Than the Competition</h3>
+            <p className="text-green-100 text-base leading-relaxed mb-6 max-w-xl mx-auto">
+              We charge less than most lake management companies in the region — and if you have a formal written estimate from a competitor, we'll match it. Same results. Better value.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-3 justify-center">
+              <a
+                href="tel:(737)-300-9033"
+                className="inline-flex items-center justify-center px-7 py-3 bg-white text-green-700 font-semibold rounded-xl hover:bg-green-50 transition-colors duration-200 shadow"
+              >
+                <svg className="mr-2 w-5 h-5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                </svg>
+                Call for a Free Estimate
+              </a>
+              <Link
+                to="/contact"
+                onClick={scrollToTop}
+                className="inline-flex items-center justify-center px-7 py-3 bg-green-500 hover:bg-green-400 text-white font-semibold rounded-xl transition-colors duration-200"
+              >
+                Book a Consultation
+              </Link>
+            </div>
           </div>
         </div>
       </section>
