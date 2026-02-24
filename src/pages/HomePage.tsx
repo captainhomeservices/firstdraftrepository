@@ -208,7 +208,7 @@ const HomePage = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
             <figure className="m-0">
               <img
-                src="/Booth-Hydrilla.JPEG"
+                src="/Booth-Hydrilla.jpeg"
                 alt="Dense hydrilla infestation covering the water surface in front of a Lake Austin boathouse before professional aquatic weed removal by Captain Home Services"
                 className="rounded-lg shadow-2xl w-full h-64 sm:h-72 md:h-80 lg:h-96 object-cover object-center"
                 loading="lazy"
