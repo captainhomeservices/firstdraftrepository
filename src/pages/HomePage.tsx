@@ -70,7 +70,7 @@ const HomePage = () => {
               <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight tracking-tight drop-shadow-2xl">
                 Root-Level Hydrilla Removal.
                 <span className="block mt-1 text-[#00B47B] drop-shadow-2xl">
-                  Year-Long Management Plans.
+                  Long-Term Hydrilla Removal.
                 </span>
               </h1>
 
@@ -144,7 +144,7 @@ const HomePage = () => {
             <div className="text-center p-6 bg-gray-50 rounded-xl border border-gray-100">
               <ClipboardList className="h-12 w-12 text-blue-600 mx-auto mb-4" />
               <h3 className="text-lg font-bold text-gray-900 mb-2">Custom Management Plan</h3>
-              <p className="text-gray-600 text-sm leading-relaxed">We assess your property, weed species, and growth factors, then build a year-long eradication strategy tailored to your waterfront.</p>
+              <p className="text-gray-600 text-sm leading-relaxed">We assess your property, weed species, and growth factors, then build a long-term eradication strategy tailored to your waterfront.</p>
             </div>
             <div className="text-center p-6 bg-gray-50 rounded-xl border border-gray-100">
               <Shield className="h-12 w-12 text-emerald-600 mx-auto mb-4" />

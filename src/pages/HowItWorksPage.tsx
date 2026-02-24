@@ -12,7 +12,7 @@ const HowItWorksPage = () => {
     "@context": "https://schema.org",
     "@type": "HowTo",
     "name": "How Captain Home Services Removes Lake Weeds Permanently",
-    "description": "Custom lake weed management plans built around each property — root extraction, site assessment, benthic barriers where applicable, and year-long eradication strategy.",
+    "description": "Custom lake weed management plans built around each property — root extraction, site assessment, benthic barriers where applicable, and long-term eradication strategy.",
     "totalTime": "P1Y",
     "step": [
       {
@@ -25,7 +25,7 @@ const HowItWorksPage = () => {
         "@type": "HowToStep",
         "position": 2,
         "name": "Custom Management Plan",
-        "text": "We build a year-long eradication strategy tailored to your property's unique conditions, species, and homeowner goals."
+        "text": "We build a long-term eradication strategy tailored to your property's unique conditions, species, and homeowner goals."
       },
       {
         "@type": "HowToStep",
@@ -52,7 +52,7 @@ const HowItWorksPage = () => {
     <>
       <SEOHead
         title="How Lake Weed Removal Works | Custom Management Plans | Captain Home Services"
-        description="Captain Home Services builds custom year-long lake weed management plans for each property. We pull hydrilla by the root, assess growth factors, and install benthic barriers where conditions allow. TPWD permitted."
+        description="Captain Home Services builds custom long-term lake weed management plans for each property. We pull hydrilla by the root, assess growth factors, and install benthic barriers where conditions allow. TPWD permitted."
         keywords="lake weed removal Austin, hydrilla management plan, custom aquatic weed control, benthic barriers Lake Austin, root extraction hydrilla, TPWD permitted weed removal, Lake Austin weed management"
         canonicalUrl="https://austinlakemanagement.com/how-it-works"
         structuredData={howItWorksSchema}
@@ -66,7 +66,7 @@ const HowItWorksPage = () => {
               Custom Management Plans for Every Waterfront
             </h1>
             <p className="text-xl text-green-100 max-w-3xl mx-auto">
-              We pull weeds by the root, assess your property's unique conditions, and build a year-long strategy to eradicate invasive lake weeds for good.
+              We pull weeds by the root, assess your property's unique conditions, and build a long-term strategy to eradicate invasive lake weeds for good.
             </p>
           </div>
         </section>
@@ -131,7 +131,7 @@ const HowItWorksPage = () => {
                 <div>
                   <h3 className="text-xl font-bold text-gray-900 mb-2">2. Custom Management Plan</h3>
                   <p className="text-gray-700 leading-relaxed mb-3">
-                    We build a year-long eradication strategy specific to your property and goals. This includes treatment frequency, timing around seasonal growth cycles, and a decision on whether benthic barriers are appropriate for your conditions. No cookie-cutter packages — your plan is built around your waterfront.
+                    We build a long-term eradication strategy specific to your property and goals. This includes treatment frequency, timing around seasonal growth cycles, and a decision on whether benthic barriers are appropriate for your conditions. No cookie-cutter packages — your plan is built around your waterfront.
                   </p>
                   <div className="bg-green-50 border-l-4 border-green-500 p-4 rounded-r-lg">
                     <p className="text-green-800 text-sm font-medium">Every plan accounts for hydrilla reduction targets, homeowner priorities, and the specific biological factors driving growth at your property.</p>
