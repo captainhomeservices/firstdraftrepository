@@ -202,6 +202,37 @@ const HomePage = () => {
         </div>
       </section>
 
+      {/* Capacity Stat Section */}
+      <section className="py-16 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+            <div className="order-2 lg:order-1">
+              <p className="text-sm font-semibold uppercase tracking-widest text-green-600 mb-3">Removal Capacity</p>
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-5 leading-tight">
+                Up to 15 Cubic Yards of Hydrilla Removed in a Single Day
+              </h2>
+              <p className="text-gray-600 text-lg leading-relaxed mb-6">
+                Our crew moves fast without cutting corners. By pulling hydrilla at the root and hauling it off-site in full loads, we can clear up to 15 cubic yards of invasive growth in a single day — making a visible difference from the very first visit.
+              </p>
+              <p className="text-gray-500 text-base leading-relaxed">
+                Every cubic yard removed is hydrilla that won't fragment, re-root, or spread. Combined with a long-term management plan, that daily output adds up to a permanently cleaner waterfront.
+              </p>
+            </div>
+            <div className="order-1 lg:order-2">
+              <figure className="m-0">
+                <img
+                  src="/Hydrilla-load.jpeg.JPG"
+                  alt="Large load of hydrilla pulled from a Lake Austin waterfront — up to 15 cubic yards removed by Captain Home Services crew in a single day"
+                  className="rounded-2xl shadow-2xl w-full h-72 sm:h-80 md:h-96 object-cover object-center"
+                  loading="lazy"
+                />
+                <figcaption className="text-center text-sm text-gray-500 mt-3 font-medium">A full day's haul — roots and all</figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* TPWD Notice + Links */}
       <section className="py-14 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
