@@ -206,7 +206,6 @@ const HomePage = () => {
       <section className="py-16 bg-white">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-8">
-            <p className="text-xs font-bold uppercase tracking-widest text-green-600 mb-3">Let us pile yours up</p>
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 leading-tight">
               We pull weeds with our boat then load into our trailer for composting
             </h2>
