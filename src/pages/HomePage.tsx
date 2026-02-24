@@ -6,7 +6,7 @@ import SEOHead from '../components/SEOHead';
 const faqs = [
   {
     q: "How do you remove hydrilla?",
-    a: "Our crew dives in and pulls hydrilla by hand — no herbicides, no heavy equipment. We extract the full plant including the tuber at the root, bag it, and haul everything off-site. What doesn't stay in the lake can't grow back."
+    a: "Our crew uses specially designed tools that have been tried and proven to remove the most amount of hydrilla without cutting, fragmenting, or leaving parts behind. Our tools do a great job of getting the roots of most plants and are the longest-lasting, most sustainable option for hydrilla removal on Lake Austin."
   },
   {
     q: "Why do you pull from the root instead of cutting?",
