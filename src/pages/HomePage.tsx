@@ -68,9 +68,9 @@ const HomePage = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <div className="space-y-3 sm:space-y-4 opacity-0 animate-fadeInUp px-4">
               <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight tracking-tight drop-shadow-2xl">
-                Root-Level Hydrilla Removal.
+                Hydrilla Pulled by the Root.
                 <span className="block mt-1 text-[#00B47B] drop-shadow-2xl">
-                  Long-Term Hydrilla Removal.
+                  Long-Term Results.
                 </span>
               </h1>
 
@@ -207,16 +207,26 @@ const HomePage = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
             <div className="order-2 lg:order-1">
-              <p className="text-sm font-semibold uppercase tracking-widest text-green-600 mb-3">Removal Capacity</p>
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-5 leading-tight">
                 Up to 15 Cubic Yards of Hydrilla Removed in a Single Day
               </h2>
               <p className="text-gray-600 text-lg leading-relaxed mb-6">
                 Our crew moves fast without cutting corners. By pulling hydrilla at the root and hauling it off-site in full loads, we can clear up to 15 cubic yards of invasive growth in a single day — making a visible difference from the very first visit.
               </p>
-              <p className="text-gray-500 text-base leading-relaxed">
+              <p className="text-gray-500 text-base leading-relaxed mb-8">
                 Every cubic yard removed is hydrilla that won't fragment, re-root, or spread. Combined with a long-term management plan, that daily output adds up to a permanently cleaner waterfront.
               </p>
+              <div className="flex flex-col sm:flex-row gap-3">
+                <a
+                  href="tel:(737)-300-9033"
+                  className="inline-flex items-center justify-center px-6 py-3 bg-green-600 hover:bg-green-700 text-white font-semibold rounded-xl transition-all duration-200 hover:scale-105 shadow-md"
+                >
+                  <svg className="mr-2 w-5 h-5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                  </svg>
+                  Call Us to Remove Yours Today
+                </a>
+              </div>
             </div>
             <div className="order-1 lg:order-2">
               <figure className="m-0">
