@@ -98,7 +98,7 @@ const BlogPage = () => {
       date: "January 27, 2025",
       author: "Captain Cam",
       category: "City Proposals",
-      image: "/David-booth-weedfree.jpg",
+      image: "/booth-clear.webp",
       icon: <FileText className="h-5 w-5" />,
       keywords: ["austin hydrilla management", "lake austin chain drag", "seine net hydrilla removal", "austin invasive species", "sustainable lake management", "austin city proposal"],
       readTime: "18 min read",
