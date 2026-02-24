@@ -51,7 +51,19 @@ Dense mats of vegetation, particularly from invasive species like Hydrilla or Gi
 
 By carefully managing aquatic vegetation, particularly through targeted removal of invasive species, we can help restore the natural balance of the lake. This allows native plants to flourish, provides diverse and healthy habitats for aquatic wildlife, and ensures adequate dissolved oxygen levels, ultimately supporting a thriving and resilient aquatic ecosystem.
 
-Ready to restore your lake's natural balance? Contact **Captain Home Services** today for a free consultation and discover how our professional approach can transform your waterfront while protecting local wildlife.`;
+Ready to restore your lake's natural balance? Contact **Captain Home Services** today for a free consultation and discover how our professional approach can transform your waterfront while protecting local wildlife.
+
+---
+
+## Authoritative Resources on Lake Weed Management
+
+- **[City of Austin – Plant Life in Austin's Lakes](https://www.austintexas.gov/department/hydrilla)**: The City's official page on hydrilla and aquatic vegetation in Lake Austin, with current monitoring data.
+
+- **[TPWD – Aquatic Invasive Species](https://tpwd.texas.gov/landwater/water/aquatic-invasives/)**: Texas Parks and Wildlife Department's hub for all information on aquatic invasive species prevention, detection, and management.
+
+- **[TPWD – Aquatic Invasive Plants](https://tpwd.texas.gov/landwater/water/aquatic-invasives/aquatic_invasive_plants.phtml)**: Detailed information on invasive aquatic plant management methods used in Texas, including herbicide, mechanical, and biological controls.
+
+- **[KXAN – Invasive aquatic plant spreading again on Lake Austin](https://www.kxan.com/news/local/austin/invasive-aquatic-plant-spreading-again-on-lake-austin/)**: Local news reporting on the 2024–2025 resurgence of hydrilla in Lake Austin.`;
 
   return (
     <BlogPost
@@ -62,11 +74,17 @@ Ready to restore your lake's natural balance? Contact **Captain Home Services** 
       image="https://mdc.mo.gov/sites/default/files/styles/gallery_main_image/public/mo_nature/media/images/2010/07/eurasian_water_milfoilcmyk.jpg?itok=efZIYgsg"
       readTime="8 min read"
       keywords={[
-        'lake weeds',
-        'aquatic vegetation management',
-        'Austin lake management',
-        'invasive aquatic species',
-        'lake weed control'
+        'lake weeds austin texas',
+        'why does my lake have so many weeds',
+        'aquatic vegetation management texas',
+        'austin lake weed management',
+        'invasive aquatic species texas',
+        'lake weed control lake austin',
+        'how to get rid of lake weeds',
+        'lake weed removal service near me',
+        'hydrilla eurasian watermilfoil texas',
+        'lake austin water quality',
+        'highland lakes weeds'
       ]}
       excerpt="Discover the key factors behind aquatic weed growth in Texas lakes and learn sustainable management strategies. From nutrient levels to invasive species, understand why lakes get weeds and how professional removal can restore your waterfront."
       slug="understanding-lake-weeds-why-they-grow-and-how-to-manage-them"

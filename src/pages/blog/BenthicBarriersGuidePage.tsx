@@ -34,7 +34,7 @@ const BenthicBarriersGuidePage = () => {
       "@type": "WebPage",
       "@id": "https://austinlakemanagement.com/blog/benthic-barriers-complete-guide"
     },
-    "keywords": "benthic barriers, lake mats, lake bottom blankets, aquatic weed control, hydrilla control Austin, LakeMat, safe weed management"
+    "keywords": "benthic barriers, lake mats, lake bottom blankets, LakeMat, MuckMat, aquatic weed control, hydrilla control Austin, lake weed prevention austin, how to prevent lake weeds, lake bottom blanket installation, safe weed management"
   };
 
   return (
@@ -123,7 +123,7 @@ const BenthicBarriersGuidePage = () => {
               <div>
                 <p className="text-emerald-900 font-semibold mb-2">Research-Backed Safety</p>
                 <p className="text-emerald-800">
-                  According to Cornell Cooperative Extension's research on aquatic invasive species management, benthic barriers are considered <strong>"one of the safest and least detrimental" management methods</strong> for controlling invasive aquatic weeds like hydrilla.
+                  According to <a href="https://ccetompkins.org/environment/aquatic-invasives/hydrilla/management-options/successful-u-s-eradication-efforts" target="_blank" rel="noopener noreferrer" className="text-emerald-700 hover:text-emerald-900 underline font-semibold">Cornell Cooperative Extension's research on aquatic invasive species management</a>, benthic barriers are considered <strong>"one of the safest and least detrimental" management methods</strong> for controlling invasive aquatic weeds like hydrilla.
                 </p>
               </div>
             </div>
@@ -384,6 +384,27 @@ const BenthicBarriersGuidePage = () => {
               (737) 300-9033
             </a>
           </div>
+        </div>
+
+        <div className="mt-12 bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <h3 className="text-xl font-semibold text-gray-900 mb-4">Official Resources on Aquatic Weed Management</h3>
+          <ul className="space-y-3 text-sm text-gray-700">
+            <li>
+              <a href="https://www.austintexas.gov/department/hydrilla" target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:text-teal-700 font-semibold underline">City of Austin – Plant Life in Austin's Lakes</a>: Official City of Austin page on hydrilla monitoring and management for Lake Austin.
+            </li>
+            <li>
+              <a href="https://tpwd.texas.gov/landwater/water/aquatic-invasives/aquatic_invasive_plants.phtml" target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:text-teal-700 font-semibold underline">TPWD – Aquatic Invasive Plants</a>: Texas Parks and Wildlife Department's toolkit for managing aquatic invasive plants, including hydrilla.
+            </li>
+            <li>
+              <a href="https://www.lcra.org/news/news-releases/lcra-announces-2025-schedule-for-property-owners-who-want-to-treat-invasive-aquatic-vegetation/" target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:text-teal-700 font-semibold underline">LCRA – 2025 Invasive Aquatic Vegetation Treatment Schedule</a>: Information for Highland Lakes property owners on approved treatment programs.
+            </li>
+            <li>
+              <a href="https://tpwd.texas.gov/publications/pwdpubs/media/pwd_pl_t3200_1066_new.pdf" target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:text-teal-700 font-semibold underline">TPWD – Aquatic Vegetation Management in Texas (PDF)</a>: Comprehensive guidance document covering all management methods including benthic barriers.
+            </li>
+            <li>
+              <a href="https://www.kxan.com/news/local/austin/invasive-aquatic-plant-spreading-again-on-lake-austin/" target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:text-teal-700 font-semibold underline">KXAN – Invasive aquatic plant spreading again on Lake Austin</a>: Local news coverage of the 2024–2025 hydrilla resurgence on Lake Austin.
+            </li>
+          </ul>
         </div>
 
         <div className="mt-12 border-t pt-8">

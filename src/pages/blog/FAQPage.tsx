@@ -12,15 +12,20 @@ const FAQPage = () => {
       readTime="18 min read"
       image="https://austinlakemanagement.com/dock1.jpg"
       keywords={[
-        'lake weed removal FAQ',
-        'hydrilla questions',
-        'benthic barriers',
-        'aquatic weed removal cost',
-        'lake weed removal pricing',
-        'manual weed removal',
-        'austin lake management',
-        'lake weed regrowth',
-        'hydrilla control methods'
+        'lake weed removal FAQ austin',
+        'hydrilla questions lake austin',
+        'how much does lake weed removal cost',
+        'aquatic weed removal cost austin texas',
+        'lake weed removal pricing texas',
+        'manual lake weed removal service',
+        'austin lake management questions',
+        'lake weed regrowth how long',
+        'hydrilla control methods texas',
+        'benthic barriers lake austin',
+        'do i need a permit to remove lake weeds',
+        'lake austin weed removal company near me',
+        'how to get rid of hydrilla in my lake',
+        'lake weed removal insurance texas'
       ]}
       excerpt="Your complete guide to lake weed removal. Get answers to the most common questions about hydrilla, root removal methods, benthic barriers, pricing, and what to expect from professional aquatic weed management services."
       slug="lake-weed-removal-faq"
@@ -341,6 +346,10 @@ const FAQPage = () => {
         </p>
 
         <p>
+          You can learn more about TPWD's permitting requirements on the <a href="https://tpwd.texas.gov/landwater/water/aquatic-invasives/aquatic_invasive_plants.phtml" target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:text-teal-700 font-semibold">TPWD Aquatic Invasive Plants page</a>. The <a href="https://www.lcra.org/news/news-releases/lcra-announces-2025-schedule-for-property-owners-who-want-to-treat-invasive-aquatic-vegetation/" target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:text-teal-700 font-semibold">LCRA also offers a 2025 schedule</a> for property owners wanting to treat invasive vegetation on Highland Lakes properties.
+        </p>
+
+        <p>
           For detailed information about permitting requirements, see our guide: <Link to="/blog/navigating-permitting" className="text-teal-600 hover:text-teal-700 font-semibold">Navigating Permitting for Aquatic Vegetation Removal in Texas</Link>.
         </p>
 
@@ -387,6 +396,17 @@ const FAQPage = () => {
           <p className="text-sm text-gray-600 mb-0">
             <strong>Related Topics:</strong> lake weed removal FAQ, hydrilla questions, benthic barriers, aquatic weed removal cost, lake weed removal pricing, manual weed removal, austin lake management, lake weed regrowth, hydrilla control methods, lake maintenance, invasive species control, eco-friendly weed removal
           </p>
+        </div>
+
+        <div className="bg-blue-50 border border-blue-200 rounded-xl p-6 mt-8">
+          <h3 className="text-lg font-semibold text-gray-900 mb-3">Official Sources for Lake Austin Weed Information</h3>
+          <ul className="space-y-2 text-sm text-gray-700">
+            <li><a href="https://www.austintexas.gov/department/hydrilla" target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:text-teal-700 font-semibold">City of Austin – Plant Life in Austin's Lakes</a> – Current hydrilla survey data and management updates for Lake Austin</li>
+            <li><a href="https://tpwd.texas.gov/landwater/water/aquatic-invasives/" target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:text-teal-700 font-semibold">TPWD – Aquatic Invasive Species</a> – Texas Parks and Wildlife's comprehensive aquatic invasives resource</li>
+            <li><a href="https://www.lcra.org/news/news-releases/lcra-announces-2025-schedule-for-property-owners-who-want-to-treat-invasive-aquatic-vegetation/" target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:text-teal-700 font-semibold">LCRA – 2025 Treatment Schedule</a> – For Highland Lakes property owners seeking approved treatment options</li>
+            <li><a href="https://www.kxan.com/news/local/austin/invasive-aquatic-plant-spreading-again-on-lake-austin/" target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:text-teal-700 font-semibold">KXAN – Invasive plant spreading again on Lake Austin</a> – Local news coverage of the 2025 hydrilla crisis</li>
+            <li><a href="https://www.kxan.com/news/local/austin/nearly-2000-more-grass-carp-released-in-lake-austin-to-combat-hydrilla/" target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:text-teal-700 font-semibold">KXAN – Nearly 2,000 grass carp released in Lake Austin</a> – City's 2025 biological control response</li>
+          </ul>
         </div>
       </div>
     </BlogPost>

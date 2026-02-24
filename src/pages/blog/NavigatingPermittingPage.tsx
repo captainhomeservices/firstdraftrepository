@@ -72,7 +72,23 @@ Partnering with **Captain Home Services** for your aquatic vegetation removal an
 
 Proper permitting is an indispensable part of responsible aquatic vegetation removal in Texas. It protects our precious natural resources and ensures that property owners can enhance their lakefronts legally and sustainably. Don't let the complexities of regulations deter you from achieving the beautiful, usable waterfront you desire.
 
-**Captain Home Services** is your trusted partner, offering not just superior aquatic vegetation removal but also unparalleled expertise in navigating the permitting landscape. Contact us today for a free consultation and let us help you achieve a pristine lakefront with complete peace of mind.`;
+**Captain Home Services** is your trusted partner, offering not just superior aquatic vegetation removal but also unparalleled expertise in navigating the permitting landscape. Contact us today for a free consultation and let us help you achieve a pristine lakefront with complete peace of mind.
+
+---
+
+## Official Permitting Resources
+
+Before undertaking any aquatic vegetation removal on Texas public waters, consult these authoritative sources:
+
+- **[Texas Parks and Wildlife Department – Aquatic Invasive Plants](https://tpwd.texas.gov/landwater/water/aquatic-invasives/aquatic_invasive_plants.phtml)**: TPWD's official page on aquatic invasive plant management, including information on approved removal methods and permit requirements.
+
+- **[TPWD – Management of Hydrilla in Texas Reservoirs](https://tpwd.texas.gov/landwater/water/environconcerns/nuisance_plants/hydrilla_management.phtml)**: Specific guidance on hydrilla management strategies and regulatory framework in Texas.
+
+- **[TPWD – Aquatic Vegetation Management in Texas (PDF)](https://tpwd.texas.gov/publications/pwdpubs/media/pwd_pl_t3200_1066_new.pdf)**: The comprehensive TPWD guidance document covering all approved vegetation management methods, including manual removal and biological controls.
+
+- **[LCRA – 2025 Schedule for Treating Invasive Aquatic Vegetation](https://www.lcra.org/news/news-releases/lcra-announces-2025-schedule-for-property-owners-who-want-to-treat-invasive-aquatic-vegetation/)**: LCRA's program for Highland Lakes property owners seeking to treat invasive aquatic vegetation on their properties.
+
+- **[City of Austin – Lake Austin Task Force](https://www.austintexas.gov/content/lake-austin-task-force)**: The City of Austin's stakeholder group addressing Lake Austin management issues, including hydrilla policy.`;
 
   return (
     <BlogPost
@@ -83,11 +99,16 @@ Proper permitting is an indispensable part of responsible aquatic vegetation rem
       image="https://i.imgur.com/dmrnTO6.jpg"
       readTime="6 min read"
       keywords={[
-        'TPWD permits',
-        'LCRA compliance',
-        'Texas aquatic vegetation removal',
-        'lake weed removal permits',
-        'Austin permitting'
+        'TPWD permits aquatic vegetation',
+        'LCRA lake management compliance',
+        'Texas aquatic vegetation removal permit',
+        'lake weed removal permits austin',
+        'austin lake permitting',
+        'do i need a permit to remove lake weeds texas',
+        'TPWD treatment proposal aquatic plants',
+        'lake austin vegetation removal regulations',
+        'highland lakes weed removal permit',
+        'aquatic invasive species permit texas'
       ]}
       excerpt="Learn about TPWD and LCRA permitting requirements for aquatic vegetation removal in Texas. Understand why compliance matters and how Captain Home Services handles all the red tape for legal, hassle-free lake weed removal."
       slug="navigating-permitting-aquatic-vegetation-removal-texas"

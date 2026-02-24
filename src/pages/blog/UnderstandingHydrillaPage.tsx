@@ -10,15 +10,19 @@ const UnderstandingHydrillaPage = () => {
       category="Invasive Species"
       readTime="14 min read"
       keywords={[
-        'austin sea weed',
-        'lake weed removal',
-        'hydrilla removal',
-        'austin grass carp',
-        'austin hydrilla control',
         'austin lake weeds',
-        'lake weed management',
-        'Lake Austin hydrilla',
-        'TPWD permits'
+        'what is hydrilla',
+        'hydrilla removal lake austin',
+        'how to get rid of hydrilla',
+        'lake austin hydrilla 2025',
+        'hydrilla control austin texas',
+        'austin aquatic weed removal',
+        'lake weed removal lake austin',
+        'invasive aquatic plants texas',
+        'hydrilla grass carp austin',
+        'lake austin weed problem',
+        'TPWD hydrilla management',
+        'highland lakes invasive species'
       ]}
       excerpt="Learn everything you need to know about hydrilla, the most problematic aquatic weed in Austin lakes. Discover how it spreads, why it's so difficult to control, and what proven methods work for Lake Austin and Highland Lakes properties."
       slug="understanding-hydrilla-most-invasive-aquatic-weed-austin-lakes"
@@ -58,6 +62,10 @@ const UnderstandingHydrillaPage = () => {
 
         <p>
           What makes hydrilla such a menace is its ability to take root from fragments, its rapid growth, and its capacity to form dense mats that shade out native plants and interfere with all kinds of aquatic uses. A tiny piece broken off by a boat propeller or trailer can float downstream, take root, and lead to a new infestation.
+        </p>
+
+        <p>
+          The <a href="https://www.austintexas.gov/department/hydrilla" target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:text-teal-700 font-semibold">City of Austin tracks hydrilla on Lake Austin</a> and has been actively managing the infestation since it was first discovered in 1999. By 2025, hydrilla covered approximately 30% of Lake Austin—approaching the historic peak of over 500 acres seen in 2012–2013. <a href="https://www.austintexas.gov/news/spike-hydrilla-means-more-grass-carp-are-needed-lake-austin" target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:text-teal-700 font-semibold"><sup>3</sup></a>
         </p>
 
         <h2 id="how-it-spreads" className="text-3xl font-bold text-gray-900 mt-12 mb-6">How Hydrilla Grows and Spreads</h2>
@@ -145,6 +153,10 @@ const UnderstandingHydrillaPage = () => {
           One of the more well-known biological methods is the use of <strong>sterile grass carp</strong> (triploid grass carp) to graze on aquatic vegetation. Where properly stocked and managed, they can help suppress hydrilla growth. However, grass carp introduction requires special permits from TPWD and is typically only approved for whole-lake management programs, not individual property owners.
         </p>
 
+        <p>
+          In November 2025, the City of Austin released nearly 2,000 sterile grass carp into Lake Austin to combat the resurgent hydrilla infestation. <a href="https://www.kxan.com/news/local/austin/nearly-2000-more-grass-carp-released-in-lake-austin-to-combat-hydrilla/" target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:text-teal-700 font-semibold">KXAN reported on the release</a>, noting the city maintains a conservative stocking rate of five grass carp per acre of hydrilla. The <a href="https://tpwd.texas.gov/landwater/water/environconcerns/nuisance_plants/hydrilla_management.phtml" target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:text-teal-700 font-semibold">Texas Parks and Wildlife Department's hydrilla management guidelines</a> outline approved biological, mechanical, and chemical control approaches for Texas reservoirs.
+        </p>
+
         <h2 id="prevention" className="text-3xl font-bold text-gray-900 mt-12 mb-6">Prevention: The Most Important Strategy</h2>
 
         <div className="bg-green-50 border-l-4 border-green-500 p-6 my-8 rounded-r">
@@ -214,10 +226,22 @@ const UnderstandingHydrillaPage = () => {
             University of Florida, IFAS Center for Aquatic and Invasive Plants. "Hydrilla verticillata." Plant Directory. <a href="https://plant-directory.ifas.ufl.edu/plant-directory/hydrilla-verticillata/" target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:text-teal-700 break-all">https://plant-directory.ifas.ufl.edu/plant-directory/hydrilla-verticillata/</a>
           </li>
           <li>
-            KXAN News Austin. "Dense aquatic vegetation prompts safety concerns at Lake Pflugerville." July 2023. <a href="https://www.kxan.com/news/local/austin/dense-aquatic-vegetation-prompts-safety-concerns-at-lake-pflugerville/" target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:text-teal-700 break-all">KXAN Article</a>
+            City of Austin. "Spike in hydrilla means more grass carp are needed in Lake Austin." <a href="https://www.austintexas.gov/news/spike-hydrilla-means-more-grass-carp-are-needed-lake-austin" target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:text-teal-700 break-all">AustinTexas.gov</a>
           </li>
           <li>
-            Texas Parks and Wildlife Department. "Stop Aquatic Hitchhikers: Clean, Drain, Dry." <a href="https://tpwd.texas.gov/huntwild/wild/species/exotic/ais.phtml" target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:text-teal-700 break-all">TPWD Website</a>
+            KXAN News Austin. "Nearly 2,000 more grass carp released in Lake Austin to combat hydrilla." 2025. <a href="https://www.kxan.com/news/local/austin/nearly-2000-more-grass-carp-released-in-lake-austin-to-combat-hydrilla/" target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:text-teal-700 break-all">KXAN Article</a>
+          </li>
+          <li>
+            KXAN News Austin. "Invasive aquatic plant spreading again on Lake Austin." <a href="https://www.kxan.com/news/local/austin/invasive-aquatic-plant-spreading-again-on-lake-austin/" target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:text-teal-700 break-all">KXAN Article</a>
+          </li>
+          <li>
+            Texas Parks and Wildlife Department. "Management of Hydrilla in Texas Reservoirs." <a href="https://tpwd.texas.gov/landwater/water/environconcerns/nuisance_plants/hydrilla_management.phtml" target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:text-teal-700 break-all">TPWD Website</a>
+          </li>
+          <li>
+            Texas Parks and Wildlife Department. "Aquatic Invasive Species." <a href="https://tpwd.texas.gov/landwater/water/aquatic-invasives/" target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:text-teal-700 break-all">TPWD Website</a>
+          </li>
+          <li>
+            City of Austin. "Plant Life in Austin's Lakes." <a href="https://www.austintexas.gov/department/hydrilla" target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:text-teal-700 break-all">AustinTexas.gov</a>
           </li>
         </ol>
 

@@ -46,7 +46,27 @@ But our approach goes beyond simply removing unwanted vegetation. We work with p
 
 ---
 
-*For more information about professional Lake Austin hydrilla management and to schedule a consultation, visit [austinlakemanagement.com](https://austinlakemanagement.com) or call (737) 300-9033.*`;
+*For more information about professional Lake Austin hydrilla management and to schedule a consultation, visit [austinlakemanagement.com](https://austinlakemanagement.com) or call (737) 300-9033.*
+
+---
+
+## Official Resources on Lake Austin Hydrilla
+
+Staying informed about hydrilla management on Lake Austin is important for property owners. Here are the most authoritative sources:
+
+- **[City of Austin – Plant Life in Austin's Lakes](https://www.austintexas.gov/department/hydrilla)**: The City's official page on hydrilla monitoring and management for Lake Austin, including survey data and current management efforts.
+
+- **[City of Austin – Spike in Hydrilla (2025 News Release)](https://www.austintexas.gov/news/spike-hydrilla-means-more-grass-carp-are-needed-lake-austin)**: Official announcement covering the dramatic 2025 resurgence and the city's grass carp stocking response.
+
+- **[City of Austin – Lake Austin Task Force](https://www.austintexas.gov/content/lake-austin-task-force)**: Community stakeholder group working with the City to address Lake Austin's environmental challenges.
+
+- **[LCRA – 2025 Schedule for Treating Invasive Aquatic Vegetation](https://www.lcra.org/news/news-releases/lcra-announces-2025-schedule-for-property-owners-who-want-to-treat-invasive-aquatic-vegetation/)**: LCRA's program for property owners wanting to manage invasive aquatic vegetation on Highland Lakes.
+
+- **[TPWD – Management of Hydrilla in Texas Reservoirs](https://tpwd.texas.gov/landwater/water/environconcerns/nuisance_plants/hydrilla_management.phtml)**: Texas Parks and Wildlife Department's comprehensive guidance on hydrilla management strategies in Texas.
+
+- **[KXAN – Invasive aquatic plant spreading again on Lake Austin](https://www.kxan.com/news/local/austin/invasive-aquatic-plant-spreading-again-on-lake-austin/)**: Local news coverage of the 2024–2025 hydrilla resurgence.
+
+- **[KXAN – Lake Austin business owners push to drain the lake to stop hydrilla](https://www.kxan.com/texas-water/lake-austin-business-owners-push-city-leaders-to-drain-the-lake-to-stop-hydrilla/)**: Coverage of community debate around management options.`;
 
   return (
     <BlogPost
@@ -60,8 +80,15 @@ But our approach goes beyond simply removing unwanted vegetation. We work with p
         'Lake Austin hydrilla management',
         'Lake Austin hydrilla control',
         'hydrilla removal methods',
-        'invasive species management',
-        'TPWD permits'
+        'how to remove hydrilla lake austin',
+        'lake austin weed removal service',
+        'lake austin invasive plants 2025',
+        'hydrilla treatment austin texas',
+        'lake weed removal near me austin',
+        'aquatic weed control highland lakes',
+        'invasive species management texas',
+        'TPWD aquatic vegetation permits',
+        'LCRA lake management'
       ]}
       excerpt="A comprehensive examination of hydrilla invasion in Central Texas lakes, exploring the historical context, management approaches, and why precision manual removal offers the most effective solution for Lake Austin property owners."
       slug="lake-austin-hydrilla-management-methods"

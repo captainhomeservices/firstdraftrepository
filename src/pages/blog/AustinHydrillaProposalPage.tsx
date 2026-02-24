@@ -10,14 +10,18 @@ const AustinHydrillaProposalPage = () => {
       category="City Proposals"
       readTime="18 min read"
       keywords={[
-        'austin hydrilla management',
-        'lake austin chain drag',
-        'seine net hydrilla removal',
-        'austin invasive species',
-        'sustainable lake management',
-        'austin city proposal',
-        'mechanical hydrilla removal',
-        'lake austin restoration'
+        'austin hydrilla management proposal',
+        'lake austin chain drag hydrilla removal',
+        'seine net hydrilla removal austin',
+        'austin invasive species solutions',
+        'sustainable lake management lake austin',
+        'mechanical hydrilla removal austin texas',
+        'lake austin restoration plan',
+        'how to fix lake austin hydrilla problem',
+        'lake austin task force hydrilla',
+        'innovative lake weed removal methods',
+        'hydrilla removal city of austin',
+        'lake austin property owner weed solutions'
       ]}
       excerpt="A comprehensive proposal to Austin city leaders and community stakeholders for implementing an innovative chain drag seine net system to combat hydrilla infestation—a proven method used successfully in Asia and California that removes plants at the root while preventing fragmentation."
       slug="austin-hydrilla-proposal-chain-drag-seine-net-system"
@@ -705,7 +709,25 @@ const AustinHydrillaProposalPage = () => {
             KXAN News Austin. "Dense aquatic vegetation prompts safety concerns at Lake Pflugerville." July 2023. Local reporting on swimmer entanglement incidents. <a href="https://www.kxan.com/news/local/austin/dense-aquatic-vegetation-prompts-safety-concerns-at-lake-pflugerville/" target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:text-teal-700 break-all">KXAN Article</a>
           </li>
           <li>
-            Texas Parks and Wildlife Department. "Aquatic Invasive Species." State regulatory framework and prevention programs. <a href="https://tpwd.texas.gov/huntwild/wild/species/exotic/ais.phtml" target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:text-teal-700 break-all">TPWD Website</a>
+            Texas Parks and Wildlife Department. "Aquatic Invasive Species." State regulatory framework and prevention programs. <a href="https://tpwd.texas.gov/landwater/water/aquatic-invasives/" target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:text-teal-700 break-all">TPWD Website</a>
+          </li>
+          <li>
+            Texas Parks and Wildlife Department. "Management of Hydrilla in Texas Reservoirs." Detailed hydrilla management strategies and approved methods. <a href="https://tpwd.texas.gov/landwater/water/environconcerns/nuisance_plants/hydrilla_management.phtml" target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:text-teal-700 break-all">TPWD Hydrilla Management</a>
+          </li>
+          <li>
+            City of Austin. "Plant Life in Austin's Lakes." Official hydrilla monitoring and management updates for Lake Austin. <a href="https://www.austintexas.gov/department/hydrilla" target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:text-teal-700 break-all">AustinTexas.gov</a>
+          </li>
+          <li>
+            City of Austin – Lake Austin Task Force. Community stakeholder group working to address Lake Austin management. <a href="https://www.austintexas.gov/content/lake-austin-task-force" target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:text-teal-700 break-all">AustinTexas.gov</a>
+          </li>
+          <li>
+            LCRA. "LCRA announces 2025 schedule for property owners who want to treat invasive aquatic vegetation." <a href="https://www.lcra.org/news/news-releases/lcra-announces-2025-schedule-for-property-owners-who-want-to-treat-invasive-aquatic-vegetation/" target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:text-teal-700 break-all">LCRA.org</a>
+          </li>
+          <li>
+            KXAN. "Lake Austin business owners push city leaders to drain the lake to stop hydrilla." <a href="https://www.kxan.com/texas-water/lake-austin-business-owners-push-city-leaders-to-drain-the-lake-to-stop-hydrilla/" target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:text-teal-700 break-all">KXAN.com</a>
+          </li>
+          <li>
+            KXAN. "Bass fishing influencers speak out against Lake Austin hydrilla removal efforts." <a href="https://www.kxan.com/news/local/austin/bass-fishing-influencers-speak-out-against-lake-austin-hydrilla-removal-efforts/" target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:text-teal-700 break-all">KXAN.com</a>
           </li>
           <li>
             Custom Netting by CNW. "Seine Nets for Commercial Applications." Seine net specifications and custom engineering services. <a href="https://www.cnwnetting.com/pages/seine-nets" target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:text-teal-700 break-all">CNW Netting</a>

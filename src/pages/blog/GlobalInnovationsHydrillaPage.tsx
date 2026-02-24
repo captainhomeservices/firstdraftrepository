@@ -108,7 +108,21 @@ Don't let hydrilla rob you of your lakefront enjoyment while waiting for future 
 
 ---
 
-*For professional hydrilla removal and lake management services in the Austin area, visit [austinlakemanagement.com](https://austinlakemanagement.com) or call (737) 300-9033.*`;
+*For professional hydrilla removal and lake management services in the Austin area, visit [austinlakemanagement.com](https://austinlakemanagement.com) or call (737) 300-9033.*
+
+---
+
+## Global and Local Resources on Hydrilla Management
+
+- **[University of Florida IFAS Center for Aquatic and Invasive Plants – Hydrilla verticillata](https://plant-directory.ifas.ufl.edu/plant-directory/hydrilla-verticillata/)**: The most comprehensive scientific resource on hydrilla biology, ecology, and management—widely cited in research worldwide.
+
+- **[TPWD – Management of Hydrilla in Texas Reservoirs](https://tpwd.texas.gov/landwater/water/environconcerns/nuisance_plants/hydrilla_management.phtml)**: Texas-specific guidance from TPWD covering biological, mechanical, and chemical control approaches currently approved for Texas water bodies.
+
+- **[City of Austin – Hydrilla in Lake Austin](https://www.austintexas.gov/department/hydrilla)**: Current status of hydrilla on Lake Austin with survey data and management history since 1999.
+
+- **[KXAN – Bass fishing influencers speak out against Lake Austin hydrilla removal efforts](https://www.kxan.com/news/local/austin/bass-fishing-influencers-speak-out-against-lake-austin-hydrilla-removal-efforts/)**: Illustrates the complex stakeholder debate around hydrilla management, where some groups oppose removal due to bass habitat value.
+
+- **[KVUE – Austin to stock Lake Austin with more grass carp to combat hydrilla](https://www.kvue.com/article/news/local/austin-lake-fish-hydrilla/269-98722290-d132-46aa-9a76-ce2fed764029)**: Coverage of Austin's biological control program and the city's long-term management strategy.`;
 
   return (
     <BlogPost
@@ -116,14 +130,21 @@ Don't let hydrilla rob you of your lakefront enjoyment while waiting for future 
       date="January 24, 2025"
       author="Captain Cam"
       category="Global Innovations"
-      image="/IMG_5761 copy.jpeg"
+      image="/IMG_5761.jpeg"
       readTime="12 min read"
       keywords={[
-        'global hydrilla management',
-        'biomass recycling',
-        'aquatic vegetation removal',
-        'sustainable lake management',
-        'hydrilla composting'
+        'global hydrilla management techniques',
+        'hydrilla biomass uses',
+        'aquatic vegetation removal innovations',
+        'sustainable lake management future',
+        'hydrilla composting research',
+        'lake austin hydrilla solutions',
+        'grass carp hydrilla control effectiveness',
+        'mechanical hydrilla removal methods',
+        'biological control aquatic weeds',
+        'hydrilla management australia',
+        'integrated pest management lake weeds',
+        'future lake weed removal technology'
       ]}
       excerpt="Explore cutting-edge hydrilla removal techniques from around the world and discover how harvested biomass can be transformed into valuable resources. From dragline systems to bio-oil production, learn how global innovations could revolutionize Austin lake management."
       slug="global-innovations-hydrilla-management-beyond-traditional-methods"

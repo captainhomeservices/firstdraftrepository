@@ -64,7 +64,17 @@ At **Captain Home Services**, we are committed to providing eco-friendly and hig
 
 Manual aquatic weed removal offers a sustainable, effective, and environmentally responsible path to a beautiful and healthy lakefront. By choosing this approach, you are not only enhancing your property but also contributing to the long-term ecological well-being of your lake.
 
-Reclaim your Texas paradise and enjoy all the benefits of a pristine waterfront. Contact **Captain Home Services** today for a free consultation and discover how our manual removal expertise can transform your lakefront.`;
+Reclaim your Texas paradise and enjoy all the benefits of a pristine waterfront. Contact **Captain Home Services** today for a free consultation and discover how our manual removal expertise can transform your lakefront.
+
+---
+
+## Why Manual Removal Is the Preferred Method on Lake Austin
+
+The [City of Austin](https://www.austintexas.gov/department/hydrilla) and [Texas Parks and Wildlife Department](https://tpwd.texas.gov/landwater/water/aquatic-invasives/aquatic_invasive_plants.phtml) both recognize manual removal as an environmentally responsible tool for aquatic vegetation management. Unlike herbicide applications—which are prohibited on Lake Austin for private use—manual extraction causes no water quality impacts and can be targeted precisely to problem areas.
+
+According to [TPWD's aquatic invasive plant management guidelines](https://tpwd.texas.gov/landwater/water/aquatic-invasives/aquatic_invasive_plants.phtml), manual removal has been used effectively for species including hydrilla and water hyacinth, particularly in sensitive aquatic environments where chemical options are restricted.
+
+The [LCRA also supports approved treatment programs](https://www.lcra.org/news/news-releases/lcra-announces-2025-schedule-for-property-owners-who-want-to-treat-invasive-aquatic-vegetation/) for Highland Lakes property owners, offering a schedule for those wanting to manage invasive aquatic vegetation through approved methods.`;
 
   return (
     <BlogPost
@@ -75,11 +85,18 @@ Reclaim your Texas paradise and enjoy all the benefits of a pristine waterfront.
       image="https://cdn11.bigcommerce.com/s-94ve5l/images/stencil/500x659/products/2411/4162/WeedRay-1__62680.1736887802.jpg?c=2"
       readTime="7 min read"
       keywords={[
-        'manual aquatic weed removal',
-        'sustainable lake management',
-        'chemical-free weed removal',
-        'Austin lake cleaning',
-        'eco-friendly lake services'
+        'manual aquatic weed removal austin',
+        'sustainable lake management texas',
+        'chemical-free lake weed removal',
+        'austin lake cleaning service',
+        'eco-friendly lake services austin',
+        'hand removal lake weeds',
+        'root extraction aquatic weeds',
+        'lake weed removal without chemicals',
+        'environmentally safe lake weed removal',
+        'best way to remove lake weeds',
+        'lake austin weed removal company',
+        'professional lake maintenance austin'
       ]}
       excerpt="Discover why manual aquatic weed removal is the most sustainable and effective method for lakefront restoration. Learn about precision targeting, chemical-free approaches, and long-term benefits for your Texas waterfront."
       slug="benefits-manual-aquatic-weed-removal-sustainable-approach"

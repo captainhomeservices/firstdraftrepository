@@ -62,7 +62,21 @@ Choosing **Captain Home Services** for your aquatic vegetation removal needs off
 
 Your waterfront is a valuable asset, a place for relaxation, recreation, and connection with nature. Don't let aggressive aquatic weeds diminish its beauty and usability. **Captain Home Services** is your trusted partner in restoring and maintaining a healthy, vibrant lakefront.
 
-Contact **Captain Home Services** today for a free consultation and let's talk about bringing that Texas sparkle back to your lakefront. No chemicals, no heavy machinery on your property, just efficient and professional permitted and insured invasive lake weed removal.`;
+Contact **Captain Home Services** today for a free consultation and let's talk about bringing that Texas sparkle back to your lakefront. No chemicals, no heavy machinery on your property, just efficient and professional permitted and insured invasive lake weed removal.
+
+---
+
+## The Hydrilla Problem on Lake Austin: By the Numbers
+
+As of fall 2025, [the City of Austin reports](https://www.austintexas.gov/news/spike-hydrilla-means-more-grass-carp-are-needed-lake-austin) that hydrilla covers approximately 30% of Lake Austin—a dramatic increase from less than 5% earlier in the year. This growth has forced the city to deploy nearly 2,000 sterile grass carp, as [reported by KXAN](https://www.kxan.com/news/local/austin/nearly-2000-more-grass-carp-released-in-lake-austin-to-combat-hydrilla/) and [KVUE](https://www.kvue.com/article/news/local/sterile-grass-carp-lake-austin-hydrilla-growth-invasive-non-native-plant/269-a1673ad1-d6f4-4a88-9f79-4337c62fb8e2).
+
+For individual lakefront property owners, city-wide management programs take time to show results. Professional manual removal offers the most immediate path to restoring your waterfront's usability and protecting your investment.
+
+**Additional Resources:**
+
+- [City of Austin – Plant Life in Austin's Lakes](https://www.austintexas.gov/department/hydrilla)
+- [TPWD – Aquatic Invasive Species](https://tpwd.texas.gov/landwater/water/aquatic-invasives/)
+- [LCRA – Invasive Aquatic Vegetation Treatment Program](https://www.lcra.org/news/news-releases/lcra-announces-2025-schedule-for-property-owners-who-want-to-treat-invasive-aquatic-vegetation/)`;
 
   return (
     <BlogPost
@@ -73,11 +87,18 @@ Contact **Captain Home Services** today for a free consultation and let's talk a
       image="https://static01.nyt.com/images/2023/12/10/nyregion/10Conn-River-01-wvbc/Conn-River--01-wvbc-superJumbo.jpg?quality=75&auto=webp"
       readTime="9 min read"
       keywords={[
-        'aquatic vegetation removal',
-        'lakefront health',
-        'Austin lake weeds',
-        'hydrilla removal',
-        'lake property value'
+        'aquatic vegetation removal austin texas',
+        'lakefront health lake austin',
+        'austin lake weeds problem',
+        'hydrilla removal service austin',
+        'lake property value weeds',
+        'invasive aquatic plants lake austin',
+        'lake weed impact property value',
+        'lake austin water quality problems',
+        'why remove lake weeds',
+        'lake weed removal benefits',
+        'hydrilla swimming danger',
+        'lake austin homeowner weed removal'
       ]}
       excerpt="Understand how aggressive aquatic weeds impact your lakefront's ecology, recreation value, and property worth. Learn why professional aquatic vegetation removal is essential for maintaining a healthy Texas waterfront."
       slug="importance-aquatic-vegetation-removal-healthy-lakefront"
