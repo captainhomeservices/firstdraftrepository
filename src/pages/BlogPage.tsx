@@ -83,7 +83,7 @@ const BlogPage = () => {
       date: "January 8, 2026",
       author: "Captain Cam",
       category: "FAQ",
-      image: "/dock1.jpg",
+      image: "/Hydrilla-load.jpeg.JPG",
       icon: <HelpCircle className="h-5 w-5" />,
       keywords: ["lake weed removal FAQ", "hydrilla questions", "benthic barriers", "aquatic weed removal cost", "lake weed removal pricing", "manual weed removal"],
       readTime: "18 min read",
