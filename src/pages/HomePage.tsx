@@ -300,8 +300,8 @@ const HomePage = () => {
             </div>
             <div className="relative px-4">
               <img
-                src="/echelon cleaned up.jpg"
-                alt="Lake Austin waterfront property showcasing clear water and pristine conditions after professional aquatic vegetation removal"
+                src="/Hydrilla-load.jpeg.JPG"
+                alt="Dump trailer overflowing with manually extracted hydrilla removed from Lake Austin by Captain Home Services — full load of invasive aquatic weed hauled off after professional lake weed removal"
                 className="rounded-lg shadow-2xl w-full h-80 md:h-[500px] object-cover object-center"
               />
             </div>
