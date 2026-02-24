@@ -61,6 +61,21 @@ const BlogPage = () => {
 
   const blogPosts = [
     {
+      id: 0,
+      title: "DIY Hydrilla Removal: Every Tool, Trick, and Hard Lesson I Learned Trying to Reclaim My Lake Austin Waterfront",
+      slug: "diy-hydrilla-removal-lake-austin-tools-guide",
+      excerpt: "A homeowner's honest field guide to every DIY lake weed removal tool available — rakes, cutters, T-weeders, benthic barriers — with real pros, cons, and the custom-modified T-weeder we built just for hydrilla. Plus the management plan strategy that actually keeps your waterfront clear.",
+      date: "February 23, 2026",
+      author: "Captain Cam",
+      category: "DIY & Tools",
+      image: "/Hydrilla-patch.jpeg.JPG",
+      icon: <Wrench className="h-5 w-5" />,
+      keywords: ["DIY hydrilla removal", "lake weed removal tools", "T-weeder hydrilla", "aquatic weed rake Lake Austin", "manual lake weed removal"],
+      readTime: "22 min read",
+      featured: true,
+      isNew: true
+    },
+    {
       id: 1,
       title: "Lake Weed Removal FAQ: Hydrilla, Root Removal, Benthic Barriers & What to Expect",
       slug: "lake-weed-removal-faq",
@@ -88,7 +103,7 @@ const BlogPage = () => {
       keywords: ["austin hydrilla management", "lake austin chain drag", "seine net hydrilla removal", "austin invasive species", "sustainable lake management", "austin city proposal"],
       readTime: "18 min read",
       featured: true,
-      isNew: true
+      isNew: false
     },
     {
       id: 3,
