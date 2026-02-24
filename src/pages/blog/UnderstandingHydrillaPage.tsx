@@ -47,9 +47,9 @@ const UnderstandingHydrillaPage = () => {
         <h2 id="what-is-hydrilla" className="text-3xl font-bold text-gray-900 mt-12 mb-6">What Is Hydrilla and Where Did It Come From?</h2>
 
         <img
-          src="/david booth weeds.png"
-          alt="Hydrilla verticillata invasive aquatic weed growing in Lake Austin waters"
-          className="rounded-lg shadow-lg my-8 w-full h-80 object-cover"
+          src="/Hydrilla-patch.jpeg.JPG"
+          alt="Hydrilla verticillata invasive aquatic weed being manually pulled from Lake Austin — dense root clump extracted by Captain Home Services crew"
+          className="rounded-lg shadow-lg my-8 w-full h-72 md:h-96 object-cover object-top"
         />
 
         <p>

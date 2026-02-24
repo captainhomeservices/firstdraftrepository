@@ -172,7 +172,7 @@ const BlogPage = () => {
       date: "January 20, 2025",
       author: "Captain Cam",
       category: "Lake Management",
-      image: "/david booth weeds.png",
+      image: "/Hydrilla-patch.jpeg.JPG",
       icon: <Leaf className="h-5 w-5" />,
       keywords: ["lake weeds", "aquatic vegetation management", "Austin lake management", "invasive aquatic species", "lake weed control"],
       readTime: "8 min read",

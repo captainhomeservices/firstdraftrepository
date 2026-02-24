@@ -123,9 +123,9 @@ const HowItWorksPage = () => {
             </div>
             <div>
               <img
-                src="/david booth weeds.png"
-                alt="Eurasian watermilfoil invasive aquatic vegetation growing in Austin lake"
-                className="rounded-lg shadow-xl w-full h-72 object-cover"
+                src="/Hydrilla-patch.jpeg.JPG"
+                alt="Hydrilla invasive aquatic weed patch in Lake Austin — dense underwater infestation being manually removed by Captain Home Services"
+                className="rounded-lg shadow-xl w-full h-72 object-cover object-top"
               />
             </div>
           </div>

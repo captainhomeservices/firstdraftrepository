@@ -176,9 +176,9 @@ const AustinHydrillaProposalPage = () => {
         <h2 id="history-spread" className="text-3xl font-bold text-gray-900 mt-12 mb-6">The History of Hydrilla: From Asia to America's Waterways</h2>
 
         <img
-          src="/david booth weeds.png"
-          alt="Historical progression of hydrilla spread"
-          className="rounded-lg shadow-lg my-8 w-full h-72 md:h-96 object-cover"
+          src="/Hydrilla-patch.jpeg.JPG"
+          alt="Hydrilla patch being manually removed from Lake Austin — dense invasive aquatic weed infestation pulled by roots"
+          className="rounded-lg shadow-lg my-8 w-full h-72 md:h-96 object-cover object-top"
         />
 
         <h3 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">Origins and Introduction</h3>
