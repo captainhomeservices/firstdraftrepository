@@ -208,7 +208,7 @@ const HomePage = () => {
           <div className="text-center mb-8">
             <p className="text-xs font-bold uppercase tracking-widest text-green-600 mb-3">Let us pile yours up</p>
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 leading-tight">
-              This Hydrilla is heading to be composted
+              We pull weeds with our boat then load into our trailer for composting
             </h2>
             <p className="text-gray-500 text-lg max-w-2xl mx-auto mb-8">
               We pull every plant we touch by the roots for long lasting removal. Let us fill a load of your lake weeds today.
@@ -220,7 +220,7 @@ const HomePage = () => {
               <svg className="mr-2 w-5 h-5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
               </svg>
-              Call Us to Remove Yours Today
+              Call Us to Remove Hydrilla Today
             </a>
           </div>
           <figure className="m-0">
@@ -230,7 +230,7 @@ const HomePage = () => {
               className="rounded-2xl shadow-2xl w-full h-72 sm:h-80 md:h-[28rem] object-cover object-center"
               loading="lazy"
             />
-            <figcaption className="text-center text-sm text-gray-500 mt-3 font-medium">A full day's haul — roots and all</figcaption>
+            <figcaption className="text-center text-sm text-gray-500 mt-3 font-medium">A full load of Hydrilla removed by the root</figcaption>
           </figure>
         </div>
       </section>
