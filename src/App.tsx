@@ -24,6 +24,7 @@ import AustinHydrillaProposalPage from './pages/blog/AustinHydrillaProposalPage'
 import BenthicBarriersGuidePage from './pages/blog/BenthicBarriersGuidePage';
 import FAQPage from './pages/blog/FAQPage';
 import LakeAustinHydrillaAlgaeSpringPage from './pages/blog/LakeAustinHydrillaAlgaeSpringPage';
+import LakeAustinWeedsPage from './pages/LakeAustinWeedsPage';
 
 function App() {
   return (
@@ -39,6 +40,7 @@ function App() {
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/thank-you" element={<ThankYouPage />} />
           <Route path="/blog" element={<BlogPage />} />
+          <Route path="/lake-austin-weeds" element={<LakeAustinWeedsPage />} />
           
           {/* Blog Post Routes */}
           <Route path="/blog/austin-hydrilla-proposal-chain-drag-seine-net-system" element={<AustinHydrillaProposalPage />} />

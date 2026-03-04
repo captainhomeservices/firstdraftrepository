@@ -241,8 +241,11 @@ const HomePage = () => {
               <p className="text-sm sm:text-base text-gray-700 mb-4 leading-relaxed">
                 <strong>Lake Austin hydrilla</strong> and <strong>Eurasian watermilfoil</strong> create dense mats that make swimming and boating impossible. Our team pulls these invasive species by the roots, then installs <Link to="/benthic-barriers" onClick={scrollToTop} className="text-emerald-600 hover:text-emerald-700 font-semibold underline">benthic barriers</Link> for long-term prevention.
               </p>
-              <p className="text-sm sm:text-base text-gray-700 mb-6 leading-relaxed">
+              <p className="text-sm sm:text-base text-gray-700 mb-4 leading-relaxed">
                 All our work is fully <Link to="/permitting" onClick={scrollToTop} className="text-blue-600 hover:text-blue-700 font-semibold underline">TPWD permitted and LCRA compliant</Link> for legal peace of mind.
+              </p>
+              <p className="text-sm sm:text-base text-gray-700 mb-6 leading-relaxed">
+                Learn everything about <Link to="/lake-austin-weeds" onClick={scrollToTop} className="text-teal-600 hover:text-teal-700 font-semibold underline">Lake Austin weeds</Link> — species identification, removal options, and what to ask a contractor.
               </p>
               <div className="flex flex-wrap gap-3">
                 <Link

@@ -214,7 +214,17 @@ Late winter through early spring (January–April) is generally the most efficie
 
 ---
 
-*Captain Home Services provides permitted, root-based **Lake Austin Hydrilla removal** for residential properties on Lake Austin, Lake Travis, and the Highland Lakes. [Schedule a free waterfront assessment](https://austinlakemanagement.com/contact) or call us at (737) 300-9033. Learn more about our [removal process](https://austinlakemanagement.com/how-it-works), [permitting services](https://austinlakemanagement.com/permitting), and [benthic barrier options](https://austinlakemanagement.com/benthic-barriers).*`;
+*Captain Home Services provides permitted, root-based **Lake Austin Hydrilla removal** for residential properties on Lake Austin, Lake Travis, and the Highland Lakes. [Schedule a free waterfront assessment](https://austinlakemanagement.com/contact) or call us at (737) 300-9033. Learn more about our [removal process](https://austinlakemanagement.com/how-it-works), [permitting services](https://austinlakemanagement.com/permitting), and [benthic barrier options](https://austinlakemanagement.com/benthic-barriers).*
+
+---
+
+## Related Reading
+
+- [Lake Austin Weeds: Complete Hub Guide](/lake-austin-weeds) — overview of all weed species, removal options, and contractor checklist
+- [Lake Austin Hydrilla Management Methods](/blog/lake-austin-hydrilla-management-methods) — historical context and management approaches
+- [Understanding Hydrilla: The Most Invasive Aquatic Weed in Austin Lakes](/blog/understanding-hydrilla-most-invasive-aquatic-weed-austin-lakes)
+- [Navigating Permitting for Aquatic Vegetation Removal in Texas](/blog/navigating-permitting-aquatic-vegetation-removal-texas)
+- [Benthic Barriers: Complete Guide to Lake Bottom Weed Control](/blog/benthic-barriers-complete-guide)`;
 
   return (
     <BlogPost

@@ -46,7 +46,17 @@ But our approach goes beyond simply removing unwanted vegetation. We work with p
 
 ---
 
-*For more information about professional Lake Austin hydrilla management and to schedule a consultation, visit [austinlakemanagement.com](https://austinlakemanagement.com) or call (737) 300-9033.*`;
+*For more information about professional Lake Austin hydrilla management and to schedule a consultation, visit [austinlakemanagement.com](https://austinlakemanagement.com) or call (737) 300-9033.*
+
+---
+
+## Related Reading
+
+- [Lake Austin Weeds: Complete Hub Guide](/lake-austin-weeds) — full overview of what grows in Lake Austin, removal options, and contractor hiring checklist
+- [Lake Austin Hydrilla & Filamentous Algae: Spring 2025 Guide](/blog/lake-austin-hydrilla-filamentous-algae-spring-guide) — the spring algae complication explained
+- [Understanding Hydrilla: The Most Invasive Aquatic Weed in Austin Lakes](/blog/understanding-hydrilla-most-invasive-aquatic-weed-austin-lakes)
+- [The Benefits of Manual Aquatic Weed Removal](/blog/benefits-manual-aquatic-weed-removal-sustainable-approach)
+- [Navigating Permitting for Aquatic Vegetation Removal in Texas](/blog/navigating-permitting-aquatic-vegetation-removal-texas)`;
 
   return (
     <BlogPost
