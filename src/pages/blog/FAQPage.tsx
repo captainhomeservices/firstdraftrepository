@@ -184,7 +184,7 @@ const FAQPage = () => {
         </p>
 
         <p>
-          Want to see our process in action? <Link to="/how-it-works" className="text-teal-600 hover:text-teal-700 font-semibold">Learn how it works</Link> or view examples of our completed projects on the <Link to="/" className="text-teal-600 hover:text-teal-700 font-semibold">homepage</Link>.
+          Want to see our process in action? <Link to="/how-it-works" className="text-teal-600 hover:text-teal-700 font-semibold">Learn how it works</Link> or view examples of our completed projects on the <Link to="/" className=\"text-teal-600 hover:text-teal-700 font-semibold">homepage</Link>.
         </p>
 
         <h2 id="q8" className="text-3xl font-bold text-gray-900 mt-12 mb-6">8. How much does lake weed removal cost?</h2>
@@ -273,7 +273,7 @@ const FAQPage = () => {
         </p>
 
         <p>
-          For a deeper explanation, see our <Link to="/blog/benthic-barriers-guide" className="text-teal-600 hover:text-teal-700 font-semibold">complete guide to benthic barriers</Link> and explore our <Link to="/benthic-barriers" className="text-teal-600 hover:text-teal-700 font-semibold">benthic barrier services page</Link>.
+          For a deeper explanation, see our <Link to="/blog/benthic-barriers-guide" className="text-teal-600 hover:text-teal-700 font-semibold">complete guide to benthic barriers</Link> and explore our <Link to="/benthic-barriers" className=\"text-teal-600 hover:text-teal-700 font-semibold">benthic barrier services page</Link>.
         </p>
 
         <h2 id="q11" className="text-3xl font-bold text-gray-900 mt-12 mb-6">11. Do you use herbicides or chemicals?</h2>
