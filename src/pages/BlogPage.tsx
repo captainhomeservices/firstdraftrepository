@@ -61,21 +61,6 @@ const BlogPage = () => {
 
   const blogPosts = [
     {
-      id: 0,
-      title: "DIY Hydrilla Removal: Every Tool, Trick, and Hard Lesson I Learned Trying to Reclaim My Lake Austin Waterfront",
-      slug: "diy-hydrilla-removal-lake-austin-tools-guide",
-      excerpt: "A homeowner's honest field guide to every DIY lake weed removal tool available — rakes, cutters, T-weeders, benthic barriers — with real pros, cons, and the custom-modified T-weeder we built just for hydrilla. Plus the management plan strategy that actually keeps your waterfront clear.",
-      date: "February 23, 2026",
-      author: "Captain Cam",
-      category: "DIY & Tools",
-      image: "/Hydrilla-patch.jpeg.JPG",
-      icon: <Wrench className="h-5 w-5" />,
-      keywords: ["DIY hydrilla removal", "lake weed removal tools", "T-weeder hydrilla", "aquatic weed rake Lake Austin", "manual lake weed removal"],
-      readTime: "22 min read",
-      featured: true,
-      isNew: true
-    },
-    {
       id: 1,
       title: "Lake Weed Removal FAQ: Hydrilla, Root Removal, Benthic Barriers & What to Expect",
       slug: "lake-weed-removal-faq",
@@ -83,7 +68,7 @@ const BlogPage = () => {
       date: "January 8, 2026",
       author: "Captain Cam",
       category: "FAQ",
-      image: "/Hydrilla-load.jpeg.JPG",
+      image: "/dock1.jpg",
       icon: <HelpCircle className="h-5 w-5" />,
       keywords: ["lake weed removal FAQ", "hydrilla questions", "benthic barriers", "aquatic weed removal cost", "lake weed removal pricing", "manual weed removal"],
       readTime: "18 min read",
@@ -98,12 +83,12 @@ const BlogPage = () => {
       date: "January 27, 2025",
       author: "Captain Cam",
       category: "City Proposals",
-      image: "/booth-clear.webp",
+      image: "/echelon cleaned up.jpg",
       icon: <FileText className="h-5 w-5" />,
       keywords: ["austin hydrilla management", "lake austin chain drag", "seine net hydrilla removal", "austin invasive species", "sustainable lake management", "austin city proposal"],
       readTime: "18 min read",
       featured: true,
-      isNew: false
+      isNew: true
     },
     {
       id: 3,
@@ -143,7 +128,7 @@ const BlogPage = () => {
       date: "January 24, 2025",
       author: "Captain Cam",
       category: "Global Innovations",
-      image: "/booth-clear.webp",
+      image: "/IMG_5761 copy.jpeg",
       icon: <Waves className="h-5 w-5" />,
       keywords: ["global hydrilla management", "biomass recycling", "aquatic vegetation removal", "sustainable lake management", "hydrilla composting"],
       readTime: "12 min read",
@@ -187,7 +172,7 @@ const BlogPage = () => {
       date: "January 20, 2025",
       author: "Captain Cam",
       category: "Lake Management",
-      image: "/Hydrilla-patch.jpeg.JPG",
+      image: "https://mdc.mo.gov/sites/default/files/styles/gallery_main_image/public/mo_nature/media/images/2010/07/eurasian_water_milfoilcmyk.jpg?itok=efZIYgsg",
       icon: <Leaf className="h-5 w-5" />,
       keywords: ["lake weeds", "aquatic vegetation management", "Austin lake management", "invasive aquatic species", "lake weed control"],
       readTime: "8 min read",
@@ -201,7 +186,7 @@ const BlogPage = () => {
       date: "January 18, 2025",
       author: "Captain Cam",
       category: "Permitting & Compliance",
-      image: "/IMG_0777.jpeg",
+      image: "https://i.imgur.com/dmrnTO6.jpg",
       icon: <FileText className="h-5 w-5" />,
       keywords: ["TPWD permits", "LCRA compliance", "Texas aquatic vegetation removal", "lake weed removal permits", "Austin permitting"],
       readTime: "6 min read",
@@ -215,7 +200,7 @@ const BlogPage = () => {
       date: "January 16, 2025",
       author: "Captain Cam",
       category: "Sustainable Methods",
-      image: "/lake weed removal tools.jpg",
+      image: "https://cdn11.bigcommerce.com/s-94ve5l/images/stencil/500x659/products/2411/4162/WeedRay-1__62680.1736887802.jpg?c=2",
       icon: <Leaf className="h-5 w-5" />,
       keywords: ["manual aquatic weed removal", "sustainable lake management", "chemical-free weed removal", "Austin lake cleaning", "eco-friendly lake services"],
       readTime: "7 min read",
@@ -229,7 +214,7 @@ const BlogPage = () => {
       date: "January 14, 2025",
       author: "Captain Cam",
       category: "Lakefront Health",
-      image: "/IMG_5761.jpeg",
+      image: "https://static01.nyt.com/images/2023/12/10/nyregion/10Conn-River-01-wvbc/Conn-River--01-wvbc-superJumbo.jpg?quality=75&auto=webp",
       icon: <Fish className="h-5 w-5" />,
       keywords: ["aquatic vegetation removal", "lakefront health", "Austin lake weeds", "hydrilla removal", "lake property value"],
       readTime: "9 min read",
@@ -242,7 +227,7 @@ const BlogPage = () => {
       date: "January 15, 2025",
       author: "Captain Cam",
       category: "Invasive Species",
-      image: "/dock.jpg",
+      image: "https://parks.traviscountytx.gov/files/images/loop-360/hero.jpg",
       icon: <FileText className="h-5 w-5" />,
       readTime: "10 min read"
     },
@@ -253,7 +238,7 @@ const BlogPage = () => {
       date: "January 10, 2025",
       author: "Captain Cam",
       category: "Lake Austin Life",
-      image: "/echelon cleaned up.jpg",
+      image: "https://activerain-store.s3.amazonaws.com/image_store/uploads/agents/afranzetti/files/Screen%20Shot%202014-03-14%20at%206.30.41%20AM.jpg",
       icon: <MapPin className="h-5 w-5" />,
       readTime: "6 min read"
     },
@@ -264,7 +249,7 @@ const BlogPage = () => {
       date: "January 5, 2025",
       author: "Captain Cam",
       category: "Fishing",
-      image: "/booth dock.jpg",
+      image: "https://www.austinmonitor.com/wp-content/uploads/2024/07/red_bud_isle_ii_by_mkocaoglu_d9blj0t-fullview-620x365.jpg",
       icon: <Fish className="h-5 w-5" />,
       readTime: "8 min read"
     },
@@ -275,7 +260,7 @@ const BlogPage = () => {
       date: "December 28, 2024",
       author: "Captain Cam",
       category: "Resources",
-      image: "/dock1.jpg",
+      image: "https://rentalboataustin.com/wp-content/uploads/ryan.jpeg",
       icon: <Wrench className="h-5 w-5" />,
       readTime: "5 min read"
     }

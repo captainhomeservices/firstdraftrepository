@@ -10,20 +10,15 @@ const HydrillaCrisis2025Page = () => {
       category="Local News"
       readTime="9 min read"
       keywords={[
-        'lake austin hydrilla 2025',
-        'lake austin weeds 2025',
-        'grass carp lake austin 2025',
-        'hydrilla spreading lake austin',
-        'lake austin aquatic weed crisis',
-        'TPWD vegetation survey lake austin',
-        'lake austin property values weeds',
-        'aquatic weed removal austin texas',
-        'highland lakes invasive species 2025',
-        'hydrilla management austin',
-        'lake austin weed removal service',
-        'how to deal with hydrilla lake austin',
-        'LCRA hydrilla management',
-        'lake austin hydrilla removal cost'
+        'Lake Austin hydrilla 2025',
+        'Austin lake weeds',
+        'grass carp stocking',
+        'TPWD vegetation survey',
+        'Lake Austin property values',
+        'aquatic weed removal',
+        'Highland Lakes invasive species',
+        'hydrilla management Austin',
+        'Lake Travis weeds'
       ]}
       excerpt="The hydrilla crisis on Lake Austin has reached critical levels in fall 2025, with nearly 456 acres now affected. Learn about the City's grass carp response plan and what lakefront property owners can do to protect their waterfronts."
       slug="lake-austin-hydrilla-crisis-deepens-city-plans-grass-carp-response-fall-2025"
@@ -49,7 +44,7 @@ const HydrillaCrisis2025Page = () => {
         <img
           src="/Copy of Untitled.jpg"
           alt="Dense hydrilla and aquatic vegetation covering Lake Austin waterfront in 2025"
-          className="rounded-lg shadow-lg my-8 w-full h-72 md:h-96 object-cover"
+          className="rounded-lg shadow-lg my-8 w-full"
         />
 
         <p>
@@ -74,7 +69,7 @@ const HydrillaCrisis2025Page = () => {
         <img
           src="/echelon cleaned up.jpg"
           alt="Lake Austin waterfront property after professional vegetation removal showing clear water"
-          className="rounded-lg shadow-lg my-8 w-full h-72 md:h-96 object-cover"
+          className="rounded-lg shadow-lg my-8 w-full"
         />
 
         <p>
@@ -141,7 +136,7 @@ const HydrillaCrisis2025Page = () => {
         <img
           src="/lake weed removal pose copy.jpeg"
           alt="Professional manual aquatic vegetation removal on Lake Austin"
-          className="rounded-lg shadow-lg my-8 w-full h-72 md:h-96 object-cover"
+          className="rounded-lg shadow-lg my-8 w-full"
         />
 
         <p>
@@ -164,7 +159,7 @@ const HydrillaCrisis2025Page = () => {
         <img
           src="/cleaned up weeds.png"
           alt="Lake Austin waterfront after professional manual weed removal showing clear water"
-          className="rounded-lg shadow-lg my-8 w-full h-72 md:h-96 object-cover"
+          className="rounded-lg shadow-lg my-8 w-full"
         />
 
         <h3 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">Prevention: Protecting Lake Austin for Everyone</h3>
@@ -183,9 +178,9 @@ const HydrillaCrisis2025Page = () => {
         </p>
 
         <img
-          src="/lake weeds removed.png"
+          src="/lake weeds removed copy.png"
           alt="Lake Austin waterfront after professional aquatic weed removal showing clear water and restored access"
-          className="rounded-lg shadow-lg my-8 w-full object-cover"
+          className="rounded-lg shadow-lg my-8 w-full"
         />
 
         <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">Looking Ahead: Managing Expectations</h2>
@@ -231,16 +226,11 @@ const HydrillaCrisis2025Page = () => {
             <li><strong>4.</strong> KXAN Austin. "More carp to be released in Lake Austin to cut down on invasive plant species." <a href="https://www.kxan.com/news/local/austin/more-carp-to-be-released-in-lake-austin-to-cut-down-on-invasive-plant-species/" target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:text-teal-700">KXAN.com</a> (2025)</li>
             <li><strong>5.</strong> Hoodline Austin. "City of Austin to Deploy Grass Carp for Eco-Friendly Battle Against Lake Austin Hydrilla Surge." <a href="https://hoodline.com/2025/10/city-of-austin-to-deploy-grass-carp-for-eco-friendly-battle-against-lake-austin-hydrilla-surge/" target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:text-teal-700">Hoodline.com</a> (October 2025)</li>
             <li><strong>6.</strong> City of Austin. "City of Austin to avoid rapid spread of hydrilla in Lake Austin with grass carp." <a href="https://www.austintexas.gov/news/city-austin-avoid-rapid-spread-hydrilla-lake-austin-grass-carp" target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:text-teal-700">AustinTexas.gov</a> (July 2025)</li>
-            <li><strong>7.</strong> Texas Parks and Wildlife Department. "Management of Hydrilla in Texas Reservoirs." <a href="https://tpwd.texas.gov/landwater/water/environconcerns/nuisance_plants/hydrilla_management.phtml" target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:text-teal-700">TPWD.texas.gov</a></li>
-            <li><strong>8.</strong> LCRA. "LCRA announces 2025 schedule for property owners who want to treat invasive aquatic vegetation." <a href="https://www.lcra.org/news/news-releases/lcra-announces-2025-schedule-for-property-owners-who-want-to-treat-invasive-aquatic-vegetation/" target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:text-teal-700">LCRA.org</a></li>
-            <li><strong>9.</strong> KXAN. "Lake Austin business owners push city leaders to drain the lake to stop hydrilla." <a href="https://www.kxan.com/texas-water/lake-austin-business-owners-push-city-leaders-to-drain-the-lake-to-stop-hydrilla/" target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:text-teal-700">KXAN.com</a></li>
-            <li><strong>10.</strong> KXAN. "Efforts to curb hydrilla with lake drawdowns not effective, city memo says." <a href="https://www.kxan.com/news/local/austin/efforts-to-curb-hydrilla-with-lake-drawdowns-not-effective-city-memo-says/" target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:text-teal-700">KXAN.com</a></li>
-            <li><strong>11.</strong> KVUE. "Sterile grass carp introduced to Lake Austin to limit hydrilla growth." <a href="https://www.kvue.com/article/news/local/sterile-grass-carp-lake-austin-hydrilla-growth-invasive-non-native-plant/269-a1673ad1-d6f4-4a88-9f79-4337c62fb8e2" target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:text-teal-700">KVUE.com</a></li>
           </ol>
           <p className="text-sm text-gray-600 mt-4">
             For the most current information on Lake Austin water quality and vegetation management, visit{' '}
-            <a href="https://www.austintexas.gov/department/hydrilla" target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:text-teal-700">
-              AustinTexas.gov – Plant Life in Austin's Lakes
+            <a href="https://www.austintexas.gov/department/plant-life-austins-lakes" target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:text-teal-700">
+              AustinTexas.gov
             </a>{' '}
             or contact the Austin Watershed Protection Department.
           </p>
