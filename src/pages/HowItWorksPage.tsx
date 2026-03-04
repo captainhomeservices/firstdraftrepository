@@ -118,7 +118,7 @@ const HowItWorksPage = () => {
               </p>
               <div className="bg-emerald-50 border-l-4 border-emerald-500 p-4">
                 <p className="text-emerald-900 font-semibold">
-                  <strong>Captain Home Services</strong> pulls invasive vegetation by the roots with minimal fragmentation, then installs <Link to="/benthic-barriers" onClick={scrollToTop} className="text-emerald-700 hover:text-emerald-800 underline">benthic barriers</Link> (when applicable) for complete long-term control. All work is <Link to="/permitting" onClick={scrollToTop} className="text-emerald-700 hover:text-emerald-800 underline">fully permitted</Link>.
+                  <strong>Captain Home Services</strong> pulls invasive vegetation by the roots with minimal fragmentation, then installs <Link to="/benthic-barriers" onClick={scrollToTop} className=\"text-emerald-700 hover:text-emerald-800 underline">benthic barriers</Link> (when applicable) for complete long-term control. All work is <Link to="/permitting" onClick={scrollToTop} className=\"text-emerald-700 hover:text-emerald-800 underline">fully permitted</Link>.
                 </p>
               </div>
             </div>
@@ -137,7 +137,7 @@ const HowItWorksPage = () => {
               Why Roots Matter
             </h2>
             <p className="text-center text-gray-600 mb-6 max-w-3xl mx-auto">
-              Read more about these invasive species in our <Link to="/blog" onClick={scrollToTop} className="text-teal-600 hover:text-teal-700 font-semibold underline">educational blog</Link> or check out our <Link to="/blog/lake-weed-removal-faq" onClick={scrollToTop} className="text-purple-600 hover:text-purple-700 font-semibold underline">FAQ page</Link> for common questions.
+              Read more about these invasive species in our <Link to="/blog" onClick={scrollToTop} className="text-teal-600 hover:text-teal-700 font-semibold underline">educational blog</Link> or check out our <Link to="/blog/lake-weed-removal-faq" onClick={scrollToTop} className=\"text-purple-600 hover:text-purple-700 font-semibold underline">FAQ page</Link> for common questions.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div className="bg-white p-6 rounded-lg shadow-md">
@@ -200,7 +200,7 @@ const HowItWorksPage = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold mb-4">Ready for a Complete Solution?</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
-            Pulling by the roots + <Link to="/benthic-barriers" onClick={scrollToTop} className="text-white hover:text-emerald-200 font-semibold underline">benthic barriers</Link> (when applicable) = long-term hydrilla control. All work is <Link to="/permitting" onClick={scrollToTop} className="text-white hover:text-blue-200 font-semibold underline">fully permitted</Link>. Restore your lakefront's health and beauty.
+            Pulling by the roots + <Link to="/benthic-barriers" onClick={scrollToTop} className="text-white hover:text-emerald-200 font-semibold underline">benthic barriers</Link> (when applicable) = long-term hydrilla control. All work is <Link to="/permitting" onClick={scrollToTop} className=\"text-white hover:text-blue-200 font-semibold underline">fully permitted</Link>. Restore your lakefront's health and beauty.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a

@@ -159,7 +159,7 @@ const PermittingPage = () => {
                 When you choose <strong>Captain Home Services</strong>, you can trust us to stay in strict compliance with all regulations concerning the removal, treatment, transportation, and disposal of invasive aquatic vegetation.
               </p>
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                Our <Link to="/how-it-works" onClick={scrollToTop} className="text-green-600 hover:text-green-700 font-semibold underline">manual removal methods</Link> and <Link to="/benthic-barriers" onClick={scrollToTop} className="text-emerald-600 hover:text-emerald-700 font-semibold underline">benthic barrier installations</Link> are all fully permitted.
+                Our <Link to="/how-it-works" onClick={scrollToTop} className="text-green-600 hover:text-green-700 font-semibold underline">manual removal methods</Link> and <Link to="/benthic-barriers" onClick={scrollToTop} className=\"text-emerald-600 hover:text-emerald-700 font-semibold underline">benthic barrier installations</Link> are all fully permitted.
               </p>
               
               <div className="space-y-4">
@@ -222,7 +222,7 @@ const PermittingPage = () => {
                 Our team at <strong>Captain Home Services</strong> boasts extensive experience in navigating the permitting landscape. We've got the know-how, the connections, and the tools to ensure your waterfront restoration is a seamless, legal, and ultimately successful endeavor.
               </p>
               <p className="text-lg text-gray-700 max-w-4xl mx-auto">
-                Learn more about our <Link to="/how-it-works" onClick={scrollToTop} className="text-green-600 hover:text-green-700 font-semibold underline">removal process</Link>, <Link to="/benthic-barriers" onClick={scrollToTop} className="text-emerald-600 hover:text-emerald-700 font-semibold underline">benthic barriers</Link>, and read our <Link to="/blog" onClick={scrollToTop} className="text-teal-600 hover:text-teal-700 font-semibold underline">blog</Link> for helpful tips.
+                Learn more about our <Link to="/how-it-works" onClick={scrollToTop} className="text-green-600 hover:text-green-700 font-semibold underline">removal process</Link>, <Link to="/benthic-barriers" onClick={scrollToTop} className=\"text-emerald-600 hover:text-emerald-700 font-semibold underline">benthic barriers</Link>, and read our <Link to="/blog" onClick={scrollToTop} className=\"text-teal-600 hover:text-teal-700 font-semibold underline">blog</Link> for helpful tips.
               </p>
             </div>
           </div>
