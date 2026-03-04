@@ -205,15 +205,15 @@ const HomePage = () => {
           </div>
 
           {/* Bridge Image under the boxes */}
-          <div className="w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-2xl xl:max-w-4xl mx-auto">
-            <div className="aspect-video overflow-hidden rounded-lg shadow-2xl">
-              <img
-                src="/dock.jpg"
-                alt="Beautiful Lake Austin waterfront with clean, clear water after professional aquatic weed removal by Captain Home Services"
-                className="w-full h-full object-cover"
-                loading="lazy"
-              />
-            </div>
+          <div className="w-full aspect-video overflow-hidden rounded-xl shadow-2xl">
+            <img
+              src="/dock.jpg"
+              alt="Beautiful Lake Austin waterfront with clean, clear water after professional aquatic weed removal by Captain Home Services"
+              className="w-full h-full object-cover"
+              loading="lazy"
+              width="1200"
+              height="675"
+            />
           </div>
         </div>
       </section>
@@ -230,15 +230,17 @@ const HomePage = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
-            <div className="aspect-[4/3] w-full overflow-hidden rounded-lg shadow-xl">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-start">
+            <div className="w-full aspect-[4/3] overflow-hidden rounded-xl shadow-xl">
               <img
                 src="/copy-of-untitled.jpg"
                 alt="Lake Austin hydrilla problem showing dense invasive aquatic vegetation before removal"
                 className="w-full h-full object-cover"
+                width="800"
+                height="600"
               />
             </div>
-            <div className="px-4">
+            <div>
               <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4">The Hydrilla Problem</h3>
               <p className="text-sm sm:text-base text-gray-700 mb-4 leading-relaxed">
                 <strong>Lake Austin hydrilla</strong> and <strong>Eurasian watermilfoil</strong> create dense mats that make swimming and boating impossible. Our team pulls these invasive species by the roots, then installs <Link to="/benthic-barriers" onClick={scrollToTop} className="text-emerald-600 hover:text-emerald-700 font-semibold underline">benthic barriers</Link> for long-term prevention.
@@ -273,8 +275,8 @@ const HomePage = () => {
       {/* Main Content - Moved to fourth position */}
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
-            <div className="px-4">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center">
+            <div>
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-6">
                 The Complete Long-Term Solution
               </h2>
@@ -311,14 +313,14 @@ const HomePage = () => {
                 </div>
               </div>
             </div>
-            <div className="relative px-4">
-              <div className="aspect-[4/3] w-full overflow-hidden rounded-lg shadow-2xl">
-                <img
-                  src="/echelon-cleaned-up.jpg"
-                  alt="Lake Austin waterfront property showcasing clear water and pristine conditions after professional aquatic vegetation removal"
-                  className="w-full h-full object-cover"
-                />
-              </div>
+            <div className="w-full aspect-[4/3] overflow-hidden rounded-xl shadow-2xl">
+              <img
+                src="/echelon-cleaned-up.jpg"
+                alt="Lake Austin waterfront property showcasing clear water and pristine conditions after professional aquatic vegetation removal"
+                className="w-full h-full object-cover"
+                width="800"
+                height="600"
+              />
             </div>
           </div>
         </div>
