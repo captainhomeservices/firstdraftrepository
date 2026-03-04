@@ -1,7 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Calendar, User, ArrowLeft, Clock, Share2, BookOpen } from 'lucide-react';
+import { Calendar, User, ArrowLeft, Clock, BookOpen } from 'lucide-react';
 import SEOHead from './SEOHead';
+import RelatedReading, { RelatedItem } from './RelatedReading';
 
 const scrollToTop = () => {
   window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -18,8 +19,17 @@ interface BlogPostProps {
   keywords?: string[];
   readTime?: string;
   slug?: string;
+  relatedReading?: RelatedItem[];
   children?: React.ReactNode;
 }
+
+const defaultRelatedReading: RelatedItem[] = [
+  { to: '/lake-austin-weeds', label: 'Lake Austin Weeds: Complete Guide to Identification & Removal', tag: 'Hub' },
+  { to: '/blog/lake-austin-hydrilla-filamentous-algae-spring-guide', label: 'Lake Austin Hydrilla & Filamentous Algae: Spring 2025 Guide', tag: 'Hydrilla' },
+  { to: '/blog/lake-austin-hydrilla-management-methods', label: 'Lake Austin Hydrilla Management Methods', tag: 'Hydrilla' },
+  { to: '/blog/navigating-permitting-aquatic-vegetation-removal-texas', label: 'Navigating Permitting for Aquatic Vegetation Removal in Texas', tag: 'Permitting' },
+  { to: '/blog/benthic-barriers-complete-guide', label: 'Benthic Barriers: Complete Guide to Lake Bottom Weed Control', tag: 'Prevention' },
+];
 
 const BlogPost: React.FC<BlogPostProps> = ({
   title,
@@ -32,6 +42,7 @@ const BlogPost: React.FC<BlogPostProps> = ({
   keywords = [],
   readTime,
   slug,
+  relatedReading,
   children
 }) => {
   const canonicalUrl = slug ? `https://austinlakemanagement.com/blog/${slug}` : 'https://austinlakemanagement.com/blog';
@@ -41,17 +52,25 @@ const BlogPost: React.FC<BlogPostProps> = ({
     "@type": "BlogPosting",
     "headline": title,
     "description": excerpt,
-    "image": image || "https://austinlakemanagement.com/lake weed removal pose copy.jpeg",
+    "image": image
+      ? (image.startsWith('http') ? image : `https://austinlakemanagement.com${image}`)
+      : "https://austinlakemanagement.com/lake%20weed%20removal%20pose%20copy.jpeg",
     "author": {
       "@type": "Person",
-      "name": author
+      "name": author,
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Captain Home Services",
+        "@id": "https://austinlakemanagement.com/#localbusiness"
+      }
     },
     "publisher": {
       "@type": "Organization",
+      "@id": "https://austinlakemanagement.com/#localbusiness",
       "name": "Captain Home Services",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://austinlakemanagement.com/captain logo green  copy copy.png"
+        "url": "https://austinlakemanagement.com/captain%20logo%20green%20%20copy%20copy.png"
       }
     },
     "datePublished": date,
@@ -60,10 +79,16 @@ const BlogPost: React.FC<BlogPostProps> = ({
       "@type": "WebPage",
       "@id": canonicalUrl
     },
+    "url": canonicalUrl,
     "keywords": keywords.join(", "),
     "articleSection": category,
     "wordCount": content ? content.split(' ').length : 1000,
-    "timeRequired": readTime || "5-10 minutes"
+    "timeRequired": readTime || "5-10 minutes",
+    "isPartOf": {
+      "@type": "Blog",
+      "name": "Captain's Log",
+      "url": "https://austinlakemanagement.com/blog"
+    }
   };
 
   // Enhanced content processing with better internal linking
@@ -75,9 +100,11 @@ const BlogPost: React.FC<BlogPostProps> = ({
     processedContent = processedContent.replace(linkRegex, '<a href="$2" class="text-teal-600 hover:text-teal-700 font-medium underline decoration-2 underline-offset-2 transition-colors duration-200">$1</a>');
 
     // Add internal links for key terms
-    const internalLinks = {
+    const internalLinks: Record<string, string> = {
+      'Lake Austin weeds': '/lake-austin-weeds',
+      'Austin lake weed removal': '/lake-austin-weeds',
+      'Lake Austin weed guide': '/lake-austin-weeds',
       'Captain Home Services': '/contact',
-      'Austin lake weed removal': '/how-it-works',
       'Lake Austin hydrilla removal': '/contact',
       'Austin aquatic vegetation removal': '/how-it-works',
       'TPWD permits': '/permitting',
@@ -87,7 +114,8 @@ const BlogPost: React.FC<BlogPostProps> = ({
       'Austin lake management': '/contact',
       'Lake Austin weed removal': '/contact',
       'hydrilla control': '/how-it-works',
-      'aquatic vegetation management': '/contact'
+      'aquatic vegetation management': '/contact',
+      'benthic barriers': '/benthic-barriers'
     };
 
     // Apply internal links only to first occurrence and avoid double-linking
@@ -280,6 +308,9 @@ const BlogPost: React.FC<BlogPostProps> = ({
           </div>
         </section>
       )}
+
+      {/* Related Reading */}
+      <RelatedReading items={relatedReading && relatedReading.length > 0 ? relatedReading : defaultRelatedReading} />
 
       {/* Call to Action */}
       <section className="bg-gradient-to-r from-teal-600 to-blue-600 text-white">

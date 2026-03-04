@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Target, Scissors, CheckCircle, Shield } from 'lucide-react';
 import SEOHead from '../components/SEOHead';
+import RelatedReading from '../components/RelatedReading';
 
 const HowItWorksPage = () => {
   const scrollToTop = () => {
@@ -221,6 +222,17 @@ const HowItWorksPage = () => {
           </div>
         </div>
       </section>
+
+      <RelatedReading
+        heading="Related Reading"
+        items={[
+          { to: '/lake-austin-weeds', label: 'Lake Austin Weeds: Complete Hub Guide', tag: 'Hub' },
+          { to: '/blog/lake-austin-hydrilla-filamentous-algae-spring-guide', label: 'Lake Austin Hydrilla & Algae: Spring 2025 Guide', tag: 'Hydrilla' },
+          { to: '/blog/benefits-manual-aquatic-weed-removal-sustainable-approach', label: 'The Benefits of Manual Aquatic Weed Removal', tag: 'Method' },
+          { to: '/benthic-barriers', label: 'Benthic Barrier Installation for Long-Term Prevention', tag: 'Prevention' },
+          { to: '/blog/lake-weed-removal-faq', label: 'Lake Weed Removal FAQ', tag: 'FAQ' },
+        ]}
+      />
     </div>
     </>
   );

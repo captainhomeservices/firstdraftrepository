@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Shield, CheckCircle, Phone, ArrowRight, AlertTriangle, Settings, Anchor, Leaf, Trash2 } from 'lucide-react';
 import SEOHead from '../components/SEOHead';
+import RelatedReading from '../components/RelatedReading';
 
 const BenthicBarriersPage = () => {
   const benthicBarriersSchema = {
@@ -472,6 +473,17 @@ const BenthicBarriersPage = () => {
           </div>
         </div>
       </div>
+
+      <RelatedReading
+        heading="Related Reading"
+        items={[
+          { to: '/lake-austin-weeds', label: 'Lake Austin Weeds: Complete Hub Guide', tag: 'Hub' },
+          { to: '/blog/benthic-barriers-complete-guide', label: 'Benthic Barriers: Complete Guide to Lake Bottom Weed Control', tag: 'Guide' },
+          { to: '/how-it-works', label: 'How Root-Based Hydrilla Removal Works', tag: 'Service' },
+          { to: '/blog/lake-austin-hydrilla-filamentous-algae-spring-guide', label: 'Lake Austin Hydrilla & Algae: Spring 2025 Guide', tag: 'Hydrilla' },
+          { to: '/permitting', label: 'TPWD & LCRA Permitting for Aquatic Vegetation Removal', tag: 'Permitting' },
+        ]}
+      />
     </>
   );
 };

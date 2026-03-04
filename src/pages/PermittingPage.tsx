@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { FileText, Shield, CheckCircle, AlertTriangle } from 'lucide-react';
 import SEOHead from '../components/SEOHead';
+import RelatedReading from '../components/RelatedReading';
 
 const PermittingPage = () => {
   const scrollToTop = () => {
@@ -272,6 +273,17 @@ const PermittingPage = () => {
           </div>
         </div>
       </section>
+
+      <RelatedReading
+        heading="Related Reading"
+        items={[
+          { to: '/lake-austin-weeds', label: 'Lake Austin Weeds: Complete Hub Guide', tag: 'Hub' },
+          { to: '/blog/navigating-permitting-aquatic-vegetation-removal-texas', label: 'Navigating Permitting for Aquatic Vegetation Removal in Texas', tag: 'Guide' },
+          { to: '/how-it-works', label: 'How Root-Based Hydrilla Removal Works', tag: 'Service' },
+          { to: '/blog/lake-austin-hydrilla-management-methods', label: 'Lake Austin Hydrilla Management Methods', tag: 'Hydrilla' },
+          { to: '/benthic-barriers', label: 'Benthic Barrier Installation & Maintenance', tag: 'Prevention' },
+        ]}
+      />
     </div>
     </>
   );

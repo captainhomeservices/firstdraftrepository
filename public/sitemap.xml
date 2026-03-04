@@ -1,41 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Core Pages -->
   <url>
     <loc>https://austinlakemanagement.com/</loc>
-    <lastmod>2025-01-15</lastmod>
+    <lastmod>2026-03-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://austinlakemanagement.com/lake-austin-weeds</loc>
+    <lastmod>2026-03-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://austinlakemanagement.com/contact</loc>
+    <lastmod>2026-03-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Service Pages -->
+  <url>
     <loc>https://austinlakemanagement.com/how-it-works</loc>
-    <lastmod>2025-01-15</lastmod>
+    <lastmod>2026-03-04</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://austinlakemanagement.com/permitting</loc>
-    <lastmod>2025-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://austinlakemanagement.com/pricing</loc>
-    <lastmod>2025-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://austinlakemanagement.com/benthic-barriers</loc>
-    <lastmod>2025-10-20</lastmod>
+    <lastmod>2026-03-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://austinlakemanagement.com/permitting</loc>
+    <lastmod>2026-03-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://austinlakemanagement.com/blog</loc>
-    <lastmod>2025-10-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <loc>https://austinlakemanagement.com/about</loc>
+    <lastmod>2026-03-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
+
+  <!-- Blog Index -->
+  <url>
+    <loc>https://austinlakemanagement.com/blog</loc>
+    <lastmod>2026-03-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+
+  <!-- High-Priority Blog Posts -->
   <url>
     <loc>https://austinlakemanagement.com/blog/lake-weed-removal-faq</loc>
     <lastmod>2026-01-08</lastmod>
@@ -43,15 +63,80 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://austinlakemanagement.com/contact</loc>
+    <loc>https://austinlakemanagement.com/blog/lake-austin-hydrilla-filamentous-algae-spring-guide</loc>
+    <lastmod>2026-03-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://austinlakemanagement.com/blog/lake-austin-hydrilla-management-methods</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://austinlakemanagement.com/blog/lake-austin-hydrilla-crisis-deepens-city-plans-grass-carp-response-fall-2025</loc>
+    <lastmod>2025-10-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://austinlakemanagement.com/blog/understanding-hydrilla-most-invasive-aquatic-weed-austin-lakes</loc>
+    <lastmod>2025-01-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://austinlakemanagement.com/blog/benthic-barriers-complete-guide</loc>
     <lastmod>2025-01-15</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
+
+  <!-- Supporting Blog Posts -->
+  <url>
+    <loc>https://austinlakemanagement.com/blog/navigating-permitting-aquatic-vegetation-removal-texas</loc>
+    <lastmod>2025-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://austinlakemanagement.com/blog/benefits-manual-aquatic-weed-removal-sustainable-approach</loc>
+    <lastmod>2025-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://austinlakemanagement.com/blog/importance-aquatic-vegetation-removal-healthy-lakefront</loc>
+    <lastmod>2025-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://austinlakemanagement.com/blog/understanding-lake-weeds-why-they-grow-and-how-to-manage-them</loc>
+    <lastmod>2025-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://austinlakemanagement.com/blog/austin-hydrilla-proposal-chain-drag-seine-net-system</loc>
+    <lastmod>2025-01-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://austinlakemanagement.com/blog/global-innovations-hydrilla-management-beyond-traditional-methods</loc>
+    <lastmod>2025-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+
+  <!-- Utility -->
   <url>
     <loc>https://austinlakemanagement.com/thank-you</loc>
     <lastmod>2025-01-15</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.3</priority>
+    <priority>0.2</priority>
   </url>
+
 </urlset>
