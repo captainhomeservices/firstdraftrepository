@@ -23,6 +23,7 @@ import HydrillaCrisis2025Page from './pages/blog/HydrillaCrisis2025Page';
 import AustinHydrillaProposalPage from './pages/blog/AustinHydrillaProposalPage';
 import BenthicBarriersGuidePage from './pages/blog/BenthicBarriersGuidePage';
 import FAQPage from './pages/blog/FAQPage';
+import LakeAustinHydrillaAlgaeSpringPage from './pages/blog/LakeAustinHydrillaAlgaeSpringPage';
 
 function App() {
   return (
@@ -51,6 +52,7 @@ function App() {
           <Route path="/blog/importance-aquatic-vegetation-removal-healthy-lakefront" element={<ImportanceAquaticVegetationPage />} />
           <Route path="/blog/benthic-barriers-complete-guide" element={<BenthicBarriersGuidePage />} />
           <Route path="/blog/lake-weed-removal-faq" element={<FAQPage />} />
+          <Route path="/blog/lake-austin-hydrilla-filamentous-algae-spring-guide" element={<LakeAustinHydrillaAlgaeSpringPage />} />
         </Routes>
         <Footer />
       </div>
