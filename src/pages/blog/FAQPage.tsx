@@ -91,7 +91,7 @@ const FAQPage = () => {
         <h2 id="q2" className="text-3xl font-bold text-gray-900 mt-12 mb-6">2. What is hydrilla and why is it such a problem?</h2>
 
         <img
-          src="/lake weeds removed.png"
+          src="/lake-weeds-removed.png"
           alt="Dense hydrilla infestation in Austin lake"
           className="rounded-lg shadow-lg my-8 w-full"
         />
@@ -133,7 +133,7 @@ const FAQPage = () => {
         </ul>
 
         <img
-          src="/lake weed removal tools.jpg"
+          src="/lake-weed-removal-tools.jpg"
           alt="Manual lake weed removal tools and equipment"
           className="rounded-lg shadow-lg my-8 w-full"
         />
@@ -165,7 +165,7 @@ const FAQPage = () => {
         <h2 id="q7" className="text-3xl font-bold text-gray-900 mt-12 mb-6">7. What does your weed removal process look like?</h2>
 
         <img
-          src="/lake weed removal pose copy.jpeg"
+          src="/lake-weed-removal-pose.jpeg"
           alt="Professional performing manual lake weed removal"
           className="rounded-lg shadow-lg my-8 w-full"
         />
@@ -250,7 +250,7 @@ const FAQPage = () => {
         <h2 id="q10" className="text-3xl font-bold text-gray-900 mt-12 mb-6">10. What are benthic barriers and how do they work?</h2>
 
         <img
-          src="/benthic barrier pic.jpeg"
+          src="/benthic-barrier-pic.jpeg"
           alt="Benthic barrier installation for lake weed control"
           className="rounded-lg shadow-lg my-8 w-full"
         />

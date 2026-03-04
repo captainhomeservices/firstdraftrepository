@@ -177,7 +177,7 @@ const LakeAustinWeedsPage = () => {
             </div>
             <div>
               <img
-                src="/Copy of Untitled.jpg"
+                src="/copy-of-untitled.jpg"
                 alt="Dense Lake Austin hydrilla canopy before removal"
                 className="rounded-xl shadow-lg w-full"
               />

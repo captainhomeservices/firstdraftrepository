@@ -42,7 +42,7 @@ const HydrillaCrisis2025Page = () => {
         <h2 id="whats-happening" className="text-3xl font-bold text-gray-900 mt-12 mb-6">What's Happening Right Now on Lake Austin</h2>
 
         <img
-          src="/Copy of Untitled.jpg"
+          src="/copy-of-untitled.jpg"
           alt="Dense hydrilla and aquatic vegetation covering Lake Austin waterfront in 2025"
           className="rounded-lg shadow-lg my-8 w-full"
         />
@@ -67,7 +67,7 @@ const HydrillaCrisis2025Page = () => {
         <h2 id="why-matters" className="text-3xl font-bold text-gray-900 mt-12 mb-6">Why This Matters for Austin Lakefront Property Owners</h2>
 
         <img
-          src="/echelon cleaned up.jpg"
+          src="/echelon-cleaned-up.jpg"
           alt="Lake Austin waterfront property after professional vegetation removal showing clear water"
           className="rounded-lg shadow-lg my-8 w-full"
         />
@@ -134,7 +134,7 @@ const HydrillaCrisis2025Page = () => {
         <h2 id="what-you-can-do" className="text-3xl font-bold text-gray-900 mt-12 mb-6">What Lakefront Property Owners Can Do Now</h2>
 
         <img
-          src="/lake weed removal pose copy.jpeg"
+          src="/lake-weed-removal-pose.jpeg"
           alt="Professional manual aquatic vegetation removal on Lake Austin"
           className="rounded-lg shadow-lg my-8 w-full"
         />
@@ -157,7 +157,7 @@ const HydrillaCrisis2025Page = () => {
         </ul>
 
         <img
-          src="/cleaned up weeds.png"
+          src="/cleaned-up-weeds.png"
           alt="Lake Austin waterfront after professional manual weed removal showing clear water"
           className="rounded-lg shadow-lg my-8 w-full"
         />
@@ -178,7 +178,7 @@ const HydrillaCrisis2025Page = () => {
         </p>
 
         <img
-          src="/lake weeds removed copy.png"
+          src="/lake-weeds-removed.png"
           alt="Lake Austin waterfront after professional aquatic weed removal showing clear water and restored access"
           className="rounded-lg shadow-lg my-8 w-full"
         />

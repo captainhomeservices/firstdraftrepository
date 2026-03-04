@@ -205,13 +205,15 @@ const HomePage = () => {
           </div>
 
           {/* Bridge Image under the boxes */}
-          <div className="text-center">
-            <img
-              src="/dock.jpg"
-              alt="Beautiful Lake Austin waterfront with clean, clear water after professional aquatic weed removal by Captain Home Services"
-              className="rounded-lg shadow-2xl mx-auto w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-2xl xl:max-w-4xl h-auto object-cover"
-              loading="lazy"
-            />
+          <div className="w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-2xl xl:max-w-4xl mx-auto">
+            <div className="aspect-video overflow-hidden rounded-lg shadow-2xl">
+              <img
+                src="/dock.jpg"
+                alt="Beautiful Lake Austin waterfront with clean, clear water after professional aquatic weed removal by Captain Home Services"
+                className="w-full h-full object-cover"
+                loading="lazy"
+              />
+            </div>
           </div>
         </div>
       </section>
@@ -229,11 +231,11 @@ const HomePage = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
-            <div>
+            <div className="aspect-[4/3] w-full overflow-hidden rounded-lg shadow-xl">
               <img
-                src="/Copy of Untitled.jpg"
+                src="/copy-of-untitled.jpg"
                 alt="Lake Austin hydrilla problem showing dense invasive aquatic vegetation before removal"
-                className="rounded-lg shadow-xl w-full"
+                className="w-full h-full object-cover"
               />
             </div>
             <div className="px-4">
@@ -310,11 +312,13 @@ const HomePage = () => {
               </div>
             </div>
             <div className="relative px-4">
-              <img
-                src="/echelon cleaned up.jpg"
-                alt="Lake Austin waterfront property showcasing clear water and pristine conditions after professional aquatic vegetation removal"
-                className="rounded-lg shadow-2xl w-full max-w-md mx-auto lg:max-w-full"
-              />
+              <div className="aspect-[4/3] w-full overflow-hidden rounded-lg shadow-2xl">
+                <img
+                  src="/echelon-cleaned-up.jpg"
+                  alt="Lake Austin waterfront property showcasing clear water and pristine conditions after professional aquatic vegetation removal"
+                  className="w-full h-full object-cover"
+                />
+              </div>
             </div>
           </div>
         </div>

@@ -74,7 +74,7 @@ const BenthicBarriersGuidePage = () => {
           </div>
 
           <img
-            src="/benthic barrier pic.jpeg"
+            src="/benthic-barrier-pic.jpeg"
             alt="Professional benthic barrier installation on lake bottom"
             className="w-full h-auto rounded-xl shadow-2xl mb-8"
           />
