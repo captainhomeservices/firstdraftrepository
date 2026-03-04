@@ -578,7 +578,7 @@ const BlogPage = () => {
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-4">Lake Management</h3>
               <p className="text-gray-700 leading-relaxed">
-                Professional <strong>lake management</strong> strategies, <Link to="/permitting" onClick={scrollToTop} className="text-teal-600 hover:text-teal-700 font-semibold underline">permitting guidance</Link>, and sustainable waterfront maintenance practices.
+                Professional <strong>lake management</strong> strategies, <Link to="/permitting" onClick={scrollToTop} className=\"text-teal-600 hover:text-teal-700 font-semibold underline">permitting guidance</Link>, and sustainable waterfront maintenance practices.
               </p>
             </div>
           </div>
@@ -612,7 +612,7 @@ const BlogPage = () => {
             Need Professional Lake Weed Removal?
           </h2>
           <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-            <strong>Captain Home Services</strong> provides expert <Link to="/how-it-works" onClick={scrollToTop} className="text-green-600 hover:text-green-700 font-semibold underline">manual lake weed removal</Link> and <Link to="/benthic-barriers" onClick={scrollToTop} className="text-emerald-600 hover:text-emerald-700 font-semibold underline">benthic barrier installation</Link> throughout the Highland Lakes. All work is <Link to="/permitting" onClick={scrollToTop} className="text-blue-600 hover:text-blue-700 font-semibold underline">fully permitted</Link>.
+            <strong>Captain Home Services</strong> provides expert <Link to="/how-it-works" onClick={scrollToTop} className=\"text-green-600 hover:text-green-700 font-semibold underline">manual lake weed removal</Link> and <Link to="/benthic-barriers" onClick={scrollToTop} className=\"text-emerald-600 hover:text-emerald-700 font-semibold underline">benthic barrier installation</Link> throughout the Highland Lakes. All work is <Link to="/permitting" onClick={scrollToTop} className=\"text-blue-600 hover:text-blue-700 font-semibold underline">fully permitted</Link>.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
