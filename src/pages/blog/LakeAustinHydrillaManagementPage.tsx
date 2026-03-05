@@ -64,7 +64,7 @@ But our approach goes beyond simply removing unwanted vegetation. We work with p
       date="January 22, 2025"
       author="Captain Cam"
       category="Hydrilla Management"
-      image="/lake weed removal tools.webp"
+      image="/lake-weed-removal-tools.webp"
       readTime="15 min read"
       keywords={[
         'Lake Austin hydrilla management',

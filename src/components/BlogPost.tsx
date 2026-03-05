@@ -186,13 +186,12 @@ const BlogPost: React.FC<BlogPostProps> = ({
       {image && (
         <section className="bg-white">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-            <div className="relative overflow-hidden rounded-xl shadow-2xl">
+            <div className="w-full rounded-xl shadow-2xl overflow-hidden">
               <img
                 src={image}
                 alt={title}
-                className="w-full h-64 md:h-80 lg:h-96 object-cover"
+                className="w-full h-auto block"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
             </div>
           </div>
         </section>

@@ -68,7 +68,7 @@ const BlogPage = () => {
       date: "March 4, 2025",
       author: "Captain Cam",
       category: "Hydrilla Management",
-      image: "/lake weed removal tools.webp",
+      image: "/lake-weed-removal-tools.webp",
       icon: <Waves className="h-5 w-5" />,
       keywords: ["Lake Austin Hydrilla", "Lake Austin Hydrilla removal", "Lake Austin Hydrilla contractor", "Lake Austin Hydrilla cutting", "Austin lake weed removal", "filamentous green algae"],
       readTime: "14 min read",
@@ -158,7 +158,7 @@ const BlogPage = () => {
       date: "January 22, 2025",
       author: "Captain Cam",
       category: "Hydrilla Management",
-      image: "/lake weed removal tools.webp",
+      image: "/lake-weed-removal-tools.webp",
       icon: <Waves className="h-5 w-5" />,
       keywords: ["Lake Austin hydrilla management", "Lake Austin hydrilla control", "hydrilla removal methods", "invasive species management", "TPWD permits"],
       readTime: "15 min read",
@@ -345,7 +345,7 @@ const BlogPage = () => {
                       <img
                         src={post.image}
                         alt={post.id === 1 ? "Lake Austin hydrilla plant identification showing detailed leaf structure and growth pattern from Mississippi State University Extension" : post.title}
-                        className="w-full h-64 md:h-72 object-cover"
+                        className="w-full h-auto block"
                       />
                       <div className="absolute top-4 left-4">
                         <div className="bg-white bg-opacity-95 text-gray-800 px-3 py-1.5 rounded-full text-sm font-medium flex items-center space-x-1 shadow-lg">
@@ -375,7 +375,7 @@ const BlogPage = () => {
                     <img
                       src={post.image}
                       alt={post.id === 1 ? "Lake Austin hydrilla plant identification showing detailed leaf structure and growth pattern from Mississippi State University Extension" : post.title}
-                      className="w-full h-64 md:h-72 object-cover"
+                      className="w-full h-auto block"
                     />
                     <div className="absolute top-4 left-4">
                       <div className="bg-white bg-opacity-95 text-gray-800 px-3 py-1.5 rounded-full text-sm font-medium flex items-center space-x-1 shadow-lg">
@@ -466,7 +466,7 @@ const BlogPage = () => {
                       <img
                         src={post.image}
                         alt={post.title}
-                        className="w-full h-48 object-cover"
+                        className="w-full h-auto block"
                       />
                       <div className="absolute top-3 left-3">
                         <div className="bg-white bg-opacity-95 text-gray-800 px-2 py-1 rounded text-xs font-medium flex items-center space-x-1">

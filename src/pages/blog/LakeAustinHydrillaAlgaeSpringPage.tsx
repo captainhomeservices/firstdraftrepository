@@ -232,7 +232,7 @@ Late winter through early spring (January–April) is generally the most efficie
       date="March 4, 2025"
       author="Captain Cam"
       category="Hydrilla Management"
-      image="/lake weed removal tools.webp"
+      image="/lake-weed-removal-tools.webp"
       readTime="14 min read"
       keywords={[
         'Lake Austin Hydrilla',
