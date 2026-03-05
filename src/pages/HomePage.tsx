@@ -168,11 +168,11 @@ const HomePage = () => {
               <div className="absolute top-4 left-4 bg-red-600 text-white px-4 py-2 rounded-lg font-semibold text-sm z-10">
                 Before
               </div>
-              <div className="w-full rounded-xl shadow-2xl overflow-hidden">
+              <div className="w-full rounded-xl shadow-2xl overflow-hidden aspect-[4/3]">
                 <img
                   src="/copy-of-untitled.webp"
                   alt="Lake Austin dock covered in dense hydrilla before removal"
-                  className="w-full h-auto"
+                  className="w-full h-full object-cover object-center"
                   loading="lazy"
                 />
               </div>
@@ -181,11 +181,11 @@ const HomePage = () => {
               <div className="absolute top-4 left-4 bg-green-600 text-white px-4 py-2 rounded-lg font-semibold text-sm z-10">
                 After
               </div>
-              <div className="w-full rounded-xl shadow-2xl overflow-hidden">
+              <div className="w-full rounded-xl shadow-2xl overflow-hidden aspect-[4/3]">
                 <img
-                  src="/echelon.webp"
+                  src="/dock.webp"
                   alt="Lake Austin dock after hydrilla removal showing clear water"
-                  className="w-full h-auto"
+                  className="w-full h-full object-cover object-center"
                   loading="lazy"
                 />
               </div>
@@ -305,11 +305,11 @@ const HomePage = () => {
               Professional Austin lake weed removal addresses these problems at their source. Rather than simply cutting the visible growth, our approach targets the root systems that allow hydrilla to return season after season.
             </p>
 
-            <div className="w-full rounded-xl shadow-xl overflow-hidden my-8">
+            <div className="w-full rounded-xl shadow-xl overflow-hidden my-8 aspect-[16/9]">
               <img
                 src="/dock.webp"
                 alt="Clear Lake Austin waterfront after professional hydrilla removal"
-                className="w-full h-auto"
+                className="w-full h-full object-cover object-center"
                 loading="lazy"
               />
             </div>
