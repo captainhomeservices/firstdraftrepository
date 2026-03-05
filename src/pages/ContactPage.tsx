@@ -163,10 +163,10 @@ const ContactPage = () => {
       <section className="bg-green-600 text-white py-12 md:py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6">
-            Howdy Neighbor!
+            Contact Captain Home Services — Schedule Your Free Lake Weed Removal Consultation
           </h1>
           <p className="text-lg md:text-xl lg:text-2xl mb-6 md:mb-8 max-w-4xl mx-auto">
-            Schedule Your Free Consultation
+            Howdy Neighbor! Schedule Your Free Consultation
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a

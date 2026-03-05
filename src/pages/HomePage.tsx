@@ -100,11 +100,11 @@ const HomePage = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <div className="space-y-4 opacity-0 animate-fadeInUp">
               <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight tracking-tight drop-shadow-2xl">
-                Lake Austin Hydrilla Removal
-                <span className="block mt-2 text-[#00B47B] drop-shadow-2xl">
-                  We Pull Lake Weeds By The Roots
-                </span>
+                Lake Austin Hydrilla Removal &amp; Lake Weed Management
               </h1>
+              <p className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-[#00B47B] drop-shadow-2xl leading-tight tracking-tight">
+                We Pull Lake Weeds By The Roots
+              </p>
 
               <div className="flex flex-col sm:flex-row gap-3 justify-center pt-4 opacity-0 animate-fadeInUp animation-delay-200">
                 <a

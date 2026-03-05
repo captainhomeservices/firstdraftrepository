@@ -43,10 +43,10 @@ const PermittingPage = () => {
       <section className="bg-gradient-to-r from-green-600 to-teal-600 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">
-            Navigating the Waters
+            TPWD &amp; LCRA Permitting for Aquatic Vegetation Removal in Texas
           </h1>
           <p className="text-xl md:text-2xl mb-8 max-w-4xl mx-auto">
-            Our Permitting & Treatment Plan Expertise
+            Navigating the Waters — Our Permitting & Treatment Plan Expertise
           </p>
           <p className="text-lg max-w-3xl mx-auto mb-8">
             We handle the red tape so you can enjoy your blue water, ensuring every job is done by the book.

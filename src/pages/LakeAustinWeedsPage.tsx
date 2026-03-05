@@ -82,7 +82,7 @@ const LakeAustinWeedsPage = () => {
               Highland Lakes Resource
             </span>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight tracking-tight">
-              Lake Austin Weeds
+              Lake Austin Weeds: Hydrilla Identification, Control &amp; Removal Guide
             </h1>
             <p className="text-xl md:text-2xl text-teal-100 mb-8 leading-relaxed">
               A complete guide to what grows in Lake Austin, why it spreads, and how to manage it — from identification through permitted removal.
