@@ -71,12 +71,14 @@ const AboutPage = () => {
           </p>
 
           <div className="my-8 flex justify-center">
-            <img
-              src="/cam_kay.webp"
-              alt="Cameron Reid and Kalyn Ohrt, founders of Austin Lake Management, on Lake Austin"
-              className="max-w-lg w-full h-auto rounded-lg shadow-lg"
-              loading="lazy"
-            />
+            <div className="w-full max-w-lg rounded-lg shadow-lg overflow-hidden" style={{aspectRatio: '3/4'}}>
+              <img
+                src="/aboutus.jpeg"
+                alt="Cameron Reid and Kalyn Ohrt, founders of Austin Lake Management"
+                className="w-full h-full object-cover object-top"
+                loading="lazy"
+              />
+            </div>
           </div>
 
           <p className="text-lg text-gray-700 leading-relaxed mb-8">
@@ -88,12 +90,14 @@ const AboutPage = () => {
           </p>
 
           <div className="my-8 flex justify-center">
-            <img
-              src="/weed_removal_worker.webp"
-              alt="Lake weed removal specialist working on Lake Austin removing hydrilla by hand"
-              className="max-w-lg w-full h-auto rounded-lg shadow-lg"
-              loading="lazy"
-            />
+            <div className="w-full max-w-lg rounded-lg shadow-lg overflow-hidden" style={{aspectRatio: '4/3'}}>
+              <img
+                src="/weed_removal_worker.webp"
+                alt="Lake weed removal specialist working on Lake Austin removing hydrilla by hand"
+                className="w-full h-full object-cover object-center"
+                loading="lazy"
+              />
+            </div>
           </div>
 
           <p className="text-lg text-gray-700 leading-relaxed mb-8">
@@ -101,12 +105,14 @@ const AboutPage = () => {
           </p>
 
           <div className="my-8 flex justify-center">
-            <img
-              src="/gabriel_ramon.webp"
-              alt="Austin Lake Management team member working on Lake Austin"
-              className="max-w-lg w-full h-auto rounded-lg shadow-lg"
-              loading="lazy"
-            />
+            <div className="w-full max-w-lg rounded-lg shadow-lg overflow-hidden" style={{aspectRatio: '3/4'}}>
+              <img
+                src="/GabrielRamon.jpeg"
+                alt="Austin Lake Management team working on Lake Austin"
+                className="w-full h-full object-cover object-center"
+                loading="lazy"
+              />
+            </div>
           </div>
 
           <p className="text-lg text-gray-700 leading-relaxed mb-8">
