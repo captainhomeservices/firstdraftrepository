@@ -186,13 +186,16 @@ const BlogPost: React.FC<BlogPostProps> = ({
       {image && (
         <section className="bg-white">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-            <div className="w-full rounded-xl shadow-2xl overflow-hidden">
+            <figure className="relative m-0 aspect-[16/9] w-full rounded-xl shadow-2xl overflow-hidden">
               <img
                 src={image}
                 alt={title}
-                className="w-full h-auto block"
+                className="absolute inset-0 w-full h-full object-cover"
+                loading="eager"
+                width="896"
+                height="504"
               />
-            </div>
+            </figure>
           </div>
         </section>
       )}

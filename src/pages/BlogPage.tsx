@@ -341,18 +341,21 @@ const BlogPage = () => {
               <article key={post.id} className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
                 {post.slug ? (
                   <Link to={`/blog/${post.slug}`} onClick={scrollToTop}>
-                    <div className="relative">
+                    <figure className="relative m-0 aspect-[16/9] w-full overflow-hidden">
                       <img
                         src={post.image}
                         alt={post.id === 1 ? "Lake Austin hydrilla plant identification showing detailed leaf structure and growth pattern from Mississippi State University Extension" : post.title}
-                        className="w-full h-auto block"
+                        className="absolute inset-0 w-full h-full object-cover"
+                        loading="lazy"
+                        width="800"
+                        height="450"
                       />
-                      <div className="absolute top-4 left-4">
+                      <figcaption className="absolute top-4 left-4">
                         <div className="bg-white bg-opacity-95 text-gray-800 px-3 py-1.5 rounded-full text-sm font-medium flex items-center space-x-1 shadow-lg">
                           {post.icon}
                           <span>{post.category}</span>
                         </div>
-                      </div>
+                      </figcaption>
                       {post.isNew && (
                         <div className="absolute top-4 right-4">
                           <div className="bg-red-500 text-white px-3 py-1.5 rounded-full text-sm font-bold shadow-lg">
@@ -368,21 +371,24 @@ const BlogPage = () => {
                           </div>
                         </div>
                       )}
-                    </div>
+                    </figure>
                   </Link>
                 ) : (
-                  <div className="relative">
+                  <figure className="relative m-0 aspect-[16/9] w-full overflow-hidden">
                     <img
                       src={post.image}
                       alt={post.id === 1 ? "Lake Austin hydrilla plant identification showing detailed leaf structure and growth pattern from Mississippi State University Extension" : post.title}
-                      className="w-full h-auto block"
+                      className="absolute inset-0 w-full h-full object-cover"
+                      loading="lazy"
+                      width="800"
+                      height="450"
                     />
-                    <div className="absolute top-4 left-4">
+                    <figcaption className="absolute top-4 left-4">
                       <div className="bg-white bg-opacity-95 text-gray-800 px-3 py-1.5 rounded-full text-sm font-medium flex items-center space-x-1 shadow-lg">
                         {post.icon}
                         <span>{post.category}</span>
                       </div>
-                    </div>
+                    </figcaption>
                     {post.isNew && (
                       <div className="absolute top-4 right-4">
                         <div className="bg-red-500 text-white px-3 py-1.5 rounded-full text-sm font-bold shadow-lg">
@@ -398,7 +404,7 @@ const BlogPage = () => {
                         </div>
                       </div>
                     )}
-                  </div>
+                  </figure>
                 )}
                 
                 <div className="p-6 md:p-8">
@@ -462,18 +468,21 @@ const BlogPage = () => {
               <article key={post.id} className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1">
                 {post.slug ? (
                   <Link to={`/blog/${post.slug}`} onClick={scrollToTop}>
-                    <div className="relative">
+                    <figure className="relative m-0 aspect-[16/9] w-full overflow-hidden">
                       <img
                         src={post.image}
                         alt={post.title}
-                        className="w-full h-auto block"
+                        className="absolute inset-0 w-full h-full object-cover"
+                        loading="lazy"
+                        width="400"
+                        height="225"
                       />
-                      <div className="absolute top-3 left-3">
+                      <figcaption className="absolute top-3 left-3">
                         <div className="bg-white bg-opacity-95 text-gray-800 px-2 py-1 rounded text-xs font-medium flex items-center space-x-1">
                           {post.icon}
                           <span>{post.category}</span>
                         </div>
-                      </div>
+                      </figcaption>
                       {post.readTime && (
                         <div className="absolute top-3 right-3">
                           <div className="bg-black bg-opacity-70 text-white px-2 py-1 rounded text-xs flex items-center">
@@ -482,21 +491,24 @@ const BlogPage = () => {
                           </div>
                         </div>
                       )}
-                    </div>
+                    </figure>
                   </Link>
                 ) : (
-                  <div className="relative">
+                  <figure className="relative m-0 aspect-[16/9] w-full overflow-hidden">
                     <img
                       src={post.image}
                       alt={post.title}
-                      className="w-full h-48 object-cover"
+                      className="absolute inset-0 w-full h-full object-cover"
+                      loading="lazy"
+                      width="400"
+                      height="225"
                     />
-                    <div className="absolute top-3 left-3">
+                    <figcaption className="absolute top-3 left-3">
                       <div className="bg-white bg-opacity-95 text-gray-800 px-2 py-1 rounded text-xs font-medium flex items-center space-x-1">
                         {post.icon}
                         <span>{post.category}</span>
                       </div>
-                    </div>
+                    </figcaption>
                     {post.readTime && (
                       <div className="absolute top-3 right-3">
                         <div className="bg-black bg-opacity-70 text-white px-2 py-1 rounded text-xs flex items-center">
@@ -505,7 +517,7 @@ const BlogPage = () => {
                         </div>
                       </div>
                     )}
-                  </div>
+                  </figure>
                 )}
                 
                 <div className="p-4">
