@@ -166,7 +166,7 @@ const BenthicBarriersGuidePage = () => {
               Site Assessment
             </h3>
             <p className="text-gray-700 ml-11">
-              We evaluate your lakefront area to determine lake bottom composition, weed species and density, appropriate barrier size and placement, and permit requirements.
+              We evaluate your lakefront area to determine lake bottom composition, weed species and density, appropriate barrier size and placement, and <Link to="/permitting" onClick={scrollToTop} className="text-teal-600 hover:text-teal-700 font-medium underline decoration-2 underline-offset-2 transition-colors duration-200">permit requirements</Link>.
             </p>
           </div>
 
@@ -176,7 +176,7 @@ const BenthicBarriersGuidePage = () => {
               Pre-Installation Weed Removal
             </h3>
             <p className="text-gray-700 ml-11">
-              This step is crucial and often overlooked. We <strong>manually remove the majority of existing weeds</strong> before barrier placement. This reduces bulk beneath the barrier, minimizes decomposition gases, creates a smooth surface, and ensures better contact with the lake bottom.
+              This step is crucial and often overlooked. We <strong><Link to="/how-it-works" onClick={scrollToTop} className="text-teal-600 hover:text-teal-700 font-medium underline decoration-2 underline-offset-2 transition-colors duration-200">manually remove the majority of existing weeds</Link></strong> before barrier placement. This reduces bulk beneath the barrier, minimizes decomposition gases, creates a smooth surface, and ensures better contact with the lake bottom.
             </p>
           </div>
 
@@ -361,7 +361,7 @@ const BenthicBarriersGuidePage = () => {
           <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">Conclusion: The Smart Choice for Lake Weed Control</h2>
 
           <p className="text-gray-700 leading-relaxed mb-6">
-            If you're serious about controlling aquatic weeds on your Austin lakefront property, benthic barriers represent the gold standard in effectiveness, safety, and long-term value. They're not a "quick fix"—they're a comprehensive, professional solution that addresses the root cause of weed problems: sunlight reaching the lake bottom.
+            If you're serious about controlling aquatic weeds on your Austin lakefront property, benthic barriers represent the gold standard in effectiveness, safety, and long-term value. They're not a "quick fix"—they're a comprehensive, professional solution that addresses the root cause of weed problems: sunlight reaching the lake bottom. For active infestations, they work best alongside <Link to="/" onClick={scrollToTop} className="text-white font-semibold underline decoration-2 underline-offset-2 hover:text-teal-100 transition-colors duration-200">Lake Austin hydrilla removal</Link> to clear existing growth first.
           </p>
 
           <p className="text-gray-700 leading-relaxed mb-8">

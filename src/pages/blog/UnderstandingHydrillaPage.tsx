@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import BlogPost from '../../components/BlogPost';
 
 const UnderstandingHydrillaPage = () => {
@@ -120,7 +121,7 @@ const UnderstandingHydrillaPage = () => {
         />
 
         <p>
-          Control of hydrilla typically requires an integrated approach. No single method has proven sufficient to completely eliminate established hydrilla populations, but several approaches can provide effective management.
+          Control of hydrilla typically requires an integrated approach. No single method has proven sufficient to completely eliminate established hydrilla populations, but several approaches can provide effective management — including manual root extraction and <Link to="/benthic-barriers" className="text-teal-600 hover:text-teal-700 font-semibold underline decoration-2 underline-offset-2 transition-colors duration-200">benthic barriers</Link> to prevent regrowth.
         </p>
 
         <h3 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">Mechanical Removal</h3>
@@ -130,7 +131,7 @@ const UnderstandingHydrillaPage = () => {
         </p>
 
         <p>
-          <strong>Manual precision removal</strong>, however, offers a more targeted approach. By carefully extracting entire plants including root systems and tubers, manual removal minimizes fragmentation while providing immediate, visible results in dock and swimming areas.
+          <strong>Manual precision removal</strong>, however, offers a more targeted approach. By carefully extracting entire plants including root systems and tubers, <Link to="/" className=\"text-teal-600 hover:text-teal-700 font-semibold underline decoration-2 underline-offset-2 transition-colors duration-200">Lake Austin hydrilla removal</Link> through manual methods minimizes fragmentation while providing immediate, visible results in dock and swimming areas.
         </p>
 
         <h3 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">Biological Control: Grass Carp</h3>
@@ -142,7 +143,7 @@ const UnderstandingHydrillaPage = () => {
         />
 
         <p>
-          One of the more well-known biological methods is the use of <strong>sterile grass carp</strong> (triploid grass carp) to graze on aquatic vegetation. Where properly stocked and managed, they can help suppress hydrilla growth. However, grass carp introduction requires special permits from TPWD and is typically only approved for whole-lake management programs, not individual property owners.
+          One of the more well-known biological methods is the use of <strong>sterile grass carp</strong> (triploid grass carp) to graze on aquatic vegetation. Where properly stocked and managed, they can help suppress hydrilla growth. However, grass carp introduction requires special <Link to="/permitting" className=\"text-teal-600 hover:text-teal-700 font-semibold underline decoration-2 underline-offset-2 transition-colors duration-200">TPWD permits</Link> and is typically only approved for whole-lake management programs, not individual property owners.
         </p>
 
         <h2 id="prevention" className="text-3xl font-bold text-gray-900 mt-12 mb-6">Prevention: The Most Important Strategy</h2>
