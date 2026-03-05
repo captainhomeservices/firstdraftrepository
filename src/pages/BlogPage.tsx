@@ -113,7 +113,7 @@ const BlogPage = () => {
       date: "October 16, 2025",
       author: "Captain Cam",
       category: "Local News",
-      image: "/Copy of Untitled.webp",
+      image: "/copy-of-untitled.webp",
       icon: <Waves className="h-5 w-5" />,
       keywords: ["Lake Austin hydrilla 2025", "Austin lake weeds", "grass carp stocking", "TPWD vegetation survey", "Lake Austin property values", "aquatic weed removal"],
       readTime: "9 min read",

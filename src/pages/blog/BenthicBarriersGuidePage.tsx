@@ -320,7 +320,7 @@ const BenthicBarriersGuidePage = () => {
           <ul className="list-disc pl-6 mb-8 space-y-3 text-gray-700">
             <li><strong>We remove most weeds first</strong>: Our method extracts up to 90% of existing vegetation by the roots before barrier installation</li>
             <li><strong>We use premium materials</strong>: Authorized dealers for LakeMat and Lake Bottom Blanket—commercial-grade products designed specifically for the harsh aquatic environment</li>
-            <li><strong>We handle all permits</strong>: Every installation is <Link to="/permitting" onClick={scrollToTop} className=\"text-blue-600 hover:text-blue-700 underline">fully permitted through TPWD</Link>, ensuring compliance and peace of mind</li>
+            <li><strong>We handle all permits</strong>: Every installation is{' '}<Link to="/permitting" onClick={scrollToTop} className="text-blue-600 hover:text-blue-700 underline">fully permitted through TPWD</Link>, ensuring compliance and peace of mind</li>
             <li><strong>We provide complete service</strong>: From initial assessment through installation, maintenance guidance, and optional seasonal removal</li>
             <li><strong>We focus on your specific needs</strong>: Custom solutions for your unique lakefront situation</li>
           </ul>

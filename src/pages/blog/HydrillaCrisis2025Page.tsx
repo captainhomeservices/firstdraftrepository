@@ -1,6 +1,19 @@
 import React from 'react';
 import BlogPost from '../../components/BlogPost';
 
+const AU = "https://www.austintexas.gov/news/spike-hydrilla-means-more-grass-carp-are-needed-lake-austin";
+const HOOD1 = "https://hoodline.com/2025/07/austin-unleashes-350-grass-carp-in-lake-austin-to-combat-invasive-hydrilla-outbreak/";
+const KVUE = "https://www.kvue.com/article/news/local/austin-lake-fish-hydrilla/269-98722290-d132-46aa-9a76-ce2fed764029";
+const KXAN = "https://www.kxan.com/news/local/austin/more-carp-to-be-released-in-lake-austin-to-cut-down-on-invasive-plant-species/";
+const HOOD2 = "https://hoodline.com/2025/10/city-of-austin-to-deploy-grass-carp-for-eco-friendly-battle-against-lake-austin-hydrilla-surge/";
+const AU2 = "https://www.austintexas.gov/news/city-austin-avoid-rapid-spread-hydrilla-lake-austin-grass-carp";
+
+const Ref = ({ href, n }: { href: string; n: number }) => (
+  <a href={href} target="_blank" rel="noopener noreferrer" className="text-sm text-teal-600 hover:text-teal-700">
+    <sup>{n}</sup>
+  </a>
+);
+
 const HydrillaCrisis2025Page = () => {
   return (
     <BlogPost
@@ -31,15 +44,15 @@ const HydrillaCrisis2025Page = () => {
         <div className="bg-amber-50 border-l-4 border-amber-500 p-6 my-8 rounded-r">
           <h3 className="text-xl font-bold text-amber-900 mt-0 mb-3">Quick Navigation</h3>
           <ul className="space-y-2 mb-0 list-none pl-0">
-            <li className="pl-0"><a href="#whats-happening" className="text-amber-700 hover:text-amber-900 font-medium">What's Happening Right Now</a></li>
+            <li className="pl-0"><a href="#whats-happening" className="text-amber-700 hover:text-amber-900 font-medium">{"What's Happening Right Now"}</a></li>
             <li className="pl-0"><a href="#why-matters" className="text-amber-700 hover:text-amber-900 font-medium">Why This Matters for Property Owners</a></li>
-            <li className="pl-0"><a href="#city-response" className="text-amber-700 hover:text-amber-900 font-medium">The City's Response</a></li>
+            <li className="pl-0"><a href="#city-response" className="text-amber-700 hover:text-amber-900 font-medium">{"The City's Response"}</a></li>
             <li className="pl-0"><a href="#community-concerns" className="text-amber-700 hover:text-amber-900 font-medium">Community Concerns</a></li>
             <li className="pl-0"><a href="#what-you-can-do" className="text-amber-700 hover:text-amber-900 font-medium">What You Can Do Now</a></li>
           </ul>
         </div>
 
-        <h2 id="whats-happening" className="text-3xl font-bold text-gray-900 mt-12 mb-6">What's Happening Right Now on Lake Austin</h2>
+        <h2 id="whats-happening" className="text-3xl font-bold text-gray-900 mt-12 mb-6">{"What's Happening Right Now on Lake Austin"}</h2>
 
         <img
           src="/copy-of-untitled.webp"
@@ -48,20 +61,29 @@ const HydrillaCrisis2025Page = () => {
         />
 
         <p>
-          If you've noticed significantly more aquatic vegetation in your cove or around your dock this summer, you're not alone. According to the <a href="https://www.austintexas.gov/news/spike-hydrilla-means-more-grass-carp-are-needed-lake-austin" target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:text-teal-700 font-semibold">City of Austin's latest announcements</a> and Texas Parks and Wildlife Department (TPWD) survey data from September 2025, the <strong>Lake Austin hydrilla problem</strong> has accelerated rapidly:
+          {"If you've noticed significantly more aquatic vegetation in your cove or around your dock this summer, you're not alone. According to the "}
+          <a href={AU} target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:text-teal-700 font-semibold">{"City of Austin's latest announcements"}</a>
+          {" and Texas Parks and Wildlife Department (TPWD) survey data from September 2025, the "}
+          <strong>Lake Austin hydrilla problem</strong>
+          {" has accelerated rapidly:"}
         </p>
 
         <div className="bg-gray-50 border border-gray-200 rounded-lg p-6 my-6">
           <ul className="space-y-3 mb-0">
-            <li><strong>313 acres</strong> of pure hydrilla coverage <a href="https://www.austintexas.gov/news/spike-hydrilla-means-more-grass-carp-are-needed-lake-austin" target=\"_blank" rel="noopener noreferrer\" className="text-sm text-teal-600 hover:text-teal-700"><sup>1</sup></a></li>
-            <li><strong>286 acres</strong> with mixed hydrilla and Eurasian watermilfoil <a href="https://www.austintexas.gov/news/spike-hydrilla-means-more-grass-carp-are-needed-lake-austin" target=\"_blank" rel="noopener noreferrer\" className="text-sm text-teal-600 hover:text-teal-700"><sup>1</sup></a></li>
-            <li><strong>456 total acres</strong> of estimated hydrilla (combining pure and mixed areas) <a href="https://www.austintexas.gov/news/spike-hydrilla-means-more-grass-carp-are-needed-lake-austin" target=\"_blank" rel="noopener noreferrer\" className="text-sm text-teal-600 hover:text-teal-700"><sup>1</sup></a></li>
-            <li>Overall vegetation now at <strong>40%</strong> of the lake (approaching the upper limit for healthy aquatic ecosystems) <a href="https://www.austintexas.gov/news/spike-hydrilla-means-more-grass-carp-are-needed-lake-austin" target=\"_blank" rel="noopener noreferrer\" className="text-sm text-teal-600 hover:text-teal-700"><sup>1</sup></a></li>
+            <li><strong>313 acres</strong> of pure hydrilla coverage <Ref href={AU} n={1} /></li>
+            <li><strong>286 acres</strong> with mixed hydrilla and Eurasian watermilfoil <Ref href={AU} n={1} /></li>
+            <li><strong>456 total acres</strong> of estimated hydrilla (combining pure and mixed areas) <Ref href={AU} n={1} /></li>
+            <li>Overall vegetation now at <strong>40%</strong> of the lake (approaching the upper limit for healthy aquatic ecosystems) <Ref href={AU} n={1} /></li>
           </ul>
         </div>
 
         <p>
-          The spike has been particularly noticeable since June, when hydrilla covered <a href="https://www.austintexas.gov/news/spike-hydrilla-means-more-grass-carp-are-needed-lake-austin" target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:text-teal-700 font-semibold">less than 5% of the lake</a>. Now it's expanded to approximately <a href="https://www.austintexas.gov/news/spike-hydrilla-means-more-grass-carp-are-needed-lake-austin" target=\"_blank" rel="noopener noreferrer\" className="text-teal-600 hover:text-teal-700 font-semibold">30% coverage</a> in just a few months, concentrating primarily in coves and backwaters downstream of Loop 360. <a href="https://www.austintexas.gov/news/spike-hydrilla-means-more-grass-carp-are-needed-lake-austin" target=\"_blank" rel="noopener noreferrer\" className="text-sm text-teal-600 hover:text-teal-700"><sup>1</sup></a>
+          The spike has been particularly noticeable since June, when hydrilla covered{' '}
+          <a href={AU} target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:text-teal-700 font-semibold">less than 5% of the lake</a>.
+          {" Now it's expanded to approximately "}
+          <a href={AU} target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:text-teal-700 font-semibold">30% coverage</a>
+          {" in just a few months, concentrating primarily in coves and backwaters downstream of Loop 360. "}
+          <Ref href={AU} n={1} />
         </p>
 
         <h2 id="why-matters" className="text-3xl font-bold text-gray-900 mt-12 mb-6">Why This Matters for Austin Lakefront Property Owners</h2>
@@ -73,7 +95,7 @@ const HydrillaCrisis2025Page = () => {
         />
 
         <p>
-          Dense hydrilla growth isn't just an eyesore—it creates serious problems for everyone who lives on or enjoys Lake Austin:
+          {"Dense hydrilla growth isn't just an eyesore—it creates serious problems for everyone who lives on or enjoys Lake Austin:"}
         </p>
 
         <h3 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">Recreation Impact</h3>
@@ -91,24 +113,38 @@ const HydrillaCrisis2025Page = () => {
           While some aquatic vegetation is beneficial and necessary for fish habitat and water quality, excessive growth—especially of invasive species like hydrilla—disrupts the ecological balance. Dense vegetation blocks sunlight to native plants, and when it dies and decomposes, it consumes oxygen that fish need to survive.
         </p>
 
-        <h2 id="city-response" className="text-3xl font-bold text-gray-900 mt-12 mb-6">The City's Response: More Grass Carp Coming This Fall</h2>
+        <h2 id="city-response" className="text-3xl font-bold text-gray-900 mt-12 mb-6">{"The City's Response: More Grass Carp Coming This Fall"}</h2>
 
         <p>
-          Following the alarming TPWD survey results, the <a href="https://www.austintexas.gov/news/spike-hydrilla-means-more-grass-carp-are-needed-lake-austin" target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:text-teal-700 font-semibold">City of Austin has announced plans to stock additional sterile grass carp</a> into Lake Austin later this fall. This comes after the city already released <a href="https://hoodline.com/2025/07/austin-unleashes-350-grass-carp-in-lake-austin-to-combat-invasive-hydrilla-outbreak/" target=\"_blank" rel="noopener noreferrer\" className="text-teal-600 hover:text-teal-700 font-semibold">approximately 350 grass carp in July 2025</a>. <a href="https://hoodline.com/2025/07/austin-unleashes-350-grass-carp-in-lake-austin-to-combat-invasive-hydrilla-outbreak/" target=\"_blank" rel="noopener noreferrer\" className="text-sm text-teal-600 hover:text-teal-700"><sup>2</sup></a>
+          Following the alarming TPWD survey results, the{' '}
+          <a href={AU} target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:text-teal-700 font-semibold">City of Austin has announced plans to stock additional sterile grass carp</a>
+          {" into Lake Austin later this fall. This comes after the city already released "}
+          <a href={HOOD1} target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:text-teal-700 font-semibold">approximately 350 grass carp in July 2025</a>
+          . <Ref href={HOOD1} n={2} />
         </p>
 
         <h3 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">How Grass Carp Management Works</h3>
         <p>
-          Grass carp are herbivorous fish that feed on aquatic vegetation, with hydrilla being one of their preferred food sources. The <a href="https://www.austintexas.gov/news/spike-hydrilla-means-more-grass-carp-are-needed-lake-austin" target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:text-teal-700 font-semibold">City plans to maintain a conservative stocking rate of five grass carp per acre of hydrilla</a>—a rate designed to reduce invasive weeds while minimizing impact on beneficial native vegetation. <a href="https://www.austintexas.gov/news/spike-hydrilla-means-more-grass-carp-are-needed-lake-austin" target=\"_blank" rel="noopener noreferrer\" className="text-sm text-teal-600 hover:text-teal-700"><sup>1</sup></a>
+          Grass carp are herbivorous fish that feed on aquatic vegetation, with hydrilla being one of their preferred food sources. The{' '}
+          <a href={AU} target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:text-teal-700 font-semibold">City plans to maintain a conservative stocking rate of five grass carp per acre of hydrilla</a>
+          —a rate designed to reduce invasive weeds while minimizing impact on beneficial native vegetation. <Ref href={AU} n={1} />
         </p>
 
         <p>
-          According to local news reports from <a href="https://www.kvue.com/article/news/local/austin-lake-fish-hydrilla/269-98722290-d132-46aa-9a76-ce2fed764029" target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:text-teal-700 font-semibold">KVUE</a> <a href="https://www.kvue.com/article/news/local/austin-lake-fish-hydrilla/269-98722290-d132-46aa-9a76-ce2fed764029" target=\"_blank" rel="noopener noreferrer\" className="text-sm text-teal-600 hover:text-teal-700"><sup>3</sup></a> and <a href="https://www.kxan.com/news/local/austin/more-carp-to-be-released-in-lake-austin-to-cut-down-on-invasive-plant-species/" target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:text-teal-700 font-semibold">KXAN</a> <a href="https://www.kxan.com/news/local/austin/more-carp-to-be-released-in-lake-austin-to-cut-down-on-invasive-plant-species/" target=\"_blank" rel="noopener noreferrer\" className="text-sm text-teal-600 hover:text-teal-700"><sup>4</sup></a>, city officials emphasize that grass carp are "the most environmentally responsible tool available\" for managing hydrilla at a lake-wide scale.
+          According to local news reports from{' '}
+          <a href={KVUE} target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:text-teal-700 font-semibold">KVUE</a>
+          {' '}<Ref href={KVUE} n={3} />
+          {' and '}
+          <a href={KXAN} target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:text-teal-700 font-semibold">KXAN</a>
+          {' '}<Ref href={KXAN} n={4} />
+          {', city officials emphasize that grass carp are "the most environmentally responsible tool available" for managing hydrilla at a lake-wide scale.'}
         </p>
 
         <h3 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">Lessons from Past Management Efforts</h3>
         <p>
-          The city is taking a measured approach this time, having learned from the <a href="https://www.austintexas.gov/news/spike-hydrilla-means-more-grass-carp-are-needed-lake-austin" target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:text-teal-700 font-semibold">2021 stocking when roughly 56,700 sterile grass carp were added to Lake Austin</a>. That aggressive stocking eliminated nearly all vegetation, and it took several years for beneficial native plants to recover. <a href="https://www.austintexas.gov/news/spike-hydrilla-means-more-grass-carp-are-needed-lake-austin" target=\"_blank" rel="noopener noreferrer\" className="text-sm text-teal-600 hover:text-teal-700"><sup>1</sup></a>
+          The city is taking a measured approach this time, having learned from the{' '}
+          <a href={AU} target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:text-teal-700 font-semibold">2021 stocking when roughly 56,700 sterile grass carp were added to Lake Austin</a>
+          . That aggressive stocking eliminated nearly all vegetation, and it took several years for beneficial native plants to recover. <Ref href={AU} n={1} />
         </p>
 
         <p>
@@ -122,12 +158,16 @@ const HydrillaCrisis2025Page = () => {
         </p>
 
         <p>
-          According to city officials quoted in recent <a href="https://hoodline.com/2025/10/city-of-austin-to-deploy-grass-carp-for-eco-friendly-battle-against-lake-austin-hydrilla-surge/" target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:text-teal-700 font-semibold">Hoodline coverage</a> <a href="https://hoodline.com/2025/10/city-of-austin-to-deploy-grass-carp-for-eco-friendly-battle-against-lake-austin-hydrilla-surge/" target=\"_blank" rel="noopener noreferrer\" className="text-sm text-teal-600 hover:text-teal-700"><sup>5</sup></a>, lowering the lake could eliminate less problematic native species that compete with hydrilla, potentially allowing the invasive weed to spread even more aggressively once water levels return to normal.
+          According to city officials quoted in recent{' '}
+          <a href={HOOD2} target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:text-teal-700 font-semibold">Hoodline coverage</a>
+          {' '}<Ref href={HOOD2} n={5} />
+          {', lowering the lake could eliminate less problematic native species that compete with hydrilla, potentially allowing the invasive weed to spread even more aggressively once water levels return to normal.'}
         </p>
 
         <div className="bg-teal-50 border-l-4 border-teal-500 p-6 my-8 rounded-r">
           <p className="font-semibold text-teal-900 mb-0">
-            The city's stated goal: "slow down the growth of hydrilla and reduce its density without having a negative impact on the lake's environment." <a href="https://www.austintexas.gov/news/spike-hydrilla-means-more-grass-carp-are-needed-lake-austin" target="_blank" rel="noopener noreferrer" className="text-sm text-teal-600 hover:text-teal-700"><sup>1</sup></a>
+            {'The city\'s stated goal: "slow down the growth of hydrilla and reduce its density without having a negative impact on the lake\'s environment." '}
+            <Ref href={AU} n={1} />
           </p>
         </div>
 
@@ -174,7 +214,10 @@ const HydrillaCrisis2025Page = () => {
         </ul>
 
         <p>
-          According to the <a href="https://www.austintexas.gov/news/city-austin-avoid-rapid-spread-hydrilla-lake-austin-grass-carp" target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:text-teal-700 font-semibold">City of Austin</a> <a href="https://www.austintexas.gov/news/city-austin-avoid-rapid-spread-hydrilla-lake-austin-grass-carp" target=\"_blank" rel="noopener noreferrer\" className="text-sm text-teal-600 hover:text-teal-700"><sup>6</sup></a>, state fines for transporting aquatic vegetation can reach up to $2,000 per plant. But beyond penalties, these simple steps genuinely help protect Lake Austin and other Texas water bodies from accelerated invasive species spread.
+          According to the{' '}
+          <a href={AU2} target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:text-teal-700 font-semibold">City of Austin</a>
+          {' '}<Ref href={AU2} n={6} />
+          {', state fines for transporting aquatic vegetation can reach up to $2,000 per plant. But beyond penalties, these simple steps genuinely help protect Lake Austin and other Texas water bodies from accelerated invasive species spread.'}
         </p>
 
         <img
@@ -202,16 +245,10 @@ const HydrillaCrisis2025Page = () => {
             <strong>Captain Home Services</strong> has helped dozens of Austin lakefront property owners reclaim their waterfronts from invasive vegetation. Our team understands local conditions, regulatory requirements, and the specific challenges of managing Lake Austin hydrilla.
           </p>
           <div className="flex flex-wrap gap-4">
-            <a
-              href="/contact"
-              className="bg-white text-teal-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors inline-block"
-            >
+            <a href="/contact" className="bg-white text-teal-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors inline-block">
               Schedule Free Assessment
             </a>
-            <a
-              href="/how-it-works"
-              className="bg-teal-700 text-white px-6 py-3 rounded-lg font-semibold hover:bg-teal-800 transition-colors inline-block"
-            >
+            <a href="/how-it-works" className="bg-teal-700 text-white px-6 py-3 rounded-lg font-semibold hover:bg-teal-800 transition-colors inline-block">
               Learn More
             </a>
           </div>
@@ -220,12 +257,12 @@ const HydrillaCrisis2025Page = () => {
         <div className="border-t border-gray-300 pt-8 mt-12">
           <h3 className="text-xl font-bold text-gray-900 mb-4">References and Sources</h3>
           <ol className="text-sm text-gray-700 space-y-3">
-            <li><strong>1.</strong> City of Austin. "Spike in hydrilla means more grass carp are needed in Lake Austin." <a href="https://www.austintexas.gov/news/spike-hydrilla-means-more-grass-carp-are-needed-lake-austin" target=\"_blank" rel="noopener noreferrer\" className="text-teal-600 hover:text-teal-700">AustinTexas.gov</a> (October 2025)</li>
-            <li><strong>2.</strong> Hoodline Austin. "Austin Unleashes 350 Grass Carp in Lake Austin to Combat Invasive Hydrilla Outbreak." <a href="https://hoodline.com/2025/07/austin-unleashes-350-grass-carp-in-lake-austin-to-combat-invasive-hydrilla-outbreak/" target=\"_blank" rel="noopener noreferrer\" className="text-teal-600 hover:text-teal-700">Hoodline.com</a> (July 2025)</li>
-            <li><strong>3.</strong> KVUE Austin. "Austin to stock Lake Austin with more grass carp to combat hydrilla." <a href="https://www.kvue.com/article/news/local/austin-lake-fish-hydrilla/269-98722290-d132-46aa-9a76-ce2fed764029" target=\"_blank" rel="noopener noreferrer\" className="text-teal-600 hover:text-teal-700">KVUE.com</a> (2025)</li>
-            <li><strong>4.</strong> KXAN Austin. "More carp to be released in Lake Austin to cut down on invasive plant species." <a href="https://www.kxan.com/news/local/austin/more-carp-to-be-released-in-lake-austin-to-cut-down-on-invasive-plant-species/" target=\"_blank" rel="noopener noreferrer\" className="text-teal-600 hover:text-teal-700">KXAN.com</a> (2025)</li>
-            <li><strong>5.</strong> Hoodline Austin. "City of Austin to Deploy Grass Carp for Eco-Friendly Battle Against Lake Austin Hydrilla Surge." <a href="https://hoodline.com/2025/10/city-of-austin-to-deploy-grass-carp-for-eco-friendly-battle-against-lake-austin-hydrilla-surge/" target=\"_blank" rel="noopener noreferrer\" className="text-teal-600 hover:text-teal-700">Hoodline.com</a> (October 2025)</li>
-            <li><strong>6.</strong> City of Austin. "City of Austin to avoid rapid spread of hydrilla in Lake Austin with grass carp." <a href="https://www.austintexas.gov/news/city-austin-avoid-rapid-spread-hydrilla-lake-austin-grass-carp" target=\"_blank" rel="noopener noreferrer\" className="text-teal-600 hover:text-teal-700">AustinTexas.gov</a> (July 2025)</li>
+            <li><strong>1.</strong> City of Austin. "Spike in hydrilla means more grass carp are needed in Lake Austin." <a href={AU} target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:text-teal-700">AustinTexas.gov</a> (October 2025)</li>
+            <li><strong>2.</strong> Hoodline Austin. "Austin Unleashes 350 Grass Carp in Lake Austin to Combat Invasive Hydrilla Outbreak." <a href={HOOD1} target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:text-teal-700">Hoodline.com</a> (July 2025)</li>
+            <li><strong>3.</strong> KVUE Austin. "Austin to stock Lake Austin with more grass carp to combat hydrilla." <a href={KVUE} target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:text-teal-700">KVUE.com</a> (2025)</li>
+            <li><strong>4.</strong> KXAN Austin. "More carp to be released in Lake Austin to cut down on invasive plant species." <a href={KXAN} target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:text-teal-700">KXAN.com</a> (2025)</li>
+            <li><strong>5.</strong> Hoodline Austin. "City of Austin to Deploy Grass Carp for Eco-Friendly Battle Against Lake Austin Hydrilla Surge." <a href={HOOD2} target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:text-teal-700">Hoodline.com</a> (October 2025)</li>
+            <li><strong>6.</strong> City of Austin. "City of Austin to avoid rapid spread of hydrilla in Lake Austin with grass carp." <a href={AU2} target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:text-teal-700">AustinTexas.gov</a> (July 2025)</li>
           </ol>
           <p className="text-sm text-gray-600 mt-4">
             For the most current information on Lake Austin water quality and vegetation management, visit{' '}
