@@ -164,32 +164,36 @@ const HomePage = () => {
           </div>
 
           <div className="grid md:grid-cols-2 gap-8">
-            <div className="relative">
-              <div className="absolute top-4 left-4 bg-red-600 text-white px-4 py-2 rounded-lg font-semibold text-sm z-10">
-                Before
-              </div>
-              <div className="w-full rounded-xl shadow-2xl overflow-hidden">
+            <figure className="relative m-0 rounded-xl shadow-2xl overflow-hidden">
+              <div className="relative aspect-[4/3] w-full">
                 <img
                   src="/booth-hydrilla-bad.webp"
-                  alt="Lake Austin dock covered in dense hydrilla before removal"
-                  className="w-full h-auto block"
+                  alt="Lake Austin dock surrounded by dense hydrilla infestation before professional removal"
+                  className="absolute inset-0 w-full h-full object-cover"
                   loading="lazy"
+                  width="800"
+                  height="600"
                 />
               </div>
-            </div>
-            <div className="relative">
-              <div className="absolute top-4 left-4 bg-green-600 text-white px-4 py-2 rounded-lg font-semibold text-sm z-10">
-                After
-              </div>
-              <div className="w-full rounded-xl shadow-2xl overflow-hidden">
+              <figcaption className="absolute top-4 left-4 bg-red-600 text-white px-4 py-2 rounded-lg font-semibold text-sm shadow-lg">
+                Before
+              </figcaption>
+            </figure>
+            <figure className="relative m-0 rounded-xl shadow-2xl overflow-hidden">
+              <div className="relative aspect-[4/3] w-full">
                 <img
                   src="/dock copy.webp"
-                  alt="Lake Austin dock after hydrilla removal showing clear water"
-                  className="w-full h-auto block"
+                  alt="Lake Austin dock with clear water after professional hydrilla removal by Captain Home Services"
+                  className="absolute inset-0 w-full h-full object-cover"
                   loading="lazy"
+                  width="800"
+                  height="600"
                 />
               </div>
-            </div>
+              <figcaption className="absolute top-4 left-4 bg-green-600 text-white px-4 py-2 rounded-lg font-semibold text-sm shadow-lg">
+                After
+              </figcaption>
+            </figure>
           </div>
         </div>
       </section>
