@@ -72,7 +72,7 @@ const AboutPage = () => {
 
           <div className="my-8 flex justify-center">
             <img
-              src="/cam_kay.jpg"
+              src="/cam_kay.webp"
               alt="Cameron Reid and Kalyn Ohrt, founders of Austin Lake Management, on Lake Austin"
               className="max-w-lg w-full h-auto rounded-lg shadow-lg"
               loading="lazy"
@@ -89,7 +89,7 @@ const AboutPage = () => {
 
           <div className="my-8 flex justify-center">
             <img
-              src="/weed_removal_worker.jpg"
+              src="/weed_removal_worker.webp"
               alt="Lake weed removal specialist working on Lake Austin removing hydrilla by hand"
               className="max-w-lg w-full h-auto rounded-lg shadow-lg"
               loading="lazy"
@@ -102,7 +102,7 @@ const AboutPage = () => {
 
           <div className="my-8 flex justify-center">
             <img
-              src="/gabriel_ramon.jpg"
+              src="/gabriel_ramon.webp"
               alt="Austin Lake Management team member working on Lake Austin"
               className="max-w-lg w-full h-auto rounded-lg shadow-lg"
               loading="lazy"

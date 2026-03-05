@@ -91,7 +91,7 @@ const FAQPage = () => {
         <h2 id="q2" className="text-3xl font-bold text-gray-900 mt-12 mb-6">2. What is hydrilla and why is it such a problem?</h2>
 
         <img
-          src="/lake-weeds-removed.png"
+          src="/lake-weeds-removed.webp"
           alt="Dense hydrilla infestation in Austin lake"
           className="rounded-lg shadow-lg my-8 w-full"
         />
@@ -133,7 +133,7 @@ const FAQPage = () => {
         </ul>
 
         <img
-          src="/lake-weed-removal-tools.jpg"
+          src="/lake-weed-removal-tools.webp"
           alt="Manual lake weed removal tools and equipment"
           className="rounded-lg shadow-lg my-8 w-full"
         />
@@ -165,7 +165,7 @@ const FAQPage = () => {
         <h2 id="q7" className="text-3xl font-bold text-gray-900 mt-12 mb-6">7. What does your weed removal process look like?</h2>
 
         <img
-          src="/lake-weed-removal-pose.jpeg"
+          src="/lake-weed-removal-pose.webp"
           alt="Professional performing manual lake weed removal"
           className="rounded-lg shadow-lg my-8 w-full"
         />
@@ -184,7 +184,7 @@ const FAQPage = () => {
         </p>
 
         <p>
-          Want to see our process in action? <Link to="/how-it-works" className="text-teal-600 hover:text-teal-700 font-semibold">Learn how it works</Link> or view examples of our completed projects on the <Link to="/" className=\"text-teal-600 hover:text-teal-700 font-semibold">homepage</Link>.
+          Want to see our process in action? <Link to="/how-it-works" className="text-teal-600 hover:text-teal-700 font-semibold">Learn how it works</Link> or view examples of our completed projects on the <Link to="/" className="text-teal-600 hover:text-teal-700 font-semibold">homepage</Link>.
         </p>
 
         <h2 id="q8" className="text-3xl font-bold text-gray-900 mt-12 mb-6">8. How much does lake weed removal cost?</h2>
@@ -250,7 +250,7 @@ const FAQPage = () => {
         <h2 id="q10" className="text-3xl font-bold text-gray-900 mt-12 mb-6">10. What are benthic barriers and how do they work?</h2>
 
         <img
-          src="/benthic-barrier-pic.jpeg"
+          src="/benthic-barrier-pic.webp"
           alt="Benthic barrier installation for lake weed control"
           className="rounded-lg shadow-lg my-8 w-full"
         />
@@ -273,7 +273,7 @@ const FAQPage = () => {
         </p>
 
         <p>
-          For a deeper explanation, see our <Link to="/blog/benthic-barriers-guide" className="text-teal-600 hover:text-teal-700 font-semibold">complete guide to benthic barriers</Link> and explore our <Link to="/benthic-barriers" className=\"text-teal-600 hover:text-teal-700 font-semibold">benthic barrier services page</Link>.
+          For a deeper explanation, see our <Link to="/blog/benthic-barriers-guide" className="text-teal-600 hover:text-teal-700 font-semibold">complete guide to benthic barriers</Link> and explore our <Link to="/benthic-barriers" className="text-teal-600 hover:text-teal-700 font-semibold">benthic barrier services page</Link>.
         </p>
 
         <h2 id="q11" className="text-3xl font-bold text-gray-900 mt-12 mb-6">11. Do you use herbicides or chemicals?</h2>
@@ -349,7 +349,7 @@ const FAQPage = () => {
         <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">Final Note</h2>
 
         <img
-          src="/dock1.jpg"
+          src="/dock1.webp"
           alt="Clean Austin waterfront dock with clear water - professional lake weed removal results"
           className="rounded-lg shadow-lg my-8 w-full"
         />

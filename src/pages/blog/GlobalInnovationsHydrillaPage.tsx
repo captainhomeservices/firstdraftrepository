@@ -116,7 +116,7 @@ Don't let hydrilla rob you of your lakefront enjoyment while waiting for future 
       date="January 24, 2025"
       author="Captain Cam"
       category="Global Innovations"
-      image="/IMG_5761 copy.jpeg"
+      image="/IMG_5761 copy.webp"
       readTime="12 min read"
       keywords={[
         'global hydrilla management',

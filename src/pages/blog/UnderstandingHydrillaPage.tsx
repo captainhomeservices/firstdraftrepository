@@ -63,7 +63,7 @@ const UnderstandingHydrillaPage = () => {
         <h2 id="how-it-spreads" className="text-3xl font-bold text-gray-900 mt-12 mb-6">How Hydrilla Grows and Spreads</h2>
 
         <img
-          src="/lake-weeds-removed.png"
+          src="/lake-weeds-removed.webp"
           alt="Dense aquatic vegetation in Austin lake requiring professional removal"
           className="rounded-lg shadow-lg my-8 w-full"
         />
@@ -89,7 +89,7 @@ const UnderstandingHydrillaPage = () => {
         <h2 id="austin-impact" className="text-3xl font-bold text-gray-900 mt-12 mb-6">The Real-World Impact on Austin Lakes</h2>
 
         <img
-          src="/lake-weed-removal-pose.jpeg"
+          src="/lake-weed-removal-pose.webp"
           alt="Professional lake weed removal demonstration on Austin-area lake"
           className="rounded-lg shadow-lg my-8 w-full"
         />
@@ -114,7 +114,7 @@ const UnderstandingHydrillaPage = () => {
         <h2 id="control-methods" className="text-3xl font-bold text-gray-900 mt-12 mb-6">Control Methods: What Works for Austin Lakes</h2>
 
         <img
-          src="/lake-weed-removal-tools.jpg"
+          src="/lake-weed-removal-tools.webp"
           alt="Specialized manual lake weed removal tools for hydrilla control"
           className="rounded-lg shadow-lg my-8 w-full"
         />
@@ -136,7 +136,7 @@ const UnderstandingHydrillaPage = () => {
         <h3 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">Biological Control: Grass Carp</h3>
 
         <img
-          src="/IMG_5761.jpeg"
+          src="/IMG_5761.webp"
           alt="Professional lake weed removal service on Austin-area lake"
           className="rounded-lg shadow-lg my-8 w-full"
         />

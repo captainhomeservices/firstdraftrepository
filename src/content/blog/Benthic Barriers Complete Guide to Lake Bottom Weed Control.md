@@ -3,7 +3,7 @@ title: "Benthic Barriers: The Complete Guide to Effective Lake Bottom Weed Contr
 date: "2025-01-15"
 author: "Captain Home Services"
 excerpt: "Discover how benthic barriers provide long-term aquatic weed control for Austin lakes. Learn about installation, effectiveness, costs, and why they're the safest management option available."
-image: "/benthic barrier pic.jpeg"
+image: "/benthic-barrier-pic.webp"
 ---
 
 # Benthic Barriers: The Complete Guide to Effective Lake Bottom Weed Control

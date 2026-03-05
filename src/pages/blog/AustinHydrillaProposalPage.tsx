@@ -47,7 +47,7 @@ const AustinHydrillaProposalPage = () => {
         <h2 id="crisis-overview" className="text-3xl font-bold text-gray-900 mt-12 mb-6">The Hydrilla Crisis in Austin: A Growing Threat</h2>
 
         <img
-          src="/lake-weeds-removed.png"
+          src="/lake-weeds-removed.webp"
           alt="Dense hydrilla infestation in Austin lakes"
           className="rounded-lg shadow-lg my-8 w-full"
         />
@@ -115,7 +115,7 @@ const AustinHydrillaProposalPage = () => {
         </div>
 
         <img
-          src="/lake-weed-removal-tools.jpg"
+          src="/lake-weed-removal-tools.webp"
           alt="Traditional cutting tools that fragment hydrilla"
           className="rounded-lg shadow-lg my-8 w-full"
         />
@@ -240,7 +240,7 @@ const AustinHydrillaProposalPage = () => {
         <h2 id="proposed-solution" className="text-3xl font-bold text-gray-900 mt-12 mb-6">The Proposed Solution: Chain Drag Seine Net System</h2>
 
         <img
-          src="/lake-weed-removal-pose.jpeg"
+          src="/lake-weed-removal-pose.webp"
           alt="Demonstration of proposed removal system concept"
           className="rounded-lg shadow-lg my-8 w-full"
         />
@@ -386,7 +386,7 @@ const AustinHydrillaProposalPage = () => {
         <h2 id="implementation" className="text-3xl font-bold text-gray-900 mt-12 mb-6">Implementation Plan for Austin</h2>
 
         <img
-          src="/dock-copy.jpg"
+          src="/dock-copy.webp"
           alt="Austin lake area suitable for restoration"
           className="rounded-lg shadow-lg my-8 w-full"
         />
@@ -538,7 +538,7 @@ const AustinHydrillaProposalPage = () => {
         <h2 id="call-to-action" className="text-3xl font-bold text-gray-900 mt-12 mb-6">Call to Action: The Time to Act is Now</h2>
 
         <img
-          src="/echelon-cleaned-up.jpg"
+          src="/echelon.webp"
           alt="Vision of restored Austin lake after hydrilla removal"
           className="rounded-lg shadow-lg my-8 w-full"
         />

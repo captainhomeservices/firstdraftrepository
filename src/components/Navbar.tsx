@@ -54,7 +54,7 @@ const Navbar = () => {
           {/* Logo */}
           <Link to="/" onClick={handleLinkClick} className="flex items-center space-x-3 flex-shrink-0 min-w-0">
             <img
-              src="/captain-logo-green.png"
+              src="/captain-logo-green.webp"
               alt="Captain Home Services Logo"
               className="h-10 w-10 md:h-12 md:w-12 object-contain flex-shrink-0 rounded-full transition-transform duration-200 hover:scale-105"
             />
@@ -112,7 +112,7 @@ const Navbar = () => {
           <div className="flex justify-between items-center h-20 px-4 border-b">
             <Link to="/" onClick={handleLinkClick} className="flex items-center space-x-2">
               <img
-                src="/captain-logo-green.png"
+                src="/captain-logo-green.webp"
                 alt="Captain Home Services Logo"
                 className="h-10 w-10 object-contain rounded-full"
               />

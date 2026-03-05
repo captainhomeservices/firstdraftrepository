@@ -52,7 +52,7 @@ const BenthicBarriersPage = () => {
       <div className="bg-gradient-to-br from-slate-50 via-white to-emerald-50 min-h-screen">
         {/* Hero */}
         <div className="relative bg-gradient-to-br from-slate-900 via-slate-800 to-emerald-900 text-white overflow-hidden">
-          <div className="absolute inset-0 bg-[url('/lake-weed-removal-tools.jpg')] bg-cover bg-center opacity-20"></div>
+          <div className="absolute inset-0 bg-[url('/lake-weed-removal-tools.webp')] bg-cover bg-center opacity-20"></div>
           <div className="absolute inset-0 bg-gradient-to-br from-slate-900/95 via-slate-800/90 to-emerald-900/95"></div>
 
           <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-28">
@@ -95,7 +95,7 @@ const BenthicBarriersPage = () => {
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
                 <img
-                  src="/benthic-barrier-pic.jpeg"
+                  src="/benthic-barrier-pic.webp"
                   alt="Benthic barrier blocking sunlight on lake bottom"
                   className="rounded-xl shadow-2xl w-full h-auto"
                 />
@@ -236,7 +236,7 @@ const BenthicBarriersPage = () => {
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div>
                 <img
-                  src="/lake-bottom-blanket.jpg"
+                  src="/lake-bottom-blanket.webp"
                   alt="Lake bottom blanket installation"
                   className="rounded-xl shadow-2xl w-full h-auto"
                 />
@@ -312,7 +312,7 @@ const BenthicBarriersPage = () => {
                 </div>
                 <div className="relative min-h-[300px] md:min-h-0">
                   <img
-                    src="/lakemat.jpg"
+                    src="/lakemat.webp"
                     alt="LakeMat product showing how benthic barriers work"
                     className="absolute inset-0 w-full h-full object-cover"
                   />

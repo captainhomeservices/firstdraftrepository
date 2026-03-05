@@ -170,7 +170,7 @@ const HomePage = () => {
               </div>
               <div className="w-full rounded-xl shadow-2xl overflow-hidden">
                 <img
-                  src="/copy-of-untitled.jpg"
+                  src="/copy-of-untitled.webp"
                   alt="Lake Austin dock covered in dense hydrilla before removal"
                   className="w-full h-auto"
                   loading="lazy"
@@ -183,7 +183,7 @@ const HomePage = () => {
               </div>
               <div className="w-full rounded-xl shadow-2xl overflow-hidden">
                 <img
-                  src="/echelon-cleaned-up.jpg"
+                  src="/echelon.webp"
                   alt="Lake Austin dock after hydrilla removal showing clear water"
                   className="w-full h-auto"
                   loading="lazy"
@@ -307,7 +307,7 @@ const HomePage = () => {
 
             <div className="w-full rounded-xl shadow-xl overflow-hidden my-8">
               <img
-                src="/dock.jpg"
+                src="/dock.webp"
                 alt="Clear Lake Austin waterfront after professional hydrilla removal"
                 className="w-full h-auto"
                 loading="lazy"
