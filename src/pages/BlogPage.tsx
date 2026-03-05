@@ -269,6 +269,21 @@ const BlogPage = () => {
       readTime: "8 min read"
     },
     {
+      id: 16,
+      title: "Why We Do This: The Story Behind Captain Home Services and Austin Lake Management",
+      slug: "why-we-do-this-captain-home-services-austin-lake-management",
+      excerpt: "Cameron Reid grew up on Lake Austin and has spent over a decade working its waters. Here's why he and Kalyn Ohrt founded Captain Home Services — and why sustainable, manual hydrilla removal is the only approach they believe in.",
+      date: "March 5, 2025",
+      author: "Cameron Reid",
+      category: "Our Story",
+      image: "/aboutus.jpeg",
+      icon: <User className="h-5 w-5" />,
+      keywords: ["Austin lake management", "Captain Home Services", "Cameron Reid", "hydrilla removal Lake Austin", "sustainable aquatic weed removal"],
+      readTime: "4 min read",
+      featured: true,
+      isNew: false
+    },
+    {
       id: 15,
       title: "Lake Austin Resources: Essential Links for Waterfront Owners",
       excerpt: "Your resource hub for Lake Austin living. Find boat rentals, repair services, marinas, and everything needed for your waterfront lifestyle.",

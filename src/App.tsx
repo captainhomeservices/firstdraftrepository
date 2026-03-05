@@ -24,6 +24,7 @@ import AustinHydrillaProposalPage from './pages/blog/AustinHydrillaProposalPage'
 import BenthicBarriersGuidePage from './pages/blog/BenthicBarriersGuidePage';
 import FAQPage from './pages/blog/FAQPage';
 import LakeAustinHydrillaAlgaeSpringPage from './pages/blog/LakeAustinHydrillaAlgaeSpringPage';
+import WhyWeDoThisPage from './pages/blog/WhyWeDothisPage';
 import LakeAustinWeedsPage from './pages/LakeAustinWeedsPage';
 
 function App() {
@@ -55,6 +56,7 @@ function App() {
           <Route path="/blog/benthic-barriers-complete-guide" element={<BenthicBarriersGuidePage />} />
           <Route path="/blog/lake-weed-removal-faq" element={<FAQPage />} />
           <Route path="/blog/lake-austin-hydrilla-filamentous-algae-spring-guide" element={<LakeAustinHydrillaAlgaeSpringPage />} />
+          <Route path="/blog/why-we-do-this-captain-home-services-austin-lake-management" element={<WhyWeDoThisPage />} />
         </Routes>
         <Footer />
       </div>
