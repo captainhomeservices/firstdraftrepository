@@ -212,7 +212,7 @@ const HomePage = () => {
             </p>
             <div className="bg-green-50 border-l-4 border-green-500 p-6 rounded-r-lg">
               <p className="text-green-900 font-semibold">
-                Our method pulls hydrilla by the roots and removes it from the lake to reduce regrowth. Combined with benthic barrier installation, this provides lasting results.
+                Our method pulls hydrilla by the roots and removes it from the lake to reduce regrowth. Combined with <Link to="/benthic-barriers" onClick={scrollToTop} className="text-green-700 underline font-semibold">benthic barrier installation</Link> (when applicable), this provides lasting results.
               </p>
             </div>
           </div>
@@ -247,7 +247,7 @@ const HomePage = () => {
             <div className="text-center p-6 bg-gray-50 rounded-xl">
               <div className="w-12 h-12 bg-teal-600 text-white rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-4">4</div>
               <h3 className="font-semibold text-gray-900 mb-2">Benthic Barriers</h3>
-              <p className="text-sm text-gray-600">Install barriers to prevent regrowth</p>
+              <p className="text-sm text-gray-600">Install barriers to prevent regrowth (when applicable)</p>
             </div>
             <div className="text-center p-6 bg-gray-50 rounded-xl">
               <div className="w-12 h-12 bg-teal-600 text-white rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-4">5</div>

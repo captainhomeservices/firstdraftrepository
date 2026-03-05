@@ -275,6 +275,12 @@ const FAQPage = () => {
           Benthic barriers are often most effective when combined with <strong>initial weed removal</strong>, followed by barrier installation to prevent regrowth in priority areas.
         </p>
 
+        <div className="bg-green-50 border-l-4 border-green-500 p-6 my-6 rounded-r">
+          <p className="text-green-900 font-semibold mb-0">
+            <strong>Benthic barrier pricing starts at $1,300 installed.</strong> Final cost depends on the size of the area to be covered and site conditions.
+          </p>
+        </div>
+
         <p>
           For a deeper explanation, see our{' '}
           <Link to="/blog/benthic-barriers-guide" className="text-teal-600 hover:text-teal-700 font-semibold">complete guide to benthic barriers</Link>
